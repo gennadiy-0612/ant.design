@@ -20,6 +20,7 @@
     height: 200px;
     background-image: url("./cssimg/Ornament-Dotted-white.png");
     background-size: cover;
+    z-index: 1;
 }
 
 .first-col-img {
@@ -37,4 +38,9 @@
 .App-header-second .App-header-second-h2 {
     font: normal normal 900 24px/24px 'Poppins', sans-serif;
     color: #3680F6;
+    margin: 10px 0 44px;
+}
+
+.App-p {
+    font: italic normal 300 38px/38px 'Poppins', sans-serif;
 }

@@ -13,7 +13,7 @@ function App() {
                     <h2 className="App-header-second-h2">
                         WHAT WE OFFER
                     </h2>
-                    <p>“IDN unleashes
+                    <p className="App-p">“IDN unleashes
                         the power of networking
                         and industry expertise
                         to give Private Equity infrastructure investors
