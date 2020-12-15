@@ -35,5 +35,6 @@
 }
 
 .App-header-second .App-header-second-h2 {
-    font: normal normal 500 24px/24px 'Roboto';
+    font: normal normal 900 24px/24px 'Poppins', sans-serif;
+    color: #3680F6;
 }
