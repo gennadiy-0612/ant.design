@@ -1,4 +1,4 @@
-import h from './img/img.png';
+import h from './img/hands.png';
 import "antd/dist/antd.css";
 import './App.css';
 
@@ -13,13 +13,13 @@ function App() {
                     <h2 className="App-header-second-h2">
                         WHAT WE OFFER
                     </h2>
-                    <p className="App-p">“IDN unleashes
+                    <p className="App-p">“IDN unleashes<br/>
                         the power of networking
-                        and industry expertise
+                        and industry expertise<br/>
                         to give Private Equity infrastructure investors
                         what they want:</p>
                     <a
-                        className="App-link"
+                        className="App-post-link"
                         href="/"
                         rel="noopener noreferrer"
                     >
