@@ -10,7 +10,7 @@ function App() {
                     <img src={h} className="first-col-img" alt="logo"/>
                 </div>
                 <div className="App-header-second demo-col demo-col-1">
-                    <h2>
+                    <h2 className="App-header-second-h2">
                         WHAT WE OFFER
                     </h2>
                     <p>“IDN unleashes

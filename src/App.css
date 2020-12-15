@@ -1,13 +1,36 @@
 .App-header {
     flex-direction: row;
     flex-wrap: nowrap;
+    padding: 10.6% 10.2%;
 }
 
 .App-header-first.App-header-first-col {
+    position: relative;
     display: flex;
     justify-content: center;
 }
 
+.App-header-first:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: -30px;
+    bottom: -60px;
+    width: 200px;
+    height: 200px;
+    background-image: url("./cssimg/Ornament-Dotted-white.png");
+    background-size: cover;
+}
+
 .first-col-img {
-    width: 50%;
+    width: 600px;
+    border-radius: 20px;
+    margin-left: -142px;
+}
+
+.App-header-second {
+    padding: 1.8% 8.1% 0;
+}
+
+.App-header-second .App-header-second-h2 {
 }
