@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import h from './img/img.png';
+import "antd/dist/antd.css";
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React vvvvvvvvvv
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <div className="App-header ant-row demo-row">
+                <div className="App-header-first ant-col-12 demo-col demo-col-1">
+                    <img src={h} className="App-logo" alt="logo"/>
+                </div>
+                <div className="App-header-second demo-col demo-col-3">
+                    <h2>
+                        WHAT WE OFFER
+                    </h2>
+                    <p>“IDN unleashes
+                        the power of networking
+                        and industry expertise
+                        to give Private Equity infrastructure investors
+                        what they want:</p>
+                    <a
+                        className="App-link"
+                        href="/"
+                        rel="noopener noreferrer"
+                    >
+                        Access to bilateral deals
+                    </a>
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default App;
