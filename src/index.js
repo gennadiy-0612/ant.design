@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Header from './Header';
+import Screen2 from './Screen2';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -10,6 +11,12 @@ ReactDOM.render(
         <Header />
     </React.StrictMode>,
     document.getElementById('header')
+);
+ReactDOM.render(
+    <React.StrictMode>
+        <Screen2 />
+    </React.StrictMode>,
+    document.getElementById('Frame2')
 );
 ReactDOM.render(
     <React.StrictMode>

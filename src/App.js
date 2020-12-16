@@ -7,7 +7,9 @@ function App() {
         <div className="App">
             <div className="App-header ant-row demo-row">
                 <div className="App-header-first App-header-first-col ant-col-12 demo-col demo-col-1">
-                    <img src={h} className="first-col-img" alt="logo"/>
+                    <div className="App-header-dots dots">
+                        <img src={h} className="first-col-img" alt="hands"/>
+                    </div>
                 </div>
                 <div className="App-header-second demo-col demo-col-1">
                     <h2 className="App-header-second-h2">

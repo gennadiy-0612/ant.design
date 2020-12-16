@@ -1,7 +1,6 @@
 import logo from './img/logo.svg';
 import "antd/dist/antd.css";
 import './Header.css';
-import h from "./img/hands.png";
 
 function App() {
     return (

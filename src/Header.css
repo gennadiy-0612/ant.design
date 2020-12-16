@@ -1,10 +1,11 @@
 .Header {
     display: flex;
-    padding: 30px 3.9% 30px 3.4%;
+    padding: 33px 3.9% 140px 3.4%;
 }
 
 .Header--logo {
     flex-grow: 1;
+    margin-top: -1px;
 }
 
 .logo-link {
@@ -16,8 +17,13 @@
     width: 77px;
 }
 
+.logo-texts {
+    margin-left: 1px;
+    color: #232D53;
+}
+
 .logo-text-sub {
-    font: normal normal 300 11px/22px 'Poppins', sans-serif;
+    font: normal normal 300 10.6px/20px 'Poppins', sans-serif;
     color: #232D53;
     padding: 0 7%;
 }
@@ -40,9 +46,10 @@
 }
 
 .main-top-nav-anchor {
-    margin: 12px 3.1% 4.8% 5%;
-    font: normal normal 500 22px/20px 'Poppins', sans-serif;
+    margin: 9px 3.1% 4.8% 5%;
+    font: normal normal 500 22px/22px 'Poppins', sans-serif;
     letter-spacing: -0.2px;
+    color: #232D53;
 }
 
 .login-block {
@@ -53,7 +60,8 @@
     align-self: center;
 }
 
-.ant-btn-lg.login {
-    width: 158px;
-    height: 50px;
+#header .ant-btn-lg.login {
+    width: 161px;
+    height: 52px;
+    font: normal normal 500 16px/16px 'Poppins', sans-serif;
 }

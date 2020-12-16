@@ -1,3 +1,7 @@
+.App {
+    margin: 165px 0 0 0;
+}
+
 .App-header {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -10,21 +14,19 @@
     justify-content: center;
 }
 
-.App-header-first:before {
-    content: '';
-    display: block;
-    position: absolute;
-    left: 6px;
-    bottom: -39px;
-    width: 208px;
-    height: 180px;
-    background-image: url("./cssimg/Ornament-Dotted-white.png");
-    background-size: contain;
-    z-index: 1;
+.App-header-dots.dots::after {
+    left: -163px;
+    bottom: -43px;
+    z-index: 0;
+}
+
+.App-header-dots.dots {
+    left: 2%;
 }
 
 .first-col-img {
     width: 600px;
+    height: 572px;
     border-radius: 25px;
     margin-left: -142px;
     position: relative;
@@ -32,44 +34,38 @@
 }
 
 .App-header-second {
-    padding: 1.8% 9.6% 0 8.2%;
+    padding: 1.8% 9.6% 0 7.6%;
 }
 
 .App-header-second .App-header-second-h2 {
-    font: normal normal 700 24px/24px 'Poppins', sans-serif;
+    font: normal normal 600 24px/24px 'Poppins', sans-serif;
     color: #3680F6;
     margin: 10px 0 0;
+    letter-spacing: -0.1px;
 }
 
 .App-p {
-    font: italic normal 300 38px/57px 'Poppins', sans-serif;
+    font: italic normal 400 38px/57px 'Poppins', sans-serif;
     margin: 35px 0 0;
-    letter-spacing: .3px;
-}
-
-.App-p:before {
-    content: '';
-    width: 3px;
-    display: inline-block;
-    height: 10px;
+    color: #10214F;
+    text-indent: 1px;
 }
 
 .App-post-link {
-    font: normal normal 900 38px/57px 'Poppins', sans-serif;
-    margin: 57px 0 0;
+    font: normal normal 700 38px/57px 'Poppins', sans-serif;
+    margin: 59px 0 0;
     display: block;
     position: relative;
     color: #10214F;
-    letter-spacing: -.2px;
 }
 
 .App-post-link:before {
     content: '';
     position: absolute;
     display: block;
-    width: 48%;
+    width: 46.7%;
     height: 4px;
     background-color: #FF6B0F;
-    bottom: 0;
-    left: 34%;
+    bottom: -1px;
+    left: 33.3%;
 }
