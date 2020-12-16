@@ -68,3 +68,16 @@
     color: #232D53;
     background-color: #fff;
 }
+
+.chevron {
+    display: block;
+    width: 100%;
+    margin: 130px auto 0;
+}
+
+.chevron--down {
+    height: 9px;
+    width: 22px;
+    margin: auto;
+    display: block;
+}

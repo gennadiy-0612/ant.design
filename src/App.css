@@ -1,5 +1,5 @@
 .App {
-    margin: 165px 0 0 0;
+    margin: 25px 0 0 0;
 }
 
 .App-header {
@@ -22,6 +22,7 @@
 
 .App-header-dots.dots {
     left: 2%;
+    position: relative;
 }
 
 .first-col-img {
@@ -34,13 +35,13 @@
 }
 
 .App-header-second {
-    padding: 1.8% 9.6% 0 7.6%;
+    padding: 1.8% 9.6% 0 7.65%;
 }
 
-.App-header-second .App-header-second-h2 {
+.App-header-second-h2.head2 {
     font: normal normal 600 24px/24px 'Poppins', sans-serif;
     color: #3680F6;
-    margin: 10px 0 0;
+    margin: 11px 0 0;
     letter-spacing: -0.1px;
 }
 

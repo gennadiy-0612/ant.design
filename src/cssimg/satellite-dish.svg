@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.767" height="49" viewBox="0 0 43.767 49">
+  <g id="satellite-dish_1" data-name="satellite-dish 1" transform="translate(-2.617)">
+    <g id="Group">
+      <g id="Group-2" data-name="Group">
+        <path id="Vector" d="M1.525,0a1.525,1.525,0,0,0,0,3.05A4.324,4.324,0,0,1,5.844,7.369a1.525,1.525,0,0,0,3.05,0A7.377,7.377,0,0,0,1.525,0Z" transform="translate(31.944 5.546)" fill="#3874ff"/>
+      </g>
+      <g id="Group-3" data-name="Group">
+        <path id="Vector-2" data-name="Vector" d="M1.525,0a1.525,1.525,0,0,0,0,3.05,9.876,9.876,0,0,1,9.865,9.865,1.525,1.525,0,0,0,3.05,0A12.93,12.93,0,0,0,1.525,0Z" transform="translate(31.944)" fill="#3874ff"/>
+      </g>
+      <g id="Group-4" data-name="Group">
+        <path id="Vector-3" data-name="Vector" d="M8.968,4.484A4.484,4.484,0,1,1,4.484,0,4.484,4.484,0,0,1,8.968,4.484Z" transform="translate(13.717 23.822)" fill="#3874ff"/>
+      </g>
+      <g id="Group-5" data-name="Group">
+        <path id="Vector-4" data-name="Vector" d="M17.043,11.967l2.45-2.45a1.525,1.525,0,0,0-2.156-2.156l-2.45,2.45-9.5-9.5A1.068,1.068,0,0,0,3.824.37,16.325,16.325,0,0,0,.769,15.864a7.53,7.53,0,0,1,11.405,6.084,7.489,7.489,0,0,1-.99,4.112,16.276,16.276,0,0,0,15.162-3.17,1.067,1.067,0,0,0,.056-1.562Z" transform="translate(13.551 5.988)" fill="#3874ff"/>
+      </g>
+      <g id="Group-6" data-name="Group">
+        <path id="Vector-5" data-name="Vector" d="M14.621,0A7.514,7.514,0,0,1,9.085,2.43a7.513,7.513,0,0,1-5.5-2.4L0,8.893H18.128Z" transform="translate(9.116 33.409)" fill="#3874ff"/>
+      </g>
+      <g id="Group-7" data-name="Group">
+        <path id="Vector-6" data-name="Vector" d="M29.344,0H1.824a1.824,1.824,0,1,0,0,3.648H29.344a1.824,1.824,0,0,0,0-3.648Z" transform="translate(2.617 45.352)" fill="#3874ff"/>
+      </g>
+    </g>
+  </g>
+</svg>

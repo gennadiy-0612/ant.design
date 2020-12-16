@@ -42,9 +42,6 @@ function App() {
                     Login
                 </button>
             </div>
-            <a className="chevron"
-               href="/"
-            ></a>
         </div>
     );
 }

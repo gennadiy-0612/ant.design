@@ -12,7 +12,7 @@ function App() {
                     </div>
                 </div>
                 <div className="App-header-second demo-col demo-col-1">
-                    <h2 className="App-header-second-h2">
+                    <h2 className="App-header-second-h2 head2">
                         WHAT WE OFFER
                     </h2>
                     <p className="App-p">“IDN unleashes<br/>

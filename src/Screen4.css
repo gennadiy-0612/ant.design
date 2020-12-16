@@ -1,0 +1,75 @@
+.Screen4 {
+    padding: 171px 0;
+}
+
+.normal.App-p {
+    font-style: normal;
+    margin: 39px auto 0;
+    max-width: 64%;
+    line-height: 81px;
+    letter-spacing: -1.2px;
+}
+
+.App-post-link.frame4 {
+    margin: 11px auto 0;
+    letter-spacing: -1.6px;
+    max-width: 300px;
+}
+
+.App-post-link.frame4::before {
+    height: 2px;
+    bottom: -33px;
+    width: 91.8%;
+    left: 6.2%;
+}
+
+.App-p.cover {
+    font-size: 32px;
+    margin-top: 248px;
+    letter-spacing: -1.1px;
+    text-indent: -8px;
+}
+
+.sectors {
+    display: flex;
+    max-width: 1285px;
+    margin: auto;
+}
+
+.sector {
+    font: italic normal 500 28px/42px 'Poppins', sans-serif;
+}
+
+.sector.normal.one {
+    margin: auto;
+    padding: 125px 0 0;
+    letter-spacing: -1.2px;
+    background: url("./cssimg/delivery-truck.svg") 52.6% 71px no-repeat;
+    position: relative;
+    left: -2px;
+}
+
+.sector.normal.two {
+    margin: auto;
+    padding: 125px 0 0;
+    letter-spacing: -1.2px;
+    background: url("./cssimg/flash.svg") 54.6% 64px no-repeat;
+    position: relative;
+    left: -22px;
+}
+
+.sector.normal.three {
+    margin: auto;
+    padding: 125px 0 0;
+    letter-spacing: -1.2px;
+    background: url("./cssimg/satellite-dish.svg") 51.7% 62px no-repeat;
+}
+
+.sector.normal.four {
+    margin: auto;
+    padding: 125px 0 0;
+    letter-spacing: -1.2px;
+    background: url("./cssimg/building.svg") 50.2% 59px no-repeat;
+    position: relative;
+    left: -5px;
+}

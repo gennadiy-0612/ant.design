@@ -1,6 +1,7 @@
 import "antd/dist/antd.css";
 import './Screen2.css';
 import bridge from "./img/window2-img.png";
+import arrowdown from "./img/right-chevron.svg";
 
 function App() {
     return (
@@ -36,6 +37,13 @@ function App() {
             <div className="window2 ant-col-12">
                 <div className="dots"><img src={bridge} className="illustrate" alt="bridge"/></div>
             </div>
+            <a className="chevron"
+               href="/"
+            >
+                <img
+                    src={arrowdown}
+                    className="chevron--down"/>
+            </a>
         </div>
     );
 }
