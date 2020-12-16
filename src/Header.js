@@ -9,15 +9,6 @@ function App() {
                 <a className="logo-link"
                    href="/"
                 >
-                    <img src={logo} className="Header--logo--img" alt="logo"/>
-                    <div className="logo-texts">
-                        <div className="logo-text">
-                            IDN
-                        </div>
-                        <div className="logo-text-sub">
-                            The Infra Deals Network
-                        </div>
-                    </div>
                 </a>
             </div>
             <nav className="main-top-nav">

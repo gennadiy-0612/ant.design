@@ -10,6 +10,10 @@
 
 .logo-link {
     display: flex;
+    width: 234px;
+    height: 106px;
+    margin: -10px 0 0 2px;
+    background: url(./cssimg/home-logo.png) center -20px no-repeat;
 }
 
 .Header--logo--img {
