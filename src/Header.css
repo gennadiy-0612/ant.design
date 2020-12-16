@@ -1,3 +1,59 @@
 .Header {
     display: flex;
+    padding: 30px 3.9% 30px 3.4%;
+}
+
+.Header--logo {
+    flex-grow: 1;
+}
+
+.logo-link {
+    display: flex;
+}
+
+.Header--logo--img {
+    height: 75px;
+    width: 77px;
+}
+
+.logo-text-sub {
+    font: normal normal 300 11px/22px 'Poppins', sans-serif;
+    color: #232D53;
+    padding: 0 7%;
+}
+
+.logo-text {
+    color: #232D53;
+    font: normal normal 900 80px/48px 'Poppins', sans-serif;
+    padding: 5px 4%;
+    letter-spacing: 2.2px;
+}
+
+.main-top-nav {
+    flex-grow: 3;
+}
+
+.main-top-nav {
+    display: flex;
+    padding: 67px 0 30px 10%;
+    justify-content: flex-end;
+}
+
+.main-top-nav-anchor {
+    margin: 12px 3.1% 4.8% 5%;
+    font: normal normal 500 22px/20px 'Poppins', sans-serif;
+    letter-spacing: -0.2px;
+}
+
+.login-block {
+    min-width: 19%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.ant-btn-lg.login {
+    width: 158px;
+    height: 50px;
 }

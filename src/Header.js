@@ -47,9 +47,11 @@ function App() {
                     About
                 </a>
             </nav>
-            <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg">
-                Login
-            </button>
+            <div className="login-block">
+                <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg">
+                    Login
+                </button>
+            </div>
         </div>
     );
 }
