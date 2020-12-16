@@ -1,32 +1,55 @@
-import h from './img/hands.png';
+import logo from './img/logo.svg';
 import "antd/dist/antd.css";
-import './App.css';
+import './Header.css';
+import h from "./img/hands.png";
 
 function App() {
     return (
-        <div className="Screen1">
-            <div className="App-header ant-row demo-row">
-                <div className="App-header-first App-header-first-col ant-col-12 demo-col demo-col-1">
-                    <img src={h} className="first-col-img" alt="logo"/>
-                </div>
-                <div className="App-header-second demo-col demo-col-1">
-                    <h2 className="App-header-second-h2">
-                        WHAT WE OFFER
-                    </h2>
-                    <p className="App-p">“IDN unleashes<br/>
-                        the power of networking
-                        and industry expertise<br/>
-                        to give Private Equity infrastructure investors
-                        what they want:</p>
-                    <a
-                        className="App-post-link"
-                        href="/"
-                        rel="noopener noreferrer"
-                    >
-                        Access to bilateral deals
-                    </a>
-                </div>
+        <div className="Header">
+            <div className="Header--logo">
+                <a className="logo-link"
+                   href="/"
+                >
+                    <img src={logo} className="Header--logo--img" alt="logo"/>
+                    <div className="logo-texts">
+                        <div className="logo-text">
+                            IDN
+                        </div>
+                        <div className="logo-text-sub">
+                            The Infra Deals Network
+                        </div>
+                    </div>
+                </a>
             </div>
+            <nav className="main-top-nav">
+                <a className="main-top-nav-anchor"
+                   href="/"
+                   rel="noopener noreferrer"
+                >
+                    Senior Advisor
+                </a>
+                <a className="main-top-nav-anchor"
+                   href="/"
+                   rel="noopener noreferrer"
+                >
+                    Investors
+                </a>
+                <a className="main-top-nav-anchor"
+                   href="/"
+                   rel="noopener noreferrer"
+                >
+                    Sectors
+                </a>
+                <a className="main-top-nav-anchor"
+                   href="/"
+                   rel="noopener noreferrer"
+                >
+                    About
+                </a>
+            </nav>
+            <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg">
+                Login
+            </button>
         </div>
     );
 }
