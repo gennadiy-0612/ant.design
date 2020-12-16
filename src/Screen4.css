@@ -73,3 +73,29 @@
     position: relative;
     left: -5px;
 }
+
+.Screen4--all.center {
+    margin: 40px 0 0;
+}
+
+.selectors--all {
+    font: normal normal 900 16px/25px 'Poppins', sans-serif;
+    color: #3680F6;
+    position: relative;
+    text-indent: -28px;
+    display: block;
+    max-width: 165px;
+    margin: auto;
+    letter-spacing: -0.2px;
+}
+
+.selectors--all::after {
+    content: '';
+    background: url("./cssimg/right-chevron.svg") center center no-repeat;
+    display: block;
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    right: 4px;
+    top: 5px;
+}

@@ -22,11 +22,13 @@ function App() {
                 <span className="sector three normal App-p center">Telecom & ICT</span>
                 <span className="sector four normal App-p center">Healthcare & Social</span>
             </p>
-            <a
+            <div className="Screen4--all center">
+                <a
                 className="selectors--all"
                 href="/">
                 View All Sectors
             </a>
+            </div>
         </div>
     );
 }

@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Screen4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screen4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cssimg/building.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cssimg/delivery-truck.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cssimg/flash.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cssimg/satellite-dish.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cssimg/right-chevron.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/right-chevron.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/right-chevron.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +82,7 @@
       <workItem from="1608098148173" duration="12988000" />
       <workItem from="1608114589042" duration="13516000" />
       <workItem from="1608129111806" duration="615000" />
-      <workItem from="1608143050335" duration="8410000" />
+      <workItem from="1608143050335" duration="10104000" />
     </task>
     <task id="LOCAL-00001" summary="xxxxxx">
       <created>1608039377588</created>
@@ -237,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608129138031</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="four-screen-almost-done">
+      <created>1608151787359</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1608151787359</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +242,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="xxxxxx" />
-    <option name="LAST_COMMIT_MESSAGE" value="xxxxxx" />
+    <MESSAGE value="four-screen-almost-done" />
+    <option name="LAST_COMMIT_MESSAGE" value="four-screen-almost-done" />
   </component>
 </project>
