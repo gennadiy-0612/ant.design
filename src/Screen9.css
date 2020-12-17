@@ -5,8 +5,36 @@
 }
 
 .idn-img {
-    width: 60px;
-    height: 67px;
+    width: 50px;
+    height: 60px;
     display: block;
-    background: url("./cssimg/idn.svg") 54.2% 23px no-repeat;
+    background: url("./cssimg/idn.png") center no-repeat;
+    background-size: contain;
+    flex-grow: 1;
+    margin-top: -15px;
+    position: relative;
+    left: -2%;
+}
+
+.foot-ul {
+    padding: 0;
+    margin: 0;
+}
+
+.foot-lists {
+    display: flex;
+    flex-grow: 5;
+    justify-content: space-around;
+}
+
+.foot-li.foot-li-head {
+    color: #1D293F;
+    font: normal normal 700 20px/30px 'Poppins', sans-serif;
+    padding: 0 0 27px 0;
+}
+
+.foot-li {
+    list-style-type: none;
+    font: normal normal 500 18px/27px 'Poppins', sans-serif;
+    color:#1D293F ;
 }
