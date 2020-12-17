@@ -15,19 +15,22 @@ function App() {
             >
                 Senior Advisors
             </a>
-            <p className="normal App-p center cover">We cover all infrastructure-related sectors across Europe and beyond </p>
-            <p className="sectors">
-                <span className="sector one normal App-p center">Transport & Logistics</span>
-                <span className="sector two normal App-p center">Energy & Utilies</span>
-                <span className="sector three normal App-p center">Telecom & ICT</span>
-                <span className="sector four normal App-p center">Healthcare & Social</span>
-            </p>
-            <div className="Screen4--all center">
-                <a
-                className="selectors--all"
-                href="/">
-                View All Sectors
-            </a>
+            <div className="back-color">
+                <p className="normal App-p center cover">We cover all infrastructure-related sectors across Europe and
+                    beyond </p>
+                <p className="sectors">
+                    <span className="sector one normal App-p center">Transport & Logistics</span>
+                    <span className="sector two normal App-p center">Energy & Utilies</span>
+                    <span className="sector three normal App-p center">Telecom & ICT</span>
+                    <span className="sector four normal App-p center">Healthcare & Social</span>
+                </p>
+                <div className="Screen4--all center">
+                    <a
+                        className="selectors--all"
+                        href="/">
+                        View All Sectors
+                    </a>
+                </div>
             </div>
         </div>
     );
