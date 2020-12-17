@@ -47,37 +47,29 @@
     font: italic normal 500 28px/42px 'Poppins', sans-serif;
 }
 
-.sector.normal.one {
+.sector.normal {
     margin: auto;
     padding: 125px 0 0;
     letter-spacing: -1.2px;
-    background: url("./cssimg/delivery-truck.svg") 52.6% 71px no-repeat;
     position: relative;
+}
+
+.sector.normal.one {
+    background: url("./cssimg/delivery-truck.svg") 52.6% 71px no-repeat;
     left: -2px;
 }
 
 .sector.normal.two {
-    margin: auto;
-    padding: 125px 0 0;
-    letter-spacing: -1.2px;
     background: url("./cssimg/flash.svg") 54.6% 64px no-repeat;
-    position: relative;
     left: -22px;
 }
 
 .sector.normal.three {
-    margin: auto;
-    padding: 125px 0 0;
-    letter-spacing: -1.2px;
     background: url("./cssimg/satellite-dish.svg") 51.7% 62px no-repeat;
 }
 
 .sector.normal.four {
-    margin: auto;
-    padding: 125px 0 0;
-    letter-spacing: -1.2px;
     background: url("./cssimg/building.svg") 50.2% 59px no-repeat;
-    position: relative;
     left: -5px;
 }
 

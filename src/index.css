@@ -33,3 +33,7 @@ code {
 .center {
     text-align: center;
 }
+body > div{
+    max-width: 1920px;
+    margin: 0 auto;
+}

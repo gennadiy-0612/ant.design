@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Screen7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screen7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cssimg/connection.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cssimg/opportunity.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cssimg/security.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cssimg/trust.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cssimg/win.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen4.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen7.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen7.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +91,7 @@
       <workItem from="1608143050335" duration="10412000" />
       <workItem from="1608176740756" duration="1367000" />
       <workItem from="1608184085270" duration="13623000" />
-      <workItem from="1608202622016" duration="600000" />
+      <workItem from="1608202622016" duration="3189000" />
     </task>
     <task id="LOCAL-00001" summary="xxxxxx">
       <created>1608039377588</created>
@@ -319,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608202651089</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="7screen-has-started">
+      <created>1608203261327</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1608203261327</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +348,7 @@
     <MESSAGE value="5screen-has-started" />
     <MESSAGE value="5screen-has-finished" />
     <MESSAGE value="6screen-has-added" />
-    <option name="LAST_COMMIT_MESSAGE" value="6screen-has-added" />
+    <MESSAGE value="7screen-has-started" />
+    <option name="LAST_COMMIT_MESSAGE" value="7screen-has-started" />
   </component>
 </project>

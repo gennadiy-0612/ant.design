@@ -1,3 +1,27 @@
 .Screen7 {
+    background-color: #10214F;
+}
+.Screen7--h2{
+    font: normal normal 600 60px/60px 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.sector.normal.one.S7 {
+    background: url("./cssimg/connection.svg") 50.2% 59px no-repeat;
+}
 
+.sector.normal.two.S7 {
+    background: url("./cssimg/opportunity.svg") 50.2% 59px no-repeat;
+}
+
+.sector.normal.three.S7 {
+    background: url("./cssimg/win.svg") 50.2% 59px no-repeat;
+}
+
+.sector.normal.four.S7 {
+    background: url("./cssimg/trust.svg") 50.2% 59px no-repeat;
+}
+
+.sector.normal.five.S7 {
+    background: url("./cssimg/security.svg") 50.2% 59px no-repeat;
 }
