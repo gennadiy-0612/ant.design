@@ -24,14 +24,10 @@ function App() {
                     </div>
                     <div className="window1--button-group Screen5--button-group">
                         <div className="window1--description">
-                            <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg">Apply now
-                            </button>
+                            <button className="login ant-btn ant-btn-primary S6bt ant-btn-round ant-btn-lg">Join for Free</button>
                         </div>
                         <div className="window1--description">
-                            <button
-                                className="login invert Screen5--button--text ant-btn ant-btn-primary ant-btn-round ant-btn-lg">Learn
-                                more
-                            </button>
+                            <button className="login invert Screen5--button--text S6bt ant-btn ant-btn-primary ant-btn-round ant-btn-lg">Learn More</button>
                         </div>
                     </div>
                 </div>
