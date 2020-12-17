@@ -22,12 +22,12 @@ function App() {
                         <strong className="Screen5--strong S6st">WIN-WIN</strong>
                         <p className="Screen5--p S6pa">View the deal pipeline and pay only for what you get</p>
                     </div>
-                    <div className="window1--button-group Screen5--button-group">
+                    <div className="window1--button-group Screen5--button-group S6bg">
                         <div className="window1--description">
-                            <button className="login ant-btn ant-btn-primary S6bt ant-btn-round ant-btn-lg">Join for Free</button>
+                            <button className="login ant-btn ant-btn-primary S6bt first ant-btn-round ant-btn-lg">Join for Free</button>
                         </div>
                         <div className="window1--description">
-                            <button className="login invert Screen5--button--text S6bt ant-btn ant-btn-primary ant-btn-round ant-btn-lg">Learn More</button>
+                            <button className="login invert Screen5--button--text S6bt last ant-btn ant-btn-primary ant-btn-round ant-btn-lg">Learn More</button>
                         </div>
                     </div>
                 </div>

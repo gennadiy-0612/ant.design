@@ -10,7 +10,7 @@
 }
 
 .Screen6--w2.window1 {
-    padding: 2px 0 0 1.35%;
+    padding: 2px 0 0 1.25%;
 }
 
 .dots.Screen5--dots.Screen6--dots::after {
@@ -22,7 +22,7 @@
 
 .Screen5--description--content.S6c {
     max-width: 80%;
-
+    padding-top: 29px;
 }
 
 .Screen5--strong.S6st {
@@ -31,6 +31,15 @@
 .Screen5--p.S6pa {
 }
 
-.ant-btn-lg.login.S6bt {
+.login.S6bt.first {
     width: 275px;
+    line-height: 53px;
+    text-indent: 2px;
+}
+.login.S6bt.last{
+    width: 250px;
+    text-indent: 13px;
+}
+.Screen5--button-group.S6bg{
+    max-width: 59.4%;
 }
