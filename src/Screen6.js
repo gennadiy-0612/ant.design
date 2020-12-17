@@ -4,7 +4,7 @@ import smileman from "./img/smileman.png";
 
 function App() {
     return (
-        <div className="Screen5">
+        <div className="Screen6">
             <div className="window1 Screen5--w1 ant-col-12">
                 <div className="Screen5--decription">
                     <h2 className="App-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
