@@ -12,8 +12,8 @@
     display: flex;
     width: 234px;
     height: 106px;
-    margin: -10px 0 0 2px;
-    background: url("./cssimg/home-logo.png") center -20px no-repeat;
+    margin: -2px 0 0 0px;
+    background: url(/static/media/IDN_Logo.3615f022.svg) center 0px no-repeat;
 }
 
 .Header--logo--img {
