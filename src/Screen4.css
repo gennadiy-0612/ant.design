@@ -1,5 +1,5 @@
 .Screen4 {
-    padding: 171px 0;
+    padding: 171px 0 0;
     position: relative;
 }
 
@@ -23,9 +23,12 @@
     width: 91.8%;
     left: 6.2%;
 }
-.back-color{
+
+.back-color {
     background-color: #F7F7FB;
+    padding-bottom: 88px;
 }
+
 .App-p.cover {
     font-size: 32px;
     margin-top: 118px;
@@ -105,13 +108,13 @@
 }
 
 .Screen4::before {
-    top: 40.2%;
+    top: 37.5%;
     left: 0.7%;
     z-index: 0;
 }
 
 .Screen4::after {
-    top: 40.2%;
+    top: 37.5%;
     left: auto;
     right: 0;
     z-index: 0;

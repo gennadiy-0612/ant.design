@@ -5,6 +5,7 @@ import Header from './Header';
 import Screen2 from './Screen2';
 import App from './App';
 import Screen4 from './Screen4';
+import Screen5 from './Screen5';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -30,6 +31,12 @@ ReactDOM.render(
         <Screen4 />
     </React.StrictMode>,
     document.getElementById('Frame4')
+);
+ReactDOM.render(
+    <React.StrictMode>
+        <Screen5 />
+    </React.StrictMode>,
+    document.getElementById('Frame5')
 );
 
 // If you want to start measuring performance in your app, pass a function

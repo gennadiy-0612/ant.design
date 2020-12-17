@@ -1,0 +1,83 @@
+.Screen5 {
+    display: flex;
+    position: relative;
+    margin: 180px auto 0;
+    justify-content: space-between;
+}
+
+.Screen5--w1 {
+    padding: 1px 0 0;
+    position: relative;
+    left: 15.45%;
+}
+
+.Screen5--w2 {
+}
+
+.Screen5--h2.head2 {
+    text-align: left;
+    letter-spacing: 0;
+    padding: 0 0 0 3%;
+}
+
+.Screen5--description--content {
+    padding: 30px 0 0 0;
+    max-width: 73%;
+}
+
+.Screen5--strong {
+    font: normal normal 700 26px/36px 'Poppins', sans-serif;
+    color: #1D293F;
+    padding: 0 0 0 12.5%;
+    display: block;
+    position: relative;
+}
+
+.Screen5--p {
+    font: normal normal 400 22px/36px 'Poppins', sans-serif;
+    color: #7E7F7E;
+    padding: 1px 0 13px 12.5%;
+    position: relative;
+}
+
+.Screen5--strong::after, .Screen5--p::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #10214F;
+}
+
+.Sreen5--h3 {
+    font: normal normal 600 50px/70px 'Poppins', sans-serif;
+    color: #10214F;
+    padding: 18px 0 0 3%;
+    letter-spacing: -1.3px;
+}
+
+.Screen5--button-group {
+    max-width: 55.4%;
+    margin: 42px 0 0 4.8%;
+    justify-content: space-between;
+}
+
+.login.Screen5--button--text {
+    font: normal normal 500 16px/25px 'Poppins', sans-serif;
+}
+
+.illustrate.Screen5-img {
+    height: 654px;
+    width: 600px;
+}
+
+.dots.Screen5--dots::after {
+    left: auto;
+    right: 20.2%;
+    bottom: -53px;
+}
+
+.dots.Screen5--dots {
+    left: -8.5%;
+    top: -2px;
+}
