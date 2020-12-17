@@ -44,9 +44,28 @@
     content: '';
     display: block;
     position: absolute;
-    height: 20px;
-    width: 20px;
-    background-color: #10214F;
+}
+
+.Screen5--strong::after {
+    top: 2px;
+    left: 4.2%;
+    background-color: #3680F6;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.Screen5--p::after {
+    top: -7px;
+    left: 6.2%;
+    background-color: #1D293F;
+    height: 170%;
+    width: 2px;
+}
+
+.Screen5--p:last-child::after {
+    content: none;
 }
 
 .Sreen5--h3 {
