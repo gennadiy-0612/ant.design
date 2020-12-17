@@ -1,5 +1,5 @@
 .Screen4 {
-    padding: 171px 0 0;
+    padding: 96px 0 0;
     position: relative;
 }
 
@@ -27,11 +27,12 @@
 .back-color {
     background-color: #F7F7FB;
     padding-bottom: 88px;
+    margin-top: -5px;
 }
 
 .App-p.cover {
     font-size: 32px;
-    margin-top: 118px;
+    margin-top: 122px;
     padding-top: 130px;
     letter-spacing: -1.1px;
     text-indent: -8px;
@@ -100,13 +101,13 @@
 }
 
 .Screen4::before {
-    top: 43%;
+    top: 39%;
     left: 0.7%;
     z-index: 0;
 }
 
 .Screen4::after {
-    top: 43%;
+    top: 39%;
     left: auto;
     right: 0;
     z-index: 0;

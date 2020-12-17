@@ -1,6 +1,6 @@
 .Screen7 {
-    background-color: #10214F;
     padding: 160px 0 0;
+    background: url("./cssimg/back7.png") center no-repeat;
 }
 
 .Screen7--h2 {
@@ -14,7 +14,7 @@
     letter-spacing: -1.15px;
     color: #fff;
     text-align: center;
-    font: normal normal 400 28px/62px 'Poppins', sans-serif;
+    font: normal normal 400 28px/63px 'Poppins', sans-serif;
     max-width: 1245px;
     margin: 84px auto;
     position: relative;
@@ -39,7 +39,7 @@
 
 .sector.S7 {
     margin: auto;
-    padding: 105px 0 0;
+    padding: 108px 0 0;
     letter-spacing: .2px;
 }
 
