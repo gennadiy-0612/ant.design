@@ -20,13 +20,7 @@ function App() {
                         and industry expertise<br/>
                         to give Private Equity infrastructure investors
                         what they want:</p>
-                    <a
-                        className="App-post-link"
-                        href="/"
-                        rel="noopener noreferrer"
-                    >
-                        Access to bilateral deals
-                    </a>
+                    <p className="App-post-link">Access to bilateral deals</p>
                 </div>
             </div>
         </div>
