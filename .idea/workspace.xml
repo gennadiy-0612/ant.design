@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Screen6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Screen6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,7 @@
       <workItem from="1608129111806" duration="615000" />
       <workItem from="1608143050335" duration="10412000" />
       <workItem from="1608176740756" duration="1367000" />
-      <workItem from="1608184085270" duration="8247000" />
+      <workItem from="1608184085270" duration="8560000" />
     </task>
     <task id="LOCAL-00001" summary="xxxxxx">
       <created>1608039377588</created>
@@ -262,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608192009899</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="6screen-has-added">
+      <created>1608192482901</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1608192482901</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +280,8 @@
     <MESSAGE value="added-dots-decorations-for-4screen" />
     <MESSAGE value="5screen-has-started" />
     <MESSAGE value="5screen-has-finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="5screen-has-finished" />
+    <MESSAGE value="6screen-has-added" />
+    <option name="LAST_COMMIT_MESSAGE" value="6screen-has-added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
