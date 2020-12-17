@@ -100,13 +100,13 @@
 }
 
 .Screen4::before {
-    top: 37.5%;
+    top: 43%;
     left: 0.7%;
     z-index: 0;
 }
 
 .Screen4::after {
-    top: 37.5%;
+    top: 43%;
     left: auto;
     right: 0;
     z-index: 0;
