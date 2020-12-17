@@ -16,7 +16,7 @@ code {
     position: relative;
 }
 
-.dots::after {
+.dots::after, .Screen4::before, .Screen4::after {
     content: '';
     display: block;
     position: absolute;

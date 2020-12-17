@@ -1,5 +1,6 @@
 .Screen4 {
     padding: 171px 0;
+    position: relative;
 }
 
 .normal.App-p {
@@ -98,4 +99,14 @@
     position: absolute;
     right: 4px;
     top: 5px;
+}
+
+.Screen4::before {
+    top: 40.2%;
+    left: 0.7%;
+}
+
+.Screen4::after {
+    top: 40.2%;
+    left: 0.7%;
 }
