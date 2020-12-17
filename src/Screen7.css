@@ -48,27 +48,27 @@
 }
 
 .sector.normal.one.S7 {
-    background: url("./cssimg/connection.svg") 53.2% 24px no-repeat;
+    background: url("./cssimg/connection.svg") 52.2% 26px no-repeat;
 }
 
 .sector.normal.two.S7 {
-    background: url("./cssimg/opportunity.svg") 50.7% 31px no-repeat;
+    background: url("./cssimg/opportunity.svg") 51.1% 33px no-repeat;
     position: relative;
     left: -0.65%;
 }
 
 .sector.normal.three.S7 {
-    background: url("./cssimg/win.svg") 43.9% 28px no-repeat;
+    background: url("./cssimg/win.svg") 43.8% 30px no-repeat;
     position: relative;
     left: -2.2%;
 }
 
 .sector.normal.four.S7 {
-    background: url("./cssimg/trust.svg") 36.2% 27px no-repeat;
+    background: url("./cssimg/trust.svg")  36% 29px no-repeat;
 }
 
 .sector.normal.five.S7 {
-    background: url("./cssimg/security.svg") 54.2% 23px no-repeat;
+    background: url("./cssimg/security.svg") 54.4% 25px no-repeat;
 }
 
 .Screen5--button-group.S7 {
@@ -98,11 +98,13 @@
     letter-spacing: 0.2px;
     text-indent: 2px;
 }
-.window1--description--button.S7.S72{
+
+.window1--description--button.S7.S72 {
     position: relative;
     left: 3.2%;
     top: -1px;
 }
+
 .window1--description.S7 {
     margin: 0 0 0 5px;
 }
