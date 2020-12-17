@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screen6.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +80,7 @@
       <workItem from="1608129111806" duration="615000" />
       <workItem from="1608143050335" duration="10412000" />
       <workItem from="1608176740756" duration="1367000" />
-      <workItem from="1608184085270" duration="8882000" />
+      <workItem from="1608184085270" duration="9217000" />
     </task>
     <task id="LOCAL-00001" summary="xxxxxx">
       <created>1608039377588</created>
@@ -272,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608192753970</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="6screen-has-added">
+      <created>1608193253137</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1608193253137</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,16 +296,5 @@
     <MESSAGE value="5screen-has-finished" />
     <MESSAGE value="6screen-has-added" />
     <option name="LAST_COMMIT_MESSAGE" value="6screen-has-added" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Screen6.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
