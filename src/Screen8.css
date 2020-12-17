@@ -1,5 +1,6 @@
 .Screen8 {
     background-color: #29579F;
+    padding: 0 0 123px 0;
 }
 
 .Screen7--h2.S8 {
@@ -10,6 +11,8 @@
 
 .ant-btn-lg.login.S8 {
     display: block;
-    margin: auto;
-    max-width: 286px;
+    margin: 58px auto 0;
+    max-width: 268px;
+    width: 268px;
+    height: 52px;
 }
