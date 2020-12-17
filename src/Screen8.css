@@ -1,91 +1,15 @@
-.Screen7 {
-    background-color: #10214F;
-    padding: 160px 0 0;
+.Screen8 {
+    background-color: #29579F;
 }
 
-.Screen7--h2 {
-    color: #fff;
-    text-align: center;
-    letter-spacing: -1.4px;
-    font: normal normal 600 60px/60px 'Poppins', sans-serif;
+.Screen7--h2.S8 {
+    font: normal normal 700 40px/60px 'Poppins', sans-serif;
+    padding: 118px 0 0 0;
+    letter-spacing: -1.1px;
 }
 
-.Screen7--p {
-    letter-spacing: -1.15px;
-    color: #fff;
-    text-align: center;
-    font: normal normal 400 28px/62px 'Poppins', sans-serif;
-    max-width: 1245px;
-    margin: 84px auto;
-    position: relative;
-    left: -0.15%;
-}
-
-.back-color.S7 {
-    background-color: transparent;
-    padding-bottom: 141px;
-}
-
-.App-p.S7 {
-    color: #fff;
-}
-
-.sectors.S7 {
-    max-width: 1335px;
-    position: relative;
-    right: 1.7%;
-    justify-content: center;
-}
-
-.sector.S7 {
+.ant-btn-lg.login.S8 {
+    display: block;
     margin: auto;
-    padding: 105px 0 0;
-    letter-spacing: .2px;
-}
-
-.sector.normal.center.S7 {
-    font: normal normal 700 22px/27px 'Open Sans', sans-serif;
-}
-
-.sector.normal.one.S7 {
-    background: url("./cssimg/connection.svg") 53.2% 24px no-repeat;
-}
-
-.sector.normal.two.S7 {
-    background: url("./cssimg/opportunity.svg") 50.7% 31px no-repeat;
-    position: relative;
-    left: -0.65%;
-}
-
-.sector.normal.three.S7 {
-    background: url("./cssimg/win.svg") 43.9% 28px no-repeat;
-    position: relative;
-    left: -2.2%;
-}
-
-.sector.normal.four.S7 {
-    background: url("./cssimg/trust.svg") 36.2% 27px no-repeat;
-}
-
-.sector.normal.five.S7 {
-    background: url("./cssimg/security.svg") 54.2% 23px no-repeat;
-}
-
-.Screen5--button-group.S7 {
-    max-width: 870px;
-    margin: auto;
-    padding-bottom: 75px;
-}
-
-.window1--description--button.S7 {
-    font: normal normal 500 36px/55px 'Poppins', sans-serif;
-    color: #fff;
-    padding: 7px 0 0;
-    text-align: center;
-}
-.ant-btn-lg.login.S7{
-    width: 277px;
-}
-.window1--description.S7{
-    margin: 0 0 0 5px;
+    max-width: 286px;
 }
