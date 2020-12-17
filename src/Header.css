@@ -13,7 +13,7 @@
     width: 234px;
     height: 106px;
     margin: -2px 0 0 0px;
-    background: url(/static/media/IDN_Logo.3615f022.svg) center 0px no-repeat;
+    background: url("./cssimg/IDN_Logo.svg") center 0px no-repeat;
 }
 
 .Header--logo--img {
