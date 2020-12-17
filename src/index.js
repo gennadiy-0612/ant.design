@@ -6,6 +6,7 @@ import Screen2 from './Screen2';
 import App from './App';
 import Screen4 from './Screen4';
 import Screen5 from './Screen5';
+import Screen6 from './Screen6';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -35,6 +36,12 @@ ReactDOM.render(
 ReactDOM.render(
     <React.StrictMode>
         <Screen5 />
+    </React.StrictMode>,
+    document.getElementById('Frame5')
+);
+ReactDOM.render(
+    <React.StrictMode>
+        <Screen6 />
     </React.StrictMode>,
     document.getElementById('Frame5')
 );
