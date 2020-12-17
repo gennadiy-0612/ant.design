@@ -1,7 +1,7 @@
 .Screen6 {
     display: flex;
     position: relative;
-    margin: 467px auto 0;
+    margin: 467px auto 214px;
     justify-content: space-between;
 }
 
@@ -25,21 +25,17 @@
     padding-top: 29px;
 }
 
-.Screen5--strong.S6st {
-}
-
-.Screen5--p.S6pa {
-}
-
 .login.S6bt.first {
     width: 275px;
     line-height: 53px;
     text-indent: 2px;
 }
-.login.S6bt.last{
+
+.login.S6bt.last {
     width: 250px;
     text-indent: 13px;
 }
-.Screen5--button-group.S6bg{
+
+.Screen5--button-group.S6bg {
     max-width: 59.4%;
 }

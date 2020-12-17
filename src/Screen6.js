@@ -15,12 +15,12 @@ function App() {
                     <h2 className="App-header-second-h2 Screen5--h2 head2 center">FOR INVESTORS</h2>
                     <h3 className="Sreen5--h3">Access unique<br/> investment opportunities</h3>
                     <div className="Screen5--description--content S6c">
-                        <strong className="Screen5--strong S6st">PROPRIETARY</strong>
-                        <p className="Screen5--p S6pa">Access proprietary deals originated by our Senior Advisors</p>
-                        <strong className="Screen5--strong S6st">BILATERAL</strong>
-                        <p className="Screen5--p S6pa">Negotiate and close deals on a bilateral basis</p>
-                        <strong className="Screen5--strong S6st">WIN-WIN</strong>
-                        <p className="Screen5--p S6pa">View the deal pipeline and pay only for what you get</p>
+                        <strong className="Screen5--strong">PROPRIETARY</strong>
+                        <p className="Screen5--p">Access proprietary deals originated by our Senior Advisors</p>
+                        <strong className="Screen5--strong">BILATERAL</strong>
+                        <p className="Screen5--p">Negotiate and close deals on a bilateral basis</p>
+                        <strong className="Screen5--strong">WIN-WIN</strong>
+                        <p className="Screen5--p">View the deal pipeline and pay only for what you get</p>
                     </div>
                     <div className="window1--button-group Screen5--button-group S6bg">
                         <div className="window1--description">
