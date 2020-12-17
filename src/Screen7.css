@@ -1,11 +1,26 @@
 .Screen7 {
     background-color: #10214F;
+    padding: 160px 0 0;
 }
-.Screen7--h2{
-    font: normal normal 600 60px/60px 'Poppins', sans-serif;
+
+.Screen7--h2 {
     color: #fff;
     text-align: center;
+    letter-spacing: -1.4px;
+    font: normal normal 600 60px/60px 'Poppins', sans-serif;
 }
+
+.Screen7--p {
+    letter-spacing: -1.15px;
+    color: #fff;
+    text-align: center;
+    font: normal normal 400 28px/62px 'Poppins', sans-serif;
+    max-width: 1245px;
+    margin: 84px auto;
+    position: relative;
+    left: 2.35%;
+}
+
 .sector.normal.one.S7 {
     background: url("./cssimg/connection.svg") 50.2% 59px no-repeat;
 }
