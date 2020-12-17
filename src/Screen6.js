@@ -1,14 +1,14 @@
 import "antd/dist/antd.css";
 import './Screen6.css';
-import smileman from "./img/smileman.png";
+import peoples from "./img/peoples.png";
 
 function App() {
     return (
         <div className="Screen6">
-            <div className="window2 Screen5--w2 ant-col-12">
-                <div className="dots Screen5--dots"><img src={smileman} className="illustrate Screen5-img" alt="smile man"/></div>
+            <div className="window2 Screen6--w2 Screen5--w2 ant-col-12">
+                <div className="dots Screen5--dots"><img src={peoples} className="illustrate Screen5-img" alt="smile man"/></div>
             </div>
-            <div className="window1 Screen5--w1 ant-col-12">
+            <div className="window1 Screen6--w2 Screen5--w1 ant-col-12">
                 <div className="Screen5--decription">
                     <h2 className="App-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
                     <h3 className="Sreen5--h3">Success fees up to<br/> 2 million Euro</h3>
