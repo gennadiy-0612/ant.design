@@ -82,10 +82,27 @@
     color: #fff;
     padding: 7px 0 0;
     text-align: center;
+    letter-spacing: -1.5px;
+    text-indent: -5px;
+    margin-top: -1px;
+    margin-bottom: 17px;
 }
-.ant-btn-lg.login.S7{
+
+.window1--description.S7.S71 {
+    margin-left: 9px;
+}
+
+.ant-btn-lg.login.S7 {
     width: 277px;
+    font: normal normal 500 20px/53px 'Poppins', sans-serif;
+    letter-spacing: 0.2px;
+    text-indent: 2px;
 }
-.window1--description.S7{
+.window1--description--button.S7.S72{
+    position: relative;
+    left: 3.2%;
+    top: -1px;
+}
+.window1--description.S7 {
     margin: 0 0 0 5px;
 }

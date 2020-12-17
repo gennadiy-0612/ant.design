@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cssimg/in.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen9.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen9.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/Social.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/in.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen7.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screen7.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screen7.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,7 @@
       <workItem from="1608176740756" duration="1367000" />
       <workItem from="1608184085270" duration="13623000" />
       <workItem from="1608202622016" duration="13622000" />
-      <workItem from="1608218809768" duration="5141000" />
+      <workItem from="1608218809768" duration="6778000" />
     </task>
     <task id="LOCAL-00001" summary="xxxxxx">
       <created>1608039377588</created>
@@ -382,7 +382,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608223041624</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="9screen-almost-done">
+      <created>1608224223799</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1608224223799</updated>
+    </task>
+    <task id="LOCAL-00042" summary="9screen-almost-done">
+      <created>1608224300885</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1608224300885</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,6 +417,7 @@
     <MESSAGE value="7screen-has-started-added-max-width-1920px" />
     <MESSAGE value="9screen-has-started" />
     <MESSAGE value="9screen-has-almost-done" />
-    <option name="LAST_COMMIT_MESSAGE" value="9screen-has-almost-done" />
+    <MESSAGE value="9screen-almost-done" />
+    <option name="LAST_COMMIT_MESSAGE" value="9screen-almost-done" />
   </component>
 </project>
