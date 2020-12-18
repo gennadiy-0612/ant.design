@@ -1,4 +1,5 @@
 import logo from './logo.svg'
+import arrowdown from './down-arrow.svg'
 
 import building from './building.svg'
 import connection from './connection.svg'
@@ -45,7 +46,8 @@ const Images = {
     satellite: satellite,
     security: security,
     trust: trust,
-    win: win
+    win: win,
+    arrowdown:arrowdown
 
 }
 

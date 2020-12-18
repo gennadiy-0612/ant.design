@@ -59,8 +59,7 @@ body > div {
     display: flex;
     width: 234px;
     height: 106px;
-    margin: -2px 0 0 0;
-    /*background: url("./cssimg/IDN_Logo.svg") center 0px no-repeat;*/
+    margin: -17px 0 0 0.6%;
 }
 
 .Header--logo--img {
@@ -157,11 +156,17 @@ body > div {
 }
 
 .ant-btn-lg.login {
-    width: 251px;
-    height: 60px;
-    font: normal normal 500 20px/30px 'Poppins', sans-serif;
+    width: 161px;
+    height: 52px;
+    font: normal normal 500 16px/25px 'Poppins', sans-serif;
     position: relative;
     overflow: hidden;
+}
+
+.ant-btn-lg.login.S2 {
+    width: 251px;
+    height: 60px;
+    font: normal normal 700 20px/30px 'Poppins', sans-serif;
 }
 
 .window2 {
@@ -299,7 +304,7 @@ body > div {
 
 .main-post-link.frame4::before {
     height: 2px;
-    bottom: -33px;
+    bottom: -31px;
     width: 91.8%;
     left: 6.2%;
 }
@@ -307,12 +312,12 @@ body > div {
 .back-color {
     background-color: #F7F7FB;
     padding-bottom: 88px;
-    margin-top: -5px;
+    margin-top: -10px;
 }
 
 .main-p.cover {
     font-size: 32px;
-    margin-top: 122px;
+    margin-top: 126px;
     padding-top: 130px;
     letter-spacing: -1.1px;
     text-indent: -8px;
@@ -381,13 +386,13 @@ body > div {
 }
 
 .Screen4::before {
-    top: 39%;
+    top: 39.2%;
     left: 0.7%;
     z-index: 0;
 }
 
 .Screen4::after {
-    top: 39%;
+    top: 39.2%;
     left: auto;
     right: 0;
     z-index: 0;
@@ -396,14 +401,14 @@ body > div {
 .Screen5 {
     display: flex;
     position: relative;
-    margin: 180px auto 0;
+    margin: 193px auto 0;
     justify-content: space-between;
 }
 
 .Screen5--w1 {
     padding: 1px 0 0;
     position: relative;
-    left: 15.45%;
+    left: 13.65%;
 }
 
 .Screen5--h2.head2 {
@@ -485,24 +490,25 @@ body > div {
 
 .dots.Screen5--dots::after {
     left: auto;
-    right: 20.2%;
-    bottom: -53px;
+    right: 15.2%;
+    bottom: -41px;
 }
 
 .dots.Screen5--dots {
-    left: -8.5%;
+    left: -13.5%;
     top: -2px;
 }
 
 .Screen6 {
     display: flex;
     position: relative;
-    margin: 467px auto 214px;
+    margin: 454px auto 215px;
     justify-content: space-between;
 }
 
+
 .dots.Screen6--dots {
-    left: -1%;
+    left: 3.6%;
 }
 
 .Screen6--w2.window1 {
@@ -519,17 +525,6 @@ body > div {
 .Screen5--description--content.S6c {
     max-width: 80%;
     padding-top: 29px;
-}
-
-.login.S6bt.first {
-    width: 275px;
-    line-height: 53px;
-    text-indent: 2px;
-}
-
-.login.S6bt.last {
-    width: 250px;
-    text-indent: 13px;
 }
 
 .Screen5--button-group.S6bg {
@@ -554,7 +549,7 @@ body > div {
     text-align: center;
     font: normal normal 400 28px/63px 'Poppins', sans-serif;
     max-width: 1245px;
-    margin: 84px auto;
+    margin: 84px auto 89px;
     position: relative;
     left: -0.15%;
 }
@@ -662,8 +657,6 @@ body > div {
     display: block;
     margin: 58px auto 0;
     max-width: 268px;
-    width: 268px;
-    height: 52px;
 }
 
 .Screen9 {

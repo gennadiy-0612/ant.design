@@ -63,7 +63,7 @@ function MainPage() {
                             <p className="window1--description--button">
                                 Senior Advisors
                             </p>
-                            <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg">
+                            <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S2">
                                 Apply now
                             </button>
                         </div>
@@ -71,7 +71,7 @@ function MainPage() {
                             <p className="window1--description--button">
                                 Investors
                             </p>
-                            <button className="login invert ant-btn ant-btn-primary ant-btn-round ant-btn-lg">
+                            <button className="login invert ant-btn ant-btn-primary ant-btn-round ant-btn-lg S2">
                                 Join now
                             </button>
                         </div>
@@ -150,12 +150,12 @@ function MainPage() {
                         </div>
                         <div className="window1--button-group Screen5--button-group">
                             <div className="window1--description">
-                                <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg">Apply now
+                                <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S2">Apply now
                                 </button>
                             </div>
                             <div className="window1--description">
                                 <button
-                                    className="login invert Screen5--button--text ant-btn ant-btn-primary ant-btn-round ant-btn-lg">Learn
+                                    className="login invert Screen5--button--text ant-btn ant-btn-primary ant-btn-round ant-btn-lg S2">Learn
                                     more
                                 </button>
                             </div>
@@ -189,13 +189,13 @@ function MainPage() {
                         <div className="window1--button-group Screen5--button-group S6bg">
                             <div className="window1--description">
                                 <button
-                                    className="login ant-btn ant-btn-primary S6bt first ant-btn-round ant-btn-lg">Join
+                                    className="login ant-btn ant-btn-primary S6bt first ant-btn-round ant-btn-lg S2">Join
                                     for Free
                                 </button>
                             </div>
                             <div className="window1--description">
                                 <button
-                                    className="login invert Screen5--button--text S6bt last ant-btn ant-btn-primary ant-btn-round ant-btn-lg">Learn
+                                    className="login invert Screen5--button--text S6bt last ant-btn ant-btn-primary ant-btn-round ant-btn-lg S2">Learn
                                     More
                                 </button>
                             </div>
@@ -222,11 +222,11 @@ function MainPage() {
                 <div className="window1--button-group Screen5--button-group S7">
                     <div className="window1--description S7 S71">
                         <p className="window1--description--button S7">Senior Advisors</p>
-                        <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S7">Apply now</button>
+                        <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S7 S2">Apply now</button>
                     </div>
                     <div className="window1--description S7 S72">
                         <p className="window1--description--button S7 S72">Investors</p>
-                        <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S7">Join for Free
+                        <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S7 S2">Join for Free
                         </button>
                     </div>
                 </div>
