@@ -716,3 +716,6 @@ body > div{
     background: url("./Images/in.svg") center no-repeat;
     background-size: contain;
 }
+.opacity6{
+    opacity: 0.6;
+ }

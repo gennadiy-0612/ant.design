@@ -245,10 +245,10 @@ function MainPage() {
                         <li className="foot-li foot-li-head">
                             Users
                         </li>
-                        <li className="foot-li">
+                        <li className="foot-li opacity6">
                             Investors
                         </li>
-                        <li className="foot-li">
+                        <li className="foot-li opacity6">
                             Senior Advisors
                         </li>
                     </ul>
@@ -256,7 +256,7 @@ function MainPage() {
                         <li className="foot-li foot-li-head">
                             Sectors
                         </li>
-                        <li className="foot-li">
+                        <li className="foot-li opacity6">
                             Sectors
                         </li>
                     </ul>
@@ -264,10 +264,10 @@ function MainPage() {
                         <li className="foot-li foot-li-head">
                             About
                         </li>
-                        <li className="foot-li">
+                        <li className="foot-li opacity6">
                             About Us
                         </li>
-                        <li className="foot-li">
+                        <li className="foot-li opacity6">
                             Terms & Conditions
                         </li>
                     </ul>
@@ -275,10 +275,10 @@ function MainPage() {
                         <li className="foot-li foot-li-head">
                             Contact
                         </li>
-                        <li className="foot-li">
+                        <li className="foot-li opacity6">
                             info@infradeals.net
                         </li>
-                        <li className="foot-li">
+                        <li className="foot-li opacity6">
                             + 23232323232
                         </li>
                         <li className="foot-li">
