@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Images/idnlogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ant.design-master.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen6.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screen9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/IDN_Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/IDN_Logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/building.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/building.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/connection.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/connection.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/delivery-truck.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/delivery-truck.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/dots.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/dots.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/flash.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/flash.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/home.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/idn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/idn.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/in.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/in.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/opportunity.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/opportunity.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/right-chevron.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/right-chevron.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/satellite-dish.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/satellite-dish.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/security.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/security.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/trust.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/trust.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cssimg/win.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/cssimg/win.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Group 3260.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Group 3260@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/idn.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/idn.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/right-chevron.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/right-chevron.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ant.design-master.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,14 +111,7 @@
       <workItem from="1608273743486" duration="8000" />
       <workItem from="1608280186630" duration="1284000" />
       <workItem from="1608287247058" duration="1410000" />
-      <workItem from="1608288716016" duration="1948000" />
-    </task>
-    <task id="LOCAL-00007" summary="xxxxxx">
-      <created>1608045918742</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1608045918742</updated>
+      <workItem from="1608288716016" duration="2257000" />
     </task>
     <task id="LOCAL-00008" summary="xxxxxx">
       <created>1608050264635</created>
@@ -499,7 +449,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608288587949</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="1page-has-done">
+      <created>1608291267521</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1608291267522</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
