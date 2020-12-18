@@ -4,7 +4,7 @@ import './MainPage.css';
 
 function MainPage() {
     return (
-        <div>
+        <div className="main-page">
             <div className="Header">
                 <div className="Header--logo">
                     <a className="logo-link"
@@ -90,13 +90,13 @@ function MainPage() {
             </div>
 
             <div className="main">
-                <div className="main-header ant-row demo-row">
+                <div className="main-header">
                     <div className="main-header-first">
                         <div className="main-header-dots dots">
                             <img src={Images.hands} className="first-col-img" alt="hands"/>
                         </div>
                     </div>
-                    <div className="main-header-second demo-col demo-col-1">
+                    <div className="main-header-second">
                         <h2 className="main-header-second-h2 head2">
                             WHAT WE OFFER
                         </h2>
@@ -222,7 +222,8 @@ function MainPage() {
                 <div className="window1--button-group Screen5--button-group S7">
                     <div className="window1--description S7 S71">
                         <p className="window1--description--button S7">Senior Advisors</p>
-                        <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S7 S2">Apply now</button>
+                        <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S7 S2">Apply now
+                        </button>
                     </div>
                     <div className="window1--description S7 S72">
                         <p className="window1--description--button S7 S72">Investors</p>

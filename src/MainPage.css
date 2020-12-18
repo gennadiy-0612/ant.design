@@ -215,9 +215,10 @@ body > div {
 }
 
 .main-header {
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 214px 10.2% 295px;
+    padding: 216px 11% 295px 17.8%;
 }
 
 .main-header-first.main-header-first-col {
@@ -235,6 +236,8 @@ body > div {
 .main-header-dots.dots {
     left: 2%;
     position: relative;
+    width: 600px;
+    height: 572px;
 }
 
 .first-col-img {
@@ -247,7 +250,7 @@ body > div {
 }
 
 .main-header-second {
-    padding: 1.8% 9.6% 0 7.65%;
+    padding: 1.8% 7.6% 0 9.85%;
 }
 
 .main-header-second-h2.head2 {
@@ -270,21 +273,22 @@ body > div {
     display: block;
     position: relative;
     color: #10214F;
+    max-width: max-content;
 }
 
 .main-post-link:before {
     content: '';
     position: absolute;
     display: block;
-    width: 46.7%;
+    width: 49.1%;
     height: 4px;
     background-color: #FF6B0F;
     bottom: -1px;
-    left: 33.3%;
+    left: 34.9%;
 }
 
 .Screen4 {
-    padding: 96px 0 0;
+    padding: 94px 0 0;
     position: relative;
 }
 
@@ -401,14 +405,14 @@ body > div {
 .Screen5 {
     display: flex;
     position: relative;
-    margin: 193px auto 0;
+    margin: 182px auto 0;
     justify-content: space-between;
 }
 
 .Screen5--w1 {
     padding: 1px 0 0;
     position: relative;
-    left: 13.65%;
+    left: 15.5%;
     max-width: 50%;
 }
 
@@ -491,12 +495,12 @@ body > div {
 
 .dots.Screen5--dots::after {
     left: auto;
-    right: -8.8%;
-    bottom: -44px;
+    right: -2.6%;
+    bottom: -55px;
 }
 
 .dots.Screen5--dots {
-    left: -13.5%;
+    left: -8.7%;
     top: -2px;
     width: 600px;
     height: 650px;
@@ -505,13 +509,13 @@ body > div {
 .Screen6 {
     display: flex;
     position: relative;
-    margin: 454px auto 220px;
+    margin: 466px auto 220px;
     justify-content: space-between;
 }
 
 
 .dots.Screen6--dots {
-    left: 3.6%;
+    left: -1%;
 }
 
 .Screen6--w2.window1 {
@@ -612,7 +616,7 @@ body > div {
 .Screen5--button-group.S7 {
     max-width: 870px;
     margin: auto;
-    padding-bottom: 75px;
+    padding-bottom: 73px;
 }
 
 .window1--description--button.S7 {
@@ -621,9 +625,8 @@ body > div {
     padding: 7px 0 0;
     text-align: center;
     letter-spacing: -1.5px;
-    text-indent: -5px;
-    margin-top: -1px;
-    margin-bottom: 17px;
+    margin-top: -2px;
+    margin-bottom: 16px;
 }
 
 .window1--description.S7.S71 {
@@ -654,7 +657,7 @@ body > div {
 
 .Screen7--h2.S8 {
     font: normal normal 700 40px/60px 'Poppins', sans-serif;
-    padding: 118px 0 0 0;
+    padding: 120px 0 0 0;
     letter-spacing: -1.1px;
 }
 
@@ -771,7 +774,6 @@ body > div {
 @media (max-width: 1650px) {
     .window1, .window2 {
         padding: 0 1%;
-        margin: auto;
         flex: 0 0 50%;
     }
 
@@ -779,6 +781,7 @@ body > div {
         left: auto;
         width: 680px;
         height: 572px;
+        margin: 0 0 0 auto;
     }
 
     .main-header-dots.dots {
@@ -795,10 +798,20 @@ body > div {
 
     .dots.Screen5--dots {
         left: auto;
+        margin: 0;
+    }
+
+    .Screen5--button-group.S6bg {
+        max-width: none;
     }
 }
 
 @media (max-width: 1850px) {
+
+    .Screen5--button-group, .Screen5--button-group.S6bg {
+        max-width: none;
+    }
+
     .main-header-second, .main-header-dots.dots {
         padding: 0 1%;
     }

@@ -21,6 +21,7 @@ import smileman from './smileman.png'
 import whyIdn from './why-idn.png'
 import idn from './idn.png'
 import idnlogo from './idnlogo.svg'
+import manpencil from './manpencil.png'
 
 const Images = {
     logo: logo,
@@ -47,7 +48,8 @@ const Images = {
     security: security,
     trust: trust,
     win: win,
-    arrowdown:arrowdown
+    arrowdown:arrowdown,
+    manpencil:manpencil
 
 }
 
