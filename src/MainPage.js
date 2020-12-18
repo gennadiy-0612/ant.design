@@ -89,41 +89,41 @@ function MainPage() {
                 </a>
             </div>
 
-            <div className="App">
-                <div className="App-header ant-row demo-row">
-                    <div className="App-header-first App-header-first-col ant-col-12 demo-col demo-col-1">
-                        <div className="App-header-dots dots">
+            <div className="main">
+                <div className="main-header ant-row demo-row">
+                    <div className="main-header-first main-header-first-col ant-col-12 demo-col demo-col-1">
+                        <div className="main-header-dots dots">
                             <img src={Images.hands} className="first-col-img" alt="hands"/>
                         </div>
                     </div>
-                    <div className="App-header-second demo-col demo-col-1">
-                        <h2 className="App-header-second-h2 head2">
+                    <div className="main-header-second demo-col demo-col-1">
+                        <h2 className="main-header-second-h2 head2">
                             WHAT WE OFFER
                         </h2>
-                        <p className="App-p">“IDN unleashes<br/>
+                        <p className="main-p">“IDN unleashes<br/>
                             the power of networking
                             and industry expertise<br/>
                             to give Private Equity infrastructure investors
                             what they want:</p>
-                        <p className="App-post-link">Access to bilateral deals</p>
+                        <p className="main-post-link">Access to bilateral deals</p>
                     </div>
                 </div>
             </div>
 
             <div className="Screen4">
-                <h2 className="App-header-second-h2 head2 center">WHAT WE DO</h2>
-                <p className="normal App-p center">IDN connects leading investment firms to proprietary investment
+                <h2 className="main-header-second-h2 head2 center">WHAT WE DO</h2>
+                <p className="normal main-p center">IDN connects leading investment firms to proprietary investment
                     opportunities originated by a selected network of</p>
-                <p className="App-post-link center frame4">Senior Advisors</p>
+                <p className="main-post-link center frame4">Senior Advisors</p>
                 <div className="back-color">
-                    <p className="normal App-p center cover">We cover all infrastructure-related sectors across Europe
+                    <p className="normal main-p center cover">We cover all infrastructure-related sectors across Europe
                         and
                         beyond </p>
                     <p className="sectors">
-                        <span className="sector one normal App-p center">Transport & Logistics</span>
-                        <span className="sector two normal App-p center">Energy & Utilies</span>
-                        <span className="sector three normal App-p center">Telecom & ICT</span>
-                        <span className="sector four normal App-p center">Healthcare & Social</span>
+                        <span className="sector one normal main-p center">Transport & Logistics</span>
+                        <span className="sector two normal main-p center">Energy & Utilies</span>
+                        <span className="sector three normal main-p center">Telecom & ICT</span>
+                        <span className="sector four normal main-p center">Healthcare & Social</span>
                     </p>
                     <div className="Screen4--all center">
                         <a
@@ -138,7 +138,7 @@ function MainPage() {
             <div className="Screen5">
                 <div className="window1 Screen5--w1 ant-col-12">
                     <div className="Screen5--decription">
-                        <h2 className="App-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
+                        <h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
                         <h3 className="Sreen5--h3">Success fees up to<br/> 2 million Euro</h3>
                         <div className="Screen5--description--content">
                             <strong className="Screen5--strong">CONNECT</strong>
@@ -176,7 +176,7 @@ function MainPage() {
                 </div>
                 <div className="window1 Screen6--w2 Screen5--w2 ant-col-12">
                     <div className="Screen5--decription">
-                        <h2 className="App-header-second-h2 Screen5--h2 head2 center">FOR INVESTORS</h2>
+                        <h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR INVESTORS</h2>
                         <h3 className="Sreen5--h3">Access unique<br/> investment opportunities</h3>
                         <div className="Screen5--description--content S6c">
                             <strong className="Screen5--strong">PROPRIETARY</strong>
@@ -212,11 +212,11 @@ function MainPage() {
                     of trust,<br/> protecting & promoting the interests of all parties involved</p>
                 <div className="back-color S7">
                     <p className="sectors S7">
-                        <span className="sector one normal App-p center S7">CONNECTION</span>
-                        <span className="sector two normal App-p center S7">OPPORTUNITY</span>
-                        <span className="sector three normal App-p center S7">WIN-WIN</span>
-                        <span className="sector four normal App-p center S7">TRUST</span>
-                        <span className="sector five normal App-p center S7">SECURITY</span>
+                        <span className="sector one normal main-p center S7">CONNECTION</span>
+                        <span className="sector two normal main-p center S7">OPPORTUNITY</span>
+                        <span className="sector three normal main-p center S7">WIN-WIN</span>
+                        <span className="sector four normal main-p center S7">TRUST</span>
+                        <span className="sector five normal main-p center S7">SECURITY</span>
                     </p>
                 </div>
                 <div className="window1--button-group Screen5--button-group S7">

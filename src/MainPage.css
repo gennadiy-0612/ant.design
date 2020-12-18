@@ -200,30 +200,30 @@ body > div{
     display: block;
 }
 
-.App {
+.main {
     margin: 25px 0 0 0;
     background-color: #F7F7FB;
 }
 
-.App-header {
+.main-header {
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 214px 10.2% 295px;
 }
 
-.App-header-first.App-header-first-col {
+.main-header-first.main-header-first-col {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
-.App-header-dots.dots::after {
+.main-header-dots.dots::after {
     left: -163px;
     bottom: -43px;
     z-index: 0;
 }
 
-.App-header-dots.dots {
+.main-header-dots.dots {
     left: 2%;
     position: relative;
 }
@@ -237,25 +237,25 @@ body > div{
     left: 6.2%;
 }
 
-.App-header-second {
+.main-header-second {
     padding: 1.8% 9.6% 0 7.65%;
 }
 
-.App-header-second-h2.head2 {
+.main-header-second-h2.head2 {
     font: normal normal 600 24px/24px 'Poppins', sans-serif;
     color: #3680F6;
     margin: 11px 0 0;
     letter-spacing: -0.1px;
 }
 
-.App-p {
+.main-p {
     font: italic normal 400 38px/57px 'Poppins', sans-serif;
     margin: 35px 0 0;
     color: #10214F;
     text-indent: 1px;
 }
 
-.App-post-link {
+.main-post-link {
     font: normal normal 700 38px/57px 'Poppins', sans-serif;
     margin: 59px 0 0;
     display: block;
@@ -263,7 +263,7 @@ body > div{
     color: #10214F;
 }
 
-.App-post-link:before {
+.main-post-link:before {
     content: '';
     position: absolute;
     display: block;
@@ -279,7 +279,7 @@ body > div{
     position: relative;
 }
 
-.normal.App-p {
+.normal.main-p {
     font-style: normal;
     margin: 39px auto 0;
     max-width: 64%;
@@ -287,13 +287,13 @@ body > div{
     letter-spacing: -1.2px;
 }
 
-.App-post-link.frame4 {
+.main-post-link.frame4 {
     margin: 11px auto 0;
     letter-spacing: -1.6px;
     max-width: 300px;
 }
 
-.App-post-link.frame4::before {
+.main-post-link.frame4::before {
     height: 2px;
     bottom: -33px;
     width: 91.8%;
@@ -306,7 +306,7 @@ body > div{
     margin-top: -5px;
 }
 
-.App-p.cover {
+.main-p.cover {
     font-size: 32px;
     margin-top: 122px;
     padding-top: 130px;
@@ -560,7 +560,7 @@ body > div{
     padding-bottom: 141px;
 }
 
-.App-p.S7 {
+.main-p.S7 {
     color: #fff;
 }
 
