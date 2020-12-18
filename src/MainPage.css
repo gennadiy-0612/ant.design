@@ -491,19 +491,21 @@ body > div {
 
 .dots.Screen5--dots::after {
     left: auto;
-    right: 15.2%;
-    bottom: -41px;
+    right: -8.8%;
+    bottom: -44px;
 }
 
 .dots.Screen5--dots {
     left: -13.5%;
     top: -2px;
+    width: 600px;
+    height: 650px;
 }
 
 .Screen6 {
     display: flex;
     position: relative;
-    margin: 454px auto 215px;
+    margin: 454px auto 220px;
     justify-content: space-between;
 }
 
@@ -766,3 +768,38 @@ body > div {
 /*        right: -10%;*/
 /*    }*/
 /*}*/
+@media (max-width: 1650px) {
+    .window1, .window2 {
+        padding: 0 1%;
+        margin: auto;
+        flex: 0 0 50%;
+    }
+
+    .dots {
+        left: auto;
+        width: 680px;
+        height: 572px;
+    }
+
+    .main-header-dots.dots {
+        width: 600px;
+        height: 572px;
+    }
+
+    .Screen5--w1,
+    .Screen5--w2 {
+        padding: 0 1%;
+        left: auto;
+        flex: 0 0 50%;
+    }
+
+    .dots.Screen5--dots {
+        left: auto;
+    }
+}
+
+@media (max-width: 1850px) {
+    .main-header-second, .main-header-dots.dots {
+        padding: 0 1%;
+    }
+}
