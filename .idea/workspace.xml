@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="1page-has-done">
-      <change afterPath="$PROJECT_DIR$/src/cssimg/IDN_Logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Images/bridge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/building.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/connection.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/delivery-truck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/dots.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/flash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/hands.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/idn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/opportunity.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/people.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/right-chevron.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/satellite-dish.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/security.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/smileman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/trust.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/why-idn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/win.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Group 3260.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Group 3260@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,28 +132,10 @@
       <workItem from="1608176740756" duration="1367000" />
       <workItem from="1608184085270" duration="13623000" />
       <workItem from="1608202622016" duration="13622000" />
-      <workItem from="1608218809768" duration="11348000" />
-    </task>
-    <task id="LOCAL-00003" summary="xxxxxx">
-      <created>1608039423671</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1608039423671</updated>
-    </task>
-    <task id="LOCAL-00004" summary="xxxxxx">
-      <created>1608041308148</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1608041308148</updated>
-    </task>
-    <task id="LOCAL-00005" summary="xxxxxx">
-      <created>1608044608504</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1608044608504</updated>
+      <workItem from="1608218809768" duration="12475000" />
+      <workItem from="1608273743486" duration="8000" />
+      <workItem from="1608280186630" duration="1284000" />
+      <workItem from="1608287247058" duration="1271000" />
     </task>
     <task id="LOCAL-00006" summary="xxxxxx">
       <created>1608044683289</created>
@@ -454,7 +459,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608230484543</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="1page-has-done">
+      <created>1608230928808</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1608230928808</updated>
+    </task>
+    <task id="LOCAL-00053" summary="1page-has-done">
+      <created>1608230978785</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1608230978785</updated>
+    </task>
+    <task id="LOCAL-00054" summary="1page-has-done">
+      <created>1608231075440</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1608231075440</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

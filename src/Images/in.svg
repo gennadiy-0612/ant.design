@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49">
+  <g id="Social" transform="translate(-1197.5 -5902.5)">
+    <circle id="Ellipse_5" data-name="Ellipse 5" cx="24" cy="24" r="24" transform="translate(1198 5903)" fill="none" stroke="#1d293f" stroke-linecap="square" stroke-width="1" opacity="0.3"/>
+    <g id="LinkedIn">
+      <path id="path28" d="M1218.044,5935.417h-3.819v-12.266h3.819v12.265Zm-1.908-13.94h-.025a2.175,2.175,0,1,1,.025,0Z" fill="#1d293f"/>
+      <path id="path30" d="M0,0H3.82V-6.85a2.969,2.969,0,0,1,.126-.995,2.11,2.11,0,0,1,1.96-1.491c1.382,0,1.935,1.125,1.935,2.774V0h3.819V-7.033c0-3.767-1.884-5.52-4.4-5.52a3.779,3.779,0,0,0-3.468,2.067H3.82v-1.779H0C.05-11.115,0,0,0,0Z" transform="matrix(1, 0, 0, 1, 1220.297, 5935.417)" fill="#1d293f"/>
+    </g>
+  </g>
+</svg>
