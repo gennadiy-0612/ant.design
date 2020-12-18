@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import MainPage from './MainPage';
-import Page2 from './MainPage';
+import Page2 from './Page2';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(
