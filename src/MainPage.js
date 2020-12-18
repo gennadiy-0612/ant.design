@@ -91,7 +91,7 @@ function MainPage() {
 
             <div className="main">
                 <div className="main-header ant-row demo-row">
-                    <div className="main-header-first main-header-first-col ant-col-12 demo-col demo-col-1">
+                    <div className="main-header-first">
                         <div className="main-header-dots dots">
                             <img src={Images.hands} className="first-col-img" alt="hands"/>
                         </div>
