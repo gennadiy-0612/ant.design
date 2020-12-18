@@ -163,7 +163,7 @@ body > div {
     overflow: hidden;
 }
 
-.ant-btn-lg.login.S2 {
+.ant-btn-lg.login.S2.ant-btn-primary {
     width: 251px;
     height: 60px;
     font: normal normal 700 20px/30px 'Poppins', sans-serif;
@@ -534,6 +534,7 @@ body > div {
 .Screen7 {
     padding: 160px 0 0;
     background: url("./Images/why-idn.png") center no-repeat;
+    background-size: cover;
 }
 
 .Screen7--h2 {
