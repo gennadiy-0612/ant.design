@@ -22,7 +22,7 @@ code {
     position: absolute;
     left: -50px;
     bottom: -38px;
-    background-image: url(./cssimg/dots.svg);
+    background-image: url("./cssimg/dots.svg");
     background-size: contain;
     z-index: -1;
     width: 210px;

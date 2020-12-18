@@ -19,31 +19,33 @@ import people from './people.png'
 import smileman from './smileman.png'
 import whyIdn from './why-idn.png'
 import idn from './idn.png'
+import idnlogo from './idnlogo.svg'
 
 const Images = {
-  logo: logo,
+    logo: logo,
 
-  // backgraunds
-  bridge: bridge,
-  hands: hands,
-  people: people,
-  smileman: smileman,
-  whyIdn: whyIdn,
-  idn: idn,
+    // backgraunds
+    bridge: bridge,
+    hands: hands,
+    people: people,
+    smileman: smileman,
+    whyIdn: whyIdn,
+    idn: idn,
 
-  // icons
-  building: building,
-  connection: connection,
-  delivery: delivery,
-  dots: dots,
-  flash: flash,
-  lnkdn: lnkdn,
-  opportunity: opportunity,
-  rightChevron: rightChevron,
-  satellite: satellite,
-  security: security,
-  trust: trust,
-  win: win
+    // icons
+    idnlogo: idnlogo,
+    building: building,
+    connection: connection,
+    delivery: delivery,
+    dots: dots,
+    flash: flash,
+    lnkdn: lnkdn,
+    opportunity: opportunity,
+    rightChevron: rightChevron,
+    satellite: satellite,
+    security: security,
+    trust: trust,
+    win: win
 
 }
 
