@@ -24,7 +24,7 @@ code {
     position: absolute;
     left: -50px;
     bottom: -38px;
-    background-image: url("./Images/dots.svg");
+    background-image: url("./Images/dots.png");
     background-size: contain;
     z-index: -1;
     width: 210px;
@@ -35,11 +35,13 @@ code {
 .center {
     text-align: center;
 }
-body > div{
+
+body > div {
     max-width: 1920px;
     margin: 0 auto;
 }
-.Screen5--button-group.s7{
+
+.Screen5--button-group.s7 {
     max-width: 800px;
 }
 
@@ -58,7 +60,7 @@ body > div{
     width: 234px;
     height: 106px;
     margin: -2px 0 0 0;
-     /*background: url("./cssimg/IDN_Logo.svg") center 0px no-repeat;*/
+    /*background: url("./cssimg/IDN_Logo.svg") center 0px no-repeat;*/
 }
 
 .Header--logo--img {
@@ -158,6 +160,8 @@ body > div{
     width: 251px;
     height: 60px;
     font: normal normal 500 20px/30px 'Poppins', sans-serif;
+    position: relative;
+    overflow: hidden;
 }
 
 .window2 {
@@ -598,7 +602,7 @@ body > div{
 }
 
 .sector.normal.four.S7 {
-    background: url("./Images/trust.svg")  36% 29px no-repeat;
+    background: url("./Images/trust.svg") 36% 29px no-repeat;
 }
 
 .sector.normal.five.S7 {
@@ -716,6 +720,53 @@ body > div{
     background: url("./Images/in.svg") center no-repeat;
     background-size: contain;
 }
-.opacity6{
+
+.opacity6 {
     opacity: 0.6;
- }
+}
+
+/*.ant-btn-lg.login::before {*/
+/*    content: '';*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    border-radius: 40px;*/
+/*    background-color: #10214F;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: -50%;*/
+/*    display: none;*/
+/*}*/
+
+/*.ant-btn-lg.login::after {*/
+/*    content: '';*/
+/*    width: 260px;*/
+/*    height: 300px;*/
+/*    border-radius: 60px;*/
+/*    background-color: #3680F6;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: -130px;*/
+/*}*/
+/*.ant-btn-lg.login{*/
+/*    background-color: transparent;*/
+/*}*/
+
+/*.ant-btn-lg.login:hover::after {*/
+/*    animation: 3s linear 1s move-background;*/
+/*}*/
+
+/*@keyframes move-background {*/
+/*    0% {*/
+/*        opacity: .5;*/
+/*        right: 110%;*/
+/*    }*/
+/*    25% {opacity: .7;*/
+/*        right: 50%;*/
+/*    }*/
+/*    50% {opacity: .9;*/
+/*        right: 25%;*/
+/*    }*/
+/*    100% {opacity: 1;*/
+/*        right: -10%;*/
+/*    }*/
+/*}*/
