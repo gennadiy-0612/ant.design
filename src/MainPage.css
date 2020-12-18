@@ -409,6 +409,7 @@ body > div {
     padding: 1px 0 0;
     position: relative;
     left: 13.65%;
+    max-width: 50%;
 }
 
 .Screen5--h2.head2 {
@@ -513,6 +514,7 @@ body > div {
 
 .Screen6--w2.window1 {
     padding: 2px 0 0 1.25%;
+    max-width: 50%;
 }
 
 .dots.Screen5--dots.Screen6--dots::after {
