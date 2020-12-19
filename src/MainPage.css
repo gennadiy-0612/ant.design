@@ -882,7 +882,7 @@ body > div {
 }
 
 .main-p.cover.P2 {
-    margin-top: 52px;
+    margin: 52px auto 172px;
     padding-top: 0;
     max-width: 1021px;
     letter-spacing: 0;
@@ -891,9 +891,12 @@ body > div {
 
 .two-columns {
     column-count: 2;
-    max-width: 1200px;
+    max-width: 1317px;
     margin: auto;
+    grid-column-gap: 198px;
+    column-gap: 198px;
 }
 
-.two-columns--p {
+.two-column--p {
+    font: normal normal 400 26px/56px 'Poppins', sans-serif;
 }
