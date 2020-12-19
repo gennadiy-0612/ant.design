@@ -23,6 +23,11 @@ import idn from './idn.png'
 import idnlogo from './idnlogo.svg'
 import manpencil from './manpencil.png'
 import pagetop from './page2top.png'
+import attentionman from './attentionman.png'
+import manwithsmile from './manwithsmile.png'
+import handspeople from './handspeople.png'
+import handspaper from './handspaper.png'
+import handscross from './handscross.png'
 
 const Images = {
     logo: logo,
@@ -51,7 +56,12 @@ const Images = {
     win: win,
     arrowdown:arrowdown,
     manpencil:manpencil,
-    pagetop:pagetop
+    pagetop:pagetop,
+    attentionman:attentionman,
+    manwithsmile:manwithsmile,
+    handspeople:handspeople,
+    handspaper:handspaper.constructor,
+    handscross:handscross
 
 }
 

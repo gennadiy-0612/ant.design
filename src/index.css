@@ -12,24 +12,6 @@ code {
     monospace;
 }
 
-.dots {
-    position: relative;
-}
-
-.dots::after, .Screen4::before, .Screen4::after {
-    content: '';
-    display: block;
-    position: absolute;
-    left: -50px;
-    bottom: -38px;
-    background-image: url("./cssimg/dots.svg");
-    background-size: contain;
-    z-index: -1;
-    width: 210px;
-    height: 180px;
-    background-repeat: no-repeat;
-}
-
 .center {
     text-align: center;
 }

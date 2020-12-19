@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import MainPage from './MainPage';
+import MainPage from './MainPage';
 import Page2 from './Page2';
 import reportWebVitals from './reportWebVitals';
 
@@ -13,6 +13,7 @@ import reportWebVitals from './reportWebVitals';
 // );
 ReactDOM.render(
     <React.StrictMode>
+        {/*<MainPage />*/}
         <Page2 />
     </React.StrictMode>,
     document.getElementById('root')
