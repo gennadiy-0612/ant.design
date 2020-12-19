@@ -116,7 +116,7 @@ function MainPage() {
                     opportunities originated by a selected network of</p>
                 <p className="main-post-link center frame4">Senior Advisors</p>
                 <div className="back-color">
-                    <p className="normal main-p center cover">We cover all infrastructure-related sectors across Europe
+                    <p className="normal main-p center cover P2">We cover all infrastructure-related sectors across Europe
                         and
                         beyond </p>
                     <p className="sectors">

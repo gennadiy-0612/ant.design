@@ -22,6 +22,7 @@ import whyIdn from './why-idn.png'
 import idn from './idn.png'
 import idnlogo from './idnlogo.svg'
 import manpencil from './manpencil.png'
+import pagetop from './page2top.png'
 
 const Images = {
     logo: logo,
@@ -49,7 +50,8 @@ const Images = {
     trust: trust,
     win: win,
     arrowdown:arrowdown,
-    manpencil:manpencil
+    manpencil:manpencil,
+    pagetop:pagetop
 
 }
 
