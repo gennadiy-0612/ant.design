@@ -576,7 +576,7 @@ body > div {
     position: relative;
     background-color: #10214F;
     background-image: none;
-    padding: 92px 0 0 9.2%;
+    padding: 92px 0 24px 9.2%;
     overflow: hidden;
 }
 
@@ -588,7 +588,7 @@ body > div {
     width: 1008px;
     border-radius: 504px;
     background-size: contain;
-    bottom: -63.7%;
+    bottom: -60.7%;
     left: 37.6%;
     background-color: #0e1c42;
 }
@@ -1096,6 +1096,11 @@ body > div {
     padding: 4px 0 0 11.65%;
 }
 
+.window1.P2.P2-S7.P2-S62 {
+    padding: 4px 0 0 9.45%;
+    margin-top: 66px;
+}
+
 .dots.P2-S72 {
     left: -3.9%;
 }
@@ -1142,8 +1147,8 @@ body > div {
 }
 
 .window2.P2.P2-S72 {
-    flex: 0 0 44.5%;
-    padding: 60px 0 0;
+    flex: 0 0 43%;
+    padding: 16px 0 0;
 }
 
 .main-header-second-h2.head2.P2,
@@ -1159,6 +1164,10 @@ body > div {
 .window1-h.P2 {
     margin-top: 36px;
     font: normal normal 600 73px/111px 'Poppins', sans-serif;
+}
+
+.window1-h.P2.P2-S72 {
+    padding: 0 0 0 9.6%;
 }
 
 .window1-h.P2.P2-S5::before {
@@ -1183,12 +1192,12 @@ body > div {
 
 .window1-descript.P2.P2-S72 {
     line-height: 36px;
-    padding: 25px 24% 24px 12.8%;
+    padding: 25px 24.6% 24px 10.2%;
 }
 
 .window2.P2.P2-S7 {
     padding: 42px 0 12px 0;
-    flex: 0 0 44%;
+    flex: 0 0 43.3%;
 }
 
 .window1-descript.P2.S2-P2 {
@@ -1217,6 +1226,10 @@ body > div {
 .window1-h.P2.S6-P2 {
     padding: 0 0 0 12.5%;
     margin-top: 117px;
+}
+
+.window1-h.P2.S6-P2.P2-S7 {
+    margin-top: 186px;
 }
 
 .window1-descript.P2.S6-P2.S6-P22 {

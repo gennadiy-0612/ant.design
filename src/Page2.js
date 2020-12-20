@@ -121,7 +121,7 @@ function MainPage() {
                         share on IDN details about<br/>
                         the investment opportunities you<br/>
                         identified</p>
-                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame infrastructure">IDN
+                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame dotline">IDN
                         connects you to and let you screen investors interested
                         in your opportunities</p>
                 </div>
@@ -152,8 +152,8 @@ function MainPage() {
             </div>
 
             <div className="Screen6 P2 P2-S7 P2-S5dashed">
-                <div className="window1 P2 P2-S7 left-dashed">
-                    <p className="window1-h P2 S6-P2  added-element-before">Advise</p>
+                <div className="window1 P2 P2-S7 P2-S6 P2-S62 left-dashed">
+                    <p className="window1-h P2 S6-P2 added-element-before P2-S6">Advise</p>
                     <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame process">Manage
                         the relations and advise throughout the due
                         diligence process</p>
@@ -174,7 +174,7 @@ function MainPage() {
                                                                alt="bridge"/></div>
                 </div>
                 <div className="window2 P2 P2-S72 left-dashed">
-                    <p className="window1-h P2 added-element-before">Beyond</p>
+                    <p className="window1-h P2 P2-S72 added-element-before">Beyond</p>
                     <p className="window1-descript P2 P2-S72 added-element-before rounded-frame suitcase">Keep working
                         with investors as a NED, an interim C-level,
                         or a
