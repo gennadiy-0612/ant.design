@@ -60,7 +60,7 @@ const Images = {
     attentionman:attentionman,
     manwithsmile:manwithsmile,
     handspeople:handspeople,
-    handspaper:handspaper.constructor,
+    handspaper:handspaper,
     handscross:handscross
 
 }

@@ -545,11 +545,35 @@ body > div {
     background-size: cover;
 }
 
+.Screen7.P2-S7-remade {
+    position: relative;
+    background-color: #10214F;
+    background-image: none;
+    padding: 92px 0 0 9.2%;
+}
+
+.Screen7.P2-S7-remade::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 1008px;
+    width: 1008px;
+    background-size: contain;
+    bottom: 0;
+    right: 7%;
+}
+
 .Screen7--h2 {
     color: #fff;
     text-align: center;
     letter-spacing: -1.4px;
     font: normal normal 600 60px/60px 'Poppins', sans-serif;
+}
+
+.Screen7--h2.P2-S7-remade {
+    color: #fff;
+    text-align: left;
+    font: normal normal 600 40px/60px 'Poppins', sans-serif;
 }
 
 .Screen7--p {
@@ -563,9 +587,22 @@ body > div {
     left: -0.15%;
 }
 
+.Screen7--p.P2-S7-remade {
+    font: normal normal 600 24px/56px 'Poppins', sans-serif;
+    text-align: left;
+    max-width: initial;
+    margin: 16px auto 89px;
+    letter-spacing: 0;
+}
+
 .back-color.S7 {
     background-color: transparent;
     padding-bottom: 141px;
+}
+
+.back-color.S7.P2-S7-remade {
+    padding-bottom: 0;
+    margin-top: 0;
 }
 
 .main-p.S7 {
@@ -579,6 +616,15 @@ body > div {
     justify-content: center;
 }
 
+.sectors.S7.P2-S7-remade {
+    max-width: 1363px;
+    right: 0;
+    margin: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
 .sector.S7 {
     margin: auto;
     padding: 108px 0 0;
@@ -589,8 +635,46 @@ body > div {
     font: normal normal 700 22px/27px 'Open Sans', sans-serif;
 }
 
+.info-graph {
+    margin: 0;
+    padding: 70px 0 50px;
+    background-position: 0 8px;
+    min-width: 371px;
+    text-align: left;
+}
+
+.dot-list {
+    margin: 20px 0 0 6%;
+    padding: 0;
+    max-width: 422px;
+}
+
+.dots-item {
+    font: normal normal 600 20px/32px 'Poppins', sans-serif;
+    color: #fff;
+    list-style-type: none;
+    position: relative;
+}
+
+.dots-item::before {
+    content: '';
+    position: absolute;
+    display: block;
+    left: -26px;
+    top: 14px;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    background-color: #3874FF;
+
+}
+
 .sector.normal.one.S7 {
     background: url("./Images/connection.svg") 52.2% 26px no-repeat;
+}
+
+.sector.normal.main-p.S7.P2-S7-remade {
+    background-position: 0 42%;
 }
 
 .sector.normal.two.S7 {
@@ -607,6 +691,10 @@ body > div {
 
 .sector.normal.four.S7 {
     background: url("./Images/trust.svg") 36% 29px no-repeat;
+}
+
+.sector.normal.COMMUNICATION.S7 {
+    background: url("./Images/COMMUNICATION.svg") 36% 29px no-repeat;
 }
 
 .sector.normal.five.S7 {
@@ -934,12 +1022,28 @@ body > div {
     margin: 270px auto 340px;
 }
 
+.Screen5.P2.P2-S72 {
+    margin: 408px auto 214px;
+}
+
+.Screen6.P2 {
+    margin: 0 auto 340px;
+}
+
+.Screen6.P2.P2-S7 {
+    margin: 382px auto 0;
+}
+
 .Screen5.P2.P2-S7 {
     margin: 433px auto 340px;
 }
 
 .window1.P2.P2-S7 {
     padding: 4px 0 0 11.65%;
+}
+
+.dots.P2-S72 {
+    left: -3.9%;
 }
 
 .Screen7-P2.P2 {
@@ -972,6 +1076,11 @@ body > div {
     padding: 43px 0 0;
 }
 
+.window2.P2.P2-S72 {
+    flex: 0 0 44.5%;
+    padding: 60px 0 0;
+}
+
 .main-header-second-h2.head2.P2,
 .window1-h.P2,
 .window1-descript.P2 {
@@ -987,14 +1096,29 @@ body > div {
     font: normal normal 600 73px/111px 'Poppins', sans-serif;
 }
 
+.window1-h.P2.P2-S7 {
+    margin-bottom: 0;
+}
+
+.window1-descript.P2.P2-S7 {
+    margin: 0;
+    padding: 35px 22% 34px 11.8%;
+}
+
 .window1-descript.P2 {
     font: normal normal 400 24px/37px 'Poppins', sans-serif;
     padding: 35px 19% 12px 12.8%;
     color: #696871;
 }
 
+.window1-descript.P2.P2-S72 {
+    line-height: 36px;
+    padding: 25px 24% 24px 12.8%;
+}
+
 .window2.P2.P2-S7 {
-    padding: 85px 10% 12px 0;
+    padding: 85px 0 12px 0;
+    flex: 0 0 44%;
 }
 
 .window1-descript.P2.S2-P2 {
@@ -1021,12 +1145,18 @@ body > div {
 }
 
 .window1-h.P2.S6-P2 {
-    padding: 82px 0 0 12.8%;
+    padding: 154px 0 0 12%;
+}
+
+.window1-descript.P2.S6-P2.S6-P22 {
+    padding: 20px 20% 54px 12.3%;
+    font: normal normal 400 22px/35px 'Poppins', sans-serif;
+    letter-spacing: 0;
 }
 
 .window1-descript.P2.S6-P2 {
-    padding: 60px 0 10px 12.8%;
-    margin-top: 0;
+    padding: 60px 6% 10px 12.8%;
+    margin: 0;
 }
 
 .dots.P2.S6-P2 {
