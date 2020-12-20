@@ -18,7 +18,7 @@ code {
     position: relative;
 }
 
-.dots::after, .Screen4::before, .Screen4::after {
+.dots::after, .Screen4::before, .Screen4::after, .Screen7.P2-S7-remade::after {
     content: '';
     display: block;
     position: absolute;
@@ -30,6 +30,15 @@ code {
     width: 210px;
     height: 180px;
     background-repeat: no-repeat;
+}
+
+.Screen7.P2-S7-remade::after {
+    right: -56px;
+    top: 59px;
+    left: auto;
+    z-index: 0;
+    width: 244px;
+    height: 210px;
 }
 
 .center {
@@ -167,6 +176,13 @@ body > div {
     width: 251px;
     height: 60px;
     font: normal normal 700 20px/30px 'Poppins', sans-serif;
+}
+
+.login.S2.invert.P2-S2 {
+    border-width: 0;
+    box-shadow: none;
+    background: url('./Images/down-arrow.svg') 74% center no-repeat;
+    text-indent: -55px;
 }
 
 .window2 {
@@ -395,11 +411,22 @@ body > div {
     z-index: 0;
 }
 
+.Screen4.P2-S4::before {
+    top: -4.9%;
+    left: -0.3%;
+}
+
 .Screen4::after {
     top: 39.2%;
     left: auto;
     right: 0;
     z-index: 0;
+}
+
+.Screen4.P2-S4::before,
+.Screen4.P2-S4::after {
+    top: .3%;
+    right: -0.5%;
 }
 
 .Screen5 {
@@ -550,6 +577,7 @@ body > div {
     background-color: #10214F;
     background-image: none;
     padding: 92px 0 0 9.2%;
+    overflow: hidden;
 }
 
 .Screen7.P2-S7-remade::before {
@@ -558,9 +586,11 @@ body > div {
     position: absolute;
     height: 1008px;
     width: 1008px;
+    border-radius: 504px;
     background-size: contain;
-    bottom: 0;
-    right: 7%;
+    bottom: -63.7%;
+    left: 37.6%;
+    background-color: #0e1c42;
 }
 
 .Screen7--h2 {
@@ -701,6 +731,10 @@ body > div {
     background: url("./Images/security.svg") 54.4% 25px no-repeat;
 }
 
+.sector.normal.five.supp.S7 {
+    background: url("./Images/support.svg") 12.4% 37px no-repeat;
+}
+
 .Screen5--button-group.S7 {
     max-width: 870px;
     margin: auto;
@@ -717,8 +751,22 @@ body > div {
     margin-bottom: 16px;
 }
 
+.window1--description--button.S7.Advisor {
+    padding-right: 2%;
+}
+
 .window1--description.S7.S71 {
     margin-left: 9px;
+}
+
+.S7.S71.dot-list.Advisor {
+    margin: 36px 0;
+    min-width: 433px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 29%;
 }
 
 .ant-btn-lg.login.S7 {
@@ -946,14 +994,20 @@ body > div {
     letter-spacing: 0.5px;
 }
 
-.window1--button-group.P2 {
-    margin: 50px 0 0 -6px;
-    width: 76.3%;
+.window1--button-group.P2.P2-S2 {
+    margin: 50px auto 0 7%;
+    justify-content: space-between;
+    width: 70%;
 }
 
 .Screen4.P2 {
-    padding: 0;
-    margin: 322px 0 0;
+    margin: 273px 0 0;
+    padding: 39px 0 0;
+    overflow-x: hidden;
+}
+
+.Screen4.P2.P2-S4 {
+    background-color: #F7F7FB;
 }
 
 .main-post-link.frame4.P2 {
@@ -1062,8 +1116,19 @@ body > div {
     max-width: 50%;
 }
 
+.P2-S6.left-dashed::before {
+    left: 20%;
+}
+
 .window1.P2.P2-S5 {
     padding: 4px 0 0 12.25%;
+}
+
+.dots.P2::after {
+    bottom: -47px;
+    width: 210px;
+    height: 210px;
+    background-image: url("./Images/OrnamentDarkblue.png");
 }
 
 .window1.P2.S2-P2 {
@@ -1073,7 +1138,7 @@ body > div {
 .window2.P2 {
     justify-content: center;
     flex: 0 0 43%;
-    padding: 43px 0 0;
+    margin: 43px 0 0;
 }
 
 .window2.P2.P2-S72 {
@@ -1096,6 +1161,11 @@ body > div {
     font: normal normal 600 73px/111px 'Poppins', sans-serif;
 }
 
+.window1-h.P2.P2-S5::before {
+    top: 47px;
+    left: 0;
+}
+
 .window1-h.P2.P2-S7 {
     margin-bottom: 0;
 }
@@ -1106,7 +1176,7 @@ body > div {
 }
 
 .window1-descript.P2 {
-    font: normal normal 400 24px/37px 'Poppins', sans-serif;
+    font: normal normal 400 24px/36px 'Poppins', sans-serif;
     padding: 35px 19% 12px 12.8%;
     color: #696871;
 }
@@ -1117,7 +1187,7 @@ body > div {
 }
 
 .window2.P2.P2-S7 {
-    padding: 85px 0 12px 0;
+    padding: 42px 0 12px 0;
     flex: 0 0 44%;
 }
 
@@ -1145,7 +1215,8 @@ body > div {
 }
 
 .window1-h.P2.S6-P2 {
-    padding: 154px 0 0 12%;
+    padding: 0 0 0 12.5%;
+    margin-top: 117px;
 }
 
 .window1-descript.P2.S6-P2.S6-P22 {

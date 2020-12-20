@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.235" height="20" viewBox="0 0 15.235 20">
+  <g id="phonebook_2" data-name="phonebook 2" transform="translate(-2.383)">
+    <g id="Group">
+      <g id="Group-2" data-name="Group">
+        <g id="Group-3" data-name="Group">
+          <path id="Vector" d="M9.961,0H0V20H9.961a1.76,1.76,0,0,0,1.758-1.758V1.758A1.76,1.76,0,0,0,9.961,0ZM9.245,13.489a2.933,2.933,0,0,1-4.143,0L2.616,11a2.933,2.933,0,0,1,0-4.143L3.859,5.617,6.345,8.1l-.414.414a.586.586,0,0,0,0,.829l.829.829a.587.587,0,0,0,.829,0L8,9.76l2.486,2.486ZM5.93,11,5.1,10.174a1.759,1.759,0,0,1-.344-2l-.9-.9-.414.414a1.76,1.76,0,0,0,0,2.486L5.93,12.66a1.76,1.76,0,0,0,2.486,0l.414-.414-.9-.9a1.761,1.761,0,0,1-2-.343Z" transform="translate(2.383)" fill="#3680f6"/>
+        </g>
+      </g>
+      <g id="Group-4" data-name="Group">
+        <path id="Vector-2" data-name="Vector" d="M2.931,1.758v.586A2.347,2.347,0,0,1,.588,4.688V1.758A2.914,2.914,0,0,0,0,0H1.173A1.76,1.76,0,0,1,2.931,1.758Z" transform="translate(14.686)" fill="#3680f6"/>
+        <path id="Vector-3" data-name="Vector" d="M2.344,0V1.484A2.347,2.347,0,0,1,0,3.827V.9A3.5,3.5,0,0,0,2.344,0Z" transform="translate(15.273 4.962)" fill="#3680f6"/>
+        <path id="Vector-4" data-name="Vector" d="M2.344,0V1.484A2.347,2.347,0,0,1,0,3.827V.9A3.5,3.5,0,0,0,2.344,0Z" transform="translate(15.273 9.063)" fill="#3680f6"/>
+        <path id="Vector-5" data-name="Vector" d="M.588.9A3.5,3.5,0,0,0,2.931,0V5.077A1.76,1.76,0,0,1,1.173,6.835H0A2.914,2.914,0,0,0,.588,5.077Z" transform="translate(14.686 13.165)" fill="#3680f6"/>
+      </g>
+    </g>
+  </g>
+</svg>

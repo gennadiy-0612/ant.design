@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="16.667" viewBox="0 0 20 16.667">
+  <g id="suitcase_2" data-name="suitcase 2" transform="translate(0 -1.667)">
+    <path id="Vector" d="M5.833,3.75A.834.834,0,0,1,5,2.917V1.667H1.667v1.25A.833.833,0,1,1,0,2.917V1.667A1.668,1.668,0,0,1,1.667,0H5A1.668,1.668,0,0,1,6.667,1.667v1.25A.834.834,0,0,1,5.833,3.75Z" transform="translate(6.666 1.667)" fill="#3680f6"/>
+    <path id="Vector-2" data-name="Vector" d="M10.592,3.133a1.716,1.716,0,0,1-.592.1,1.826,1.826,0,0,1-.642-.117L0,0V6.358A2.29,2.29,0,0,0,2.292,8.65H17.708A2.29,2.29,0,0,0,20,6.358V0Z" transform="translate(0 9.683)" fill="#3680f6"/>
+    <path id="Vector-3" data-name="Vector" d="M20,2.292V4.2L10.2,7.467a.617.617,0,0,1-.4,0L0,4.2V2.292A2.29,2.29,0,0,1,2.292,0H17.708A2.29,2.29,0,0,1,20,2.292Z" transform="translate(0 4.167)" fill="#3680f6"/>
+  </g>
+</svg>

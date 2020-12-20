@@ -2,14 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Images/whyidnp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/OrnamentDarkblue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/bird.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/chat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/dashed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/dashed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/dotline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/global-network.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/infrastructure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/linehorizont.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/phonebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/process.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/suitcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/support.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/videocall.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/handspaper.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/handspaper.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,21 +140,9 @@
       <workItem from="1608388946169" duration="3339000" />
       <workItem from="1608393588759" duration="5714000" />
       <workItem from="1608400955949" duration="12001000" />
-      <workItem from="1608443059149" duration="1864000" />
-    </task>
-    <task id="LOCAL-00025" summary="5screen-has-finished">
-      <created>1608192009899</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1608192009899</updated>
-    </task>
-    <task id="LOCAL-00026" summary="6screen-has-added">
-      <created>1608192482901</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1608192482901</updated>
+      <workItem from="1608443059149" duration="2417000" />
+      <workItem from="1608448967782" duration="15982000" />
+      <workItem from="1608478764138" duration="5870000" />
     </task>
     <task id="LOCAL-00027" summary="6screen-has-added">
       <created>1608192753970</created>
@@ -472,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608401623550</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="1page-has-done">
+      <created>1608445001717</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1608445001718</updated>
+    </task>
+    <task id="LOCAL-00075" summary="1page-has-done">
+      <created>1608445012404</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1608445012404</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
