@@ -1041,9 +1041,11 @@ body > div {
         width: 100%;
         flex-direction: column;
     }
-    .Screen5--w1{
+
+    .Screen5--w1 {
         left: 0;
     }
+
     .Screen5--button-group, .Screen5--button-group.S6bg {
         max-width: none;
     }
@@ -1056,6 +1058,21 @@ body > div {
     .Screen5 {
         justify-content: center;
     }
+}
+
+@media (max-width: 900px) {
+    .Screen2 {
+        flex-direction: column;
+    }
+
+    .window1.Screen2 {
+        max-width: 98%;
+    }
+
+    .window1, .window2, .chevron {
+        align-self: center;
+    }
+
 }
 
 /* page2 */
