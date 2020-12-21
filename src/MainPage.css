@@ -32,6 +32,10 @@ code {
     background-repeat: no-repeat;
 }
 
+.dots.P1-S2::after {
+    bottom: -8px;
+}
+
 .Screen7.P2-S7-remade::after {
     right: -56px;
     top: 59px;
@@ -1061,8 +1065,12 @@ body > div {
 }
 
 @media (max-width: 900px) {
-    .Screen2 {
+    .Screen2, .main-header, .Screen5, .Screen6 {
         flex-direction: column;
+    }
+
+    .main-header-second {
+        margin-top: 100px;
     }
 
     .window1.Screen2 {
@@ -1073,6 +1081,27 @@ body > div {
         align-self: center;
     }
 
+    .window1 {
+        order: 2;
+    }
+
+    .window2 {
+        order: 1;
+        margin-bottom: 120px;
+    }
+
+    .chevron {
+        order: 3;
+    }
+
+    .Screen5--w1, .Screen5--w2 {
+        overflow: initial;
+    }
+
+    .Screen7--p,
+    .Screen5--button-group.S7 {
+        max-width: 90%;
+    }
 }
 
 /* page2 */

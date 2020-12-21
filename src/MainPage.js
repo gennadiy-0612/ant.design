@@ -78,7 +78,7 @@ function MainPage() {
                     </div>
                 </div>
                 <div className="window2 ant-col-12">
-                    <div className="dots"><img src={Images.bridge} className="illustrate Screen2" alt="bridge"/></div>
+                    <div className="dots P1-S2"><img src={Images.bridge} className="illustrate Screen2" alt="bridge"/></div>
                 </div>
                 <a className="chevron"
                    href="/"
