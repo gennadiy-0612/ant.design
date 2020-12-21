@@ -940,6 +940,10 @@ button.buttonIDN.S8 {
     z-index: -2;
 }
 
+.back-slider.buttonIDN.white::before {
+    background-color: transparent;
+}
+
 .back-slider.buttonIDN::after {
     content: '';
     width: 220%;
@@ -960,6 +964,16 @@ button.buttonIDN.S8 {
 
 .back-slider.buttonIDN:hover {
     background-color: #10214F;
+}
+
+.back-slider.buttonIDN.white:hover {
+    color: #fff;
+    background-color: #3680F6;
+    transition: all .7s;
+}
+
+.back-slider.buttonIDN.white:hover::after {
+    background-color: #3680F6;
 }
 
 .back-slider.buttonIDN::after {
@@ -995,6 +1009,7 @@ button.buttonIDN.S8 {
 .indent-bigger {
     text-indent: 0;
 }
+
 .buttonIDN.indent-bigger:hover {
     text-indent: 3px;
     transition: all .7s;

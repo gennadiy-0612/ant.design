@@ -6,28 +6,12 @@ function MainPage() {
         <div className="main-page">
             <div className="Header">
                 <div className="Header--logo">
-                    <a className="logo-link"
-                       href="/"
-                    >
-                        <img className="idnlogo" src={Images.idnlogo} alt="t"/>
-                    </a>
+                    <a className="logo-link" href="/"><img className="idnlogo" src={Images.idnlogo} alt="t"/></a>
                 </div>
                 <nav className="main-top-nav">
-                    <a className="main-top-nav-anchor"
-                       href="/"
-                       rel="noopener noreferrer"
-                    >
-                        Senior Advisor
-                    </a>
-                    <a className="main-top-nav-anchor"
-                       href="/"
-                       rel="noopener noreferrer"
-                    >
-                        Investors
-                    </a>
-                    <a className="main-top-nav-anchor"
-                       href="/"
-                       rel="noopener noreferrer">Sectors</a>
+                    <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Senior Advisor</a>
+                    <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Investors</a>
+                    <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Sectors</a>
                     <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
                 </nav>
                 <div className="login-block">
@@ -47,20 +31,12 @@ function MainPage() {
                     </p>
                     <div className="window1--button-group P1-S2">
                         <div className="window1--description">
-                            <p className="window1--description--button">
-                                Senior Advisors
-                            </p>
-                            <button className="login buttonIDN S2 big back-slider indent-bigger">
-                                Apply now
-                            </button>
+                            <p className="window1--description--button">Senior Advisors</p>
+                            <button className="login buttonIDN S2 big back-slider indent-bigger">Apply now</button>
                         </div>
                         <div className="window1--description">
-                            <p className="window1--description--button">
-                                Investors
-                            </p>
-                            <button className="login buttonIDN S2 big white">
-                                Join now
-                            </button>
+                            <p className="window1--description--button">Investors</p>
+                            <button className="login buttonIDN S2 big white back-slider">Join now</button>
                         </div>
                     </div>
                 </div>
@@ -137,10 +113,7 @@ function MainPage() {
                                 </button>
                             </div>
                             <div className="window1--description">
-                                <button
-                                    className="login buttonIDN S2 big white S2">Learn
-                                    more
-                                </button>
+                                <button className="login buttonIDN S2 big white back-slider">Learn more</button>
                             </div>
                         </div>
                     </div>
