@@ -1008,6 +1008,7 @@ body > div {
 
     .Screen6--w2.window1 {
         padding: 24px 2% 0 0;
+        max-width: 100%;
     }
 
     .window1--description {
@@ -1066,9 +1067,10 @@ body > div {
 
 @media (max-width: 1440px) {
     .window1--button-group {
-         width: 94%;
+        width: 94%;
     }
 }
+
 @media (max-width: 900px) {
     .Screen2, .main-header, .Screen5, .Screen6 {
         flex-direction: column;
