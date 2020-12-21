@@ -178,6 +178,10 @@ body > div {
     font: normal normal 700 20px/30px 'Poppins', sans-serif;
 }
 
+.ant-btn-lg.login.S2.ant-btn-primary.P2-S7 {
+    width: 277px;
+}
+
 .login.S2.invert.P2-S2 {
     border-width: 0;
     box-shadow: none;
@@ -244,7 +248,7 @@ body > div {
 }
 
 .main-header-dots.dots::after {
-    left: -163px;
+    left: -154px;
     bottom: -43px;
     z-index: 0;
 }
@@ -522,8 +526,8 @@ body > div {
 
 .dots.Screen5--dots::after {
     left: auto;
-    right: -2.6%;
-    bottom: -55px;
+    right: -8%;
+    bottom: -45px;
 }
 
 .dots.Screen5--dots {
@@ -590,7 +594,7 @@ body > div {
     background-size: contain;
     bottom: -60.7%;
     left: 37.6%;
-    background-color: #0e1c42;
+    background-color: #06113e;
 }
 
 .Screen7--h2 {
@@ -669,12 +673,11 @@ body > div {
     margin: 0;
     padding: 70px 0 50px;
     background-position: 0 8px;
-    min-width: 371px;
     text-align: left;
 }
 
 .dot-list {
-    margin: 20px 0 0 6%;
+    margin: 20px 0 0 4.6%;
     padding: 0;
     max-width: 422px;
 }
@@ -690,13 +693,12 @@ body > div {
     content: '';
     position: absolute;
     display: block;
-    left: -26px;
+    left: -20px;
     top: 14px;
     width: 8px;
     height: 8px;
     border-radius: 4px;
     background-color: #3874FF;
-
 }
 
 .sector.normal.one.S7 {
@@ -705,6 +707,11 @@ body > div {
 
 .sector.normal.main-p.S7.P2-S7-remade {
     background-position: 0 42%;
+}
+
+.sector.normal.main-p.S7.P3-S7-remade {
+    background-position: 0 42%;
+    background-image: url('./Images/exchange.svg');
 }
 
 .sector.normal.two.S7 {
@@ -735,6 +742,10 @@ body > div {
     background: url("./Images/support.svg") 12.4% 37px no-repeat;
 }
 
+.sector.normal.five.P3-S7-remade.S7 {
+    background: url("./Images/win.svg") 12.4% 37px no-repeat;
+}
+
 .Screen5--button-group.S7 {
     max-width: 870px;
     margin: auto;
@@ -755,18 +766,23 @@ body > div {
     padding-right: 2%;
 }
 
+.window1--description--button.S7.Advisor.P2-S7 {
+    font: normal normal 500 33px/50px 'Poppins', sans-serif;
+    text-indent: -9px;
+}
+
 .window1--description.S7.S71 {
     margin-left: 9px;
 }
 
 .S7.S71.dot-list.Advisor {
     margin: 36px 0;
-    min-width: 433px;
+    min-width: 422px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 29%;
+    padding-right: 35%;
 }
 
 .ant-btn-lg.login.S7 {
@@ -1056,7 +1072,7 @@ body > div {
 
 .main-post-link.P2.third-screen:before {
     bottom: 3px;
-    width: 100%;
+    width: 105%;
 }
 
 .main-post-link.P2.third-screen.third-line {
@@ -1122,18 +1138,39 @@ body > div {
 }
 
 .P2-S6.left-dashed::before {
-    left: 20%;
+    left: 21%;
+}
+
+.window1.P2.P2-S7.P2-S62::before {
+    top: -38%;
+    height: 168%;
+    left: 20.6%;
+}
+
+.window1.P2.P2-S6::before {
+    top: -23%;
+    height: 153%;
 }
 
 .window1.P2.P2-S5 {
     padding: 4px 0 0 12.25%;
 }
 
-.dots.P2::after {
-    bottom: -47px;
+.dots.P2::after, .P2-S53::before {
+    bottom: -42px;
     width: 210px;
+    left: -44px;
     height: 210px;
     background-image: url("./Images/OrnamentDarkblue.png");
+    background-repeat: no-repeat;
+}
+
+.P2-S53::before {
+    bottom: -201px;
+    top: auto;
+    left: -10.3%;
+    border-style: none;
+    opacity: 0.3;
 }
 
 .window1.P2.S2-P2 {
@@ -1162,7 +1199,7 @@ body > div {
 }
 
 .window1-h.P2 {
-    margin-top: 36px;
+    margin: 34px 0 0;
     font: normal normal 600 73px/111px 'Poppins', sans-serif;
 }
 
@@ -1177,22 +1214,24 @@ body > div {
 
 .window1-h.P2.P2-S7 {
     margin-bottom: 0;
+    padding: 0 0 0 10.5%;
 }
 
 .window1-descript.P2.P2-S7 {
     margin: 0;
-    padding: 35px 22% 34px 11.8%;
+    padding: 35px 22% 37px 10.3%;
 }
 
 .window1-descript.P2 {
     font: normal normal 400 24px/36px 'Poppins', sans-serif;
-    padding: 35px 19% 12px 12.8%;
+    padding: 35px 19% 18px 12.8%;
     color: #696871;
+    margin: 20px 0 0;
 }
 
 .window1-descript.P2.P2-S72 {
     line-height: 36px;
-    padding: 25px 24.6% 24px 10.2%;
+    padding: 24px 24.6% 28px 9.8%;
 }
 
 .window2.P2.P2-S7 {
@@ -1201,7 +1240,7 @@ body > div {
 }
 
 .window1-descript.P2.S2-P2 {
-    padding: 0 16% 12px 7.8%;
+    padding: 0 13% 12px 7.8%;
     font: normal normal 400 44px/80px 'Poppins', sans-serif;
     color: #10214F;
     letter-spacing: 1px;
@@ -1233,16 +1272,22 @@ body > div {
 }
 
 .window1-descript.P2.S6-P2.S6-P22 {
-    padding: 20px 20% 54px 12.3%;
+    padding: 32px 20% 12px 12.5%;
     font: normal normal 400 22px/35px 'Poppins', sans-serif;
     letter-spacing: 0;
+    margin: 0 0 32px;
 }
 
 .window1-descript.P2.S6-P2 {
-    padding: 60px 6% 10px 12.8%;
-    margin: 0;
+    padding: 43px 6% 0 12.8%;
+    margin: 32px 0 0;
 }
 
 .dots.P2.S6-P2 {
     left: 1.2%;
+}
+
+/*5*/
+.Screen5.P2.P3-S51 {
+    margin: 324px auto 340px;
 }

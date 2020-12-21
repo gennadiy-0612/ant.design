@@ -29,12 +29,13 @@ body > div {
     position: relative;
 }
 
-.left-dashed, .P2-S5dashed {
+.left-dashed, .P2-S5dashed, .P2-S53 {
     position: relative;
 }
 
 .P2-S5dashed::before,
-.left-dashed::before {
+.left-dashed::before,
+.P2-S53::before {
     border-image-source: url("./Images/dashed.png");
     content: '';
     position: absolute;
@@ -45,7 +46,20 @@ body > div {
     width: 3px;
     border-style: solid;
     border-image-slice: 103;
-    border-image-repeat: round repeat;
+}
+
+.window2.P2-S7::before {
+    top: -43%;
+}
+
+.left-dashed.P2-S5::before {
+    top: 43%;
+    height: 85%;
+}
+
+.window2.P2.P2-S72::before {
+    height: 115%;
+    top: -43%;
 }
 
 .P2-S5dashed::before {
@@ -55,19 +69,31 @@ body > div {
     bottom: -172px;
     left: 10%;
     top: auto;
-    border-image-slice: 103;
+}
+
+.Screen5.P2-S7:before {
+    bottom: -32.4%;
+}
+
+.Screen6.P2-S5dashed::before {
+    bottom: -27.6%;
 }
 
 .added-element-before::before {
     content: '';
     position: absolute;
-    top: 44px;
+    top: 37px;
     left: 0;
     display: block;
     width: 20px;
     height: 20px;
     border-radius: 10px;
     background-color: #3680F6;
+}
+
+.window1-h.P2.S6-P2::before {
+    top: 46px;
+    left: 1.2%;
 }
 
 .rounded-frame::before {
@@ -121,5 +147,35 @@ body > div {
 
 .infrastructure::before {
     background: url('./Images/infrastructure.svg') #fff center center no-repeat;
+}
+
+/*31*/
+
+.arrowsquare::before {
+    background: url('./Images/arrowsquare.svg') #fff center center no-repeat;
+}
+
+.papartext::before {
+    background: url('./Images/papartext.svg') #fff center center no-repeat;
+}
+
+.googleforms::before {
+    background: url('./Images/googleforms.svg') #fff center center no-repeat;
+}
+
+.notificationdot::before {
+    background: url('./Images/notificationdot.svg') #fff center center no-repeat;
+}
+
+.favorite::before {
+    background: url('./Images/favorite.svg') #fff center center no-repeat;
+}
+
+.target::before {
+    background: url('./Images/target.svg') #fff center center no-repeat;
+}
+
+.ipo::before {
+    background: url('./Images/ipo.svg') #fff center center no-repeat;
 }
 

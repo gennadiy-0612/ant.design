@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Images/arrowsquare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/businessmeeting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/exchange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/favorite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/googleforms.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/mannotebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/mannotephone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/notebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/notificationdot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/peopleconnect.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/target.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Page3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -50,8 +64,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src" />
+      <recent name="E:\wamp64\www\ant.design\src\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\wamp64\www\ant.design\src\Images" />
@@ -126,21 +140,9 @@
       <workItem from="1608400955949" duration="12001000" />
       <workItem from="1608443059149" duration="2417000" />
       <workItem from="1608448967782" duration="15982000" />
-      <workItem from="1608478764138" duration="9907000" />
-    </task>
-    <task id="LOCAL-00028" summary="6screen-has-added">
-      <created>1608193253137</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1608193253137</updated>
-    </task>
-    <task id="LOCAL-00029" summary="6screen-has-added">
-      <created>1608193556451</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1608193556451</updated>
+      <workItem from="1608478764138" duration="23329000" />
+      <workItem from="1608531497951" duration="975000" />
+      <workItem from="1608532493396" duration="5430000" />
     </task>
     <task id="LOCAL-00030" summary="6screen-has-added">
       <created>1608194116954</created>
@@ -471,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608484932635</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="1page-has-done">
+      <created>1608489378250</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1608489378250</updated>
+    </task>
+    <task id="LOCAL-00078" summary="1page-has-done">
+      <created>1608533463849</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1608533463849</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

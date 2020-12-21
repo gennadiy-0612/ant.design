@@ -5,7 +5,7 @@ import pagetop from "./Images/page2top.png";
 
 function MainPage() {
     return (
-        <div className="page2">
+        <div className="page3">
             <div className="Header">
                 <div className="Header--logo">
                     <a className="logo-link"
@@ -51,12 +51,11 @@ function MainPage() {
 
             <div className="Screen2 ant-row demo-row">
                 <div className="window1 ant-col-12 P2 S2-P2">
-                    <h1 className="main-header-second-h2 head2 P2 S2-P2">Senior Advisors</h1>
-                    <p className="window1-descript P2 S2-P2">Leverage your network
-                        and industry knowledge
-                        <span className="main-post-link P2 S2-P2">to originate</span> proprietary investment
-                        opportunities
-                        for <span className="yellow-upper">Private Equity investors</span></p>
+                    <h1 className="main-header-second-h2 head2 P2 S2-P2">INVESTORS</h1>
+                    <p className="window1-descript P2 S2-P2">
+                        Access proprietary deals <span className="main-post-link P2 S2-P2">originated by</span> a
+                        selected network of Senior Advisors. Negotiate and close transactions <span
+                        className="yellow-upper">bilaterally</span></p>
                     <div className="window1--button-group P2 P2-S2">
                         <div className="window1--description">
                             <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S2">Apply now
@@ -71,63 +70,61 @@ function MainPage() {
                     </div>
                 </div>
                 <div className="window2 ant-col-12">
-                    <div className="dots"><img src={Images.pagetop} className="illustrate" alt="bridge"/></div>
+                    <div className="dots"><img src={Images.peopleconnect} className="illustrate" alt="bridge"/></div>
                 </div>
             </div>
 
             <div className="Screen4 P2 P2-S4">
                 <h2 className="main-header-second-h2 head2 center P2-h2">WHO OUR</h2>
-                <p className="main-post-link center frame4 P2 P2-S4">Senior Advisors are</p>
+                <p className="main-post-link center frame4 P2 P2-S4">Investors are</p>
                 <div className="back-color">
-                    <p className="normal main-p center cover P2 P2-S4">Our Senior Advisors are independent Senior
-                        Executives
-                        across every infrastructure related sector<br/>
-                        <span className="main-post-link P2 third-screen third-line">in Europe and beyond</span></p>
+                    <p className="normal main-p center cover P2 P2-S4">
+                        Our investors are Senior professionals working at leading
+                        Private Equity firms targeting infrastructure and related assets <span
+                        className="main-post-link P2 third-screen third-line">in Europe and beyond</span></p>
                     <div className="two-columns">
-                        <p className="two-column--p"><span className="main-post-link P2 third-screen">To join our platform</span> they
-                            have to demonstrate an extensive personal network of contacts with decision makers mixed
-                            with in-depth industry knowledge. Most of them have a combination</p>
-                        <p className="two-column--p">of both, making them ideally positioned to originate unique <span
-                            className="main-post-link P2 third-screen">investment opportunities</span> for our
-                            investors, advise them through the due diligence process, and join their portfolio companies
-                            as NED</p>
+                        <p className="two-column--p">Through IDN’s platform, our investors originate and close <span
+                            className="main-post-link P2 third-screen">unique investment</span> opportunities, ranging
+                            from a minimum
+                            of 10 million Euroup to a billion Euro.</p>
+                        <p className="two-column--p">Our sweet spot is <span
+                            className="main-post-link P2 third-screen">mid-market</span> but large
+                            cap transactions are also frequently originated on our platform
+                            by our selected Senior Advisors</p>
                     </div>
                 </div>
             </div>
 
-            <div className="Screen5 P2 P2-S5dashed">
+            <div className="Screen5 P2 P2-S5dashed P3-S51">
                 <div className="window1 P2 P2-S5">
-                    <div className="dots P2 P2-S5"><img src={Images.attentionman} className="illustrate P2" alt="bridge"/>
+                    <div className="dots P2 P2-S5"><img src={Images.mannotebook} className="illustrate P2"
+                                                        alt="bridge"/>
                     </div>
                 </div>
                 <div className="window2 P2 P2-S5 left-dashed">
                     <h2 className="main-header-second-h2 head2 P2">How IT WORKS</h2>
                     <p className="window1-h P2 P2-S5 added-element-before">Sign Up</p>
-                    <p className="window1-descript P2 added-element-before rounded-frame global-network">Sign up and
-                        stay connected to your industry network to identify
-                        M&A
-                        opportunities</p>
-                    <p className="window1-descript P2 added-element-before rounded-frame bird">Receive mandates from
-                        sellers to find investors or from investors
-                        to
-                        originate opportunities</p>
+                    <p className="window1-descript P2 added-element-before rounded-frame arrowsquare">Sign up for
+                        free and provide information about the deal opportunities you are interested in
+                    </p>
+                    <p className="window1-descript P2 added-element-before rounded-frame papartext">
+                        Information include deal size, sectors of interest, geography of focus, etc
+                    </p>
                 </div>
             </div>
 
             <div className="Screen6 P2 P2-S5dashed">
                 <div className="window1 P2 P2-S6 left-dashed">
-                    <p className="window1-h P2 S6-P2 added-element-before">Share</p>
-                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame chat">Confidentially
-                        share on IDN details about<br/>
-                        the investment opportunities you<br/>
-                        identified</p>
-                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame dotline">IDN
-                        connects you to and let you screen investors interested
-                        in your opportunities</p>
+                    <p className="window1-h P2 S6-P2 added-element-before">Get notified</p>
+                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame notificationdot">Get notified when
+                        Senior Advisors originate relevant opportunities or assign origination mandates
+                    </p>
+                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame favorite">
+                        Review the opportunities originated by Advisors and submit expressions of interest </p>
                 </div>
                 <div className="window2 P2">
                     <div className="dots P2 S6-P2">
-                        <img className="illustrate P2" src={Images.manwithsmile}
+                        <img className="illustrate P2" src={Images.mannotephone}
                              alt="bridge"/>
                     </div>
                 </div>
@@ -136,53 +133,47 @@ function MainPage() {
             <div className="Screen5 P2 P2-S7 P2-S5dashed">
                 <div className="window1 P2 P2-S7">
                     <div className="dots P2 P2-S7">
-                        <img src={Images.handspeople} className="illustrate P2"
+                        <img src={Images.businessmeeting} className="illustrate P2"
                              alt="bridge"/>
                     </div>
                 </div>
                 <div className="window2 P2 P2-S7 left-dashed">
                     <p className="window1-h P2 P2-S7 added-element-before">Connect</p>
-                    <p className="window1-descript P2 P2-S7 added-element-before rounded-frame videocall">Select
-                        investors, arrange video calls,<br/> and start
-                        exchanging
-                        documents safely</p>
-                    <p className="window1-descript P2 P2-S7 added-element-before rounded-frame cursor">Introduce buyer
-                        and seller and facilitate the negotiations
-                        between the parties</p></div>
+                    <p className="window1-descript P2 P2-S7 added-element-before rounded-frame videocall">Discuss the
+                        opportunities in full confidentiality and transparency. Arrange video calls and exchange
+                        documents</p>
+                    <p className="window1-descript P2 P2-S7 added-element-before rounded-frame target">
+                        Get introduced to the target companies and start the due diligence</p></div>
             </div>
 
             <div className="Screen6 P2 P2-S7 P2-S5dashed">
                 <div className="window1 P2 P2-S7 P2-S6 P2-S62 left-dashed">
-                    <p className="window1-h P2 S6-P2 added-element-before P2-S6">Advise</p>
-                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame process">Manage
-                        the relations and advise throughout the due
-                        diligence process</p>
-                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame infrastructure">Receive
-                        a pre-agreed success fee up to € 2 million
-                        at deal
-                        closure</p>
+                    <p className="window1-h P2 S6-P2 added-element-before P2-S6">Close</p>
+                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame process">Engage
+                        Advisors to support you<br/> through the execution of the transactions</p>
+                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame infrastructure">
+                        Successfully close the investments bilaterally</p>
                 </div>
                 <div className="window2 P2">
-                    <div className="dots P2 S6-P2"><img className="illustrate P2" src={Images.handspaper} alt="bridge"/>
+                    <div className="dots P2 S6-P2"><img className="illustrate P2" src={Images.handshake} alt="bridge"/>
                     </div>
                 </div>
             </div>
 
             <div className="Screen5 P2 P2-S72 P2-S53">
                 <div className="window1 P2 P2-S7 P2-S72">
-                    <div className="dots P2 P2-S7 P2-S72"><img className="illustrate P2" src={Images.handscross}
+                    <div className="dots P2 P2-S7 P2-S72"><img className="illustrate P2" src={Images.manbigsmile}
                                                                alt="bridge"/></div>
                 </div>
                 <div className="window2 P2 P2-S72 left-dashed">
                     <p className="window1-h P2 P2-S72 added-element-before">Beyond</p>
-                    <p className="window1-descript P2 P2-S72 added-element-before rounded-frame suitcase">Keep working
-                        with investors as a NED, an interim C-level,
-                        or a
-                        Senior Advisor on retainer</p>
-                    <p className="window1-descript P2 P2-S72 added-element-before rounded-frame phonebook">Keep
-                        originating investment opportunities on IDN and
-                        connect to
-                        new investors </p>
+                    <p className="window1-descript P2 P2-S72 added-element-before rounded-frame suitcase">Engage Senior
+                        Advisors as NEDs, an interim C-levels, or via retainers to originate other investment
+                        opportunities
+                    </p>
+                    <p className="window1-descript P2 P2-S72 added-element-before rounded-frame ipo">Keep
+                        originating new proprietary investment opportunities through IDN’s extensive network of Senior
+                        Advisors</p>
                 </div>
             </div>
 
@@ -195,64 +186,46 @@ function MainPage() {
                 <div className="S7 P2-S7-remade">
                     <div className="sectors S7 P2-S7-remade">
                         <div className="info-graph">
-                            <span className="sector one normal main-p center S7 P2-S7-remade">CONNECTION</span>
+                            <span className="sector one normal main-p center S7 P2-S7-remade">PROPRIETARY</span>
                             <ul className="dot-list">
-                                <li className="dots-item">IDN connects Senior Advisors to dozens of leading investors
-                                    worldwide
-                                </li>
-                                <li className="dots-item">We eliminate the need of approaching investment firms
-                                    independently
-                                </li>
+                                <li className="dots-item">IDN offers access to proprietary investment opportunities</li>
+                                <li className="dots-item">Our Senior Advisors source deals that are currently off-market</li>
                             </ul>
                         </div>
                         <div className="info-graph">
                             <span className="sector five normal main-p center S7 P2-S7-remade">TRUST</span>
                             <ul className="dot-list">
-                                <li className="dots-item">IDN provides a robust legal framework to the deal origination
-                                    process
-                                </li>
-                                <li className="dots-item">We guarantee trust and confidentiality to all parties
-                                    involved
-                                </li>
+                                <li className="dots-item">IDN provides a robust legal framework to the deal origination process</li>
+                                <li className="dots-item">We guarantee trust and confidentiality to all parties involved</li>
                             </ul>
                         </div>
                         <div className="info-graph">
                             <span
-                                className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
+                                className="sector two normal main-p center S7 P2-S7-remade P3-S7-remade">BILATERAL</span>
                             <ul className="dot-list">
-                                <li className="dots-item">IDN’s intuitive dashboard helps Advisors through the process
-                                </li>
-                                <li className="dots-item">We provide a number of tools that facilitates smooth
-                                    communication with investors
-                                </li>
+                                <li className="dots-item">IDN offers access to bilateral investment opportunities</li>
+                                <li className="dots-item">Our Senior Advisors facilitate the closing of bilateral deals</li>
                             </ul>
                         </div>
                         <div className="info-graph">
-                            <span className="sector two normal main-p center S7 P2-S7-remade">REMUNERATION</span>
+                            <span className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
                             <ul className="dot-list">
-                                <li className="dots-item">IDN has already negotiated the fee levels with investors on
-                                    behalf of Advisors
-                                </li>
-                                <li className="dots-item">We remove the hassle of uneven negotiations between
-                                    individuals and investors
-                                </li>
+                                <li className="dots-item">IDN’s intuitive dashboard guides Investors through the process</li>
+                                <li className="dots-item">We provide a number of tools that facilitate smooth communication with Advisors</li>
                             </ul>
                         </div>
                         <div className="info-graph">
-                            <span className="sector five supp normal main-p center S7 P2-S7-remade">SUPPORT</span>
+                            <span className="sector five supp normal main-p center S7 P2-S7-remade P3-S7-remade">WIN-WIN</span>
                             <ul className="dot-list">
-                                <li className="dots-item">IDN offers full support and counsel to Advisors throughout the
-                                    process
-                                </li>
-                                <li className="dots-item">We are always available to support Advisors with a dedicated
-                                    Relationship Manager
-                                </li>
+                                <li className="dots-item">IDN’s success-base model is win-win</li>
+                                <li className="dots-item">We are fully transparent and don’t charge any upfront fee to Investors</li>
                             </ul>
                         </div>
                         <div className="info-graph">
                             <div className="window1--description S7 S71 dot-list Advisor">
                                 <p className="window1--description--button S7 P2-S7 Advisor">Senior Advisors</p>
-                                <button className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S7 S2 P2-S7">Apply
+                                <button
+                                    className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S7 S2 P2-S7">Apply
                                     now
                                 </button>
                             </div>

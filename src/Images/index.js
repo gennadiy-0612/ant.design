@@ -28,6 +28,13 @@ import manwithsmile from './manwithsmile.png'
 import handspeople from './handspeople.png'
 import handspaper from './handspaper.png'
 import handscross from './handscross.png'
+import notebook from './notebook.png'
+import mannotebook from './mannotebook.png'
+import mannotephone from './mannotephone.png'
+import businessmeeting from './businessmeeting.png'
+import handshake from './handshake.png'
+import manbigsmile from './manbigsmile.png'
+import peopleconnect from './peopleconnect.png'
 
 const Images = {
     logo: logo,
@@ -61,7 +68,14 @@ const Images = {
     manwithsmile:manwithsmile,
     handspeople:handspeople,
     handspaper:handspaper,
-    handscross:handscross
+    handscross:handscross,
+    notebook:notebook,
+    mannotebook:mannotebook,
+    mannotephone:mannotephone,
+    businessmeeting:businessmeeting,
+    handshake:handshake,
+    manbigsmile:manbigsmile,
+    peopleconnect:peopleconnect
 
 }
 

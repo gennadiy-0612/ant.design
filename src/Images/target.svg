@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="target_1" data-name="target 1" transform="translate(0)">
+    <g id="Group">
+      <g id="Group-2" data-name="Group">
+        <path id="Vector" d="M11.827,2.262a.625.625,0,0,0-.577-.386H10V.626A.626.626,0,0,0,8.933.183L7.058,2.058a.629.629,0,0,0-.182.442V4.117L.183,10.808a.626.626,0,0,0,.885.885L7.759,5H9.375a.629.629,0,0,0,.442-.182l1.875-1.875A.629.629,0,0,0,11.827,2.262Z" transform="translate(8.125 0)" fill="#3680f6"/>
+      </g>
+    </g>
+    <g id="Group-3" data-name="Group">
+      <g id="Group-4" data-name="Group">
+        <path id="Vector-2" data-name="Vector" d="M9.61,3.069,7.479,5.207A2.494,2.494,0,1,1,4.87,2.512L6.969.406A5.005,5.005,0,1,0,9.61,3.069Z" transform="translate(3.75 6.25)" fill="#3680f6"/>
+      </g>
+    </g>
+    <g id="Group-5" data-name="Group">
+      <g id="Group-6" data-name="Group">
+        <path id="Vector-3" data-name="Vector" d="M16.121,4.049,14.278,5.9A6.175,6.175,0,0,1,15,8.75,6.25,6.25,0,1,1,8.75,2.5a6.169,6.169,0,0,1,2.885.739l1.84-1.846a8.774,8.774,0,1,0,2.646,2.656Z" transform="translate(0 2.5)" fill="#3680f6"/>
+      </g>
+    </g>
+  </g>
+</svg>
