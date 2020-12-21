@@ -734,9 +734,9 @@ body > div {
     background: url("./Images/trust.svg") 36% 29px no-repeat;
 }
 
-.sector.normal.COMMUNICATION.S7 {
-    background: url("./Images/COMMUNICATION.svg") 36% 29px no-repeat;
-}
+/*.sector.normal.COMMUNICATION.S7 {*/
+/*    background: url("./Images/COMMUNICATION.svg") 36% 29px no-repeat;*/
+/*}*/
 
 .sector.normal.five.S7 {
     background: url("./Images/security.svg") 54.4% 25px no-repeat;
