@@ -1,0 +1,32 @@
+<svg id="ipo_1" data-name="ipo 1" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group">
+    <g id="Group-2" data-name="Group">
+      <path id="Vector" d="M18.242,0a1.76,1.76,0,0,0-1.758,1.758,1.734,1.734,0,0,0,.1.548L9.338,9.549a1.612,1.612,0,0,0-1.1,0L6.935,8.243a1.735,1.735,0,0,0,.1-.548,1.758,1.758,0,0,0-3.516,0,1.734,1.734,0,0,0,.1.548L2.306,9.549a1.736,1.736,0,0,0-.548-.1,1.77,1.77,0,1,0,1.482.82l1.1-1.1a1.728,1.728,0,0,0,1.875,0l1.1,1.1a1.758,1.758,0,1,0,2.963,0L17.3,3.239A1.756,1.756,0,1,0,18.242,0Z" fill="#3874ff"/>
+    </g>
+  </g>
+  <g id="Group-3" data-name="Group">
+    <g id="Group-4" data-name="Group">
+      <path id="Vector-2" data-name="Vector" d="M0,0V7.86H2.344V2.344Z" transform="translate(5.859 12.14)" fill="#3874ff"/>
+    </g>
+  </g>
+  <g id="Group-5" data-name="Group">
+    <g id="Group-6" data-name="Group">
+      <path id="Vector-3" data-name="Vector" d="M0,2.367V7.883H2.374V0Z" transform="translate(9.375 12.117)" fill="#3874ff"/>
+    </g>
+  </g>
+  <g id="Group-7" data-name="Group">
+    <g id="Group-8" data-name="Group">
+      <path id="Vector-4" data-name="Vector" d="M.172,3.344A.586.586,0,0,0,0,3.758V7.274a.586.586,0,0,0,.586.586h2.93V0Z" transform="translate(1.172 12.14)" fill="#3874ff"/>
+    </g>
+  </g>
+  <g id="Group-9" data-name="Group">
+    <g id="Group-10" data-name="Group">
+      <path id="Vector-5" data-name="Vector" d="M0,2.176V11.23H2.183V0Z" transform="translate(12.969 8.77)" fill="#3874ff"/>
+    </g>
+  </g>
+  <g id="Group-11" data-name="Group">
+    <g id="Group-12" data-name="Group">
+      <path id="Vector-6" data-name="Vector" d="M2.669.173,0,2.833v12.4H3.083a.586.586,0,0,0,.586-.586V.587A.586.586,0,0,0,2.669.173Z" transform="translate(16.331 4.765)" fill="#3874ff"/>
+    </g>
+  </g>
+</svg>
