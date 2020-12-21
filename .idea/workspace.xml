@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="" />
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="1page-has-done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -124,21 +127,7 @@
       <workItem from="1608531497951" duration="975000" />
       <workItem from="1608532493396" duration="5430000" />
       <workItem from="1608541263551" duration="2924000" />
-      <workItem from="1608547162366" duration="12602000" />
-    </task>
-    <task id="LOCAL-00041" summary="9screen-almost-done">
-      <created>1608224223799</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1608224223799</updated>
-    </task>
-    <task id="LOCAL-00042" summary="9screen-almost-done">
-      <created>1608224300885</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1608224300885</updated>
+      <workItem from="1608547162366" duration="13211000" />
     </task>
     <task id="LOCAL-00043" summary="9screen-almost-done">
       <created>1608225905068</created>
@@ -469,7 +458,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608560652304</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="1page-has-done">
+      <created>1608561092847</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1608561092847</updated>
+    </task>
+    <task id="LOCAL-00091" summary="1page-has-done">
+      <created>1608561373392</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1608561373392</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
