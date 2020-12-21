@@ -924,6 +924,24 @@ body > div {
 /*    }*/
 /*}*/
 @media (max-width: 1650px) {
+    .main-header-second {
+        width: 77%;
+        padding: 0 7%;
+    }
+
+    .main-header {
+        padding-left: 10%;
+        padding-right: 1%;
+    }
+
+    .illustrate {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1200px) {
     .window1-h {
         font: normal normal 600 64px/81px 'Poppins', sans-serif;
     }
@@ -951,7 +969,11 @@ body > div {
         height: auto;
     }
 
-    .illustrate, .illustrate.Screen5-img, .first-col-img, .main-header-dots.dots {
+    .main-header-second {
+        padding: 0 1%;
+    }
+
+    .illustrate, .illustrate.Screen2, .illustrate.Screen5-img, .first-col-img, .main-header-dots.dots {
         width: 100%;
         height: auto;
         margin-left: 0;
@@ -978,6 +1000,10 @@ body > div {
         flex: 0 0 50%;
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    .Screen6--w2.window1 {
+        padding: 24px 2% 0 0;
     }
 
     .window1--description {
@@ -1007,13 +1033,17 @@ body > div {
 
 @media (max-width: 1850px) {
 
-    .Screen5--button-group, .Screen5--button-group.S6bg {
-        max-width: none;
+    .window1.Screen2 {
+        padding: 0 1%;
     }
 
-    .main-header-second {
-        padding: 0 1%;
-        width: 50%;
+    .indow1--button-group {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .Screen5--button-group, .Screen5--button-group.S6bg {
+        max-width: none;
     }
 
     .main-header-dots.dots {
@@ -1076,7 +1106,7 @@ body > div {
 .Screen4.P2 {
     margin: 273px 0 0;
     padding: 39px 0 0;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .Screen4.P2.P2-S4 {
