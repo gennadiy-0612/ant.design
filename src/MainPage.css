@@ -713,10 +713,10 @@ body > div {
     background-position: 0 42%;
 }
 
-.sector.normal.main-p.S7.P3-S7-remade {
-    background-position: 0 42%;
-    background-image: url('./Images/exchange.svg');
-}
+/*.sector.normal.main-p.S7.P3-S7-remade {*/
+/*    background-position: 0 42%;*/
+/*    background-image: url('./Images/exchange.svg');*/
+/*}*/
 
 .sector.normal.two.S7 {
     background: url("./Images/opportunity.svg") 51.1% 33px no-repeat;
