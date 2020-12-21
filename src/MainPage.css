@@ -33,7 +33,7 @@ code {
 }
 
 .dots.P1-S2::after {
-    bottom: -8px;
+    bottom: -37px;
 }
 
 .Screen7.P2-S7-remade::after {
@@ -113,6 +113,13 @@ body > div {
     font: normal normal 500 22px/22px 'Poppins', sans-serif;
     letter-spacing: -0.2px;
     color: #232D53;
+    text-decoration: none;
+}
+
+.main-top-nav-anchor:hover {
+    color: #3680F6;
+    transition: color .7s;
+    text-decoration: none;
 }
 
 .login-block {
@@ -123,16 +130,12 @@ body > div {
     align-self: center;
 }
 
-#header .ant-btn-lg.login {
-    width: 161px;
-    height: 52px;
-    font: normal normal 500 16px/16px 'Poppins', sans-serif;
-}
-
 .Screen2 {
     justify-content: space-around;
     position: relative;
     margin-bottom: 30px;
+    flex-flow: row wrap;
+    display: flex;
 }
 
 .illustrate {
@@ -142,13 +145,13 @@ body > div {
 
 .window1 {
     padding: 2px 0 0 9.65%;
-    flex: 0 0 60%;
+    flex: 0 0 40%;
 }
 
 .window1-h {
     font: normal normal 600 84px/111px 'Poppins', sans-serif;
     letter-spacing: -2.3px;
-    margin: 0 0 15px;
+    margin: 0;
     color: #232D53;
 }
 
@@ -156,7 +159,7 @@ body > div {
     font: normal normal 500 26px/52px 'Poppins', sans-serif;
     letter-spacing: -1.45px;
     padding: 0 22% 0 0;
-    margin-left: -0.1%;
+    margin: 15px 0 0 -0.35%;
     color: #696871;
 }
 
@@ -165,21 +168,41 @@ body > div {
     color: #232D53;
     letter-spacing: -1.3px;
     margin-bottom: 16px;
-
 }
 
-.ant-btn-lg.login {
+.buttonIDN.login {
     width: 161px;
     height: 52px;
     font: normal normal 500 16px/25px 'Poppins', sans-serif;
     position: relative;
     overflow: hidden;
+    background-color: #3680F6;
+    border-width: 0;
+    border-radius: 37px;
+    color: #fff;
 }
 
-.ant-btn-lg.login.S2.ant-btn-primary {
+.buttonIDN.big {
+    font: normal normal 500 20px/30px 'Poppins', sans-serif;
     width: 251px;
     height: 60px;
-    font: normal normal 700 20px/30px 'Poppins', sans-serif;
+}
+
+.buttonIDN.big.P1-S7 {
+    width: 277px;
+}
+
+.buttonIDN.white {
+    background-color: #fff;
+    color: #232D53;
+    border: solid 1px #3680F6;
+}
+
+button.buttonIDN.S8 {
+    display: block;
+    margin: 58px auto 0;
+    height: 54px;
+    width: 271px;
 }
 
 .ant-btn-lg.login.S2.ant-btn-primary.P2-S7 {
@@ -208,11 +231,12 @@ body > div {
 }
 
 .window1--button-group {
-    margin: 107px 0 0 0;
+    margin: 70px auto 0 0;
+    width: 77.5%;
 }
 
-.window1--button-group {
-    width: 77.7%;
+.window1--button-group.P1-S2 {
+    width: 100%;
 }
 
 .invert {
@@ -400,6 +424,7 @@ body > div {
     max-width: 165px;
     margin: auto;
     letter-spacing: -0.2px;
+    text-decoration: none;
 }
 
 .selectors--all::after {
@@ -453,6 +478,7 @@ body > div {
     position: relative;
     left: 13.6%;
     max-width: 50%;
+    flex: 0 0 50%;
 }
 
 .Screen5--h2.head2 {
@@ -462,22 +488,31 @@ body > div {
 }
 
 .Screen5--description--content {
-    padding: 30px 0 0 0;
-    max-width: 73%;
+    padding: 55px 0 0 0;
+    max-width: 77%;
 }
 
 .Screen5--strong {
     font: normal normal 700 26px/36px 'Poppins', sans-serif;
     color: #1D293F;
-    padding: 0 0 0 12.5%;
+    padding: 0 0 0 11.8%;
     display: block;
     position: relative;
+}
+
+.Screen5--strong.P1-S6 {
+    padding: 0 0 0 12.2%;
+}
+
+.Screen5--p.P1-S6 {
+    padding-left: 12.2%;
 }
 
 .Screen5--p {
     font: normal normal 400 22px/36px 'Poppins', sans-serif;
     color: #7E7F7E;
-    padding: 1px 0 13px 12.5%;
+    padding: 1px 0 36px 11.7%;
+    margin: 0;
     position: relative;
 }
 
@@ -491,23 +526,23 @@ body > div {
     top: 1px;
     left: 4%;
     background-color: #3680F6;
-    height: 34px;
-    width: 34px;
-    border-radius: 17px;
+    height: 32px;
+    width: 32px;
+    border-radius: 20px;
     z-index: 1;
     border: solid 2px #fff;
 }
 
 .Screen5--p::after {
     top: -7px;
-    left: 6.2%;
+    left: 6.35%;
     background-color: #1D293F;
-    height: 170%;
+    height: 155%;
     width: 2px;
 }
 
 .Screen5--p:last-child::after {
-    content: none;
+    background-color: #fff;
 }
 
 .Sreen5--h3 {
@@ -515,11 +550,12 @@ body > div {
     color: #10214F;
     padding: 18px 0 0 3%;
     letter-spacing: -1.3px;
+    margin: 0;
 }
 
 .Screen5--button-group {
-    max-width: 55.4%;
-    margin: 42px 0 0 4.8%;
+    max-width: 55.3%;
+    margin: 19px 0 0 4.8%;
     justify-content: space-between;
 }
 
@@ -549,17 +585,17 @@ body > div {
     display: flex;
     position: relative;
     margin: 436px auto 217px;
-    justify-content: space-between;
 }
 
 
 .dots.Screen6--dots {
-    left: 3.7%;
+    left: 3.1%;
 }
 
 .Screen6--w2.window1 {
-    padding: 24px 0 0 1.25%;
-    max-width: 50%;
+    padding: 22px 0 0 1.35%;
+    max-width: 46%;
+    flex: 0 0 48%;
 }
 
 .dots.Screen5--dots.Screen6--dots::after {
@@ -570,12 +606,13 @@ body > div {
 }
 
 .Screen5--description--content.S6c {
-    max-width: 80%;
-    padding-top: 29px;
+    max-width: 86%;
+    padding: 52px 0 0;
 }
 
 .Screen5--button-group.S6bg {
-    max-width: 59.4%;
+    max-width: 63.5%;
+    margin-top: 17px;
 }
 
 .Screen7 {
@@ -606,6 +643,7 @@ body > div {
 }
 
 .Screen7--h2 {
+    margin: 0;
     color: #fff;
     text-align: center;
     letter-spacing: -1.4px;
@@ -640,6 +678,10 @@ body > div {
 .back-color.S7 {
     background-color: transparent;
     padding-bottom: 141px;
+}
+
+.back-color.S7.P1-S7::before, .back-color.S7.P1-S7::after {
+    content: none;
 }
 
 .back-color.S7.P2-S7-remade {
@@ -763,7 +805,7 @@ body > div {
 .window1--description--button.S7 {
     font: normal normal 500 36px/55px 'Poppins', sans-serif;
     color: #fff;
-    padding: 7px 0 0;
+    padding: 9px 0 1px;
     text-align: center;
     letter-spacing: -1.5px;
     margin-top: -2px;
@@ -886,51 +928,87 @@ body > div {
     opacity: 0.6;
 }
 
-/*.ant-btn-lg.login::before {*/
-/*    content: '';*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    border-radius: 40px;*/
-/*    background-color: #10214F;*/
-/*    position: absolute;*/
-/*    right: 0;*/
-/*    top: -50%;*/
-/*    display: none;*/
-/*}*/
+.back-slider.buttonIDN::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: #3680F6;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -2;
+}
 
-/*.ant-btn-lg.login::after {*/
-/*    content: '';*/
-/*    width: 260px;*/
-/*    height: 300px;*/
-/*    border-radius: 60px;*/
-/*    background-color: #3680F6;*/
-/*    position: absolute;*/
-/*    right: 0;*/
-/*    top: -130px;*/
-/*}*/
-/*.ant-btn-lg.login{*/
-/*    background-color: transparent;*/
-/*}*/
+.back-slider.buttonIDN::after {
+    content: '';
+    width: 220%;
+    height: 307%;
+    border-radius: 50%;
+    background-color: #10214F;
+    position: absolute;
+    left: -204%;
+    top: 0;
+    z-index: -1;
+}
 
-/*.ant-btn-lg.login:hover::after {*/
-/*    animation: 3s linear 1s move-background;*/
-/*}*/
+.back-slider.buttonIDN {
+    background-color: transparent;
+    transition-delay: .5s;
+    transition-property: background-color, text-indent;
+}
 
-/*@keyframes move-background {*/
-/*    0% {*/
-/*        opacity: .5;*/
-/*        right: 110%;*/
-/*    }*/
-/*    25% {opacity: .7;*/
-/*        right: 50%;*/
-/*    }*/
-/*    50% {opacity: .9;*/
-/*        right: 25%;*/
-/*    }*/
-/*    100% {opacity: 1;*/
-/*        right: -10%;*/
-/*    }*/
-/*}*/
+.back-slider.buttonIDN:hover {
+    background-color: #10214F;
+}
+
+.back-slider.buttonIDN::after {
+    left: -240%;
+    transition: all .7s;
+}
+
+.back-slider.buttonIDN:hover::after {
+    transition-delay: .5s;
+    transition-property: left;
+    animation: linear .7s move-background;
+}
+
+@keyframes move-background {
+    0% {
+        top: -10%;
+        left: -180%;
+    }
+    25% {
+        top: -35%;
+        left: -130%;
+    }
+    50% {
+        top: -50%;
+        left: -85%;
+    }
+    100% {
+        top: -80%;
+        left: -15%;
+    }
+}
+
+.indent-bigger {
+    text-indent: 0;
+}
+.buttonIDN.indent-bigger:hover {
+    text-indent: 3px;
+    transition: all .7s;
+}
+
+.font-size-scale {
+    font-size: 20px;
+}
+
+.buttonIDN.font-size-scale:hover {
+    font-size: 17px;
+    transition: all .7s;
+}
+
 @media (max-width: 1650px) {
     .main-header-second {
         width: 77%;
@@ -946,6 +1024,10 @@ body > div {
         width: 100%;
         height: auto;
         margin-left: 0;
+    }
+
+    .window1--button-group.P1-S2 {
+        width: 100%;
     }
 }
 
@@ -1005,7 +1087,7 @@ body > div {
     .Screen5--w2 {
         padding: 0 1%;
         left: auto;
-        flex: 0 0 50%;
+        flex: 0 0 46%;
         max-width: 100%;
         overflow-x: hidden;
     }
