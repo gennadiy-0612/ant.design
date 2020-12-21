@@ -1041,7 +1041,9 @@ body > div {
         width: 100%;
         flex-direction: column;
     }
-
+    .Screen5--w1{
+        left: 0;
+    }
     .Screen5--button-group, .Screen5--button-group.S6bg {
         max-width: none;
     }
