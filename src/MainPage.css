@@ -18,7 +18,7 @@ code {
     position: relative;
 }
 
-.dots::after, .Screen4::before, .Screen4::after, .Screen7.P2-S7-remade::after {
+.dots::after, .back-color::before, .back-color::after, .Screen7.P2-S7-remade::after {
     content: '';
     display: block;
     position: absolute;
@@ -413,8 +413,12 @@ body > div {
     top: 5px;
 }
 
-.Screen4::before {
-    top: 39.2%;
+.back-color {
+    position: relative;
+}
+
+.back-color::before {
+    top: -90px;
     left: 0.7%;
     z-index: 0;
 }
@@ -424,8 +428,8 @@ body > div {
     left: -0.3%;
 }
 
-.Screen4::after {
-    top: 39.2%;
+.back-color::after {
+    top: -90px;
     left: auto;
     right: 0;
     z-index: 0;
