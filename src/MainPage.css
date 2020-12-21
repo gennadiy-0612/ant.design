@@ -924,21 +924,51 @@ body > div {
 /*    }*/
 /*}*/
 @media (max-width: 1650px) {
-    .window1, .window2 {
-        padding: 0 1%;
-        flex: 0 0 50%;
+    .window1-h {
+        font: normal normal 600 64px/81px 'Poppins', sans-serif;
     }
 
-    .dots {
+    .window1, .window2 {
+        padding: 0 1%;
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .window1-descript {
+        font: normal normal 500 26px/52px 'Poppins', sans-serif;
+        padding: 0 1% 0 0;
+        margin-left: -0.1%;
+    }
+
+    .dots.Screen5--dots, .dots {
         left: auto;
-        width: 680px;
-        height: 572px;
         margin: 0 0 0 auto;
     }
 
-    .main-header-dots.dots {
-        width: 600px;
-        height: 572px;
+    .dots.Screen5--dots {
+        margin: 0 0 0 auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .illustrate, .illustrate.Screen5-img, .first-col-img, .main-header-dots.dots {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .first-col-img {
+        margin-left: 0;
+        position: static;
+    }
+
+    .window1--button-group {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .main-header {
+        padding: 216px 1% 295px 1%;
     }
 
     .Screen5--w1,
@@ -946,15 +976,32 @@ body > div {
         padding: 0 1%;
         left: auto;
         flex: 0 0 50%;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
-    .dots.Screen5--dots {
-        left: auto;
-        margin: 0;
+    .window1--description {
+        margin: 10px auto;
+    }
+
+    .Screen5--description--content,
+    .Screen5--description--content.S6c {
+        max-width: 100%;
+    }
+
+    .Screen5--button-group.S7 {
+        display: flex;
+        flex-direction: row;
+        max-width: 60%;
     }
 
     .Screen5--button-group.S6bg {
         max-width: none;
+    }
+
+    .Screen9.P1-S9 {
+        max-width: 90%;
+        margin: auto;
     }
 }
 
@@ -964,8 +1011,18 @@ body > div {
         max-width: none;
     }
 
-    .main-header-second, .main-header-dots.dots {
+    .main-header-second {
         padding: 0 1%;
+        width: 50%;
+    }
+
+    .main-header-dots.dots {
+        width: 100%;
+        left: 0;
+    }
+
+    .Screen5 {
+        justify-content: center;
     }
 }
 

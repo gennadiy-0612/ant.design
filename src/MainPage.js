@@ -236,7 +236,7 @@ function MainPage() {
                 <button className="login invert ant-btn ant-btn-primary ant-btn-round ant-btn-lg S8">Get in Touch</button>
             </div>
 
-            <div className="Screen9">
+            <div className="Screen9 P1-S9">
                 <span className="idn-img"></span>
                 <div className="foot-lists">
                     <ul className="foot-ul">
