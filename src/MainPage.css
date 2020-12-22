@@ -790,9 +790,9 @@ button.buttonIDN.S8 {
     background: url("./Images/security.svg") 54.4% 25px no-repeat;
 }
 
-.sector.normal.five.supp.S7 {
-    background: url("./Images/support.svg") 12.4% 37px no-repeat;
-}
+/*.sector.normal.five.supp.S7 {*/
+/*    background: url("./Images/support.svg") 12.4% 37px no-repeat;*/
+/*}*/
 
 .sector.normal.five.P3-S7-remade.S7 {
     background: url("./Images/win.svg") 12.4% 37px no-repeat;
