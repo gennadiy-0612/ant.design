@@ -109,7 +109,7 @@ function MainPage() {
                         </div>
                         <div className="window1--button-group Screen5--button-group">
                             <div className="window1--description">
-                                <button className="login buttonIDN S2 big S2 back-slider font-size-scale">Apply now
+                                <button className="login buttonIDN S2 big back-slider font-size-scale">Apply now
                                 </button>
                             </div>
                             <div className="window1--description">
