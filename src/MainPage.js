@@ -146,7 +146,7 @@ function MainPage() {
                         <div className="window1--button-group Screen5--button-group S6bg">
                             <div className="window1--description">
                                 <button
-                                    className="login buttonIDN S2 big S2">Join
+                                    className="login buttonIDN big S2 back-slider-two">Join
                                     for Free
                                 </button>
                             </div>
