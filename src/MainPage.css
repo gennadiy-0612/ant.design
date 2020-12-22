@@ -938,6 +938,15 @@ button.buttonIDN.S8 {
     z-index: -2;
 }
 
+.back-slider-two.back-slider.buttonIDN::before {
+    left: 0;
+}
+
+.back-slider-two.back-slider.buttonIDN:hover::before {
+    left: -100%;
+    transition: all 4s;
+}
+
 .back-slider.buttonIDN.white::before {
     background-color: transparent;
 }
@@ -972,6 +981,11 @@ button.buttonIDN.S8 {
 
 .back-slider.buttonIDN.white:hover::after {
     background-color: #3680F6;
+}
+
+.back-slider-two.buttonIDN:hover::before {
+    left: 240%;
+    transition: all .7s;
 }
 
 .back-slider.buttonIDN::after {

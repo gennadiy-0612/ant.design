@@ -145,16 +145,10 @@ function MainPage() {
                         </div>
                         <div className="window1--button-group Screen5--button-group S6bg">
                             <div className="window1--description">
-                                <button
-                                    className="login buttonIDN big S2 back-slider-two">Join
-                                    for Free
-                                </button>
+                                <button className="login buttonIDN big S2 back-slider back-slider-two">Join for Free</button>
                             </div>
                             <div className="window1--description">
-                                <button
-                                    className="login buttonIDN S2 big white">Learn
-                                    More
-                                </button>
+                                <button className="login buttonIDN S2 big white">Learn More</button>
                             </div>
                         </div>
                     </div>
