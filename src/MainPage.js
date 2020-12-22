@@ -6,7 +6,7 @@ function MainPage() {
         <div className="main-page">
             <div className="Header">
                 <div className="Header--logo">
-                    <a className="logo-link" href="/"><img className="idnlogo" src={Images.idnlogo} alt="t"/></a>
+                    <a className="logo-link" href="/"><img className="idnlogo" src={Images.logo} alt="t"/></a>
                 </div>
                 <nav className="main-top-nav">
                     <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Senior Advisor</a>
