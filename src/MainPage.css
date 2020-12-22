@@ -235,10 +235,6 @@ button.buttonIDN.S8 {
     width: 77.5%;
 }
 
-.window1--button-group.P1-S2 {
-    width: 100%;
-}
-
 .invert {
     color: #232D53;
     background-color: #fff;
@@ -416,7 +412,7 @@ button.buttonIDN.S8 {
 }
 
 .selectors--all {
-    font: normal normal 900 16px/25px 'Poppins', sans-serif;
+    font: normal normal 900 16px/28px 'Poppins', sans-serif;
     color: #3680F6;
     position: relative;
     text-indent: -28px;
@@ -488,7 +484,7 @@ button.buttonIDN.S8 {
 }
 
 .Screen5--description--content {
-    padding: 55px 0 0 0;
+    padding: 52px 0 0 0;
     max-width: 77%;
 }
 
@@ -535,7 +531,7 @@ button.buttonIDN.S8 {
 
 .Screen5--p::after {
     top: -7px;
-    left: 6.35%;
+    left: 5.6%;
     background-color: #1D293F;
     height: 155%;
     width: 2px;
@@ -543,6 +539,8 @@ button.buttonIDN.S8 {
 
 .Screen5--p:last-child::after {
     background-color: #fff;
+    width: 6px;
+    left: 5.3%;
 }
 
 .Sreen5--h3 {
@@ -611,8 +609,8 @@ button.buttonIDN.S8 {
 }
 
 .Screen5--button-group.S6bg {
-    max-width: 63.5%;
-    margin-top: 17px;
+    max-width: 63.2%;
+    margin-top: 19px;
 }
 
 .Screen7 {
@@ -854,12 +852,12 @@ button.buttonIDN.S8 {
 
 .Screen8 {
     background-color: #29579F;
-    padding: 0 0 123px 0;
+    padding: 0 0 120px 0;
 }
 
 .Screen7--h2.S8 {
     font: normal normal 700 40px/60px 'Poppins', sans-serif;
-    padding: 120px 0 0 0;
+    padding: 118px 0 0 0;
     letter-spacing: -1.1px;
 }
 
@@ -1025,6 +1023,10 @@ button.buttonIDN.S8 {
 }
 
 @media (max-width: 1650px) {
+    .window1--button-group.P1-S2 {
+        width: 100%;
+    }
+
     .main-header-second {
         width: 77%;
         padding: 0 7%;
@@ -1075,7 +1077,7 @@ button.buttonIDN.S8 {
     }
 
     .main-header-second {
-        padding: 0 1%;
+        padding: 0 0 0 5%;
     }
 
     .illustrate, .illustrate.Screen2, .illustrate.Screen5-img, .first-col-img, .main-header-dots.dots {
