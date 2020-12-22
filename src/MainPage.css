@@ -947,7 +947,7 @@ button.buttonIDN.S8 {
 }
 
 .back-slider-two.back-slider.buttonIDN.P1-S7:hover::before {
-    left: -70%;
+    left: -110%;
     transition: all .7s;
 }
 
