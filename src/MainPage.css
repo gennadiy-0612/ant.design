@@ -190,6 +190,7 @@ body > div {
 
 .buttonIDN.big.P1-S7 {
     width: 277px;
+    z-index: 1;
 }
 
 .buttonIDN.white {
@@ -203,6 +204,8 @@ button.buttonIDN.S8 {
     margin: 58px auto 0;
     height: 54px;
     width: 271px;
+    z-index: 1;
+    background-color: transparent;
 }
 
 .ant-btn-lg.login.S2.ant-btn-primary.P2-S7 {
@@ -950,7 +953,9 @@ button.buttonIDN.S8 {
 .back-slider.buttonIDN.white::before {
     background-color: transparent;
 }
-
+.back-slider.buttonIDN.white.decide::before{
+    background-color: #fff;
+}
 .back-slider.buttonIDN::after {
     content: '';
     width: 220%;
@@ -969,6 +974,7 @@ button.buttonIDN.S8 {
     transition-property: background-color, text-indent;
 }
 
+.back-slider.buttonIDN.decide.white:hover,
 .back-slider.buttonIDN:hover {
     background-color: #10214F;
 }
@@ -978,9 +984,16 @@ button.buttonIDN.S8 {
     background-color: #3680F6;
     transition: all .7s;
 }
-
 .back-slider.buttonIDN.white:hover::after {
     background-color: #3680F6;
+}
+.back-slider.buttonIDN.white.decide:hover::after {
+    background-color:  #10214F;
+    transition-delay: .5s;
+    transition-property: left;
+    top: -103%;
+    left: 0;
+    animation: linear .7s move-background;
 }
 
 .back-slider-two.buttonIDN:hover::before {
@@ -1036,17 +1049,34 @@ button.buttonIDN.S8 {
     transition: all .7s;
 }
 
-.buttonIDN.big.P1-S7 {
-    border: 1px solid black;
-    background-color: lightblue;
-    transition: all 2s;
+/*anim*/
+/*.buttonIDN.big.P1-S7 {*/
+/*    border: 1px solid black;*/
+/*    background-color: lightblue;*/
+/*    transition: all 2s;*/
+/*}*/
+
+/*.buttonIDN.big.P1-S7:hover {*/
+/*    background-color: coral;*/
+/*    border-radius: 50px;*/
+/*}*/
+.back-slider.buttonIDN.white.decide:hover {
+    background-color: transparent;
+    color:  #fff;
+    transition: all .7s;
 }
 
-.buttonIDN.big.P1-S7:hover {
-    background-color: coral;
-    border-radius: 50px;
+.back-slider.buttonIDN.white.decide::before {
+    left: 0;
 }
 
+.back-slider.buttonIDN.white.decide:hover::before {
+    left: -30%;
+    z-index: -1;
+    transition: left 1s;
+}
+
+/*animate*/
 @media (max-width: 1650px) {
     .window1--button-group.P1-S2 {
         width: 100%;

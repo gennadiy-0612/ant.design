@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
@@ -131,14 +130,8 @@
       <workItem from="1608541263551" duration="2924000" />
       <workItem from="1608547162366" duration="15683000" />
       <workItem from="1608566777580" duration="21036000" />
-      <workItem from="1608615814919" duration="14603000" />
-    </task>
-    <task id="LOCAL-00053" summary="1page-has-done">
-      <created>1608230978785</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1608230978785</updated>
+      <workItem from="1608615814919" duration="15709000" />
+      <workItem from="1608636454591" duration="2996000" />
     </task>
     <task id="LOCAL-00054" summary="1page-has-done">
       <created>1608231075440</created>
@@ -476,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608624728262</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="7button-finished">
+      <created>1608631284974</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1608631284974</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
