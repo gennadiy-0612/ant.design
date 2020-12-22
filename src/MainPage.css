@@ -544,6 +544,7 @@ button.buttonIDN.S8 {
     background-color: #fff;
     width: 6px;
     left: 5.5%;
+    height: 100%;
 }
 
 .Sreen5--h3 {
@@ -945,17 +946,21 @@ button.buttonIDN.S8 {
     left: 0;
 }
 
-.back-slider-two.back-slider.buttonIDN:hover::before {
-    left: -100%;
-    transition: all 4s;
+.back-slider-two.back-slider.buttonIDN.P1-S7:hover::before {
+    left: -70%;
+    transition: all .7s;
 }
 
 .back-slider.buttonIDN.white::before {
     background-color: transparent;
 }
-.back-slider.buttonIDN.white.decide::before{
+.back-slider.buttonIDN.white::before{
+    z-index: -1;
+}
+.back-slider.buttonIDN.white.decide::before {
     background-color: #fff;
 }
+
 .back-slider.buttonIDN::after {
     content: '';
     width: 220%;
@@ -979,16 +984,22 @@ button.buttonIDN.S8 {
     background-color: #10214F;
 }
 
+.buttonIDN.big.sizes-scale:hover {
+    transition: all .7s;
+}
+
 .back-slider.buttonIDN.white:hover {
     color: #fff;
     background-color: #3680F6;
     transition: all .7s;
 }
+
 .back-slider.buttonIDN.white:hover::after {
     background-color: #3680F6;
 }
+
 .back-slider.buttonIDN.white.decide:hover::after {
-    background-color:  #10214F;
+    background-color: #10214F;
     transition-delay: .5s;
     transition-property: left;
     top: -103%;
@@ -997,7 +1008,7 @@ button.buttonIDN.S8 {
 }
 
 .back-slider-two.buttonIDN:hover::before {
-    left: 240%;
+    left: -240%;
     transition: all .7s;
 }
 
@@ -1062,7 +1073,7 @@ button.buttonIDN.S8 {
 /*}*/
 .back-slider.buttonIDN.white.decide:hover {
     background-color: transparent;
-    color:  #fff;
+    color: #fff;
     transition: all .7s;
 }
 

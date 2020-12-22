@@ -173,12 +173,12 @@ function MainPage() {
                 <div className="window1--button-group Screen5--button-group S7">
                     <div className="window1--description S7 S71">
                         <p className="window1--description--button S7">Senior Advisors</p>
-                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two">Apply now
+                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale">Apply now
                         </button>
                     </div>
                     <div className="window1--description S7 S72">
                         <p className="window1--description--button S7 S72">Investors</p>
-                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two">Join for Free</button>
+                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale">Join for Free</button>
                     </div>
                 </div>
             </div>
