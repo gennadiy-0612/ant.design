@@ -1036,6 +1036,17 @@ button.buttonIDN.S8 {
     transition: all .7s;
 }
 
+.buttonIDN.big.P1-S7 {
+    border: 1px solid black;
+    background-color: lightblue;
+    transition: all 2s;
+}
+
+.buttonIDN.big.P1-S7:hover {
+    background-color: coral;
+    border-radius: 50px;
+}
+
 @media (max-width: 1650px) {
     .window1--button-group.P1-S2 {
         width: 100%;
