@@ -148,7 +148,7 @@ function MainPage() {
                                 <button className="login buttonIDN big S2 back-slider back-slider-two">Join for Free</button>
                             </div>
                             <div className="window1--description">
-                                <button className="login buttonIDN S2 big white">Learn More</button>
+                                <button className="login buttonIDN big S2 back-slider back-slider-two white">Learn More</button>
                             </div>
                         </div>
                     </div>
@@ -185,7 +185,7 @@ function MainPage() {
 
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
-                <button className="login buttonIDN S8 big white center">Get in Touch</button>
+                <button className="login buttonIDN S8 big white center ">Get in Touch</button>
             </div>
 
             <div className="Screen9 P1-S9">
