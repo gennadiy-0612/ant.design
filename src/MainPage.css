@@ -955,9 +955,11 @@ button.buttonIDN.S8 {
 .back-slider.buttonIDN.white::before {
     background-color: transparent;
 }
-.back-slider.buttonIDN.white::before{
+
+.back-slider.buttonIDN.white::before {
     z-index: -1;
 }
+
 .back-slider.buttonIDN.white.decide::before {
     background-color: #fff;
 }
@@ -1116,8 +1118,58 @@ button.buttonIDN.S8 {
 }
 
 @media (max-width: 1200px) {
+    #root {
+        max-width: 1024px;
+        margin: auto;
+    }
+
+    .Header {
+        padding: 6px 3.9% 76px 30px;
+    }
+
+    .logo-link {
+        margin: 40px 0 0 0;
+    }
+
+    .idnlogo {
+        height: 51px;
+        width: 155px;
+    }
+
+    .main-top-nav {
+        padding: 45px 0 30px 1%;
+        flex-grow: 8;
+    }
+
+    .main-top-nav-anchor {
+        margin: 9px 1.75% 4.8% 6%;
+        font: normal normal 500 19px/22px 'Poppins', sans-serif;
+        letter-spacing: -0.6px;
+    }
+
+    .login-block {
+        justify-content: flex-end;
+        margin-top: -20px;
+    }
+
+    .buttonIDN.login {
+        width: 161px;
+        height: 52px;
+    }
+
+    .Screen2.P1-S2 {
+        width: 950px;
+        margin: auto;
+    }
+
     .window1-h {
-        font: normal normal 600 64px/81px 'Poppins', sans-serif;
+        font: normal normal 600 49px/70px 'Poppins', sans-serif;
+        letter-spacing: -1.9px;
+    }
+
+    .window1.Screen2.X12000 {
+        max-width: 50%;
+        flex: 0 0 50%;
     }
 
     .window1, .window2 {
@@ -1126,10 +1178,17 @@ button.buttonIDN.S8 {
         max-width: 40%;
     }
 
+    .window1--button-group.P1-S2 {
+        width: 88%;
+        flex-direction: row;
+        margin: 0 auto 0 0;
+    }
+
     .window1-descript {
-        font: normal normal 500 26px/52px 'Poppins', sans-serif;
+        font: normal normal 500 21px/41px 'Poppins', sans-serif;
         padding: 0 1% 0 0;
         margin-left: -0.1%;
+        letter-spacing: -0.8px;
     }
 
     .dots.Screen5--dots, .dots {
@@ -1148,9 +1207,16 @@ button.buttonIDN.S8 {
     }
 
     .illustrate, .illustrate.Screen2, .illustrate.Screen5-img, .first-col-img, .main-header-dots.dots {
-        width: 100%;
-        height: auto;
-        margin-left: 0;
+        width: 361px;
+        height: 304px;
+        margin: 0 0 0 auto;
+    }
+
+    .dots::after, .back-color::before, .back-color::after, .Screen7.P2-S7-remade::after, .dots.P1-S2::after {
+        width: 180px;
+        height: 180px;
+        left: -30px;
+        bottom: -60px;
     }
 
     .first-col-img {
@@ -1182,7 +1248,21 @@ button.buttonIDN.S8 {
     }
 
     .window1--description {
-        margin: 10px auto;
+        margin: 0;
+    }
+
+    .window1--description--button {
+        letter-spacing: -1.5px;
+        font: normal normal 500 25px/48px 'Poppins', sans-serif;
+        margin: 29px auto 12px;
+    }
+
+    .buttonIDN.login {
+        width: 188px;
+    }
+
+    .chevron {
+        margin: 65px auto 0;
     }
 
     .Screen5--description--content,

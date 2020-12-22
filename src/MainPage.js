@@ -19,8 +19,8 @@ function MainPage() {
                 </div>
             </div>
 
-            <div className="Screen2">
-                <div className="window1 Screen2">
+            <div className="Screen2 P1-S2">
+                <div className="window1 Screen2 X12000">
                     <h1 className="window1-h">
                         The Infrastructure
                         Deals Network
