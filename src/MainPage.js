@@ -52,7 +52,7 @@ function MainPage() {
             <div className="main">
                 <div className="main-header">
                     <div className="main-header-first">
-                        <div className="main-header-dots dots">
+                        <div className="main-header-dots dots hands">
                             <img src={Images.hands} className="first-col-img" alt="hands"/>
                         </div>
                     </div>

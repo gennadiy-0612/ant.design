@@ -1016,8 +1016,8 @@ button.buttonIDN.S8 {
 
 .back-slider-two.buttonIDN.white.border::before {
     border: solid 1px #3680F6;
-    height: 55px;
-    width: 246px;
+    height: 96%;
+    width: 99%;
     margin: auto;
 }
 
@@ -1139,7 +1139,7 @@ button.buttonIDN.decide {
     }
 
     .dots.Screen6--dots {
-        left: -45px;
+        left: -38px;
         top: 23px;
     }
 
@@ -1212,7 +1212,7 @@ button.buttonIDN.decide {
     }
 
     .back-color::after {
-        left: 0;
+        left: 73;
     }
 
     .back-color::before {
@@ -1411,7 +1411,6 @@ button.buttonIDN.decide {
 
     .window1--button-group.Screen5--button-group.S6bg {
         margin: 17px 0 0 25px;
-        margin: 17px 0 0 25px;
     }
 
     .Screen7--p.S7 {
@@ -1481,6 +1480,9 @@ button.buttonIDN.decide {
     .main-header-dots.dots {
         width: 100%;
         left: 0;
+    }
+
+    .main-header-dots.dots.hands::after {
     }
 
     .Screen5 {
