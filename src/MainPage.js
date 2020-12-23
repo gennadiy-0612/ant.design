@@ -29,14 +29,14 @@ function MainPage() {
                         The first deal origination platform for Private Equity
                         investments in infrastructure-related sectors
                     </p>
-                    <div className="window1--button-group P1-S2">
+                    <div className="window1--button-group P1-S2 X1600">
                         <div className="window1--description">
                             <p className="window1--description--button">Senior Advisors</p>
                             <button className="login buttonIDN S2 big back-slider indent-bigger">Apply now</button>
                         </div>
                         <div className="window1--description">
                             <p className="window1--description--button">Investors</p>
-                            <button className="login buttonIDN S2 big white back-slider">Join now</button>
+                            <button className="login buttonIDN S2 big white back-slider indent-bigger">Join now</button>
                         </div>
                     </div>
                 </div>
