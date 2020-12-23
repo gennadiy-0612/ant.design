@@ -952,11 +952,6 @@ button.buttonIDN.S8 {
     left: 0;
 }
 
-/*.back-slider-two.back-slider.buttonIDN.P1-S7:hover::before {*/
-/*    left: -110%;*/
-/*    transition: all .7s;*/
-/*}*/
-
 .back-slider.buttonIDN.white::before {
     background-color: transparent;
 }
