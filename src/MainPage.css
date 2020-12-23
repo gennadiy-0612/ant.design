@@ -1052,7 +1052,7 @@ button.buttonIDN.decide {
     border-color: transparent;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     #root {
         max-width: 1024px;
         margin: auto;
@@ -1458,7 +1458,7 @@ button.buttonIDN.decide {
 
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1600px) and (min-width: 1200px) {
     #root {
         max-width: 1200px;
         margin: auto;
@@ -1481,18 +1481,21 @@ button.buttonIDN.decide {
     }
 
     .main-top-nav {
-        padding: 13px 0 0;
+        padding: 11px 0 0;
         position: relative;
-        left: 1.9%;
+        left: 5.1%;
     }
 
     .main-top-nav-anchor {
         margin: 9px 0.1% 4.8% 5.4%;
+        font: normal normal 500 20px/27px 'Poppins', sans-serif;
+        letter-spacing: -0.8px;
     }
 
     .login-block {
         justify-content: flex-end;
-        padding-right: 1.4%;
+        padding-right: 1.5%;
+        margin: -17px 0 0 0;
     }
 
     .buttonIDN.login {
@@ -1508,15 +1511,34 @@ button.buttonIDN.decide {
 
     .window1-h {
         font: normal normal 600 60px/80px 'Poppins', sans-serif;
+        letter-spacing: -1.7px;
+        margin: 3px 0 0;
     }
 
     .Screen2.P1-S2 {
-        width: 90%;
+        width: 96%;
         margin: 104px auto 0;
     }
 
+    .window1.Screen2.X1600 {
+        flex: 0 0 48%;
+        width: 48%;
+    }
+
+    .window2.X1600 {
+        flex: 0 0 33%;
+        width: 33%;
+    }
+
+    .dots {
+        left: -8.3%;
+    }
+
     .window1-descript {
-        margin: 24px 0 0;
+        margin: 24px 0 0 0.3%;
+        font: normal normal 500 22px/40px 'Poppins', sans-serif;
+        letter-spacing: -1.2px;
+        padding: 0 1% 0 0;
     }
 
     .illustrate.Screen2 {

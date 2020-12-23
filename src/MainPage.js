@@ -20,8 +20,8 @@ function MainPage() {
             </div>
 
             <div className="Screen2 P1-S2">
-                <div className="window1 Screen2 X12000">
-                    <h1 className="window1-h">
+                <div className="window1 Screen2 X12000 X1600">
+                    <h1 className="window1-h X12000">
                         The Infrastructure
                         Deals Network
                     </h1>
@@ -40,7 +40,7 @@ function MainPage() {
                         </div>
                     </div>
                 </div>
-                <div className="window2">
+                <div className="window2 X1600">
                     <div className="dots P1-S2"><img src={Images.bridge} className="illustrate Screen2" alt="bridge"/>
                     </div>
                 </div>
