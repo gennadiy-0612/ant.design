@@ -1415,9 +1415,10 @@ button.buttonIDN.decide {
 
     .Screen7--p.S7 {
         font: normal normal 400 22px/40px 'Poppins', sans-serif;
-        max-width: 90%;
+        max-width: 100%;
         letter-spacing: -0.9px;
         margin: 87px auto 0;
+        padding: 0 60px;
     }
 
     .S7 br {
