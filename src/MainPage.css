@@ -1204,6 +1204,7 @@ button.buttonIDN.S8 {
 
     .main-header-second {
         padding: 0 0 0 5%;
+        width: 77%;
     }
 
     .illustrate, .illustrate.Screen2, .illustrate.Screen5-img, .first-col-img, .main-header-dots.dots {
@@ -1230,9 +1231,49 @@ button.buttonIDN.S8 {
     }
 
     .main-header {
-        padding: 216px 1% 295px 1%;
+        padding: 64px 1% 48px 1%;
     }
 
+    .main-header-first, .main-header-second {
+        width: 50%;
+        padding: 0 50px 0 63px;
+    }
+
+    .main-header-second {
+        padding: 0 53px 0 54px;
+    }
+
+    .main-header-second-h2.head2 {
+        margin: 6px 0 0;
+        letter-spacing: -0.1px;
+    }
+
+    .main-p {
+        font: italic normal 400 30px/47px 'Poppins', sans-serif;
+        margin: 32px 0 0;
+        text-indent: 1px;
+    }
+
+    .main-post-link {
+        font: normal normal 700 30px/57px 'Poppins', sans-serif;
+        margin: 41px 0 0;
+    }
+
+    .first-col-img {
+        margin-left: -13px;
+        width: auto;
+        height: 400px;
+    }
+
+    .normal.main-p {
+        margin: 46px auto 0;
+        font: normal normal 400 30px/60px 'Poppins', sans-serif;
+        max-width: initial;
+        letter-spacing: -0.9px;
+    }
+    .main-post-link.frame4 {
+        margin: 2px auto 0;
+    }
     .Screen5--w1,
     .Screen5--w2 {
         padding: 0 1%;

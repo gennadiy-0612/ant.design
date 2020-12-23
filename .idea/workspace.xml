@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Images/svg.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,14 +143,7 @@
       <workItem from="1608636454591" duration="5267000" />
       <workItem from="1608641754024" duration="1088000" />
       <workItem from="1608642858995" duration="1887000" />
-      <workItem from="1608657108578" duration="9080000" />
-    </task>
-    <task id="LOCAL-00058" summary="1page-has-done">
-      <created>1608291523684</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1608291523684</updated>
+      <workItem from="1608657108578" duration="11718000" />
     </task>
     <task id="LOCAL-00059" summary="1page-has-done">
       <created>1608292145632</created>
@@ -491,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608644139331</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="page1-scren2">
+      <created>1608671170021</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1608671170021</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,6 +533,7 @@
     <MESSAGE value="7button-finished" />
     <MESSAGE value="8button-finished" />
     <MESSAGE value="10button-finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="10button-finished" />
+    <MESSAGE value="page1-scren2" />
+    <option name="LAST_COMMIT_MESSAGE" value="page1-scren2" />
   </component>
 </project>
