@@ -1217,7 +1217,7 @@ button.buttonIDN.decide {
 
     .back-color::before {
         left: auto;
-        right: 0;
+        right: 73px;
 
     }
 
@@ -1451,6 +1451,19 @@ button.buttonIDN.decide {
 
 }
 
+@media (max-width: 1440px) {
+    .window1--button-group {
+        width: 94%;
+    }
+
+    .window1--button-group.P1-S2 {
+        margin: 70px auto 0 0;
+        width: 100%;
+        min-width: 100%;
+    }
+
+}
+
 @media (max-width: 1599px) {
 }
 
@@ -1491,12 +1504,6 @@ button.buttonIDN.decide {
 
     .Screen5 {
         justify-content: center;
-    }
-}
-
-@media (max-width: 1440px) {
-    .window1--button-group {
-        width: 94%;
     }
 }
 
