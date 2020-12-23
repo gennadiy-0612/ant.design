@@ -98,7 +98,7 @@ function MainPage() {
                 <div className="window1 Screen5--w1">
                     <div className="Screen5--decription">
                         <h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
-                        <h3 className="Sreen5--h3">Success fees up to<br/> 2 million Euro</h3>
+                        <h3 className="Sreen5--h3 S5">Success fees up to<br/> 2 million Euro</h3>
                         <div className="Screen5--description--content">
                             <strong className="Screen5--strong">CONNECT</strong>
                             <p className="Screen5--p">Originate deals and connect to leading investors</p>
@@ -124,7 +124,7 @@ function MainPage() {
                 </div>
             </div>
 
-            <div className="Screen6">
+            <div className="Screen6 S6">
                 <div className="window2 Screen6--w2 Screen5--w1 ">
                     <div className="dots Screen5--dots Screen6--dots"><img src={Images.people}
                                                                            className="illustrate Screen5-img Screen6-img"
@@ -155,9 +155,9 @@ function MainPage() {
                 </div>
             </div>
 
-            <div className="Screen7">
+            <div className="Screen7 S7">
                 <h2 className="Screen7--h2">Why IDN?</h2>
-                <p className="Screen7--p">Our unique platform is the first of its kind incentivizing independent Senior
+                <p className="Screen7--p S7">Our unique platform is the first of its kind incentivizing independent Senior
                     Executives to originate deals in a structured, innovative, and transparent way, creating an
                     environment
                     of trust,<br/> protecting & promoting the interests of all parties involved</p>

@@ -1143,6 +1143,11 @@ button.buttonIDN.decide {
         width: 368px;
     }
 
+    .dots.Screen6--dots {
+        left: -45px;
+        top: 23px;
+    }
+
     .illustrate.Screen5-img.S5 {
         width: 368px;
         height: 401px;
@@ -1168,11 +1173,23 @@ button.buttonIDN.decide {
         left: 5.7%;
     }
 
+    .Screen5--strong.P1-S6::after {
+        left: -4px;
+    }
+
+    .Screen5--p.P1-S6::after {
+        left: 2.7%;
+    }
+
     .window1--button-group.Screen5--button-group {
         flex-direction: row;
-        width: 100%;
+        width: 92.5%;
         justify-content: space-between;
-        margin: 20px 0 0 0;
+        margin: 20px 0 0 45px;
+    }
+
+    .Screen6 {
+        margin: 154px auto 217px;
     }
 
     .main-header-second {
@@ -1186,10 +1203,30 @@ button.buttonIDN.decide {
         margin: 0 0 0 auto;
     }
 
+    .illustrate.Screen6-img {
+        height: 430px;
+        width: 394px;
+    }
+
     .dots::after, .back-color::before, .back-color::after, .Screen7.P2-S7-remade::after, .dots.P1-S2::after {
         width: 180px;
         height: 180px;
-        bottom: -60px;
+        bottom: -46px;
+        left: -29px;
+        background-image: url("./Images/dots-hq.svg");
+    }
+    .back-color::after{
+        left: 0;
+    }
+    .back-color::before{
+        left: auto;
+        right: 0;
+
+    }
+
+    .main-header-dots.dots::after {
+        left: -34px;
+        bottom: -138px;
     }
 
     .first-col-img {
@@ -1248,13 +1285,13 @@ button.buttonIDN.decide {
         letter-spacing: -0.9px;
     }
 
-    .window1.Screen5--w1,
-    .window1.Screen5--w2 {
-    }
-
     .Screen5--description--content, .Screen5--description--content.S6c {
         max-width: 100%;
         padding: 76px 0 0 0;
+    }
+
+    .Screen5--description--content.S6c {
+        padding: 50px 0 0 30px;
     }
 
     .main-p {
@@ -1294,6 +1331,13 @@ button.buttonIDN.decide {
         font: normal normal 600 18px/62px 'Poppins', sans-serif;
     }
 
+    .sector.normal.center.S7 {
+        font: normal normal 700 18px/32px 'Open Sans', sans-serif;
+        background-position-x: center;
+        background-position-y: center;
+        margin-top: 58px;
+    }
+
     .sector.normal.center {
         left: auto;
         background-position-x: center;
@@ -1315,6 +1359,10 @@ button.buttonIDN.decide {
         flex: 0 0 46%;
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    .Screen5--w1, .Screen5--w2 {
+        flex: 0 0 45.2%;
     }
 
     .Screen6--w2.window1 {
@@ -1343,17 +1391,55 @@ button.buttonIDN.decide {
     .Screen5--button-group.S7 {
         display: flex;
         flex-direction: row;
-        max-width: 60%;
+        max-width: 57%;
+        margin: auto;
     }
 
     .Screen5--button-group.S6bg {
         max-width: none;
     }
 
+    .window1--description--button.S7 {
+        font: normal normal 500 24px/35px 'Poppins', sans-serif;
+        padding: 0 0 24px;
+    }
+
+    .window1--button-group.Screen5--button-group.S6bg {
+        margin: 17px 0 0 25px;
+        margin: 17px 0 0 25px;
+    }
+
+    .Screen7--p.S7 {
+        font: normal normal 400 22px/40px 'Poppins', sans-serif;
+        max-width: 90%;
+        letter-spacing: -0.9px;
+        margin: 87px auto 0;
+    }
+
+    .S7 br {
+        display: contents;
+    }
+
+    .sectors.S7 {
+        justify-content: space-around;
+        max-width: 77%;
+        right: auto;
+    }
+
+    .back-color.S7 {
+        padding-bottom: 90px;
+    }
+
+    .back-slider.back-slider-two.buttonIDN {
+        width: 222px;
+        height: 60px;
+    }
+
     .Screen9.P1-S9 {
         max-width: 90%;
         margin: auto;
     }
+
 }
 
 @media (max-width: 1850px) {
@@ -1368,11 +1454,23 @@ button.buttonIDN.decide {
     }
 
     .Screen5--w1 {
-        left: 0;
+        left: -7px;
     }
 
     .Screen5--button-group, .Screen5--button-group.S6bg {
         max-width: none;
+    }
+
+    .Screen6.S6 {
+        margin: 154px auto 60px;
+    }
+
+    .Screen7.S7 {
+        padding: 128px 0 0;
+    }
+
+    .Screen7--h2.S7 {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
     }
 
     .main-header-dots.dots {

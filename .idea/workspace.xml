@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Images/dots-hq.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/img/jpg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -47,10 +50,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\jpg" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\svg" />
       <recent name="E:\wamp64\www\ant.design\src" />
-      <recent name="E:\wamp64\www\ant.design\src\Images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\wamp64\www\ant.design\src\Images" />
@@ -147,14 +150,7 @@
       <workItem from="1608642858995" duration="1887000" />
       <workItem from="1608657108578" duration="11718000" />
       <workItem from="1608702632371" duration="12748000" />
-      <workItem from="1608720179040" duration="1703000" />
-    </task>
-    <task id="LOCAL-00067" summary="1page-has-done">
-      <created>1608330891019</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1608330891019</updated>
+      <workItem from="1608720179040" duration="8366000" />
     </task>
     <task id="LOCAL-00068" summary="1page-has-done">
       <created>1608331275019</created>
@@ -492,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608721200560</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="added-sorted-images">
+      <created>1608722145468</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1608722145468</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
