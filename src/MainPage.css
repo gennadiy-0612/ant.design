@@ -1212,7 +1212,7 @@ button.buttonIDN.decide {
     }
 
     .back-color::after {
-        left: 73;
+        left: 73px;
     }
 
     .back-color::before {
