@@ -95,7 +95,7 @@ function MainPage() {
             </div>
 
             <div className="Screen5">
-                <div className="window1 Screen5--w1 ">
+                <div className="window1 Screen5--w1">
                     <div className="Screen5--decription">
                         <h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
                         <h3 className="Sreen5--h3">Success fees up to<br/> 2 million Euro</h3>
@@ -148,7 +148,7 @@ function MainPage() {
                                 <button className="login buttonIDN big S2 back-slider back-slider-two">Join for Free</button>
                             </div>
                             <div className="window1--description">
-                                <button className="login buttonIDN big S2 back-slider back-slider-two white">Learn More</button>
+                                <button className="login buttonIDN big S2 back-slider back-slider-two white border">Learn More</button>
                             </div>
                         </div>
                     </div>
@@ -173,12 +173,12 @@ function MainPage() {
                 <div className="window1--button-group Screen5--button-group S7">
                     <div className="window1--description S7 S71">
                         <p className="window1--description--button S7">Senior Advisors</p>
-                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale">Apply now
+                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Apply now
                         </button>
                     </div>
                     <div className="window1--description S7 S72">
                         <p className="window1--description--button S7 S72">Investors</p>
-                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale">Join for Free</button>
+                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Join for Free</button>
                     </div>
                 </div>
             </div>
