@@ -1047,7 +1047,8 @@ button.buttonIDN.S8 {
     font-size: 95%;
     height: 55px;
 }
-button.buttonIDN.decide{
+
+button.buttonIDN.decide {
     border-color: transparent;
 }
 
@@ -1210,8 +1211,7 @@ button.buttonIDN.decide{
         margin: 2px auto 0;
     }
 
-    .Screen5--w1,
-    .Screen5--w2 {
+    .Screen5--w1, .Screen5--w2 {
         padding: 0 1%;
         left: auto;
         flex: 0 0 46%;
@@ -1242,8 +1242,7 @@ button.buttonIDN.decide{
         margin: 65px auto 0;
     }
 
-    .Screen5--description--content,
-    .Screen5--description--content.S6c {
+    .Screen5--description--content, .Screen5--description--content.S6c {
         max-width: 100%;
     }
 
