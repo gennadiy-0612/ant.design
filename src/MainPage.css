@@ -1017,7 +1017,7 @@ button.buttonIDN.S8 {
 .back-slider-two.buttonIDN.white.border::before {
     border: solid 1px #3680F6;
     height: 96%;
-    width: 99%;
+    width: 96%;
     margin: auto;
 }
 
@@ -1424,6 +1424,10 @@ button.buttonIDN.decide {
         display: contents;
     }
 
+    .Screen6.S6 {
+        margin: 54px auto 60px;
+    }
+
     .sectors.S7 {
         justify-content: space-around;
         max-width: 77%;
@@ -1446,6 +1450,9 @@ button.buttonIDN.decide {
 
 }
 
+@media (max-width: 1599px) {
+}
+
 @media (max-width: 1850px) {
 
     .window1.Screen2 {
@@ -1463,10 +1470,6 @@ button.buttonIDN.decide {
 
     .Screen5--button-group, .Screen5--button-group.S6bg {
         max-width: none;
-    }
-
-    .Screen6.S6 {
-        margin: 54px auto 60px;
     }
 
     .Screen7.S7 {
