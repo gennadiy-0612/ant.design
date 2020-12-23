@@ -1210,10 +1210,12 @@ button.buttonIDN.decide {
         left: -29px;
         background-image: url("./Images/dots-hq.svg");
     }
-    .back-color::after{
+
+    .back-color::after {
         left: 0;
     }
-    .back-color::before{
+
+    .back-color::before {
         left: auto;
         right: 0;
 
@@ -1457,7 +1459,7 @@ button.buttonIDN.decide {
     }
 
     .Screen6.S6 {
-        margin: 154px auto 60px;
+        margin: 54px auto 60px;
     }
 
     .Screen7.S7 {
