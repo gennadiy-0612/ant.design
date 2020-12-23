@@ -1182,7 +1182,11 @@ button.buttonIDN.decide {
         margin: 6px 0 0;
         letter-spacing: -0.1px;
     }
-
+    .main-post-link.frame4::before{
+        bottom: 6px;
+        width: 46%;
+        left: 27%;
+    }
     .main-p {
         font: italic normal 400 30px/47px 'Poppins', sans-serif;
         margin: 32px 0 0;
