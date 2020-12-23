@@ -72,13 +72,13 @@ function MainPage() {
 
             <div className="Screen4">
                 <h2 className="main-header-second-h2 head2 center">WHAT WE DO</h2>
-                <p className="normal main-p center">IDN connects leading investment firms to proprietary investment
+                <p className="normal main-p center S4">IDN connects leading investment firms to proprietary investment
                     opportunities originated by a selected network of</p>
                 <p className="main-post-link center frame4">Senior Advisors</p>
                 <div className="back-color">
                     <p className="normal main-p center cover P2">We cover all infrastructure-related sectors across
                         Europe and beyond </p>
-                    <p className="sectors">
+                    <p className="sectors S4">
                         <span className="sector one normal main-p center">Transport & Logistics</span>
                         <span className="sector two normal main-p center">Energy & Utilies</span>
                         <span className="sector three normal main-p center">Telecom & ICT</span>
@@ -94,7 +94,7 @@ function MainPage() {
                 </div>
             </div>
 
-            <div className="Screen5">
+            <div className="Screen5 S5">
                 <div className="window1 Screen5--w1">
                     <div className="Screen5--decription">
                         <h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
@@ -119,7 +119,7 @@ function MainPage() {
                     </div>
                 </div>
                 <div className="window2 Screen5--w2 ">
-                    <div className="dots Screen5--dots"><img src={Images.smileman} className="illustrate Screen5-img"
+                    <div className="dots Screen5--dots"><img src={Images.smileman} className="illustrate Screen5-img S5"
                                                              alt="smile man"/></div>
                 </div>
             </div>
@@ -185,7 +185,7 @@ function MainPage() {
 
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
-                <button className="login buttonIDN S8 big white center back-slider back-slider-two white decide">Get in Touch</button>
+                <button className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Get in Touch</button>
             </div>
 
             <div className="Screen9 P1-S9">
