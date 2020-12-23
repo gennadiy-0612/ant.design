@@ -184,6 +184,10 @@ body > div {
     z-index: 1;
 }
 
+.buttonIDN:focus {
+    outline-width: 0;
+}
+
 .buttonIDN.big {
     font: normal normal 500 20px/30px 'Poppins', sans-serif;
     width: 251px;
