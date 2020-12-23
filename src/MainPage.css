@@ -25,7 +25,7 @@ code {
     position: absolute;
     left: -50px;
     bottom: -38px;
-    background-image: url("./Images/img/svg/dots.svg");
+    background-image: url("./Images/dots.svg");
     background-size: contain;
     z-index: -1;
     width: 210px;
