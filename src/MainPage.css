@@ -988,7 +988,7 @@ button.buttonIDN.S8 {
 }
 
 .back-slider.buttonIDN.indent-bigger:hover {
-    text-indent: 5px;
+    text-indent: 15px;
     transition: all .5s;
 }
 
@@ -1223,7 +1223,7 @@ button.buttonIDN.decide {
         height: 180px;
         bottom: -46px;
         left: -29px;
-        background-image: url("./Images/dots-hq.svg");
+        background-image: url("./Images/dots.svg");
     }
 
     .back-color::after {
