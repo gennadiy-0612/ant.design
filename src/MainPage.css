@@ -1418,7 +1418,7 @@ button.buttonIDN.decide {
     }
 
     .Screen7 {
-        padding: 130px 0 0;
+        padding: 130px 0 64px;
     }
 
     .Screen7--h2 {
@@ -1457,8 +1457,8 @@ button.buttonIDN.decide {
     }
 
     .Screen9.P1-S9 {
-        max-width: 90%;
-        margin: auto;
+        max-width: 97.2%;
+        margin: 0 2.9%;
     }
 }
 
