@@ -1417,6 +1417,14 @@ button.buttonIDN.decide {
         margin: 17px 0 0 25px;
     }
 
+    .Screen7 {
+        padding: 130px 0 0;
+    }
+
+    .Screen7--h2 {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
+    }
+
     .Screen7--p.S7 {
         font: normal normal 400 22px/40px 'Poppins', sans-serif;
         max-width: 100%;
