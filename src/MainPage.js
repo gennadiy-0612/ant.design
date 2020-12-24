@@ -128,7 +128,7 @@ function MainPage() {
                 <div className="window2 Screen6--w2 Screen5--w1 S6">
                     <div className="dots Screen5--dots Screen6--dots"><img src={Images.people} className="illustrate Screen5-img Screen6-img" alt="smile man"/></div></div>
                 <div className="window1 Screen6--w2 Screen5--w2 S6">
-                    <div className="Screen5--decription">
+                    <div className="Screen5--decription S5">
                         <h2 className="main-header-second-h2 Screen5--h2 head2 center P1-S6">FOR INVESTORS</h2>
                         <h3 className="Sreen5--h3">Access unique<br/> investment opportunities</h3>
                         <div className="Screen5--description--content S6c">

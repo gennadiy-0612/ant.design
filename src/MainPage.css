@@ -1127,25 +1127,39 @@ button.buttonIDN.decide {
     }
 
     .dots.Screen5--dots, .dots {
-        left: auto;
+        left: 8.2%;
         margin: 0 0 0 auto;
+        width: auto;
+        height: 401px;
     }
 
-    .dots.Screen5--dots {
+    .dots.P1-S2 {
+        left: 0.2%;
+        margin: 0;
+        width: auto;
+        height: auto;
+    }
+
+    .dots.Screen5--dots.S5 {
         margin: 0 0 0 auto;
-        left: -20px;
+        left: -49px;
         height: 401px;
         width: 368px;
     }
 
     .dots.Screen6--dots {
-        left: -38px;
+        left: 50px;
         top: 23px;
     }
 
     .illustrate.Screen5-img.S5 {
         width: 368px;
         height: 401px;
+    }
+
+    .dots.Screen5--dots::after {
+        right: 8.5%;
+        bottom: -41px;
     }
 
     .Screen5--strong {
@@ -1178,9 +1192,10 @@ button.buttonIDN.decide {
 
     .window1--button-group.Screen5--button-group {
         flex-direction: row;
-        width: 92.5%;
+        width: 95.5%;
         justify-content: space-between;
-        margin: 20px 0 0 45px;
+        margin: 20px 0 0 27px;
+        max-width: 100%;
     }
 
     .Screen6 {
@@ -1245,7 +1260,7 @@ button.buttonIDN.decide {
     }
 
     .main-header-second {
-        padding: 0 53px 0 108px;
+        padding: 0 45px 0 108px;
     }
 
     .main-header-second-h2.head2 {
@@ -1361,6 +1376,10 @@ button.buttonIDN.decide {
         flex: 0 0 45.2%;
     }
 
+    .Screen5--decription {
+        margin: 0;
+    }
+
     .window2.Screen6--w2.Screen5--w1.S6 {
         padding-top: 100px;
     }
@@ -1454,9 +1473,11 @@ button.buttonIDN.decide {
         width: 222px;
         height: 60px;
     }
-    .login.buttonIDN.P1-S5{
+
+    .login.buttonIDN.P1-S5 {
         line-height: 52px;
     }
+
     .Screen9.P1-S9 {
         max-width: 97.2%;
         margin: 0 2.9%;
