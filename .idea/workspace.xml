@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="" />
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Images/image.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,14 +149,7 @@
       <workItem from="1608720179040" duration="14301000" />
       <workItem from="1608742075889" duration="13715000" />
       <workItem from="1608780043464" duration="20415000" />
-      <workItem from="1608803466114" duration="15690000" />
-    </task>
-    <task id="LOCAL-00101" summary="7button-finished">
-      <created>1608624728262</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1608624728262</updated>
+      <workItem from="1608803466114" duration="16265000" />
     </task>
     <task id="LOCAL-00102" summary="7button-finished">
       <created>1608631284974</created>
@@ -492,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608819315715</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="added-scale-hover">
+      <created>1608819859481</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1608819859481</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
