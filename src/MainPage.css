@@ -1460,6 +1460,22 @@ button.buttonIDN.decide {
         max-width: 97.2%;
         margin: 0 2.9%;
     }
+
+    .idn-img {
+        width: 67px;
+        height: 58px;
+        left: -49px;
+        top: -3px;
+    }
+
+    .foot-lists {
+        display: flex;
+        flex-grow: 5;
+        justify-content: space-between;
+        right: 6px;
+        max-width: 796px;
+        top: -5px;
+    }
 }
 
 @media (max-width: 1600px) and (min-width: 1200px) {
