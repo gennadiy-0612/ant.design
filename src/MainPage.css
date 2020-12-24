@@ -1497,8 +1497,8 @@ button.buttonIDN.decide {
 
 
     .login.buttonIDN.S2.big {
-        width: 190px;
-        height: 52px;
+        width: 216px;
+        height: 60px;
     }
 
     .window1-h {
@@ -1552,7 +1552,7 @@ button.buttonIDN.decide {
     }
 
     .chevron {
-        margin-top: 54px;
+        margin-top: 28px;
     }
 
     .main-header {
@@ -1697,7 +1697,7 @@ button.buttonIDN.decide {
     }
 
     .Screen5--button-group.S6bg {
-        margin: 10px 0 0 6.2%;
+        margin: 16px 0 0 6.2%;
         width: 82%;
         max-width: 82%;
     }
@@ -1709,9 +1709,10 @@ button.buttonIDN.decide {
         justify-content: space-between;
     }
 
-    .login.buttonIDN.S2.big {
-        width: 214px;
-        height: 60px;
+    .login.buttonIDN.S2.big.Screen2 {
+        width: 190px;
+        height: 50px;
+        line-height: 47px;
     }
 
     .first-col-img {
@@ -1754,11 +1755,62 @@ button.buttonIDN.decide {
 
     .Screen7 {
         margin: 169px 0 0;
-        padding: 138px 0 0;
+        padding: 129px 0 0;
     }
 
     .Screen7--h2 {
         letter-spacing: -1.4px;
-        font: normal normal 600 60px/60px 'Poppins', sans-serif;
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
+    }
+
+    .Screen7--p {
+        letter-spacing: -0.95px;
+        font: normal normal 400 22px/40px 'Poppins', sans-serif;
+        max-width: 962px;
+        margin: 87px auto 89px;
+        left: 0;
+    }
+
+    .Screen7--p br {
+        display: contents;
+    }
+
+    .sectors.S7 {
+        max-width: 772px;
+        right: 0;
+    }
+
+    .sector.normal.main-p.center.S7 {
+        margin: -21px auto 32px;
+        max-width: 100%;
+        font: normal normal 500 19px/19px 'Poppins', sans-serif;
+        letter-spacing: -0.9px;
+        background-position: center center;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        text-indent: 0;
+        padding: 146px 0 15px;
+    }
+
+    .back-color.S7 {
+        padding-bottom: 34px;
+    }
+
+    .window1--description--button.S7 {
+        font: normal normal 500 24px/35px 'Poppins', sans-serif;
+        margin: 6px 0 36px;
+    }
+
+    .Screen5--button-group.S7 {
+        margin: auto;
+        max-width: 570px;
+    }
+
+    .Screen7--h2.S8 {
+        font: normal normal 700 40px/60px 'Poppins', sans-serif;
+        padding: 186px 0 0 0;
+        letter-spacing: -1.1px;
     }
 }
