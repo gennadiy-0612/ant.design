@@ -38,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,10 +49,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\ant.design\src" />
       <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\jpg" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\svg" />
-      <recent name="E:\wamp64\www\ant.design\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\wamp64\www\ant.design\src\Images" />
@@ -152,14 +152,7 @@
       <workItem from="1608720179040" duration="14301000" />
       <workItem from="1608742075889" duration="13715000" />
       <workItem from="1608780043464" duration="20415000" />
-      <workItem from="1608803466114" duration="3106000" />
-    </task>
-    <task id="LOCAL-00098" summary="1page-has-done">
-      <created>1608622719468</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1608622719468</updated>
+      <workItem from="1608803466114" duration="12644000" />
     </task>
     <task id="LOCAL-00099" summary="6button-finished">
       <created>1608624117358</created>
@@ -497,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608800112224</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="added-scale-hover">
+      <created>1608806796354</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1608806796354</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,6 +544,7 @@
     <MESSAGE value="10button-finished" />
     <MESSAGE value="page1-scren2" />
     <MESSAGE value="added-sorted-images" />
-    <option name="LAST_COMMIT_MESSAGE" value="added-sorted-images" />
+    <MESSAGE value="added-scale-hover" />
+    <option name="LAST_COMMIT_MESSAGE" value="added-scale-hover" />
   </component>
 </project>

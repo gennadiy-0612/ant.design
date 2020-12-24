@@ -29,14 +29,14 @@ function MainPage() {
                         The first deal origination platform for Private Equity
                         investments in infrastructure-related sectors
                     </p>
-                    <div className="window1--button-group P1-S2 X1600">
+                    <div className="window1--button-group P1-S2 S2 X1600">
                         <div className="window1--description">
                             <p className="window1--description--button">Senior Advisors</p>
                             <button className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</button>
                         </div>
                         <div className="window1--description">
                             <p className="window1--description--button">Investors</p>
-                            <button className="login buttonIDN S2 big white back-slider indent-bigger Screen2">Join now</button>
+                            <button className="login buttonIDN S2 big white back-slider indent-bigger Screen2 blue-back">Join now</button>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ function MainPage() {
                         <h2 className="main-header-second-h2 head2">
                             WHAT WE OFFER
                         </h2>
-                        <p className="main-p">“IDN unleashes<br/>
+                        <p className="main-p X1600">“IDN unleashes<br/>
                             the power of networking
                             and industry expertise<br/>
                             to give Private Equity infrastructure investors

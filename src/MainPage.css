@@ -140,6 +140,7 @@ body > div {
 .illustrate {
     width: 680px;
     height: 572px;
+    border-radius: 30px;
 }
 
 .window1 {
@@ -150,14 +151,14 @@ body > div {
 .window1-h {
     font: normal normal 600 84px/111px 'Poppins', sans-serif;
     letter-spacing: -2.3px;
-    margin: 0;
+    margin: -26px 0 0;
     color: #232D53;
 }
 
 .window1-descript {
     font: normal normal 500 26px/52px 'Poppins', sans-serif;
     letter-spacing: -1.45px;
-    padding: 0 22% 0 0;
+    padding: 0 5% 0 0;
     margin: 15px 0 0 -0.35%;
     color: #696871;
 }
@@ -187,7 +188,7 @@ body > div {
 }
 
 .buttonIDN.big {
-    font: normal normal 500 20px/62px 'Poppins', sans-serif;
+    font: normal normal 500 20px/58px 'Poppins', sans-serif;
     width: 251px;
     height: 60px;
 }
@@ -238,7 +239,7 @@ body > div {
 }
 
 .window1--button-group {
-    margin: 70px auto 0 0;
+    margin: 100px auto 0 0;
     width: 77.5%;
 }
 
@@ -250,7 +251,7 @@ body > div {
 .chevron {
     display: block;
     width: 100%;
-    margin: 75px auto 0;
+    margin: 71px auto 0;
 }
 
 .chevron--down {
@@ -346,7 +347,7 @@ body > div {
 .normal.main-p {
     font-style: normal;
     margin: 39px auto 0;
-    max-width: 64%;
+    max-width: 72%;
     line-height: 81px;
     letter-spacing: -1.2px;
 }
@@ -488,6 +489,7 @@ body > div {
     text-align: left;
     letter-spacing: 0;
     padding: 0 0 0 3%;
+    margin: -3px 0 14px;
 }
 
 .Screen5--description--content {
@@ -538,10 +540,18 @@ body > div {
 
 .Screen5--p::after {
     top: -7px;
-    left: 5.6%;
+    left: 6.5%;
     background-color: #1D293F;
     height: 155%;
     width: 2px;
+}
+
+.Screen5--p.S5::after {
+    left: 6.2%;
+}
+
+.Screen5--p.P1-S6::after {
+    left: 5.3%;
 }
 
 .Screen5--p:last-child::after {
@@ -863,7 +873,7 @@ body > div {
 }
 
 .Screen9 {
-    padding: 65px 0 130px;
+    padding: 65px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -1029,6 +1039,22 @@ body > div {
 
 .sizes-scale:hover {
     transform: scale(0.9);
+}
+
+.buttonIDN.white.blue-back.back-slider {
+    transition: all .7s;
+}
+
+.buttonIDN.white.blue-back.back-slider:hover {
+    border-width: 0;
+}
+
+.buttonIDN.white.blue-back.back-slider::after {
+    background-color: #3680F6;
+}
+
+.buttonIDN.white.blue-back.back-slider:hover::after {
+    background-color: #3680F6;
 }
 
 .login.buttonIDN.decide {
@@ -1760,7 +1786,7 @@ body > div {
 
     .login.buttonIDN.S2.big.Screen2 {
         width: 190px;
-        height: 50px;
+        height: 51px;
         line-height: 47px;
     }
 
@@ -1874,3 +1900,50 @@ body > div {
         justify-content: space-between;
     }
 }
+
+@media (min-width: 1600px) and (max-width: 1820px) {
+    .window1-h.X12000 {
+        min-width: 727px;
+    }
+
+    .Screen5--w1.S6 {
+        left: 5%;
+    }
+
+    .Screen5--description--content.S6c {
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 1200px) {
+    .normal.main-p.center.S4 {
+        min-width: 1200px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .Screen5--button-group.S2 {
+        min-width: 596px;
+    }
+
+    .Screen5--button-group.X1600 {
+        min-width: 231px;
+    }
+
+    .window1--button-group.Screen5--button-group {
+        min-width: 526px;
+    }
+
+    .X1600.main-p {
+        min-width: 520px;
+    }
+
+    .main-header-second {
+        padding-left: 4.85%
+    }
+
+    .Screen5--p.P1-S6,.Screen5--p.P1-S6 {
+        min-width: 750px;
+    }
+}
+
