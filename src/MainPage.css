@@ -203,7 +203,7 @@ body > div {
     border: solid 1px #3680F6;
 }
 
-button.buttonIDN.S8 {
+.login.buttonIDN.S8 {
     display: block;
     margin: 58px auto 0;
     height: 54px;
@@ -967,22 +967,21 @@ button.buttonIDN.S8 {
     top: -60%;
 }
 
-.back-slider.buttonIDN.indent-bigger {
+.indent-bigger {
     text-indent: 0;
     transition: all .5s;
 }
 
-.back-slider.buttonIDN.indent-bigger:hover {
+.indent-bigger:hover {
     text-indent: 15px;
-    transition: all .5s;
 }
 
-.back-slider.buttonIDN.white {
+.white {
     color: #232D53;
     transition: all .5s;
 }
 
-.back-slider.buttonIDN.white:hover {
+.buttonIDN.white:hover {
     color: #fff;
 }
 
@@ -1020,21 +1019,21 @@ button.buttonIDN.S8 {
     left: -100%;
 }
 
-.back-slider.buttonIDN.why-idn::after {
+.back-slider.buttonIDN.why-idn.S2::after {
     color: #06113e;
 }
 
 .sizes-scale {
-    transition: all .5s;
+    transition: all .7s;
 }
 
 .sizes-scale:hover {
-    font-size: 95%;
-    height: 55px;
+    transform: scale(0.9);
 }
 
-button.buttonIDN.decide {
+.login.buttonIDN.decide {
     border-color: transparent;
+    height: 60px;
 }
 
 @media (max-width: 1199px) {

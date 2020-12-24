@@ -145,7 +145,7 @@ function MainPage() {
                                 <button className="login buttonIDN big S2 back-slider back-slider-two">Join for Free</button>
                             </div>
                             <div className="window1--description">
-                                <button className="login buttonIDN big S2 back-slider back-slider-two white border">Learn More</button>
+                                <button className="login buttonIDN big S2 back-slider back-slider-two indent-bigger white border">Learn More</button>
                             </div>
                         </div>
                     </div>
