@@ -1753,6 +1753,11 @@ button.buttonIDN.decide {
         padding: 0 0 28px 17%;
     }
 
+    .Screen5--p.S5:after,
+    .Screen5--p.P1-S6::after {
+        left: 8%;
+    }
+
     .Screen7 {
         margin: 169px 0 0;
         padding: 129px 0 0;
