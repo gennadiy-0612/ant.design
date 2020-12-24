@@ -189,7 +189,7 @@ body > div {
 }
 
 .buttonIDN.big {
-    font: normal normal 500 20px/30px 'Poppins', sans-serif;
+    font: normal normal 500 20px/62px 'Poppins', sans-serif;
     width: 251px;
     height: 60px;
 }
@@ -1812,5 +1812,11 @@ button.buttonIDN.decide {
         font: normal normal 700 40px/60px 'Poppins', sans-serif;
         padding: 186px 0 0 0;
         letter-spacing: -1.1px;
+    }
+
+    .Screen9 {
+        padding: 65px 0 130px 19px;
+        display: flex;
+        justify-content: space-between;
     }
 }
