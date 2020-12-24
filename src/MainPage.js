@@ -56,7 +56,7 @@ function MainPage() {
                             <img src={Images.hands} className="first-col-img" alt="hands"/>
                         </div>
                     </div>
-                    <div className="main-header-second">
+                    <div className="main-header-second S3">
                         <h2 className="main-header-second-h2 head2">
                             WHAT WE OFFER
                         </h2>

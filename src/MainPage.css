@@ -1910,8 +1910,18 @@ body > div {
         left: 5%;
     }
 
+    .main-header-second.S3 {
+        padding: 1.8% 0 0;
+        margin: auto;
+        width: 520px;
+    }
+
     .Screen5--description--content.S6c {
         overflow: hidden;
+    }
+
+    .main-p.X1600 br {
+        display: contents;
     }
 }
 
@@ -1934,16 +1944,8 @@ body > div {
         min-width: 526px;
     }
 
-    .X1600.main-p {
+    .X1600.main-p, .main-p.X1600 {
         min-width: 520px;
-    }
-
-    .main-header-second {
-        padding-left: 4.85%
-    }
-
-    .Screen5--p.P1-S6,.Screen5--p.P1-S6 {
-        min-width: 750px;
     }
 }
 
