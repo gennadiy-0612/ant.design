@@ -1389,8 +1389,12 @@ button.buttonIDN.decide {
         width: 188px;
     }
 
+    .back-slider.buttonIDN.indent-bigger {
+        line-height: 52px;
+    }
+
     .chevron {
-        margin: 65px auto 0;
+        margin: 35px auto 0;
     }
 
     .Screen5--button-group.S7 {
@@ -1646,7 +1650,7 @@ button.buttonIDN.decide {
         left: auto;
     }
 
-    .back-color::before{
+    .back-color::before {
         left: 27px;
         top: -100px;
     }
