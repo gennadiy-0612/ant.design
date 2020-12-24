@@ -252,7 +252,7 @@ button.buttonIDN.S8 {
 .chevron {
     display: block;
     width: 100%;
-    margin: 100px auto 0;
+    margin: 75px auto 0;
 }
 
 .chevron--down {
@@ -1380,6 +1380,10 @@ button.buttonIDN.decide {
         margin: 0;
     }
 
+    .Screen5--decription.S51 {
+        margin: 0 0 0 25px;
+    }
+
     .window2.Screen6--w2.Screen5--w1.S6 {
         padding-top: 100px;
     }
@@ -1475,12 +1479,13 @@ button.buttonIDN.decide {
     }
 
     .login.buttonIDN.P1-S5 {
-        line-height: 52px;
+        line-height: 44px;
     }
 
     .Screen9.P1-S9 {
         max-width: 97.2%;
         margin: 0 2.9%;
+        padding-bottom: 30px;
     }
 
     .idn-img {
@@ -1877,7 +1882,7 @@ button.buttonIDN.decide {
     }
 
     .Screen9 {
-        padding: 65px 0 130px 19px;
+        padding: 65px 0 30px 19px;
         display: flex;
         justify-content: space-between;
     }
