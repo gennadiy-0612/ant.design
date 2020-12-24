@@ -1241,12 +1241,11 @@ button.buttonIDN.decide {
     }
 
     .main-header-first, .main-header-second {
-        width: 50%;
-        padding: 0 50px 0 63px;
+        padding: 0 50px 0 56px;
     }
 
     .main-header-second {
-        padding: 0 53px 0 54px;
+        padding: 0 53px 0 108px;
     }
 
     .main-header-second-h2.head2 {
@@ -1455,7 +1454,9 @@ button.buttonIDN.decide {
         width: 222px;
         height: 60px;
     }
-
+    .login.buttonIDN.P1-S5{
+        line-height: 52px;
+    }
     .Screen9.P1-S9 {
         max-width: 97.2%;
         margin: 0 2.9%;
