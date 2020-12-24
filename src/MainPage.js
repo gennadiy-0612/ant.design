@@ -49,8 +49,8 @@ function MainPage() {
                 </a>
             </div>
 
-            <div className="main">
-                <div className="main-header">
+            <div className="Screen3 main">
+                <div className="main-header S3">
                     <div className="main-header-first">
                         <div className="main-header-dots dots hands">
                             <img src={Images.hands} className="first-col-img" alt="hands"/>
@@ -100,20 +100,20 @@ function MainPage() {
                         <h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
                         <h3 className="Sreen5--h3 S5">Success fees up to<br/> 2 million Euro</h3>
                         <div className="Screen5--description--content">
-                            <strong className="Screen5--strong">CONNECT</strong>
-                            <p className="Screen5--p">Originate deals and connect to leading investors</p>
-                            <strong className="Screen5--strong">ADVISE</strong>
-                            <p className="Screen5--p">Introduce the parties and advise through the process</p>
-                            <strong className="Screen5--strong">CLOSE</strong>
-                            <p className="Screen5--p">Earn a success fee at deal closure and join the Board</p>
+                            <strong className="Screen5--strong S5">CONNECT</strong>
+                            <p className="Screen5--p S5">Originate deals and connect to leading investors</p>
+                            <strong className="Screen5--strong S5">ADVISE</strong>
+                            <p className="Screen5--p S5">Introduce the parties and advise through the process</p>
+                            <strong className="Screen5--strong S5">CLOSE</strong>
+                            <p className="Screen5--p S5">Earn a success fee at deal closure and join the Board</p>
                         </div>
                         <div className="window1--button-group Screen5--button-group">
                             <div className="window1--description">
-                                <button className="login buttonIDN S2 big back-slider font-size-scale">Apply now
+                                <button className="login buttonIDN S2 P1-S5 big back-slider font-size-scale">Apply now
                                 </button>
                             </div>
                             <div className="window1--description">
-                                <button className="login buttonIDN S2 big white back-slider">Learn more</button>
+                                <button className="login buttonIDN S2 P1-S5 big white back-slider">Learn more</button>
                             </div>
                         </div>
                     </div>
