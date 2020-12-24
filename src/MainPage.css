@@ -1314,6 +1314,7 @@ button.buttonIDN.decide {
     .main-post-link {
         font: normal normal 700 30px/57px 'Poppins', sans-serif;
         margin: 41px 0 0;
+        width: 104%;
     }
 
     .first-col-img {
