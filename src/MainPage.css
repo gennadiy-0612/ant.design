@@ -1641,14 +1641,14 @@ button.buttonIDN.decide {
         min-width: 100%;
     }
 
-    .back-color::before,
     .back-color::after {
-        top: -90px;
+        top: -100px;
         left: auto;
     }
 
     .back-color::before{
-        left: 0;
+        left: 27px;
+        top: -100px;
     }
 
     .main-header-second-h2.head2 {

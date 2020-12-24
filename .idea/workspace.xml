@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,21 +148,7 @@
       <workItem from="1608702632371" duration="12748000" />
       <workItem from="1608720179040" duration="14301000" />
       <workItem from="1608742075889" duration="13715000" />
-      <workItem from="1608780043464" duration="11198000" />
-    </task>
-    <task id="LOCAL-00083" summary="1page-has-done">
-      <created>1608552693328</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1608552693328</updated>
-    </task>
-    <task id="LOCAL-00084" summary="1page-has-done">
-      <created>1608554743256</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1608554743256</updated>
+      <workItem from="1608780043464" duration="11678000" />
     </task>
     <task id="LOCAL-00085" summary="1page-has-done">
       <created>1608556388129</created>
@@ -494,7 +479,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608790723160</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="added-sorted-images">
+      <created>1608791256756</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1608791256756</updated>
+    </task>
+    <task id="LOCAL-00133" summary="added-sorted-images">
+      <created>1608791467774</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1608791467774</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
