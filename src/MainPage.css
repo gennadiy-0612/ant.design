@@ -6,6 +6,17 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.center {
+    text-align: center;
+}
+
+.Screen5--button-group.s7 {
+    max-width: 800px;
+}
+
+.added-element-before {
+    position: relative;
+}
 
 .dots {
     position: relative;
