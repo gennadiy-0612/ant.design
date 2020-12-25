@@ -465,7 +465,7 @@ body {
 
 .back-color::before {
     top: -90px;
-    left: 0.7%;
+    left: 2.3%;
     z-index: 0;
 }
 
@@ -1286,8 +1286,8 @@ body {
     .back-color::before {
         left: auto;
         right: 73px;
-
     }
+
 
     .main-header-dots.dots::after {
         left: -34px;
@@ -1564,6 +1564,15 @@ body {
         margin-top: -11px;
     }
 
+    .main-header-second {
+        padding: 0.7% 7.6% 0 12.5%;
+        max-width: 410px;
+    }
+
+    .main-p.X1600 {
+        max-width: 520px;
+    }
+
 }
 
 @media (max-width: 1600px) and (min-width: 1199px) {
@@ -1695,7 +1704,7 @@ body {
     }
 
     .main-header-second {
-        padding: 0.7% 7.6% 0 12.5%;
+        padding: 0.7% 7.6% 0 20%;
     }
 
     .main-post-link {
@@ -1776,13 +1785,11 @@ body {
     }
 
     .back-color::after {
-        top: -100px;
         left: auto;
     }
 
     .back-color::before {
         left: 27px;
-        top: -100px;
     }
 
     .main-header-second-h2.head2 {
@@ -1857,7 +1864,7 @@ body {
     .login.buttonIDN.S2.big.Screen2 {
         width: 190px;
         height: 51px;
-        line-height: 47px;
+        line-height: 51px;
     }
 
     .first-col-img {
@@ -1996,6 +2003,12 @@ body {
     }
 }
 
+@media (max-width: 1100px) {
+    .main-header-second {
+        padding: 0.7% 4%;
+    }
+}
+
 @media (min-width: 1600px) and (max-width: 1820px) {
     .window1-h.X12000 {
         min-width: 727px;
@@ -2007,8 +2020,8 @@ body {
     }
 
     .main-header-second.S3 {
-        padding: 1.8% 0 0;
-        margin: auto;
+        padding: 0 1.8% 0 1.8%;
+        margin: -14px auto auto;
         width: 520px;
     }
 
@@ -2022,7 +2035,7 @@ body {
 
     .Screen5.S5 {
         width: 1200px;
-        margin: auto;
+        margin: 182px auto 0 auto;
     }
 
     .Screen5--description--content {
@@ -2040,9 +2053,11 @@ body {
     .Screen5--p.S5::after {
         left: 6.7%;
     }
+
     .Screen5--p.S5:last-child::after {
         left: 6.5%;
     }
+
     .window1.Screen5--w1 {
         left: 0;
     }
@@ -2075,8 +2090,9 @@ body {
         min-width: 526px;
     }
 
-    .X1600.main-p, .main-p.X1600 {
+    .main-p.X1600 {
         min-width: 520px;
+        width: 520px;
     }
 }
 
