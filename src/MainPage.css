@@ -2014,3 +2014,11 @@ body > div {
         min-width: 520px;
     }
 }
+
+.chevron {
+    margin: 8vh auto 0;
+}
+
+.Header {
+    padding: 6px 3.9% 17vh 30px;
+}
