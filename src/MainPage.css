@@ -867,7 +867,7 @@ body {
 }
 
 .window1--description.S7 {
-    margin:0;
+    margin: 0;
 }
 
 .Screen8 {
@@ -1079,6 +1079,7 @@ body {
 
 .back-slider-two.buttonIDN.white.border {
     border-width: 0;
+    line-height: 60px;
 }
 
 @media (max-width: 1023px) {
