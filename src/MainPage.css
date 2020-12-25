@@ -712,7 +712,7 @@ body > div {
 .sectors.S7 {
     max-width: 1335px;
     position: relative;
-    right: 1.7%;
+    /*right: 1.7%;*/
     justify-content: center;
 }
 
@@ -1061,7 +1061,9 @@ body > div {
     border-color: transparent;
     height: 60px;
 }
-
+.back-slider-two.buttonIDN.white.border{
+    border-width: 0;
+}
 @media (max-width: 1199px) {
     .main-page {
         max-width: 1024px;
@@ -1182,7 +1184,7 @@ body > div {
         padding: 1px 40px 24px 18.7%;
     }
 
-    .Screen5--p::after {
+    .Screen5--p.S5::after {
         top: -7px;
         left: 9%;
     }
@@ -1516,7 +1518,7 @@ body > div {
     }
 }
 
-@media (max-width: 1600px) and (min-width: 1200px) {
+@media (max-width: 1600px) and (min-width: 1199px) {
     .main-page {
         max-width: 1200px;
         margin: auto;
@@ -1901,6 +1903,18 @@ body > div {
     }
 }
 
+
+@media (max-width: 1023px) {
+    .window1--button-group.Screen5--button-group,
+    .window1--button-group.Screen5--button-group.S6bg {
+        flex-direction: column;
+    }
+
+    .window1--description {
+        margin: 20px auto 0;
+    }
+}
+
 @media (min-width: 1600px) and (max-width: 1820px) {
     .window1-h.X12000 {
         min-width: 727px;
@@ -1922,6 +1936,14 @@ body > div {
 
     .main-p.X1600 br {
         display: contents;
+    }
+
+    .Screen5.S5 {
+        width: 1200px;
+    }
+
+    .window1.Screen5--w1 {
+        left: 0;
     }
 }
 
@@ -1948,4 +1970,3 @@ body > div {
         min-width: 520px;
     }
 }
-
