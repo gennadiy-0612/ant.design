@@ -145,7 +145,7 @@ body > div {
 
 .window1 {
     padding: 2px 0 0 9.65%;
-    flex: 0 0 40%;
+    flex: 0 0 41%;
 }
 
 .window1-h {
@@ -302,7 +302,7 @@ body > div {
 }
 
 .main-header-second {
-    padding: 1.8% 7.6% 0 9.85%;
+    padding: 0 7.6% 0 9.85%;
 }
 
 .main-header-second-h2.head2 {
@@ -559,6 +559,10 @@ body > div {
     width: 6px;
     left: 5.5%;
     height: 100%;
+}
+
+.Screen5--p.S5:last-child::after {
+    left: 7.5%;
 }
 
 .Sreen5--h3 {
@@ -1061,9 +1065,17 @@ body > div {
     border-color: transparent;
     height: 60px;
 }
-.back-slider-two.buttonIDN.white.border{
+
+.back-slider-two.buttonIDN.white.border {
     border-width: 0;
 }
+
+@media (max-width: 1023px) {
+    .main-header-second.S3 {
+        padding: 0 3%;
+    }
+}
+
 @media (max-width: 1199px) {
     .main-page {
         max-width: 1024px;
@@ -1725,6 +1737,10 @@ body > div {
         font: normal normal 600 24px/24px 'Poppins', sans-serif;
     }
 
+    .Screen4 {
+        overflow: hidden;
+    }
+
     .Sreen5--h3 {
         font: normal normal 600 40px/60px 'Poppins', sans-serif;
         padding: 13px 0 0 3%;
@@ -1818,7 +1834,7 @@ body > div {
     }
 
     .Screen5--description--content.S6c {
-        max-width: 77%;
+        max-width: 100%;
         padding: 78px 0 0;
     }
 
@@ -1833,6 +1849,10 @@ body > div {
     .Screen5--p.S5:after,
     .Screen5--p.P1-S6::after {
         left: 8%;
+    }
+
+    .Screen5--p.P1-S6::after {
+        left: 7%;
     }
 
     .Screen7 {
@@ -1903,7 +1923,6 @@ body > div {
     }
 }
 
-
 @media (max-width: 1023px) {
     .window1--button-group.Screen5--button-group,
     .window1--button-group.Screen5--button-group.S6bg {
@@ -1940,6 +1959,23 @@ body > div {
 
     .Screen5.S5 {
         width: 1200px;
+        margin: auto;
+    }
+
+    .Screen5--description--content {
+        max-width: 100%;
+    }
+
+    .dots.Screen5--dots {
+        left: 6.9%;
+    }
+
+    .dots.Screen5--dots::after {
+        right: -12%;
+    }
+
+    .Screen5--p.S5::after {
+        left: 7.6%;
     }
 
     .window1.Screen5--w1 {
@@ -1947,9 +1983,17 @@ body > div {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
     .normal.main-p.center.S4 {
         min-width: 1200px;
+    }
+
+    .Screen7 {
+        padding-bottom: 67px;
+    }
+
+    .Screen7--h2.S8.X1200 {
+        padding: 120px 0 0;
     }
 }
 
