@@ -849,10 +849,6 @@ body {
     text-indent: -9px;
 }
 
-.window1--description.S7.S71 {
-    margin-left: 9px;
-}
-
 .S7.S71.dot-list.Advisor {
     margin: 36px 0;
     min-width: 422px;
@@ -877,7 +873,7 @@ body {
 }
 
 .window1--description.S7 {
-    margin: 0 0 0 5px;
+    margin:0;
 }
 
 .Screen8 {
