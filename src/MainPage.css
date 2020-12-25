@@ -7,11 +7,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .dots {
     position: relative;
     z-index: 0;
@@ -48,9 +43,21 @@ code {
     text-align: center;
 }
 
-body > div {
+.Header,
+.Screen2.P1-S2,
+.Screen5.S5,
+.Screen6.S6,
+.Screen9.P1-S9 {
     max-width: 1920px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Screen4,
+.Screen3.main,
+.Screen7.S7,
+.Screen8 {
+    width: 100%;
 }
 
 .Screen5--button-group.s7 {
@@ -137,6 +144,10 @@ body > div {
     display: flex;
 }
 
+.Screen2.P1-S2 {
+    margin: 6vh auto 5vh;
+}
+
 .illustrate {
     width: 680px;
     height: 572px;
@@ -181,6 +192,9 @@ body > div {
     border-radius: 37px;
     color: #fff;
     z-index: 1;
+    text-align: center;
+    display: block;
+    line-height: 52px;
 }
 
 .buttonIDN:focus {
@@ -271,6 +285,9 @@ body > div {
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 216px 11% 295px 17.8%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-header-first.main-header-first-col {
@@ -1050,7 +1067,7 @@ body > div {
 }
 
 .buttonIDN.white.blue-back.back-slider:hover {
-    border-width: 0;
+    border-color: transparent;
 }
 
 .buttonIDN.white.blue-back.back-slider::after {
@@ -1077,9 +1094,21 @@ body > div {
 }
 
 @media (max-width: 1199px) {
-    .main-page {
-        max-width: 1024px;
-        margin: auto;
+    .Header,
+    .Screen2.P1-S2,
+    .Screen5.S5,
+    .Screen6.S6,
+    .Screen9.P1-S9 {
+        max-width: 1240px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .Screen4,
+    .Screen3.main,
+    .Screen7.S7,
+    .Screen8 {
+        width: 100%;
     }
 
     .Header {
@@ -1311,7 +1340,7 @@ body > div {
     }
 
     .main-header-second-h2.head2.Screen5--h2 {
-        margin: 14px 0 0 16px;
+        margin: -5px 0 0 16px;
     }
 
     .Sreen5--h3 {
@@ -1437,7 +1466,7 @@ body > div {
     }
 
     .back-slider.buttonIDN.indent-bigger {
-        line-height: 52px;
+        line-height: 50px;
     }
 
     .chevron {
@@ -1504,7 +1533,7 @@ body > div {
     }
 
     .login.buttonIDN.P1-S5 {
-        line-height: 44px;
+        line-height: 52px;
     }
 
     .Screen9.P1-S9 {
@@ -1530,10 +1559,29 @@ body > div {
     }
 }
 
+@media (max-width: 1600px) {
+    .main-header-second-h2.head2.S3 {
+        margin-top: -11px;
+    }
+
+}
+
 @media (max-width: 1600px) and (min-width: 1199px) {
-    .main-page {
+    .Header,
+    .Screen2.P1-S2,
+    .Screen5.S5,
+    .Screen6.S6,
+    .Screen9.P1-S9 {
         max-width: 1200px;
-        margin: auto;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .Screen4,
+    .Screen3.main,
+    .Screen7.S7,
+    .Screen8 {
+        width: 100%;
     }
 
     .Header {
@@ -1575,6 +1623,9 @@ body > div {
         height: 52px;
     }
 
+    .buttonIDN.white.S2:hover {
+        border-color: transparent;
+    }
 
     .login.buttonIDN.S2.big {
         width: 216px;
@@ -1659,6 +1710,7 @@ body > div {
 
     .main-header.S3 {
         padding: 115px 0 164px;
+        max-width: 1200px;
     }
 
     .main-p {
@@ -1929,6 +1981,12 @@ body > div {
         flex-direction: column;
     }
 
+    .window1--button-group.Screen5--button-group.S7 {
+        flex-direction: row;
+        max-width: 100%;
+        justify-content: space-around;
+    }
+
     .window1--description {
         margin: 20px auto 0;
     }
@@ -1941,6 +1999,7 @@ body > div {
 @media (min-width: 1600px) and (max-width: 1820px) {
     .window1-h.X12000 {
         min-width: 727px;
+        font-size: 81px;
     }
 
     .Screen5--w1.S6 {
@@ -1979,9 +2038,11 @@ body > div {
     }
 
     .Screen5--p.S5::after {
-        left: 7.6%;
+        left: 6.7%;
     }
-
+    .Screen5--p.S5:last-child::after {
+        left: 6.5%;
+    }
     .window1.Screen5--w1 {
         left: 0;
     }
@@ -2019,10 +2080,28 @@ body > div {
     }
 }
 
+@media (min-width: 1920px) {
+    .Screen7--h2.why {
+        background-color: #e5e5e5;
+        border-bottom: solid 4px #18a0fb;
+        padding: 157px 0 70px;
+    }
+
+    .Screen7.S7 {
+        padding: 0;
+    }
+
+    .Screen7--p {
+        margin-top: 11px;
+    }
+}
+
 .chevron {
     margin: 8vh auto 0;
 }
 
 .Header {
-    padding: 6px 3.9% 17vh 30px;
+    padding: 32px 3.9% 17vh 65px;
+    margin-right: auto;
+    margin-left: auto;
 }

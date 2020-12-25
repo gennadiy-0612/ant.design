@@ -15,7 +15,7 @@ function MainPage() {
                     <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
                 </nav>
                 <div className="login-block">
-                    <button className="login buttonIDN back-slider">Login</button>
+                    <a className="login buttonIDN back-slider">Login</a>
                 </div>
             </div>
 
@@ -32,11 +32,12 @@ function MainPage() {
                     <div className="window1--button-group P1-S2 S2 X1600">
                         <div className="window1--description">
                             <p className="window1--description--button">Senior Advisors</p>
-                            <button className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</button>
+                            <a className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</a>
                         </div>
                         <div className="window1--description">
                             <p className="window1--description--button">Investors</p>
-                            <button className="login buttonIDN S2 big white back-slider indent-bigger Screen2 blue-back">Join now</button>
+                            <a className="login buttonIDN S2 big white back-slider indent-bigger Screen2 blue-back">Join
+                                now</a>
                         </div>
                     </div>
                 </div>
@@ -57,9 +58,7 @@ function MainPage() {
                         </div>
                     </div>
                     <div className="main-header-second S3">
-                        <h2 className="main-header-second-h2 head2">
-                            WHAT WE OFFER
-                        </h2>
+                        <h2 className="main-header-second-h2 head2 S3">WHAT WE OFFER</h2>
                         <p className="main-p X1600">“IDN unleashes<br/>
                             the power of networking
                             and industry expertise<br/>
@@ -109,11 +108,11 @@ function MainPage() {
                         </div>
                         <div className="window1--button-group Screen5--button-group">
                             <div className="window1--description">
-                                <button className="login buttonIDN S2 P1-S5 big back-slider font-size-scale">Apply now
-                                </button>
+                                <a className="login buttonIDN S2 P1-S5 big back-slider font-size-scale">Apply now
+                                </a>
                             </div>
                             <div className="window1--description">
-                                <button className="login buttonIDN S2 P1-S5 big white back-slider">Learn more</button>
+                                <a className="login buttonIDN S2 P1-S5 big white back-slider">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -126,7 +125,10 @@ function MainPage() {
 
             <div className="Screen6 S6">
                 <div className="window2 Screen6--w2 Screen5--w1 S6">
-                    <div className="dots Screen5--dots Screen6--dots"><img src={Images.people} className="illustrate Screen5-img Screen6-img" alt="smile man"/></div></div>
+                    <div className="dots Screen5--dots Screen6--dots"><img src={Images.people}
+                                                                           className="illustrate Screen5-img Screen6-img"
+                                                                           alt="smile man"/></div>
+                </div>
                 <div className="window1 Screen6--w2 Screen5--w2 S6">
                     <div className="Screen5--decription S5 S52">
                         <h2 className="main-header-second-h2 Screen5--h2 head2 center P1-S6">FOR INVESTORS</h2>
@@ -142,10 +144,11 @@ function MainPage() {
                         </div>
                         <div className="window1--button-group Screen5--button-group S6bg">
                             <div className="window1--description">
-                                <button className="login buttonIDN big S2 back-slider back-slider-two">Join for Free</button>
+                                <a className="login buttonIDN big S2 back-slider back-slider-two">Join for Free</a>
                             </div>
                             <div className="window1--description">
-                                <button className="login buttonIDN big S2 back-slider back-slider-two indent-bigger white border">Learn More</button>
+                                <a className="login buttonIDN big S2 back-slider back-slider-two indent-bigger white border">Learn
+                                    More</a>
                             </div>
                         </div>
                     </div>
@@ -153,8 +156,9 @@ function MainPage() {
             </div>
 
             <div className="Screen7 S7">
-                <h2 className="Screen7--h2">Why IDN?</h2>
-                <p className="Screen7--p S7">Our unique platform is the first of its kind incentivizing independent Senior
+                <h2 className="Screen7--h2 why">Why IDN?</h2>
+                <p className="Screen7--p S7">Our unique platform is the first of its kind incentivizing independent
+                    Senior
                     Executives to originate deals in a structured, innovative, and transparent way, creating an
                     environment
                     of trust,<br/> protecting & promoting the interests of all parties involved</p>
@@ -170,19 +174,22 @@ function MainPage() {
                 <div className="window1--button-group Screen5--button-group S7">
                     <div className="window1--description S7 S71">
                         <p className="window1--description--button S7">Senior Advisors</p>
-                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Apply now
-                        </button>
+                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Apply
+                            now
+                        </a>
                     </div>
                     <div className="window1--description S7 S72">
                         <p className="window1--description--button S7 S72">Investors</p>
-                        <button className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Join for Free</button>
+                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Join
+                            for Free</a>
                     </div>
                 </div>
             </div>
 
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8 X1200">Do you want to learn more?</h2>
-                <button className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Get in Touch</button>
+                <a className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Get
+                    in Touch</a>
             </div>
 
             <div className="Screen9 P1-S9">

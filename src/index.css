@@ -16,11 +16,6 @@ code {
     text-align: center;
 }
 
-body > div {
-    max-width: 1920px;
-    margin: 0 auto;
-}
-
 .Screen5--button-group.s7 {
     max-width: 800px;
 }
