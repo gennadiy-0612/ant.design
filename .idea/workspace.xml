@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,13 +153,6 @@
       <workItem from="1608880691081" duration="30741000" />
       <workItem from="1608917744115" duration="7785000" />
       <workItem from="1608960821754" duration="1075000" />
-    </task>
-    <task id="LOCAL-00118" summary="added-sorted-images">
-      <created>1608729225919</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1608729225919</updated>
     </task>
     <task id="LOCAL-00119" summary="added-sorted-images">
       <created>1608729554903</created>
@@ -498,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608925914097</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="added-scale-hover">
+      <created>1608975042835</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1608975042835</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +511,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
             </State>
