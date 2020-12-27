@@ -1104,9 +1104,11 @@ body {
 .buttonIDN.white.blue-back.back-slider, .login.buttonIDN.P1-S5 {
     transition: left, font-size .7s;
 }
-.login.buttonIDN.P1-S5:hover{
+
+.login.buttonIDN.P1-S5:hover {
     border-color: #10214f;
 }
+
 @media (max-width: 1023px) {
     .main-header-second.S3 {
         padding: 0 3%;
