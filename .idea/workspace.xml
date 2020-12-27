@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="added-scale-hover">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
-    </list>
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,28 +153,7 @@
       <workItem from="1608960821754" duration="1075000" />
       <workItem from="1608986079640" duration="643000" />
       <workItem from="1609059785904" duration="3465000" />
-      <workItem from="1609077007026" duration="4566000" />
-    </task>
-    <task id="LOCAL-00122" summary="added-sorted-images">
-      <created>1608731475713</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1608731475713</updated>
-    </task>
-    <task id="LOCAL-00123" summary="added-sorted-images">
-      <created>1608733431142</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1608733431142</updated>
-    </task>
-    <task id="LOCAL-00124" summary="added-sorted-images">
-      <created>1608733771737</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1608733771737</updated>
+      <workItem from="1609077007026" duration="4933000" />
     </task>
     <task id="LOCAL-00125" summary="added-sorted-images">
       <created>1608734258942</created>
@@ -503,7 +477,28 @@
       <option name="project" value="LOCAL" />
       <updated>1608975184094</updated>
     </task>
-    <option name="localTasksCounter" value="171" />
+    <task id="LOCAL-00171" summary="added-scale-hover">
+      <created>1609082835715</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1609082835715</updated>
+    </task>
+    <task id="LOCAL-00172" summary="main-page-complete">
+      <created>1609082868340</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1609082868340</updated>
+    </task>
+    <task id="LOCAL-00173" summary="main-page-complete">
+      <created>1609083105970</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1609083105970</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +512,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="true" />
+                  <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
             </State>
@@ -551,6 +546,7 @@
     <MESSAGE value="page1-scren2" />
     <MESSAGE value="added-sorted-images" />
     <MESSAGE value="added-scale-hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="added-scale-hover" />
+    <MESSAGE value="main-page-complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="main-page-complete" />
   </component>
 </project>
