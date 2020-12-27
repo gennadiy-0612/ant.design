@@ -36,7 +36,7 @@ function MainPage() {
                         </div>
                         <div className="window1--description">
                             <p className="window1--description--button">Investors</p>
-                            <a className="login buttonIDN S2 big white back-slider indent-bigger Screen2 blue-back">Join
+                            <a className="login buttonIDN S2 big white back-slider Screen2 blue-back">Join
                                 now</a>
                         </div>
                     </div>

@@ -161,7 +161,8 @@ body {
 }
 
 .Screen2.P1-S2 {
-    margin: 6vh auto 5vh;
+    margin: 2vh auto;
+    min-height: 69vh;
 }
 
 .illustrate {
@@ -292,7 +293,7 @@ body {
 }
 
 .main {
-    margin: 30px 0 0 0;
+    margin: 0;
     background-color: #F7F7FB;
 }
 
@@ -341,7 +342,7 @@ body {
 .main-header-second-h2.head2 {
     font: normal normal 600 24px/24px 'Poppins', sans-serif;
     color: #3680F6;
-    margin: 11px 0 0;
+    margin: 0;
     letter-spacing: -0.1px;
 }
 
@@ -1073,11 +1074,12 @@ body {
 }
 
 .buttonIDN.white.blue-back.back-slider {
+    line-height: 52px;
     transition: all .7s;
 }
 
 .buttonIDN.white.blue-back.back-slider:hover {
-    border-color: transparent;
+    border-color: #3680F6;
 }
 
 .buttonIDN.white.blue-back.back-slider::after {
@@ -1091,6 +1093,7 @@ body {
 .login.buttonIDN.decide {
     border-color: transparent;
     height: 60px;
+    line-height: 60px;
 }
 
 .back-slider-two.buttonIDN.white.border {
@@ -1098,6 +1101,12 @@ body {
     line-height: 60px;
 }
 
+.buttonIDN.white.blue-back.back-slider, .login.buttonIDN.P1-S5 {
+    transition: left, font-size .7s;
+}
+.login.buttonIDN.P1-S5:hover{
+    border-color: #10214f;
+}
 @media (max-width: 1023px) {
     .main-header-second.S3 {
         padding: 0 3%;
@@ -1351,7 +1360,11 @@ body {
     }
 
     .main-header-second-h2.head2.Screen5--h2 {
-        margin: -5px 0 0 16px;
+        margin: 6px 0 0 16px;
+    }
+
+    .Screen5--h2.head2.center.P1-S6 {
+        margin-top: 0;
     }
 
     .Sreen5--h3 {
@@ -1716,7 +1729,7 @@ body {
     }
 
     .main-header-second {
-        padding: 0.7% 7.6% 0 20%;
+        padding: 0.7% 7.6% 0 10%;
     }
 
     .main-post-link {
@@ -1726,12 +1739,12 @@ body {
 
     .main-post-link {
         font: normal normal 700 30px/49px 'Poppins', sans-serif;
-        margin: 44px 0 0px;
+        margin: 44px 0 0;
     }
 
     .main-header.S3 {
         padding: 115px 0 164px;
-        max-width: 1200px;
+        max-width: 1050px;
     }
 
     .main-p {
@@ -2032,7 +2045,7 @@ body {
     }
 }
 
-@media (min-width: 1600px) and (max-width: 1820px) {
+@media (min-width: 1601px) and (max-width: 1820px) {
     .window1-h.X12000 {
         min-width: 727px;
         font-size: 81px;
@@ -2044,7 +2057,7 @@ body {
 
     .main-header-second.S3 {
         padding: 0 1.8% 0 1.8%;
-        margin: -14px auto auto;
+        margin: 0 auto auto;
         width: 520px;
     }
 
@@ -2117,8 +2130,6 @@ body {
 
 @media (min-width: 1920px) {
     .Screen7--h2.why {
-        background-color: #e5e5e5;
-        border-bottom: solid 4px #18a0fb;
         padding: 157px 0 70px;
     }
 
@@ -2132,11 +2143,11 @@ body {
 }
 
 .chevron {
-    margin: 8vh auto 0;
+    margin: 10vh auto 5vh;
 }
 
 .Header {
-    padding: 32px 3.9% 17vh 65px;
+    padding: 32px 3.9% 2vh 65px;
     margin-right: auto;
     margin-left: auto;
 }
