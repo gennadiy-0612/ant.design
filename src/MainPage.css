@@ -44,6 +44,7 @@ body {
 
 .dots.P1-S2::after {
     bottom: -37px;
+    box-sizing: initial;
 }
 
 .Screen7.P2-S7-remade::after {
@@ -1748,6 +1749,7 @@ body {
 
     .main-header-second {
         padding: 0.7% 7.6% 0 10%;
+        box-sizing: initial;
     }
 
     .main-post-link {
