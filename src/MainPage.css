@@ -1113,6 +1113,10 @@ body {
     .main-header-second.S3 {
         padding: 0 3%;
     }
+
+    .Screen9.P1-S9.X1023 {
+        margin: 0 60px;
+    }
 }
 
 @media (max-width: 1199px) {

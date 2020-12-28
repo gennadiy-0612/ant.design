@@ -192,7 +192,7 @@ function MainPage() {
                     in Touch</a>
             </div>
 
-            <div className="Screen9 P1-S9">
+            <div className="Screen9 P1-S9 X1023">
                 <span className="idn-img"></span>
                 <div className="foot-lists">
                     <ul className="foot-ul">
