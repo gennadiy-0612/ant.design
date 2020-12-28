@@ -4,50 +4,53 @@ import './MainPage.css';
 function MainPage() {
     return (
         <div className="main-page">
-            <div className="Header">
-                <div className="Header--logo">
-                    <a className="logo-link" href="/"><img className="idnlogo" src={Images.logo} alt="t"/></a>
+            <div className="First_screen">
+                <div className="Header">
+                    <div className="Header--logo">
+                        <a className="logo-link" href="/"><img className="idnlogo" src={Images.logo} alt="t"/></a>
+                    </div>
+                    <nav className="main-top-nav">
+                        <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Senior Advisor</a>
+                        <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Investors</a>
+                        <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Sectors</a>
+                        <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
+                    </nav>
+                    <div className="login-block">
+                        <a className="login buttonIDN back-slider">Login</a>
+                    </div>
                 </div>
-                <nav className="main-top-nav">
-                    <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Senior Advisor</a>
-                    <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Investors</a>
-                    <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Sectors</a>
-                    <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
-                </nav>
-                <div className="login-block">
-                    <a className="login buttonIDN back-slider">Login</a>
-                </div>
-            </div>
 
-            <div className="Screen2 P1-S2">
-                <div className="window1 Screen2 X12000 X1600">
-                    <h1 className="window1-h X12000">
-                        The Infrastructure
-                        Deals Network
-                    </h1>
-                    <p className="window1-descript">
-                        The first deal origination platform for Private Equity
-                        investments in infrastructure-related sectors
-                    </p>
-                    <div className="window1--button-group P1-S2 S2 X1600">
-                        <div className="window1--description">
-                            <p className="window1--description--button">Senior Advisors</p>
-                            <a className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</a>
-                        </div>
-                        <div className="window1--description">
-                            <p className="window1--description--button">Investors</p>
-                            <a className="login buttonIDN S2 big white back-slider Screen2 blue-back">Join
-                                now</a>
+                <div className="Screen2 P1-S2">
+                    <div className="window1 Screen2 X12000 X1600">
+                        <h1 className="window1-h X12000">
+                            The Infrastructure
+                            Deals Network
+                        </h1>
+                        <p className="window1-descript">
+                            The first deal origination platform for Private Equity
+                            investments in infrastructure-related sectors
+                        </p>
+                        <div className="window1--button-group P1-S2 S2 X1600">
+                            <div className="window1--description">
+                                <p className="window1--description--button">Senior Advisors</p>
+                                <a className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</a>
+                            </div>
+                            <div className="window1--description">
+                                <p className="window1--description--button">Investors</p>
+                                <a className="login buttonIDN S2 big white back-slider Screen2 blue-back">Join
+                                    now</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="window2 X1600">
-                    <div className="dots P1-S2"><img src={Images.bridge} className="illustrate Screen2" alt="bridge"/>
+                    <div className="window2 X1600">
+                        <div className="dots P1-S2"><img src={Images.bridge} className="illustrate Screen2"
+                                                         alt="bridge"/>
+                        </div>
                     </div>
+                    <a className="chevron" href="/">
+                        <img src={Images.arrowdown} className="chevron--down" alt="t"/>
+                    </a>
                 </div>
-                <a className="chevron" href="/">
-                    <img src={Images.arrowdown} className="chevron--down" alt="t"/>
-                </a>
             </div>
 
             <div className="Screen3 main">

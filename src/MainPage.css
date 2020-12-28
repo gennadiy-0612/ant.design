@@ -340,6 +340,7 @@ body {
 
 .main-header-second {
     padding: 0 7.6% 0 9.85%;
+    box-sizing: initial;
 }
 
 .main-header-second-h2.head2 {
@@ -1100,7 +1101,6 @@ body {
 
 .back-slider-two.buttonIDN.white.border {
     border-width: 0;
-    line-height: 60px;
 }
 
 .buttonIDN.white.blue-back.back-slider, .login.buttonIDN.P1-S5 {
@@ -1110,14 +1110,10 @@ body {
 
 .login.buttonIDN.P1-S5:hover {
     border-color: #10214f;
-    height: 60px;
-    line-height: 60px;
     border-width: 0;
 }
 
 .login.buttonIDN.P1-S5 {
-    height: 60px;
-    line-height: 60px;
     box-sizing: border-box;
 }
 
@@ -1197,6 +1193,7 @@ body {
     .window1.Screen2.X12000 {
         max-width: 50%;
         flex: 0 0 50%;
+        margin-top: 10px;
     }
 
     .window1, .window2 {
@@ -1570,11 +1567,6 @@ body {
         padding-bottom: 90px;
     }
 
-    .back-slider.back-slider-two.buttonIDN {
-        width: 222px;
-        height: 60px;
-    }
-
     .login.buttonIDN.P1-S5 {
         line-height: 52px;
     }
@@ -1600,6 +1592,10 @@ body {
         max-width: 796px;
         top: -5px;
     }
+
+    .Screen5--p.S5:after {
+        left: 8.5%;
+    }
 }
 
 @media (max-width: 1600px) {
@@ -1616,6 +1612,30 @@ body {
         max-width: 520px;
     }
 
+}
+
+@media (max-width: 1600px) and (min-width: 1024px) {
+    .login.buttonIDN {
+        width: 240px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .Screen5--button-group {
+        margin: 33px 0 0 6.2%;
+        width: 86.8%;
+        max-width: 86.8%;
+    }
+
+    .Screen5--button-group.S6bg {
+        margin: 16px 0 0 6.2%;
+        width: 94.3%;
+        max-width: 94.4%;
+    }
+
+    .window1.Screen5--w1 {
+        flex: 0 0 54%;
+    }
 }
 
 @media (max-width: 1600px) and (min-width: 1199px) {
@@ -1670,19 +1690,8 @@ body {
         margin: -17px 0 0 0;
     }
 
-    .buttonIDN.login {
-        width: 161px;
-        height: 52px;
-    }
-
     .buttonIDN.white.S2:hover {
         border-color: transparent;
-    }
-
-    .login.buttonIDN.S2.big {
-        width: 216px;
-        height: 62px;
-        line-height: 62px;
     }
 
     .window1-h {
@@ -1700,6 +1709,7 @@ body {
         flex: 0 0 48%;
         width: 48%;
         padding: 2px 0 0 0.75%;
+        margin-top: -20px;
     }
 
     .window1--description--button {
@@ -1729,12 +1739,6 @@ body {
         width: 396px;
         height: 334px;
         border-radius: 25px;
-    }
-
-    .window1--button-group.P1-S2.X1600 {
-        margin: 26px auto 0 0;
-        width: 76%;
-        min-width: 76%;
     }
 
     .chevron {
@@ -1873,7 +1877,7 @@ body {
     }
 
     .Screen5--p.S5 {
-        width: 62%;
+        width: 100%;
         padding: 0 0 28px 14%;
     }
 
@@ -1886,18 +1890,16 @@ body {
 
     .Screen5--button-group {
         margin: 33px 0 0 6.2%;
-        width: 75%;
-        max-width: 75%;
     }
 
     .window1--button-group.Screen5--button-group {
         margin: 10px 0 0 6.2%;
     }
 
-    .Screen5--button-group.S6bg {
-        margin: 16px 0 0 6.2%;
-        width: 82%;
-        max-width: 82%;
+    .window1--button-group.P1-S2.X1600 {
+        margin: 26px auto 0 0;
+        width: 90.3%;
+        min-width: 90.3%;
     }
 
     .Screen5--button-group.S6 {
@@ -1905,12 +1907,6 @@ body {
         width: 74.5%;
         margin: 35px 0 0 6.8%;
         justify-content: space-between;
-    }
-
-    .login.buttonIDN.S2.big.Screen2 {
-        width: 190px;
-        height: 51px;
-        line-height: 51px;
     }
 
     .first-col-img {
@@ -1949,11 +1945,6 @@ body {
 
     .Screen5--p.P1-S6 {
         padding: 0 0 28px 17%;
-    }
-
-    .Screen5--p.S5:after,
-    .Screen5--p.P1-S6::after {
-        left: 8%;
     }
 
     .Screen5--p.P1-S6::after {
@@ -2025,6 +2016,10 @@ body {
         padding: 65px 0 30px 19px;
         display: flex;
         justify-content: space-between;
+    }
+
+    .Screen5--p.S5::after {
+        left: 5.6%;
     }
 }
 
