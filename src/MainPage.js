@@ -31,11 +31,11 @@ function MainPage() {
                             investments in infrastructure-related sectors
                         </p>
                         <div className="window1--button-group P1-S2 S2 X1600">
-                            <div className="window1--description">
+                            <div className="window1--description S1">
                                 <p className="window1--description--button">Senior Advisors</p>
                                 <a className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</a>
                             </div>
-                            <div className="window1--description">
+                            <div className="window1--description S1">
                                 <p className="window1--description--button">Investors</p>
                                 <a className="login buttonIDN S2 big white back-slider Screen2 blue-back">Join
                                     now</a>

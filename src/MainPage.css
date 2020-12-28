@@ -156,7 +156,7 @@ body {
 .Screen2 {
     justify-content: space-around;
     position: relative;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
     flex-flow: row wrap;
     display: flex;
 }
@@ -995,7 +995,7 @@ body {
     width: 220%;
     height: 307%;
     border-radius: 50%;
-    background-color: #10214F;
+    background-color: #112b88;
     position: absolute;
     left: -204%;
     top: 10%;
@@ -1080,6 +1080,8 @@ body {
     border-color: #3680F6;
 }
 
+.login.buttonIDN.back-slider.back-slider-two.indent-bigger.white.border::after,
+.login.buttonIDN.P1-S5.white.back-slider::after,
 .buttonIDN.white.blue-back.back-slider::after {
     background-color: #3680F6;
 }
@@ -1202,6 +1204,7 @@ body {
         flex-direction: row;
         margin: 0 auto 0 0;
     }
+
 
     .window1-descript {
         font: normal normal 500 21px/41px 'Poppins', sans-serif;
@@ -1599,6 +1602,16 @@ body {
         margin-top: -11px;
     }
 
+    .login.buttonIDN.back-slider {
+        height: 50px;
+        width: 190px;
+        font-size: 20px;
+    }
+
+    .login.buttonIDN.back-slider.white {
+        font-size: 16px;
+    }
+
     .main-header-second {
         padding: 0.7% 7.6% 0 12.5%;
         max-width: 410px;
@@ -1608,9 +1621,17 @@ body {
         max-width: 520px;
     }
 
+    .window1--button-group {
+        justify-content: initial;
+    }
+
+    .window1--description {
+        margin-right: 40px;
+    }
 }
 
 @media (max-width: 1600px) and (min-width: 1024px) {
+    .login.buttonIDN.decide,
     .login.buttonIDN {
         width: 240px;
         height: 50px;
@@ -1634,7 +1655,7 @@ body {
     }
 }
 
-@media (max-width: 1600px) and (min-width: 1199px) {
+@media (max-width: 1600px) and (min-width: 1200px) {
     .Header,
     .Screen2.P1-S2,
     .Screen5.S5,
@@ -2106,7 +2127,7 @@ body {
     }
 }
 
-@media (min-width: 1200px) and (max-width: 1920px) {
+@media (min-width: 1199px) and (max-width: 1920px) {
     .Screen7 {
         padding-bottom: 67px;
     }
@@ -2133,6 +2154,14 @@ body {
         min-width: 520px;
         width: 520px;
     }
+
+    .window1--description.S1 {
+        margin-right: 99px;
+    }
+
+    .window1--description {
+        margin-right: 40px;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -2150,7 +2179,8 @@ body {
 }
 
 .chevron {
-    margin: 10vh auto 5vh;
+    /*margin: 10vh auto 5vh;*/
+    margin: 12vh auto 3vh;
 }
 
 .Header {
