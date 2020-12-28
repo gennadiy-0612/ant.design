@@ -1368,6 +1368,7 @@ body {
 
     .Screen5.S5 {
         margin: 80px auto 0;
+        overflow: hidden;
     }
 
     .main-header-second-h2.head2.Screen5--h2 {
@@ -2166,6 +2167,6 @@ body {
 }
 
 .Header {
-    width: 90%;
+    width: 89%;
     align-self: center;
 }
