@@ -6,17 +6,19 @@ function MainPage() {
         <div className="main-page">
             <div className="First_Screen">
                 <div className="Header">
-                    <div className="Header--logo">
+                    <div className="Header--logo X1024-1600">
                         <a className="logo-link" href="/"><img className="idnlogo" src={Images.logo} alt="t"/></a>
                     </div>
-                    <nav className="main-top-nav">
-                        <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Senior Advisor</a>
-                        <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Investors</a>
-                        <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Sectors</a>
-                        <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
-                    </nav>
-                    <div className="login-block">
-                        <a className="login buttonIDN back-slider">Login</a>
+                    <div className="top-horizon-menu X1024-1200 X1200-1600 ">
+                        <nav className="main-top-nav">
+                            <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Senior Advisor</a>
+                            <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Investors</a>
+                            <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Sectors</a>
+                            <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
+                        </nav>
+                        <div className="login-block">
+                            <a className="login buttonIDN back-slider top-login">Login</a>
+                        </div>
                     </div>
                 </div>
 

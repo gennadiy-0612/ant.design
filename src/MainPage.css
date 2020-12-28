@@ -60,7 +60,6 @@ body {
     text-align: center;
 }
 
-.Header,
 .Screen2.P1-S2,
 .Screen5.S5,
 .Screen6.S6,
@@ -88,14 +87,14 @@ body {
 
 .Header--logo {
     flex-grow: 1;
-    margin-top: -1px;
+    margin-top: 0;
 }
 
 .logo-link {
     display: flex;
     width: 234px;
     height: 106px;
-    margin: -17px 0 0 0.6%;
+    margin: 0;
 }
 
 .Header--logo--img {
@@ -127,7 +126,7 @@ body {
 
 .main-top-nav {
     display: flex;
-    padding: 67px 0 30px 10%;
+    padding: 67px 40px 30px 10%;
     justify-content: flex-end;
 }
 
@@ -146,11 +145,10 @@ body {
 }
 
 .login-block {
-    min-width: 19%;
-    flex-grow: 1;
     display: flex;
     justify-content: center;
     align-self: center;
+    padding-left: 75px;
 }
 
 .Screen2 {
@@ -209,6 +207,12 @@ body {
     text-align: center;
     display: block;
     line-height: 52px;
+}
+
+.login.buttonIDN.back-slider.top-login {
+    height: 52px;
+    width: 161px;
+    font-size: 20px;
 }
 
 .buttonIDN:focus {
@@ -1124,8 +1128,13 @@ body {
     }
 }
 
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .top-horizon-menu.X1024-1200 {
+        width: 901px;
+    }
+}
+
 @media (max-width: 1199px) {
-    .Header,
     .Screen2.P1-S2,
     .Screen5.S5,
     .Screen6.S6,
@@ -1144,9 +1153,6 @@ body {
 
     .Header {
         padding: 6px 3.9% 76px 30px;
-    }
-
-    .logo-link {
         margin: 40px 0 0 0;
     }
 
@@ -1168,7 +1174,6 @@ body {
 
     .login-block {
         justify-content: flex-end;
-        margin-top: -20px;
     }
 
     .buttonIDN.login {
@@ -1179,7 +1184,7 @@ body {
 
     .Screen2.P1-S2 {
         width: 950px;
-        margin: auto;
+        margin: 0 auto;
     }
 
     .window1-h {
@@ -1280,7 +1285,7 @@ body {
     .window1--button-group.Screen5--button-group {
         flex-direction: row;
         width: 95.5%;
-        justify-content: space-between;
+        justify-content: start;
         margin: 20px 0 0 27px;
         max-width: 100%;
     }
@@ -1653,10 +1658,13 @@ body {
     .window1.Screen5--w1 {
         flex: 0 0 54%;
     }
+
+    .login-block {
+        padding-left: 40px;
+    }
 }
 
 @media (max-width: 1600px) and (min-width: 1200px) {
-    .Header,
     .Screen2.P1-S2,
     .Screen5.S5,
     .Screen6.S6,
@@ -1692,7 +1700,6 @@ body {
     .main-top-nav {
         padding: 11px 0 0;
         position: relative;
-        left: 5.1%;
     }
 
     .main-top-nav-anchor {
@@ -1704,7 +1711,6 @@ body {
     .login-block {
         justify-content: flex-end;
         padding-right: 1.5%;
-        margin: -17px 0 0 0;
     }
 
     .buttonIDN.white.S2:hover {
@@ -2017,7 +2023,6 @@ body {
         margin: auto;
         max-width: 570px;
     }
-
     .Screen7--h2.S8 {
         font: normal normal 700 40px/60px 'Poppins', sans-serif;
         padding: 186px 0 0 0;
@@ -2032,6 +2037,22 @@ body {
 
     .Screen5--p.S5::after {
         left: 5.6%;
+    }
+
+    .top-horizon-menu {
+        width: 1050px;
+    }
+
+    .top-horizon-menu {
+        width: 1050px;
+    }
+
+    .top-horizon-menu.X1200-1600 {
+        width: 1050px;
+    }
+
+    .Header--logo.X1024-1600 {
+        left: 30px;
     }
 }
 
@@ -2053,6 +2074,10 @@ body {
 
     .Screen7.S7 {
         padding: 161px 0 0;
+    }
+
+    .login-block {
+
     }
 }
 
@@ -2184,9 +2209,14 @@ body {
 }
 
 .Header {
-    padding: 32px 3.9% 2vh 65px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    align-self: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 .First_Screen {
@@ -2196,7 +2226,38 @@ body {
     justify-content: space-between;
 }
 
-.Header {
-    width: 89%;
-    align-self: center;
+.Header--logo {
+    margin-top: 0;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+.main-top-nav {
+    padding: 0;
+}
+
+.top-horizon-menu {
+    width: 1600px;
+    /*box-shadow: 0 0 2px #000;*/
+    display: flex;
+    margin-top: 20px;
+}
+
+.main-top-nav {
+    flex-grow: 1;
+}
+
+.main-top-nav-anchor {
+    font: normal normal 500 22px/22px 'Poppins', sans-serif;
+    letter-spacing: -0.2px;
+    color: #232D53;
+    text-decoration: none;
+    margin: 0;
+    font-size: 18px;
+    padding: 40px 20px;
+}
+
+.window1--button-group.Screen5--button-group.S7{
+    justify-content: space-between;
 }
