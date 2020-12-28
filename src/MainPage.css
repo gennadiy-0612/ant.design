@@ -161,11 +161,6 @@ body {
     display: flex;
 }
 
-.Screen2.P1-S2 {
-    margin: 2vh auto;
-    min-height: 69vh;
-}
-
 .illustrate {
     width: 680px;
     height: 572px;
@@ -1700,11 +1695,6 @@ body {
         margin: 3px 0 0;
     }
 
-    .Screen2.P1-S2 {
-        width: 96%;
-        margin: 104px auto 0;
-    }
-
     .window1.Screen2.X1600 {
         flex: 0 0 48%;
         width: 48%;
@@ -2166,4 +2156,16 @@ body {
     padding: 32px 3.9% 2vh 65px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.First_Screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Header {
+    width: 90%;
+    align-self: center;
 }

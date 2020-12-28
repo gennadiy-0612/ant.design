@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,14 +157,7 @@
       <workItem from="1608986079640" duration="643000" />
       <workItem from="1609059785904" duration="3465000" />
       <workItem from="1609077007026" duration="4933000" />
-      <workItem from="1609134756878" duration="14281000" />
-    </task>
-    <task id="LOCAL-00132" summary="added-sorted-images">
-      <created>1608791256756</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1608791256756</updated>
+      <workItem from="1609134756878" duration="15446000" />
     </task>
     <task id="LOCAL-00133" summary="added-sorted-images">
       <created>1608791467774</created>
@@ -501,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609155155801</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="main-page-complete">
+      <created>1609155598267</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1609155598267</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
