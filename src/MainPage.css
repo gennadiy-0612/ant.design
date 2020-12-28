@@ -1074,9 +1074,7 @@ body {
 }
 
 .buttonIDN.white.blue-back.back-slider {
-    line-height: 62px;
     transition: all .7s;
-    height: 62px;
 }
 
 .buttonIDN.white.blue-back.back-slider:hover {
@@ -1108,6 +1106,15 @@ body {
 
 .login.buttonIDN.P1-S5:hover {
     border-color: #10214f;
+    height: 60px;
+    line-height: 60px;
+    border-width: 0;
+}
+
+.login.buttonIDN.P1-S5 {
+    height: 60px;
+    line-height: 60px;
+    box-sizing: border-box;
 }
 
 @media (max-width: 1023px) {
@@ -1170,6 +1177,7 @@ body {
     .buttonIDN.login {
         width: 161px;
         height: 52px;
+        line-height: 52px;
     }
 
     .Screen2.P1-S2 {
