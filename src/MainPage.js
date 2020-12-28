@@ -4,7 +4,7 @@ import './MainPage.css';
 function MainPage() {
     return (
         <div className="main-page">
-            <div className="First_screen">
+            <div className="First_Screen">
                 <div className="Header">
                     <div className="Header--logo">
                         <a className="logo-link" href="/"><img className="idnlogo" src={Images.logo} alt="t"/></a>
