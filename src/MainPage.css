@@ -1074,8 +1074,9 @@ body {
 }
 
 .buttonIDN.white.blue-back.back-slider {
-    line-height: 52px;
+    line-height: 62px;
     transition: all .7s;
+    height: 62px;
 }
 
 .buttonIDN.white.blue-back.back-slider:hover {
