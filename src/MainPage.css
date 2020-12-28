@@ -43,6 +43,7 @@ body {
 }
 
 .dots.P1-S2::after {
+    left: -37px;
     bottom: -37px;
     box-sizing: initial;
 }
