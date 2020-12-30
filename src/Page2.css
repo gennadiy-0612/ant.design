@@ -3780,6 +3780,7 @@ code {
 
     .Screen7.P2-S7-remade {
         padding: 93px 6.5% 0;
+        max-width: 1200px;
     }
 
     .info-graph {
@@ -3808,6 +3809,14 @@ code {
 
     .S7.S71.dot-list.Advisor {
         margin: 10px 0;
+    }
+
+    .Screen7.P2-S7-remade::before {
+        width: 1083px;
+        height: 1210px;
+        left: 27%;
+        bottom: -58.4%;
+        border-radius: 50%;
     }
 }
 
@@ -3890,7 +3899,8 @@ code {
         top: -26%;
         height: 111%;
     }
-    .foot-lists{
+
+    .foot-lists {
         padding-left: 20px;
     }
 }
