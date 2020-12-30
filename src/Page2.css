@@ -566,25 +566,6 @@ body {
     position: relative;
 }
 
-.sector.normal.one {
-    background: url("./Images/delivery-truck.svg") 52.6% 71px no-repeat;
-    left: -2px;
-}
-
-.sector.normal.two {
-    background: url("./Images/flash.svg") 54.6% 64px no-repeat;
-    left: -22px;
-}
-
-.sector.normal.three {
-    background: url("./Images/satellite-dish.svg") 51.7% 62px no-repeat;
-}
-
-.sector.normal.four {
-    background: url("./Images/building.svg") 50.2% 59px no-repeat;
-    left: -5px;
-}
-
 .Screen4--all.center {
     margin: 40px 0 0;
 }
@@ -599,17 +580,6 @@ body {
     margin: auto;
     letter-spacing: -0.2px;
     text-decoration: none;
-}
-
-.selectors--all::after {
-    content: '';
-    background: url("./Images/right-chevron.svg") center center no-repeat;
-    display: block;
-    width: 10px;
-    height: 16px;
-    position: absolute;
-    right: 4px;
-    top: 5px;
 }
 
 .back-color {
@@ -2655,25 +2625,6 @@ code {
     position: relative;
 }
 
-.sector.normal.one {
-    background: url("./Images/delivery-truck.svg") 52.6% 71px no-repeat;
-    left: -2px;
-}
-
-.sector.normal.two {
-    background: url("./Images/flash.svg") 54.6% 64px no-repeat;
-    left: -22px;
-}
-
-.sector.normal.three {
-    background: url("./Images/satellite-dish.svg") 51.7% 62px no-repeat;
-}
-
-.sector.normal.four {
-    background: url("./Images/building.svg") 50.2% 59px no-repeat;
-    left: -5px;
-}
-
 .Screen4--all.center {
     margin: 40px 0 0;
 }
@@ -2687,17 +2638,6 @@ code {
     max-width: 165px;
     margin: auto;
     letter-spacing: -0.2px;
-}
-
-.selectors--all::after {
-    content: '';
-    background: url("./Images/right-chevron.svg") center center no-repeat;
-    display: block;
-    width: 10px;
-    height: 16px;
-    position: absolute;
-    right: 4px;
-    top: 5px;
 }
 
 .Screen5 {
@@ -2981,11 +2921,6 @@ code {
     background-position: 0 42%;
 }
 
-.sector.normal.main-p.S7.P3-S7-remade {
-    background-position: 0 42%;
-    background-image: url('./Images/exchange.svg');
-}
-
 .sector.normal.two.S7 {
     background: url("./Images/opportunity.svg") 51.1% 33px no-repeat;
     position: relative;
@@ -3003,7 +2938,7 @@ code {
 }
 
 .sector.normal.COMMUNICATION.S7 {
-    background: url("./Images/page2/COMMUNICATION.svg") 36% 29px no-repeat;
+    background: url("./Images/page2/communication.svg") 36% 29px no-repeat;
 }
 
 .sector.normal.five.S7 {
@@ -3344,7 +3279,7 @@ code {
     width: 210px;
     left: -44px;
     height: 210px;
-    background-image: url("./Images/OrnamentDarkblue.png");
+    background-image: url("./Images/dots.png");
     background-repeat: no-repeat;
 }
 
@@ -3434,7 +3369,7 @@ code {
     width: 210px;
     height: 210px;
     bottom: -47px;
-    background-image: url("./Images/squaredots.png");
+    background-image: url("./Images/dots.png");
 }
 
 .illustrate.P2 {
