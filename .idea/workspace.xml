@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Images/page2/dots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/page2/dotted.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Page2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/COMMUNICATION.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/COMMUNICATION.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/attentionman.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/attentionman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/bird.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/bird.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/chat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/chat.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/cursor.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/cursor.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/dotline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/dotline.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/global-network.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/global-network.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/handscross.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/handscross.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/handspaper.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/handspaper.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/handspeople.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/handspeople.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/infrastructure.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/infrastructure.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/manwithsmile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/manwithsmile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/page2top.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/page2top.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/phonebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/phonebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/process.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/process.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/suitcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/suitcase.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/videocall.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/videocall.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Images/page2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,17 +72,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\ant.design\src\Images\page2" />
       <recent name="E:\wamp64\www\ant.design\src" />
       <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\jpg" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\svg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\ant.design\src\Images\page2" />
+      <recent name="E:\wamp64\www\ant.design\src\Images\img" />
       <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\img" />
       <recent name="E:\wamp64\www\ant.design\src\cssimg" />
-      <recent name="E:\wamp64\www\ant.design\public" />
-      <recent name="E:\wamp64\www\ant.design\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -159,14 +183,11 @@
       <workItem from="1608986079640" duration="643000" />
       <workItem from="1609059785904" duration="3465000" />
       <workItem from="1609077007026" duration="4933000" />
-      <workItem from="1609134756878" duration="36793000" />
-    </task>
-    <task id="LOCAL-00136" summary="added-sorted-images">
-      <created>1608792701108</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1608792701108</updated>
+      <workItem from="1609134756878" duration="37107000" />
+      <workItem from="1609239408525" duration="5464000" />
+      <workItem from="1609256358433" duration="19413000" />
+      <workItem from="1609299273221" duration="22492000" />
+      <workItem from="1609328827610" duration="14414000" />
     </task>
     <task id="LOCAL-00137" summary="added-sorted-images">
       <created>1608792927512</created>
@@ -504,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609171088405</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="main-page-complete">
+      <created>1609182223325</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1609182223325</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
