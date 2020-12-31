@@ -104,7 +104,7 @@ function MainPage() {
                 <div className="window2 P2 P2-S7 left-dashed">
                     <p className="window1-h P2 P2-S7 added-element-before connect">Connect</p>
                     <p className="window1-descript P2 P2-S7 added-element-before rounded-frame videocall">Select
-                        investors, arrange video calls, and start
+                        investors, arrange video calls,<br/> and start
                         exchanging
                         documents safely</p>
                     <p className="window1-descript P2 P2-S7 added-element-before rounded-frame cursor">Introduce buyer
