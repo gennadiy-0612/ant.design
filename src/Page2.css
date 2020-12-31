@@ -82,7 +82,7 @@ body {
 .twofixed .added-element-before::before {
     content: '';
     position: absolute;
-    top: 40%;
+    top: 50px;
     left: 0;
     display: block;
     width: 20px;
