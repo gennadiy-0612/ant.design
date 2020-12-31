@@ -1389,6 +1389,11 @@ body {
         background-image: url('./Images/dots.png');
     }
 
+    .twofixed .dots::after {
+        bottom: -56px;
+        left: -32px;
+    }
+
     .twofixed .back-color::after {
         left: auto;
     }
@@ -3661,6 +3666,11 @@ code {
         letter-spacing: 0;
     }
 
+    .twofixed .window1-descript.P2.P2-S7,
+    .twofixed .window1-descript.P2.P2-S72.beyond {
+        margin-left: -4px;
+    }
+
     .twofixed .window1-h.P2.P2-S7.connect {
         margin: 48px 0 40px;
     }
@@ -3866,8 +3876,29 @@ code {
         padding: 110px 0 86px;
     }
 
+    .twofixed .window1-descript.P2 {
+        margin-left: -4px;
+    }
+
+    .twofixed .window1-descript.P2.P2-S7,
+    .twofixed .window1-descript.P2.P2-S72.beyond {
+        margin-left: -6px;
+    }
+
+    .twofixed .window1-descript.P2.S6-P2 {
+        margin-left: -4px;
+    }
+
+    .twofixed .window1-descript.P2.S6-P2.S6-P22 {
+        margin-left: -3px;
+    }
+
+    .twofixed .window1-h.P2::before {
+        left: -1px;
+    }
+
     .twofixed .window2.P2.P2-S72.left-dashed::before {
-        top: -26%;
+        top: -24%;
         height: 111%;
     }
 
