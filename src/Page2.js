@@ -4,7 +4,7 @@ import pagetop from "./Images/page2/pagetwotop.png";
 
 function MainPage() {
     return (
-        <div className="page2">
+        <div className="page2 twofixed">
             <div className="First_Screen">
                 <div className="Header">
                     <div className="Header--logo X1024-1600">
