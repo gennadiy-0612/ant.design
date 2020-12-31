@@ -289,7 +289,7 @@ body {
 .twofixed .Screen2 {
     justify-content: space-around;
     position: relative;
-    margin-bottom: 10vh;
+    margin: 10vh 0;
     flex-flow: row wrap;
     display: flex;
     max-height: 676px;
@@ -1629,10 +1629,6 @@ body {
         padding: 0 60px;
     }
 
-    .twofixed .S7 br {
-        display: contents;
-    }
-
     .twofixed .Screen6.S6 {
         margin: 54px auto 60px;
     }
@@ -2078,10 +2074,6 @@ body {
         left: 0;
     }
 
-    .twofixed .Screen7--p br {
-        display: contents;
-    }
-
     .twofixed .sectors.S7 {
         max-width: 772px;
         right: 0;
@@ -2208,10 +2200,6 @@ body {
 
     .twofixed .Screen5--description--content.S6c {
         overflow: hidden;
-    }
-
-    .twofixed .main-p.X1600 br {
-        display: contents;
     }
 
     .twofixed .Screen5.S5 {
@@ -2381,15 +2369,6 @@ code {
 
 .twofixed .dots {
     position: relative;
-}
-
-.twofixed .Screen7.P2-S7-remade::after {
-    right: -56px;
-    top: 59px;
-    left: auto;
-    z-index: 0;
-    width: 244px;
-    height: 210px;
 }
 
 .twofixed .center {
@@ -3786,6 +3765,9 @@ code {
         bottom: -58.4%;
         border-radius: 50%;
     }
+    .twofixed .Screen7.P2-S7-remade::after {
+        content: none;
+    }
 }
 
 
@@ -3905,6 +3887,7 @@ code {
     .twofixed .foot-lists {
         padding-left: 20px;
     }
+
 }
 
 .twofixed .footA {
