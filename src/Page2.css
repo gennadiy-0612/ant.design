@@ -34,7 +34,8 @@ body {
     position: absolute;
     left: -38px;
     bottom: -38px;
-    background-image: url("./Images/dots.png");
+    /*++++++++++++++++++++++++++++++++++++++*/
+    background-image: url('./Images/dots.png');
     background-size: contain;
     z-index: -1;
     width: 210px;
@@ -63,7 +64,8 @@ body {
 
 .P2-S5dashed::before,
 .left-dashed::before {
-    background: url("./Images/dashed.png") center center repeat;
+    /*++++++++++++++++++++++++++++++++++++++*/
+    background: url('./Images/page2/dashed.png') center center repeat;
     content: '';
     position: absolute;
     top: -52%;
@@ -79,7 +81,8 @@ body {
 }
 
 .P2-S5dashed::before {
-    background: url("./Images/linehorizont.png") center center repeat;
+    /*++++++++++++++++++++++++++++++++++++++*/
+    background: url('./Images/page2/linehorizont.png') center center repeat;
     height: 3px;
     width: 47%;
     bottom: -166px;
@@ -126,47 +129,53 @@ body {
 }
 
 .global-network::before {
+    /*++++++++++++++++++++++++++++++++++++++*/
     background: url('./Images/page2/global-network.svg') #fff center center no-repeat;
 }
 
 .bird::before {
+    /*++++++++++++++++++++++++++++++++++++++*/
     background: url('./Images/page2/bird.svg') #fff center center no-repeat;
 }
 
-.videocall::before {
-    background: url('./Images/page2/videocall.svg') #fff center center no-repeat;
-}
-
 .cursor::before {
+    /*++++++++++++++++++++++++++++++++++++++*/
     background: url('./Images/page2/cursor.svg') #fff center center no-repeat;
 }
 
 .suitcase::before {
+    /*++++++++++++++++++++++++++++++++++++++*/
     background: url('./Images/page2/suitcase.svg') #fff center center no-repeat;
 }
 
 .phonebook::before {
+    /*++++++++++++++++++++++++++++++++++++++*/
     background: url('./Images/page2/phonebook.svg') #fff center center no-repeat;
 }
 
 /*left*/
 .chat::before {
+    /*++++++++++++++++++++++++++++++++++++++*/
     background: url('./Images/page2/chat.svg') #fff center center no-repeat;
 }
 
 .dotline::before {
+    /*++++++++++++++++++++++++++++++++++++++*/
     background: url('./Images/page2/dotline.svg') #fff center center no-repeat;
 }
 
+/*++++++++++++++++++++++++++++++++++++++*/
 .videocall::before {
     background: url('./Images/page2/videocall.svg') #fff center center no-repeat;
 }
 
 .process::before {
+    /*++++++++++++++++++++++++++++++++++++++*/
     background: url('./Images/page2/process.svg') #fff center center no-repeat;
 }
 
 .infrastructure::before {
+    /*++++++++++++++++++++++++++++++++++++++*/
     background: url('./Images/page2/infrastructure.svg') #fff center center no-repeat;
 }
 
@@ -267,7 +276,7 @@ body {
     text-decoration: none;
 }
 
-.main-top-nav-anchor:hover {
+.main-top-nav-anchor:hover, .footA:hover {
     color: #3680F6;
     transition: color .7s;
     text-decoration: none;
@@ -377,6 +386,7 @@ body {
 .scroll-button.P2 {
     border-width: 0;
     box-shadow: none;
+    /*----------------------------------------------------------*/
     background: url('./Images/down-arrow.svg') 74% center no-repeat;
     text-indent: -55px;
 }
@@ -775,12 +785,6 @@ body {
     margin-top: 19px;
 }
 
-.Screen7 {
-    padding: 161px 0 0;
-    background: url("./Images/why-idn.png") center no-repeat;
-    background-size: cover;
-}
-
 .Screen7.P2-S7-remade {
     position: relative;
     background-color: #10214F;
@@ -808,12 +812,6 @@ body {
     text-align: center;
     letter-spacing: -1.4px;
     font: normal normal 600 60px/60px 'Poppins', sans-serif;
-}
-
-.Screen7--h2.P2-S7-remade {
-    color: #fff;
-    text-align: left;
-    font: normal normal 600 40px/60px 'Poppins', sans-serif;
 }
 
 .Screen7--p {
@@ -912,7 +910,8 @@ body {
 }
 
 .sector.normal.one.S7 {
-    background: url("./Images/connection.svg") 52.2% 26px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/connection.svg') 52.2% 26px no-repeat;
 }
 
 .sector.normal.main-p.S7.P2-S7-remade {
@@ -920,27 +919,32 @@ body {
 }
 
 .sector.normal.two.S7 {
-    background: url("./Images/opportunity.svg") 51.1% 33px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/opportunity.svg') 51.1% 33px no-repeat;
     position: relative;
     left: -0.65%;
 }
 
 .sector.normal.three.S7 {
-    background: url("./Images/win.svg") 43.8% 30px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/win.svg') 43.8% 30px no-repeat;
     position: relative;
     left: -2.2%;
 }
 
 .sector.normal.four.S7 {
-    background: url("./Images/trust.svg") 36% 29px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/trust.svg') 36% 29px no-repeat;
 }
 
 .sector.normal.five.S7 {
-    background: url("./Images/security.svg") 54.4% 25px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/security.svg') 54.4% 25px no-repeat;
 }
 
 .sector.normal.five.P3-S7-remade.S7 {
-    background: url("./Images/win.svg") 12.4% 37px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/win.svg') 12.4% 37px no-repeat;
 }
 
 .Screen5--button-group.S7 {
@@ -998,7 +1002,8 @@ body {
     width: 50px;
     height: 60px;
     display: block;
-    background: url("./Images/idn.png") center no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/idn.png') center no-repeat;
     background-size: contain;
     flex-grow: 1;
     margin-top: -15px;
@@ -1032,15 +1037,6 @@ body {
     list-style-type: none;
     font: normal normal 500 18px/27px 'Poppins', sans-serif;
     color: #1D293F;
-}
-
-.in {
-    margin: 31px 0 0 1%;
-    width: 49px;
-    height: 49px;
-    display: block;
-    background: url("./Images/in.svg") center no-repeat;
-    background-size: contain;
 }
 
 .opacity6 {
@@ -1396,7 +1392,8 @@ body {
         height: 180px;
         bottom: -46px;
         left: -29px;
-        background-image: url("./Images/dots.svg");
+        /*++++++++++++++++++++++++++++++++++++++*/
+        background-image: url('./Images/dots.png');
     }
 
     .back-color::after {
@@ -1722,6 +1719,21 @@ body {
         width: 240px;
         height: 50px;
         line-height: 50px;
+    }
+
+    .dots.dotted,
+    .dots.dotted {
+        width: 393px;
+        height: 493px;
+    }
+
+    .dots.dotted.photo::before,
+    .dots.dotted.photo::after {
+        bottom: -68px;
+    }
+
+    .S5-P2dots::before {
+        content: none;
     }
 
     .Screen5--button-group {
@@ -2271,6 +2283,14 @@ body {
     }
 }
 
+@media (max-width: 1919px) {
+    .window1.P2.S2-P2 {
+        padding: 4px 0 0 2%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
 @media (min-width: 1920px) {
     .Screen7--h2.why {
         padding: 157px 0 70px;
@@ -2345,7 +2365,6 @@ body {
 }
 
 /*2 page */
-/*@import "../variables.less";*/
 
 body {
     margin: 0;
@@ -2777,12 +2796,6 @@ code {
     max-width: 59.4%;
 }
 
-.Screen7 {
-    padding: 161px 0 0;
-    background: url("./Images/why-idn.png") center no-repeat;
-    background-size: cover;
-}
-
 .Screen7.P2-S7-remade {
     position: relative;
     background-image: none;
@@ -2836,8 +2849,8 @@ code {
 .Screen7--p.P2-S7-remade {
     font: normal normal 600 24px/56px 'Poppins', sans-serif;
     text-align: left;
-    max-width: initial;
-    margin: 16px auto 89px;
+    max-width: 1149px;
+    margin: 16px auto 89px 0;
     letter-spacing: 0;
 }
 
@@ -2914,7 +2927,8 @@ code {
 }
 
 .sector.normal.one.S7 {
-    background: url("./Images/connection.svg") 52.2% 26px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/connection.svg') 52.2% 26px no-repeat;
 }
 
 .sector.normal.main-p.S7.P2-S7-remade {
@@ -2922,35 +2936,42 @@ code {
 }
 
 .sector.normal.two.S7 {
-    background: url("./Images/opportunity.svg") 51.1% 33px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/opportunity.svg') 51.1% 33px no-repeat;
     position: relative;
     left: -0.65%;
 }
 
 .sector.normal.three.S7 {
-    background: url("./Images/win.svg") 43.8% 30px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/win.svg') 43.8% 30px no-repeat;
     position: relative;
     left: -2.2%;
 }
 
 .sector.normal.four.S7 {
-    background: url("./Images/trust.svg") 36% 29px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/trust.svg') 36% 29px no-repeat;
 }
 
 .sector.normal.COMMUNICATION.S7 {
-    background: url("./Images/page2/communication.svg") 36% 29px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/communication.svg') 36% 29px no-repeat;
 }
 
 .sector.normal.five.S7 {
-    background: url("./Images/security.svg") 54.4% 25px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/security.svg') 54.4% 25px no-repeat;
 }
 
 .sector.normal.five.supp.S7 {
-    background: url("./Images/support.svg") 12.4% 37px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/support.svg') 12.4% 37px no-repeat;
 }
 
 .sector.normal.five.P3-S7-remade.S7 {
-    background: url("./Images/win.svg") 12.4% 37px no-repeat;
+    /*----------------------------------------------------------*/
+    background: url('./Images/win.svg') 12.4% 37px no-repeat;
 }
 
 .Screen5--button-group.S7 {
@@ -2995,7 +3016,7 @@ code {
 }
 
 .Screen9 {
-    padding: 65px 0 130px;
+    padding: 65px 0 45px;
     display: flex;
     justify-content: space-between;
 }
@@ -3004,7 +3025,7 @@ code {
     width: 50px;
     height: 60px;
     display: block;
-    background: url("./Images/idn.png") center no-repeat;
+    background: url('./Images/idn.png') center no-repeat;
     background-size: contain;
     flex-grow: 1;
     margin-top: -15px;
@@ -3045,7 +3066,7 @@ code {
     width: 49px;
     height: 49px;
     display: block;
-    background: url("./Images/in.svg") center no-repeat;
+    background: url('./Images/in.svg') center no-repeat;
     background-size: contain;
 }
 
@@ -3275,12 +3296,10 @@ code {
 }
 
 .dots.P2::after, .P2-S53::before {
-    bottom: -42px;
+    bottom: -60px;
     width: 210px;
     left: -44px;
     height: 210px;
-    background-image: url("./Images/dots.png");
-    background-repeat: no-repeat;
 }
 
 .P2-S53::before {
@@ -3309,7 +3328,8 @@ code {
 }
 
 .main-header-second-h2.head2.P2.S2-P2 {
-    padding: 0 0 0 6%;
+    padding: 0 0 0 8%;
+    margin: 0;
 }
 
 .window1-h.P2 {
@@ -3369,7 +3389,8 @@ code {
     width: 210px;
     height: 210px;
     bottom: -47px;
-    background-image: url("./Images/dots.png");
+    /*++++++++++++++++++++++++++++++++++++++*/
+    background-image: url('./Images/dots.png');
 }
 
 .illustrate.P2 {
@@ -3432,6 +3453,10 @@ code {
         width: 100%;
     }
 
+    .Screen9.P1-S9.X1023 {
+        padding: 65px 30px 35px 30px;
+    }
+
     .Screen4.P2 {
         margin: 115px 0;
         padding: 110px 0 103px;
@@ -3457,7 +3482,7 @@ code {
     }
 
     .window1-descript.P2.S2-P2 {
-        padding: 0 28.2% 12px 5%;
+        padding: 0 7% 12px 5%;
         margin: 15px 0 0;
         letter-spacing: -0.8px;
     }
@@ -3573,7 +3598,7 @@ code {
 
     .window2.P2.P2-S7.left-dashed::before {
         top: -24%;
-        height: 150%;
+        height: 151%;
     }
 
     .window1.P2.P2-S7.P2-S62::before {
@@ -3643,8 +3668,13 @@ code {
         margin: 48px 0 40px;
     }
 
+    .main-header-second-h2.head2.P2.S2-P2 {
+        padding-left: 5%;
+    }
+
     .window1-h.P2.P2-S5::before {
         top: 40%;
+        left: 2px;
     }
 
     .window1-descript.P2.P2-S7 {
@@ -3795,6 +3825,19 @@ code {
         top: 74px;
     }
 
+    .Screen6.P2.P2-S5dashed.S6::before {
+        width: 43%;
+    }
+
+    .Screen6.P2.P2-S7.P2-S5dashed::before {
+        bottom: -127px;
+        width: 43%;
+    }
+
+    .window2.P2.P2-S72.left-dashed::before {
+        top: -23%;
+    }
+
     .Screen4.P2-S4::before {
         right: auto;
         left: 14px;
@@ -3834,4 +3877,10 @@ code {
     .foot-lists {
         padding-left: 20px;
     }
+}
+
+.footA {
+    font: normal normal 500 18px/27px 'Poppins', sans-serif;
+    color: #1D293F;
+    text-decoration: none;
 }

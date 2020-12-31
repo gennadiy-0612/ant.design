@@ -1,6 +1,6 @@
 import Images from './Images/index';
 import './Page2.css';
-import pagetop from "./Images/page2/page2top.png";
+import pagetop from "./Images/page2/pagetwotop.png";
 
 function MainPage() {
     return (
@@ -8,7 +8,7 @@ function MainPage() {
             <div className="First_Screen">
                 <div className="Header">
                     <div className="Header--logo X1024-1600">
-                        <a className="logo-link" href="/"><img className="idnlogo" src={Images.logo} alt="t"/></a>
+                        <a className="logo-link" href="/"><img className="idnlogo top" src={Images.logo} alt="t"/></a>
                     </div>
                     <div className="top-horizon-menu X1024-1200 X1200-1600 ">
                         <nav className="main-top-nav">
@@ -35,7 +35,7 @@ function MainPage() {
                     </div>
                 </div>
                 <div className="window2">
-                    <div className="dots P2-S2"><img src={Images.pagetop} className="illustrate P2-S2" alt="bridge"/></div>
+                    <div className="dots P2-S2 topPhoto"><img src={Images.pagetop} className="illustrate P2-S2" alt="bridge"/></div>
                 </div>
             </div>
             </div>
@@ -62,12 +62,12 @@ function MainPage() {
 
             <div className="Screen5 P2 P2-S5dashed">
                 <div className="window1 P2 P2-S5">
-                    <div className="dots P2 P2-S5 odd"><img src={Images.attentionman} className="illustrate P2 odd" alt="bridge"/>
+                    <div className="dots P2 P2-S5 odd dotted photo"><img src={Images.attentionman} className="illustrate P2 odd" alt="bridge"/>
                     </div>
                 </div>
                 <div className="window2 P2 P2-S5 left-dashed">
                     <h2 className="main-header-second-h2 head2 P2">How IT WORKS</h2>
-                    <p className="window1-h P2 P2-S5 added-element-before">Sign Up</p>
+                    <p className="window1-h P2 P2-S5 added-element-before signUp">Sign Up</p>
                     <p className="window1-descript P2 added-element-before rounded-frame global-network">Sign up and
                         stay connected to your industry network to identify
                         M&A
@@ -91,18 +91,14 @@ function MainPage() {
                         in your opportunities</p>
                 </div>
                 <div className="window2 P2">
-                    <div className="dots P2 S6-P2">
-                        <img className="illustrate P2 odd" src={Images.manwithsmile}
-                             alt="bridge"/>
-                    </div>
+                    <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2 odd" src={Images.manwithsmile} alt="bridge"/></div>
                 </div>
             </div>
 
             <div className="Screen5 P2 P2-S7 P2-S5dashed">
                 <div className="window1 P2 P2-S7">
-                    <div className="dots P2 P2-S7 odd odd1">
-                        <img src={Images.handspeople} className="illustrate P2"
-                             alt="bridge"/>
+                    <div className="dots P2 P2-S7 odd odd1 dotted photo">
+                        <img src={Images.handspeople} className="illustrate P2" alt="bridge"/>
                     </div>
                 </div>
                 <div className="window2 P2 P2-S7 left-dashed">
@@ -128,16 +124,14 @@ function MainPage() {
                         closure</p>
                 </div>
                 <div className="window2 P2">
-                    <div className="dots P2 S6-P2"><img className="illustrate P2" src={Images.handspaper} alt="bridge"/>
+                    <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2" src={Images.handspaper} alt="bridge"/>
                     </div>
                 </div>
             </div>
             <div className="S5-P2dots">
             <div className="Screen5 P2 P2-S72 P2-S53">
                 <div className="window1 P2 P2-S7 P2-S72">
-                    <div className="dots P2 P2-S7 P2-S72 odd"><img className="illustrate P2" src={Images.handscross}
-                                                               alt="bridge"/></div>
-                </div>
+                    <div className="dots P2 P2-S7 P2-S72 odd dotted photo"><img className="illustrate P2" src={Images.handscross} alt="bridge"/></div></div>
                 <div className="window2 P2 P2-S72 left-dashed">
                     <p className="window1-h P2 P2-S72 added-element-before beyond">Beyond</p>
                     <p className="window1-descript P2 P2-S72 added-element-before rounded-frame suitcase beyond">Keep working
@@ -237,48 +231,24 @@ function MainPage() {
                 <span className="idn-img"></span>
                 <div className="foot-lists">
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">
-                            Users
-                        </li>
-                        <li className="foot-li opacity6">
-                            Investors
-                        </li>
-                        <li className="foot-li opacity6">
-                            Senior Advisors
-                        </li>
+                        <li className="foot-li foot-li-head">Users</li>
+                        <li className="foot-li opacity6">Investors</li>
+                        <li className="foot-li opacity6">Senior Advisors</li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">
-                            Sectors
-                        </li>
-                        <li className="foot-li opacity6">
-                            Sectors
-                        </li>
+                        <li className="foot-li foot-li-head">Sectors</li>
+                        <li className="foot-li opacity6">Sectors</li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">
-                            About
-                        </li>
-                        <li className="foot-li opacity6">
-                            About Us
-                        </li>
-                        <li className="foot-li opacity6">
-                            Terms & Conditions
-                        </li>
+                        <li className="foot-li foot-li-head">About</li>
+                        <li className="foot-li opacity6">About Us</li>
+                        <li className="foot-li opacity6">Terms & Conditions</li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">
-                            Contact
-                        </li>
-                        <li className="foot-li opacity6">
-                            info@infradeals.net
-                        </li>
-                        <li className="foot-li opacity6">
-                            + 23232323232
-                        </li>
-                        <li className="foot-li">
-                            <span className="in"></span>
-                        </li>
+                        <li className="foot-li foot-li-head">Contact</li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">info@infradeals.net</a></li>
+                        <li className="foot-li opacity6"><a className="footA"  href="/"> + 23232323232</a></li>
+                        <li className="foot-li"><span className="in"></span></li>
                     </ul>
                 </div>
             </div>

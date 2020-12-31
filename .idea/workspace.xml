@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
+      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/dashed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/dashed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/dashed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/linehorizont.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/linehorizont.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/page2/communication.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/communication.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/page2/dotted.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/page2/page2top.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page2/pagetwotop.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Page2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowCommit.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -54,9 +68,9 @@
       <recent name="E:\wamp64\www\ant.design\src\Images\img\svg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\Images\page2" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img" />
-      <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\img" />
       <recent name="E:\wamp64\www\ant.design\src\cssimg" />
     </key>
@@ -164,21 +178,8 @@
       <workItem from="1609299273221" duration="22492000" />
       <workItem from="1609328827610" duration="17514000" />
       <workItem from="1609383625827" duration="77000" />
-      <workItem from="1609385521260" duration="692000" />
-    </task>
-    <task id="LOCAL-00143" summary="added-sorted-images">
-      <created>1608798037894</created>
-      <option name="number" value="00143" />
-      <option name="presentableId" value="LOCAL-00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1608798037894</updated>
-    </task>
-    <task id="LOCAL-00144" summary="added-sorted-images">
-      <created>1608798404291</created>
-      <option name="number" value="00144" />
-      <option name="presentableId" value="LOCAL-00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1608798404291</updated>
+      <workItem from="1609385521260" duration="3963000" />
+      <workItem from="1609402184046" duration="13087000" />
     </task>
     <task id="LOCAL-00145" summary="added-sorted-images">
       <created>1608799757332</created>
@@ -509,7 +510,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609347455755</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="2page">
+      <created>1609386217934</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1609386217934</updated>
+    </task>
+    <task id="LOCAL-00193" summary="2page">
+      <created>1609386280239</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1609386280239</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
