@@ -98,7 +98,7 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 24px;
-    box-shadow: 0 0 18px rgb(54 128 246 / 37%);
+    box-shadow: 0 0 18px #3780f65e;
     left: -1.8%;
 }
 .twofixed .global-network::before {
