@@ -2404,6 +2404,7 @@ code {
 .Header--logo {
     flex-grow: 1;
     margin-top: -1px;
+    z-index: 1;
 }
 
 .logo-link {
@@ -2411,6 +2412,10 @@ code {
     width: 234px;
     height: 106px;
     margin: -17px 0 0 0.6%;
+}
+
+.logo-link:hover {
+    cursor: pointer;
 }
 
 .Header--logo--img {
