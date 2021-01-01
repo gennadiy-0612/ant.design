@@ -201,7 +201,7 @@ body {
     text-align: center;
 }
 
-.twofixed .Screen2.P1-S2, .twofixed .Screen5.S5, .twofixed .Screen6.S6, .twofixed .Screen9.P1-S9 {
+.twofixed .Screen2.P1-S2, .twofixed .First_Screen, .twofixed .Screen5.S5, .twofixed .Screen6.S6, .twofixed .Screen9.P1-S9 {
     max-width: 1920px;
     margin-right: auto;
     margin-left: auto;
@@ -3278,7 +3278,7 @@ code {
 }
 
 .twofixed .dots.P2::after, .twofixed .P2-S53::before {
-    bottom: -60px;
+    bottom: -64px;
     width: 210px;
     left: -44px;
     height: 210px;
@@ -3360,6 +3360,7 @@ code {
     font: normal normal 400 44px/80px 'Poppins', sans-serif;
     color: #10214F;
     letter-spacing: 1px;
+    max-width: 608px;
 }
 
 .twofixed .dots.dots-P2.P2 {
@@ -3452,6 +3453,11 @@ code {
         padding: 4px 0 0 0;
         flex: 0 0 55%;
         max-width: 55%;
+    }
+
+
+    .twofixed .window1.P2.S2-P2 {
+        max-width: 500px;
     }
 
     .twofixed .window1-descript.P2.S2-P2, .twofixed .main-post-link.P2.S2-P2 {
@@ -3765,8 +3771,13 @@ code {
         bottom: -58.4%;
         border-radius: 50%;
     }
+
     .twofixed .Screen7.P2-S7-remade::after {
         content: none;
+    }
+
+    .twofixed .Screen7--p.P2-S7-remade {
+        max-width: 1010px;
     }
 }
 
@@ -3799,7 +3810,7 @@ code {
     }
 
     .twofixed .window1-descript.P2.S2-P2 {
-        padding: 0 20.2% 12px 7%;
+        padding: 0 15.2% 12px 5%;
     }
 
     .twofixed .Screen4.P2-S4::before, .twofixed .Screen4.P2-S4::after {

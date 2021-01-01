@@ -12,7 +12,7 @@ function MainPage() {
                     </div>
                     <div className="top-horizon-menu X1024-1200 X1200-1600 ">
                         <nav className="main-top-nav">
-                            <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Senior Advisor</a>
+                            <a className="main-top-nav-anchor active" href="/" rel="noopener noreferrer">Senior Advisor</a>
                             <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Investors</a>
                             <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Sectors</a>
                             <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
@@ -246,8 +246,8 @@ function MainPage() {
                     </ul>
                     <ul className="foot-ul">
                         <li className="foot-li foot-li-head">Contact</li>
-                        <li className="foot-li opacity6"><a className="footA" href="/">info@infradeals.net</a></li>
-                        <li className="foot-li opacity6"><a className="footA"  href="/"> + 23232323232</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
+                        <li className="foot-li opacity6"><a className="footA"  href="tel:+23232323232"> + 23232323232</a></li>
                         <li className="foot-li"><span className="in"></span></li>
                     </ul>
                 </div>
