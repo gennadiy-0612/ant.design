@@ -77,6 +77,10 @@ body {
     width: 100%;
 }
 
+.Screen5.S5, .Screen6.S6 {
+    /*overflow: hidden;*/
+}
+
 .Screen5--button-group.s7 {
     max-width: 800px;
 }
@@ -523,8 +527,17 @@ body {
     padding: 11px 0 0;
     position: relative;
     left: 13.6%;
-    max-width: 50%;
-    flex: 0 0 50%;
+}
+
+.window1.Screen5--w1 {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.window2.Screen6--w2.Screen5--w1.S6 {
+    max-width: 40%;
+    flex: 0 0 40%;
+    left: 0;
 }
 
 .Screen5--h2.head2 {
@@ -589,11 +602,11 @@ body {
 }
 
 .Screen5--p.S5::after {
-    left: 6.2%;
+    left: 5.85%;
 }
 
 .Screen5--p.P1-S6::after {
-    left: 6.3%;
+    left: 7%;
 }
 
 .Screen5--p:last-child::after {
@@ -632,15 +645,16 @@ body {
 
 .dots.Screen5--dots::after {
     left: auto;
-    right: -8%;
+    right: -10.9%;
     bottom: -45px;
 }
 
 .dots.Screen5--dots {
-    left: -13.1%;
+    left: 0;
     top: 9px;
-    width: 600px;
+    width: 605px;
     height: 650px;
+    margin: 0 auto 70px 0;
 }
 
 .Screen6 {
@@ -649,9 +663,21 @@ body {
     margin: 436px auto 217px;
 }
 
+.window1.Screen6--w2.Screen5--w2.S6 {
+    padding: 22px 0 0;
+    max-width: 60%;
+    flex: 0 0 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.Screen5--decription.S5.S52 {
+    width: 85%;
+}
 
 .dots.Screen6--dots {
-    left: 3.1%;
+    left: 0;
+    margin: 45px 0 0 auto;
 }
 
 .Screen6--w2.window1 {
@@ -662,13 +688,13 @@ body {
 
 .dots.Screen5--dots.Screen6--dots::after {
     right: auto;
-    left: -50px;
+    left: -38px;
     bottom: auto;
-    top: -120px;
+    top: -38px;
 }
 
 .Screen5--description--content.S6c {
-    max-width: 86%;
+    max-width: 100%;
     padding: 52px 0 0;
 }
 
@@ -1220,14 +1246,14 @@ body {
     }
 
     .dots.Screen5--dots, .dots {
-        left: 8.2%;
+        left: 0;
         margin: 0 0 0 auto;
         width: auto;
         height: 401px;
     }
 
     .dots.P1-S2 {
-        left: 0.2%;
+        left: 0;
         margin: 0;
         width: auto;
         height: auto;
@@ -1235,19 +1261,21 @@ body {
 
     .dots.Screen5--dots.S5 {
         margin: 0 0 0 auto;
-        left: -49px;
+        left: 0;
         height: 401px;
         width: 368px;
     }
 
     .dots.Screen6--dots {
-        left: 50px;
+        left: 0;
         top: 23px;
     }
 
     .illustrate.Screen5-img.S5 {
         width: 368px;
         height: 401px;
+        margin: 0 auto 0 0;
+        display: block;
     }
 
     .dots.Screen5--dots::after {
@@ -1262,7 +1290,7 @@ body {
 
     .Screen5--p {
         font: normal normal 400 18px/24px 'Poppins', sans-serif;
-        padding: 1px 40px 24px 18.7%;
+        padding: 1px 0 24px 18.7%;
     }
 
     .Screen5--p.S5::after {
@@ -1307,8 +1335,8 @@ body {
     }
 
     .illustrate.Screen6-img {
-        height: 430px;
-        width: 394px;
+        width: 368px;
+        height: 401px;
     }
 
     .dots::after, .back-color::before, .back-color::after, .Screen7.P2-S7-remade::after, .dots.P1-S2::after {
@@ -1464,19 +1492,22 @@ body {
     }
 
     .Screen5--w1, .Screen5--w2 {
-        padding: 0 1%;
+        padding: 0;
         left: auto;
-        flex: 0 0 46%;
         max-width: 100%;
-        overflow-x: hidden;
     }
 
     .Screen5--w1, .Screen5--w2 {
-        flex: 0 0 45.2%;
+        flex: 0 0 42%;
     }
 
     .Screen5--decription {
         margin: 0;
+        width: 100%;
+    }
+
+    .Screen5--decription.S5.S52 {
+        width: 100%;
     }
 
     .Screen5--decription.S51 {
@@ -1485,6 +1516,7 @@ body {
 
     .window2.Screen6--w2.Screen5--w1.S6 {
         padding-top: 100px;
+        margin: 0 0 0 auto;
     }
 
     .window1.Screen6--w2.Screen5--w2.S6 {
@@ -1599,7 +1631,7 @@ body {
     }
 
     .Screen5--p.S5:after {
-        left: 8.5%;
+        left: 8.25%;
     }
 }
 
@@ -1656,16 +1688,12 @@ body {
         max-width: 94.4%;
     }
 
-    .window1.Screen5--w1 {
-        flex: 0 0 54%;
-    }
-
     .login-block {
         padding-left: 40px;
     }
 }
 
-@media (max-width: 1600px) and (min-width: 1200px) {
+@media (max-width: 1680px) and (min-width: 1199px) {
     .Screen2.P1-S2,
     .Screen5.S5,
     .Screen6.S6,
@@ -1835,7 +1863,7 @@ body {
     .dots.Screen5--dots {
         height: 495px;
         width: auto;
-        left: -13%;
+        left: 0;
     }
 
     .illustrate.Screen5-img {
@@ -1848,7 +1876,6 @@ body {
     }
 
     .Screen5--decription {
-        padding: 0 0 0 11.1%;
         min-width: 100%;
         box-sizing: initial;
     }
@@ -1967,7 +1994,7 @@ body {
     }
 
     .Screen5--p.P1-S6::after {
-        left: 7%;
+        left: 6.4%;
     }
 
     .Screen7 {
@@ -2038,7 +2065,7 @@ body {
     }
 
     .Screen5--p.S5::after {
-        left: 5.6%;
+        left: 4.95%;
     }
 
     .top-horizon-menu {
@@ -2106,10 +2133,6 @@ body {
         font-size: 81px;
     }
 
-    .Screen5--w1.S6 {
-        left: 5%;
-    }
-
     .main-header-second.S3 {
         padding: 0 1.8% 0 1.8%;
         margin: 0 auto auto;
@@ -2125,7 +2148,7 @@ body {
     }
 
     .Screen5.S5 {
-        width: 1200px;
+        width: 1400px;
         margin: 182px auto 0 auto;
     }
 
@@ -2133,16 +2156,12 @@ body {
         max-width: 100%;
     }
 
-    .dots.Screen5--dots {
-        left: 6.9%;
-    }
-
     .dots.Screen5--dots::after {
         right: -12%;
     }
 
     .Screen5--p.S5::after {
-        left: 6.7%;
+        left: 6.05%;
     }
 
     .Screen5--p.S5:last-child::after {
@@ -2154,7 +2173,7 @@ body {
     }
 }
 
-@media (min-width: 1199px) and (max-width: 1920px) {
+@media (min-width: 1200px) and (max-width: 1920px) {
     .Screen7 {
         padding-bottom: 67px;
     }
@@ -2189,9 +2208,17 @@ body {
     .window1--description {
         margin-right: 40px;
     }
+
+    .window1.Screen6--w2.Screen5--w2.S6 {
+        width: 100%;
+    }
 }
 
 @media (min-width: 1920px) {
+    .Screen5--decription.S5.S52 {
+        width: 60%;
+    }
+
     .Screen7--h2.why {
         padding: 157px 0 70px;
     }

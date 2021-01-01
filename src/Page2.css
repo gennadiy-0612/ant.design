@@ -289,10 +289,9 @@ body {
 .twofixed .Screen2 {
     justify-content: space-around;
     position: relative;
-    margin: 10vh 0;
+    /*margin: 4vh 0 1vh;*/
     flex-flow: row wrap;
     display: flex;
-    max-height: 676px;
 }
 
 .twofixed .illustrate {
@@ -399,7 +398,11 @@ body {
 }
 
 .twofixed .dots {
-    left: -3.3%;
+    left: 1.7%;
+}
+
+.twofixed .dots.odd {
+    left: -3.1%;
 }
 
 .twofixed .window1--button-group {
@@ -2311,7 +2314,7 @@ body {
 }
 
 .twofixed .First_Screen {
-    height: 100vh;
+    height: 93vh;
     max-height: 1130px;
     display: flex;
     flex-direction: column;
@@ -2457,10 +2460,6 @@ code {
     letter-spacing: -1.3px;
     margin-bottom: 16px;
 
-}
-
-.twofixed .dots {
-    left: -3.3%;
 }
 
 .twofixed .window1--button-group {
@@ -3125,22 +3124,19 @@ code {
     left: auto;
 }
 
-.twofixed .main-post-link.P2.S2-P2:before {
-}
-
 .twofixed .yellow-upper {
     color: #3680F6;
     letter-spacing: 0.5px;
 }
 
 .twofixed .window1--button-group.P2.P2-S2 {
-    margin: 50px auto 0 7%;
+    margin: 60px auto 0 7%;
     justify-content: space-between;
     width: 70%;
 }
 
 .twofixed .Screen4.P2 {
-    margin: 273px 0 0;
+    margin: 60px 0 0;
     padding: 39px 0 120px;
     overflow-x: hidden;
 }
@@ -3332,7 +3328,7 @@ code {
 
 .twofixed .window1-descript.P2.P2-S7 {
     margin: 0;
-    padding: 25px 22% 45px 9.9%;;
+    padding: 25px 26.3% 45px 9.9%;;
 }
 
 .twofixed .window1-descript.P2 {
@@ -3474,7 +3470,7 @@ code {
 
     .twofixed .window1, .twofixed .window2 {
         padding: 0 1%;
-        flex: 0 0 33%;
+        flex: 0 0 47%;
     }
 
     .twofixed .main-post-link.center.frame4.P2 {
@@ -3695,16 +3691,13 @@ code {
         margin: 21px auto 0 75px;
     }
 
-    .twofixed .dots.odd.odd1 {
-        margin: 36px 0 0 21%;
-    }
-
     .twofixed .dots {
         left: -11.8%;
     }
 
     .twofixed .dots.P2-S2 {
-        left: -8.8%;
+        left: 20.8%;
+        top: -1.2%;
     }
 
     .twofixed .illustrate {
@@ -3798,10 +3791,24 @@ code {
         width: 100%;
     }
 
+    .twofixed .Screen2 {
+    }
+
+    .twofixed .window1, .twofixed .window2 {
+        padding: 0 1%;
+        flex: 0 0 33%;
+    }
+
+    .twofixed .dots.P2-S2 {
+        left: -6.4%;
+        top: 0%;
+    }
+
     .twofixed .Screen9.P1-S9.X1023 {
         padding-right: 30px;
         padding-left: 30px;
     }
+
 
     .twofixed .window1--button-group.P2.P2-S2 {
         flex-direction: initial;
@@ -3855,7 +3862,7 @@ code {
     }
 
     .twofixed .two-columns {
-        max-width: 900px;
+        max-width: 877px;
         grid-column-gap: 0;
     }
 
