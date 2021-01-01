@@ -2024,6 +2024,7 @@ body {
         margin: auto;
         max-width: 570px;
     }
+
     .Screen7--h2.S8 {
         font: normal normal 700 40px/60px 'Poppins', sans-serif;
         padding: 186px 0 0 0;
@@ -2225,6 +2226,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 700px;
 }
 
 .Header--logo {
@@ -2259,6 +2261,6 @@ body {
     padding: 40px 20px;
 }
 
-.window1--button-group.Screen5--button-group.S7{
+.window1--button-group.Screen5--button-group.S7 {
     justify-content: space-between;
 }

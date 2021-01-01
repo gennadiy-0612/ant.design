@@ -104,7 +104,7 @@ function MainPage() {
                 <div className="window2 P2 P2-S7 left-dashed">
                     <p className="window1-h P2 P2-S7 added-element-before connect">Connect</p>
                     <p className="window1-descript P2 P2-S7 added-element-before rounded-frame videocall">Select
-                        investors, arrange video calls,<br/> and start
+                        investors, arrange video calls, and start
                         exchanging
                         documents safely</p>
                     <p className="window1-descript P2 P2-S7 added-element-before rounded-frame cursor">Introduce buyer
@@ -119,7 +119,7 @@ function MainPage() {
                         the relations and advise throughout the due
                         diligence process</p>
                     <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame infrastructure">Receive
-                        a pre-agreed success fee up to € 2 million
+                        a pre-agreed success fee up to<br/> € 2 million
                         at deal
                         closure</p>
                 </div>
