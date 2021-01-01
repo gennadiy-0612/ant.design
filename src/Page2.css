@@ -2301,10 +2301,13 @@ body {
     box-sizing: border-box;
     width: 100%;
     align-self: center;
-    position: relative;
     display: flex;
     justify-content: center;
     padding: 0;
+}
+
+.First_Screen {
+    min-height: 560px;
 }
 
 .twofixed .First_Screen {
@@ -2389,7 +2392,6 @@ code {
     display: flex;
     width: 234px;
     height: 106px;
-    margin: -17px 0 0 0.6%;
 }
 
 .twofixed .logo-link:hover {
@@ -3153,10 +3155,6 @@ code {
     content: none;
 }
 
-.twofixed .main-header-second-h2.head2.P2-h2 {
-    text-indent: 1.1%;
-}
-
 .twofixed .main-post-link.center.frame4.P2 {
     text-indent: 1.7%;
     margin-top: 44px;
@@ -3481,7 +3479,7 @@ code {
 
     .twofixed .main-post-link.center.frame4.P2 {
         font-size: 40px;
-        text-indent: -46px;
+        text-indent: 0;
         line-height: 60px;
         margin-top: 51px;
     }
@@ -3905,4 +3903,20 @@ code {
     font: normal normal 500 18px/27px 'Poppins', sans-serif;
     color: #1D293F;
     text-decoration: none;
+}
+
+.active {
+    position: relative;
+}
+
+.active::after {
+    content: '';
+    position: absolute;
+    bottom: 28%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70%;
+    height: 3px;
+    background-color: #FF6B0F;
 }

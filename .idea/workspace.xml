@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Page2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,14 +172,7 @@
       <workItem from="1609402184046" duration="20110000" />
       <workItem from="1609442873612" duration="9773000" />
       <workItem from="1609453298772" duration="1887000" />
-      <workItem from="1609484592629" duration="1209000" />
-    </task>
-    <task id="LOCAL-00153" summary="added-scale-hover">
-      <created>1608820792174</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1608820792174</updated>
+      <workItem from="1609484592629" duration="2739000" />
     </task>
     <task id="LOCAL-00154" summary="added-scale-hover">
       <created>1608883139687</created>
@@ -520,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609451570259</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="2page">
+      <created>1609487287423</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1609487287424</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,8 +566,8 @@
     <MESSAGE value="added-sorted-images" />
     <MESSAGE value="added-scale-hover" />
     <MESSAGE value="main-page-complete" />
-    <MESSAGE value="2page" />
     <MESSAGE value="fixed-layuot" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed-layuot" />
+    <MESSAGE value="2page" />
+    <option name="LAST_COMMIT_MESSAGE" value="2page" />
   </component>
 </project>
