@@ -122,7 +122,7 @@ function MainPage() {
                     </div>
                 </div>
                 <div className="window2 Screen5--w2 ">
-                    <div className="dots Screen5--dots"><img src={Images.smileman} className="illustrate Screen5-img S5"
+                    <div className="dots Screen5--dots dots51"><img src={Images.smileman} className="illustrate Screen5-img S5"
                                                              alt="smile man"/></div>
                 </div>
             </div>
@@ -136,7 +136,7 @@ function MainPage() {
                 <div className="window1 Screen6--w2 Screen5--w2 S6">
                     <div className="Screen5--decription S5 S52">
                         <h2 className="main-header-second-h2 Screen5--h2 head2 center P1-S6">FOR INVESTORS</h2>
-                        <h3 className="Sreen5--h3">Access unique<br/> investment opportunities</h3>
+                        <h3 className="Sreen5--h3">Access unique investment opportunities</h3>
                         <div className="Screen5--description--content S6c">
                             <strong className="Screen5--strong P1-S6">PROPRIETARY</strong>
                             <p className="Screen5--p P1-S6">Access proprietary deals originated by our Senior
