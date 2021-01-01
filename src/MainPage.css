@@ -77,10 +77,6 @@ body {
     width: 100%;
 }
 
-.Screen5.S5, .Screen6.S6 {
-    overflow: hidden;
-}
-
 .Screen5--button-group.s7 {
     max-width: 800px;
 }
@@ -538,6 +534,7 @@ body {
     max-width: 40%;
     flex: 0 0 40%;
     left: 0;
+    top: -50px;
 }
 
 .Screen5--h2.head2 {
@@ -606,7 +603,7 @@ body {
 }
 
 .Screen5--p.P1-S6::after {
-    left: 7%;
+    left: 5.8%;
 }
 
 .Screen5--p:last-child::after {
@@ -1670,6 +1667,21 @@ body {
     .window1--description {
         margin-right: 40px;
     }
+
+    .dots.Screen5--dots.Screen6--dots {
+        top: 40px;
+    }
+
+    .window1.Screen6--w2.Screen5--w2.S6 {
+        top: 40px;
+    }
+
+    .dots.Screen5--dots.Screen6--dots.S6 {
+        height: 495px;
+        width: auto;
+        left: 18.6%;
+        padding-top: 50px;
+    }
 }
 
 @media (max-width: 1600px) and (min-width: 1024px) {
@@ -1991,7 +2003,6 @@ body {
         height: 495px;
         width: auto;
         left: 18.6%;
-        top: -55px;
     }
 
     .illustrate.Screen6-img {
@@ -2144,6 +2155,10 @@ body {
     .normal.main-p.center.S4 {
         max-width: 1000px;
     }
+
+    .Screen5.S5, .Screen6.S6 {
+        overflow: hidden;
+    }
 }
 
 @media (min-width: 1601px) and (max-width: 1820px) {
@@ -2193,7 +2208,7 @@ body {
 
     .dots.Screen5--dots.dots51 {
         left: -10%;
-        margin:0 80px 55px auto;
+        margin: 0 60px 55px auto;
     }
 
     .dots.Screen6--dots {
@@ -2262,6 +2277,10 @@ body {
 
     .Screen7--p {
         margin-top: 11px;
+    }
+
+    .Screen5--p.P1-S6::after {
+        left: 6.5%;
     }
 }
 

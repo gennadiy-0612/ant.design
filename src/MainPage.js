@@ -129,7 +129,7 @@ function MainPage() {
 
             <div className="Screen6 S6">
                 <div className="window2 Screen6--w2 Screen5--w1 S6">
-                    <div className="dots Screen5--dots Screen6--dots"><img src={Images.people}
+                    <div className="dots Screen5--dots Screen6--dots S6"><img src={Images.people}
                                                                            className="illustrate Screen5-img Screen6-img"
                                                                            alt="smile man"/></div>
                 </div>
