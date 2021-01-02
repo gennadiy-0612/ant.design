@@ -36,7 +36,8 @@ import manwithsmile from './page2/manwithsmile.png'
 import handspeople from './page2/handspeople.png'
 import handspaper from './page2/handspaper.png'
 import handscross from './page2/handscross.png'
-
+//Page3
+import handsandnote from  './page3/handsandnote.png'
 const Images = {
     logo: logo,
 
@@ -76,7 +77,9 @@ const Images = {
     businessmeeting:businessmeeting,
     handshake:handshake,
     manbigsmile:manbigsmile,
-    peopleconnect:peopleconnect
+    peopleconnect:peopleconnect,
+    //Page3
+    handsandnote:handsandnote
 
 }
 

@@ -1,7 +1,7 @@
 import Images from './Images/index';
 import "antd/dist/antd.css";
 import './MainPage.css';
-import pagetop from "./Images/page2top.png";
+import handsandnote from "./Images/page3/handsandnote.png";
 
 function MainPage() {
     return (
@@ -44,7 +44,7 @@ function MainPage() {
                     </div>
                 </div>
                 <div className="window2 ant-col-12">
-                    <div className="dots"><img src={Images.peopleconnect} className="illustrate" alt="bridge"/></div>
+                    <div className="dots"><img src={Images.handsandnote} className="illustrate" alt="bridge"/></div>
                 </div>
             </div>
 
@@ -90,7 +90,8 @@ function MainPage() {
             <div className="Screen6 P2 P2-S5dashed">
                 <div className="window1 P2 P2-S6 left-dashed">
                     <p className="window1-h P2 S6-P2 added-element-before">Get notified</p>
-                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame notificationdot">Get notified when
+                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame notificationdot">Get
+                        notified when
                         Senior Advisors originate relevant opportunities or assign origination mandates
                     </p>
                     <p className="window1-descript P2 S6-P2 added-element-before rounded-frame favorite">
@@ -163,14 +164,20 @@ function MainPage() {
                             <span className="sector one normal main-p center S7 P2-S7-remade">PROPRIETARY</span>
                             <ul className="dot-list">
                                 <li className="dots-item">IDN offers access to proprietary investment opportunities</li>
-                                <li className="dots-item">Our Senior Advisors source deals that are currently off-market</li>
+                                <li className="dots-item">Our Senior Advisors source deals that are currently
+                                    off-market
+                                </li>
                             </ul>
                         </div>
                         <div className="info-graph">
                             <span className="sector five normal main-p center S7 P2-S7-remade">TRUST</span>
                             <ul className="dot-list">
-                                <li className="dots-item">IDN provides a robust legal framework to the deal origination process</li>
-                                <li className="dots-item">We guarantee trust and confidentiality to all parties involved</li>
+                                <li className="dots-item">IDN provides a robust legal framework to the deal origination
+                                    process
+                                </li>
+                                <li className="dots-item">We guarantee trust and confidentiality to all parties
+                                    involved
+                                </li>
                             </ul>
                         </div>
                         <div className="info-graph">
@@ -178,21 +185,31 @@ function MainPage() {
                                 className="sector two normal main-p center S7 P2-S7-remade P3-S7-remade">BILATERAL</span>
                             <ul className="dot-list">
                                 <li className="dots-item">IDN offers access to bilateral investment opportunities</li>
-                                <li className="dots-item">Our Senior Advisors facilitate the closing of bilateral deals</li>
+                                <li className="dots-item">Our Senior Advisors facilitate the closing of bilateral
+                                    deals
+                                </li>
                             </ul>
                         </div>
                         <div className="info-graph">
-                            <span className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
+                            <span
+                                className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
                             <ul className="dot-list">
-                                <li className="dots-item">IDN’s intuitive dashboard guides Investors through the process</li>
-                                <li className="dots-item">We provide a number of tools that facilitate smooth communication with Advisors</li>
+                                <li className="dots-item">IDN’s intuitive dashboard guides Investors through the
+                                    process
+                                </li>
+                                <li className="dots-item">We provide a number of tools that facilitate smooth
+                                    communication with Advisors
+                                </li>
                             </ul>
                         </div>
                         <div className="info-graph">
-                            <span className="sector five supp normal main-p center S7 P2-S7-remade P3-S7-remade">WIN-WIN</span>
+                            <span
+                                className="sector five supp normal main-p center S7 P2-S7-remade P3-S7-remade">WIN-WIN</span>
                             <ul className="dot-list">
                                 <li className="dots-item">IDN’s success-base model is win-win</li>
-                                <li className="dots-item">We are fully transparent and don’t charge any upfront fee to Investors</li>
+                                <li className="dots-item">We are fully transparent and don’t charge any upfront fee to
+                                    Investors
+                                </li>
                             </ul>
                         </div>
                         <div className="info-graph">
