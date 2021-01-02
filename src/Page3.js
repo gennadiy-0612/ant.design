@@ -28,7 +28,7 @@ function MainPage() {
                 <div className="Screen2">
                     <div className="window1 P2 S2-P2">
                         <h1 className="main-header-second-h2 head2 P2 S2-P2">INVESTORS</h1>
-                        <p className="window1-descript P2 S2-P2">
+                        <p className="window1-descript P2 S2-P2 page4">
                             Access proprietary deals <span className="main-post-link P2 S2-P2">originated by</span> a
                             selected network of Senior Advisors. Negotiate and close transactions <span
                             className="yellow-upper">bilaterally</span></p>

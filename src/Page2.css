@@ -289,7 +289,7 @@ body {
 .twofixed .Screen2 {
     justify-content: space-around;
     position: relative;
-    /*margin: 4vh 0 1vh;*/
+    margin: auto 0 4.2vh;
     flex-flow: row wrap;
     display: flex;
 }
@@ -400,7 +400,9 @@ body {
 .twofixed .dots {
     left: 1.7%;
 }
-
+.twofixed .dots.topPhoto {
+    left: -3.5%;
+}
 .twofixed .dots.odd {
     left: -3.1%;
 }
@@ -2316,6 +2318,7 @@ body {
 .twofixed .First_Screen {
     height: 93vh;
     max-height: 1130px;
+    min-height: 830px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -3432,7 +3435,9 @@ code {
     .twofixed .Screen8, .twofixed .common-info {
         width: 100%;
     }
-
+    .twofixed .First_Screen {
+        min-height: 705px;
+    }
     .twofixed .Screen9.P1-S9.X1023 {
         padding: 65px 30px 35px 30px;
     }
@@ -3959,4 +3964,8 @@ code {
 
 .twofixed .ipo::before {
     background: url('./Images/ipo.svg') #fff center center no-repeat;
+}
+.twofixed .page4.window1-descript.P2.S2-P2 {
+    padding-right: 11%;
+    max-width: 808px;
 }

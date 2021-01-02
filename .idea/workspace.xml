@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Page2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Page3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,14 +180,7 @@
       <workItem from="1609514896757" duration="6670000" />
       <workItem from="1609549836328" duration="2254000" />
       <workItem from="1609601924141" duration="3052000" />
-      <workItem from="1609606494315" duration="11320000" />
-    </task>
-    <task id="LOCAL-00168" summary="added-scale-hover">
-      <created>1608975141732</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1608975141732</updated>
+      <workItem from="1609606494315" duration="15229000" />
     </task>
     <task id="LOCAL-00169" summary="added-scale-hover">
       <created>1608975155785</created>
@@ -526,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609614625697</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="3page-added">
+      <created>1609618559351</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1609618559351</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +553,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added-bottom-button" />
     <MESSAGE value="added-dots-decorations-for-4screen" />
     <MESSAGE value="5screen-has-started" />
     <MESSAGE value="5screen-has-finished" />
@@ -579,6 +577,7 @@
     <MESSAGE value="2page" />
     <MESSAGE value="test" />
     <MESSAGE value="fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
+    <MESSAGE value="3page-added" />
+    <option name="LAST_COMMIT_MESSAGE" value="3page-added" />
   </component>
 </project>
