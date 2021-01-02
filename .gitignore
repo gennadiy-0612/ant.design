@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-.idea/workspace.xml
+.idea
 # dependencies
 /node_modules
 /.pnp
@@ -21,6 +21,3 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/.idea/shelf/Default_Changelist.xml
-/.idea/php.xml
-/.idea/shelf/Default_Changelist/shelved.patch

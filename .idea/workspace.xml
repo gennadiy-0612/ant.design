@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
-      <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,21 +177,8 @@
       <workItem from="1609511747603" duration="2746000" />
       <workItem from="1609514896757" duration="6670000" />
       <workItem from="1609549836328" duration="2254000" />
-      <workItem from="1609601924141" duration="1642000" />
-    </task>
-    <task id="LOCAL-00161" summary="added-scale-hover">
-      <created>1608911936953</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1608911936953</updated>
-    </task>
-    <task id="LOCAL-00162" summary="added-scale-hover">
-      <created>1608912013720</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1608912013720</updated>
+      <workItem from="1609601924141" duration="3052000" />
+      <workItem from="1609606494315" duration="1044000" />
     </task>
     <task id="LOCAL-00163" summary="added-scale-hover">
       <created>1608912221113</created>
@@ -525,7 +509,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609603079214</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="2page">
+      <created>1609603577335</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1609603577335</updated>
+    </task>
+    <task id="LOCAL-00211" summary="2page">
+      <created>1609603651329</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1609603651329</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,9 +573,9 @@
     <MESSAGE value="added-scale-hover" />
     <MESSAGE value="main-page-complete" />
     <MESSAGE value="fixed-layuot" />
-    <MESSAGE value="2page" />
     <MESSAGE value="two-pages-fixed" />
     <MESSAGE value="animation-fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="animation-fixed" />
+    <MESSAGE value="2page" />
+    <option name="LAST_COMMIT_MESSAGE" value="2page" />
   </component>
 </project>
