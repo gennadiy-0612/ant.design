@@ -1,6 +1,6 @@
 import Images from './Images/index';
 import "antd/dist/antd.css";
-import './Page2.css';
+import './MainPage.css';
 import handsandnote from "./Images/page3/handsandnote.png";
 
 function MainPage() {

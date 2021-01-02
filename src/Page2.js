@@ -1,5 +1,5 @@
 import Images from './Images/index';
-import './Page2.css';
+import './MainPage.css';
 import pagetop from "./Images/page2/pagetwotop.png";
 
 function MainPage() {
