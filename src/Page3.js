@@ -1,11 +1,11 @@
 import Images from './Images/index';
 import "antd/dist/antd.css";
-import './MainPage.css';
+import './Page2.css';
 import handsandnote from "./Images/page3/handsandnote.png";
 
 function MainPage() {
     return (
-        <div className="page3">
+        <div className="page3 twofixed">
             <div className="Header">
                 <div className="Header--logo">
                     <a className="logo-link" href="/">
