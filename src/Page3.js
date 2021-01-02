@@ -75,17 +75,17 @@ function MainPage() {
                 <div className="window2 P2 P2-S5 left-dashed">
                     <h2 className="main-header-second-h2 head2 P2">How IT WORKS</h2>
                     <p className="window1-h P2 P2-S5 added-element-before signUp">Sign Up</p>
-                    <p className="window1-descript P2 added-element-before rounded-frame global-network">Sign up for free and provide information about the deal opportunities you are interested in</p>
-                    <p className="window1-descript P2 added-element-before rounded-frame bird">Information include deal size, sectors of interest, geography of focus, etc</p>
+                    <p className="window1-descript P2 added-element-before rounded-frame arrowsquare">Sign up for free and provide information about the deal opportunities you are interested in</p>
+                    <p className="window1-descript P2 added-element-before rounded-frame papartext">Information include deal size, sectors of interest, geography of focus, etc</p>
                 </div>
             </div>
 
             <div className="Screen6 P2 P2-S5dashed S6">
                 <div className="window1 P2 P2-S6 left-dashed">
                     <p className="window1-h P2 S6-P2 added-element-before P2-S5dashed">Get notified</p>
-                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame chat">Get notified when
+                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame notificationdot">Get notified when
                         Senior Advisors originate relevant opportunities or assign origination mandates</p>
-                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame dotline">
+                    <p className="window1-descript P2 S6-P2 added-element-before rounded-frame dotline favorite">
                         Review the opportunities originated by Advisors and submit expressions of interest</p>
                 </div>
                 <div className="window2 P2">
@@ -104,7 +104,7 @@ function MainPage() {
                     <p className="window1-descript P2 P2-S7 added-element-before rounded-frame videocall">Discuss the
                         opportunities in full confidentiality and transparency. Arrange video calls and exchange
                         documents</p>
-                    <p className="window1-descript P2 P2-S7 added-element-before rounded-frame cursor">
+                    <p className="window1-descript P2 P2-S7 added-element-before rounded-frame target">
                         Get introduced to the target companies and start the due diligence</p>
                 </div>
             </div>
@@ -130,68 +130,54 @@ function MainPage() {
                         <p className="window1-h P2 P2-S72 added-element-before beyond">Beyond</p>
                         <p className="window1-descript P2 P2-S72 added-element-before rounded-frame suitcase beyond">Engage Senior
                             Advisors as NEDs, an interim C-levels, or via retainers to originate other investment opportunities</p>
-                        <p className="window1-descript P2 P2-S72 added-element-before rounded-frame phonebook beyond">Keep
+                        <p className="window1-descript P2 P2-S72 added-element-before rounded-frame ipo beyond">Keep
                             originating new proprietary investment opportunities through IDN’s extensive network of Senior Advisors</p>
                     </div>
                 </div>
             </div>
 
-
             <div className="common-info">
                 <div className="Screen7 P2-S7-remade">
+                    <h2 className="Screen7--h2 P2-S7-remade">Why IDN?</h2>
+                    <p className="Screen7--p P2-S7-remade">IDN offers Senior Advisors a unique incentive to originate
+                        investment opportunities
+                        for the world’s leading investors while also eliminating all frictions to the deal matching process
+                    </p>
                     <div className="S7 P2-S7-remade">
                         <div className="sectors S7 P2-S7-remade">
                             <div className="info-graph">
-                                <span className="sector one normal main-p center S7 P2-S7-remade">CONNECTION</span>
+                                <span className="sector one normal main-p center S7 P2-S7-remade">PROPRIETARY</span>
                                 <ul className="dot-list">
-                                    <li className="dots-item">IDN connects Senior Advisors to dozens of leading investors
-                                        worldwide
-                                    </li>
-                                    <li className="dots-item">We eliminate the need of approaching investment firms
-                                        independently
-                                    </li>
+                                    <li className="dots-item">IDN offers access to proprietary investment opportunities</li>
+                                    <li className="dots-item">Our Senior Advisors source deals that are currently off-market</li>
                                 </ul>
                             </div>
                             <div className="info-graph">
                                 <span className="sector five normal main-p center S7 P2-S7-remade">TRUST</span>
                                 <ul className="dot-list">
-                                    <li className="dots-item">IDN provides a robust legal framework to the deal origination
-                                        process
-                                    </li>
-                                    <li className="dots-item">We guarantee trust and confidentiality to all parties
-                                        involved
-                                    </li>
+                                    <li className="dots-item">IDN provides a robust legal framework to the deal origination process</li>
+                                    <li className="dots-item">We guarantee trust and confidentiality to all parties involved</li>
                                 </ul>
                             </div>
                             <div className="info-graph">
-                                <span className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
+                                <span className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">BILATERAL</span>
                                 <ul className="dot-list">
-                                    <li className="dots-item">IDN’s intuitive dashboard helps Advisors through the process
-                                    </li>
-                                    <li className="dots-item">We provide a number of tools that facilitates smooth communication with investors
-                                    </li>
+                                    <li className="dots-item">IDN offers access to bilateral investment opportunities</li>
+                                    <li className="dots-item">Our Senior Advisors facilitate the closing of bilateral deals</li>
                                 </ul>
                             </div>
                             <div className="info-graph">
-                                <span className="sector two normal main-p center S7 P2-S7-remade">REMUNERATION</span>
+                                <span className="sector two normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
                                 <ul className="dot-list">
-                                    <li className="dots-item">IDN has already negotiated the fee levels with investors on
-                                        behalf of Advisors
-                                    </li>
-                                    <li className="dots-item">We remove the hassle of uneven negotiations between
-                                        individuals and investors
-                                    </li>
+                                    <li className="dots-item">IDN’s intuitive dashboard guides Investors through the process</li>
+                                    <li className="dots-item">We provide a number of tools that facilitate smooth communication with Advisors</li>
                                 </ul>
                             </div>
                             <div className="info-graph">
-                                <span className="sector five supp normal main-p center S7 P2-S7-remade">SUPPORT</span>
+                                <span className="sector five supp normal main-p center S7 P2-S7-remade">WIN-WIN</span>
                                 <ul className="dot-list">
-                                    <li className="dots-item">IDN offers full support and counsel to Advisors throughout the
-                                        process
-                                    </li>
-                                    <li className="dots-item">We are always available to support Advisors with a dedicated
-                                        Relationship Manager
-                                    </li>
+                                    <li className="dots-item">IDN’s success-base model is win-win</li>
+                                    <li className="dots-item">We are fully transparent and don’t charge any upfront fee to Investors</li>
                                 </ul>
                             </div>
                             <div className="info-graph">
@@ -199,79 +185,6 @@ function MainPage() {
                                     <p className="window1--description--button S7 P2-S7 Advisor">Senior Advisors</p>
                                     <a className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Apply now</a>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className="Screen7 P2-S7-remade">
-                <h2 className="Screen7--h2 P2-S7-remade">Why IDN?</h2>
-                <p className="Screen7--p P2-S7-remade">IDN offers Senior Advisors a unique incentive to originate
-                    investment opportunities<br/>
-                    for the world’s leading investors while also eliminating all frictions to the deal matching process
-                </p>
-                <div className="S7 P2-S7-remade">
-                    <div className="sectors S7 P2-S7-remade">
-                        <div className="info-graph">
-                            <span className="sector one normal main-p center S7 P2-S7-remade">PROPRIETARY</span>
-                            <ul className="dot-list">
-                                <li className="dots-item">IDN offers access to proprietary investment opportunities</li>
-                                <li className="dots-item">Our Senior Advisors source deals that are currently
-                                    off-market
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="info-graph">
-                            <span className="sector five normal main-p center S7 P2-S7-remade">TRUST</span>
-                            <ul className="dot-list">
-                                <li className="dots-item">IDN provides a robust legal framework to the deal origination
-                                    process
-                                </li>
-                                <li className="dots-item">We guarantee trust and confidentiality to all parties
-                                    involved
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="info-graph">
-                            <span
-                                className="sector two normal main-p center S7 P2-S7-remade P3-S7-remade">BILATERAL</span>
-                            <ul className="dot-list">
-                                <li className="dots-item">IDN offers access to bilateral investment opportunities</li>
-                                <li className="dots-item">Our Senior Advisors facilitate the closing of bilateral
-                                    deals
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="info-graph">
-                            <span
-                                className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
-                            <ul className="dot-list">
-                                <li className="dots-item">IDN’s intuitive dashboard guides Investors through the
-                                    process
-                                </li>
-                                <li className="dots-item">We provide a number of tools that facilitate smooth
-                                    communication with Advisors
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="info-graph">
-                            <span
-                                className="sector five supp normal main-p center S7 P2-S7-remade P3-S7-remade">WIN-WIN</span>
-                            <ul className="dot-list">
-                                <li className="dots-item">IDN’s success-base model is win-win</li>
-                                <li className="dots-item">We are fully transparent and don’t charge any upfront fee to
-                                    Investors
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="info-graph">
-                            <div className="window1--description S7 S71 dot-list Advisor">
-                                <p className="window1--description--button S7 P2-S7 Advisor">Senior Advisors</p>
-                                <button
-                                    className="login ant-btn ant-btn-primary ant-btn-round ant-btn-lg S7 S2 P2-S7">Apply
-                                    now
-                                </button>
                             </div>
                         </div>
                     </div>
