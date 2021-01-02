@@ -118,6 +118,7 @@ function MainPage() {
                     <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2" src={Images.handspaper} alt="bridge"/></div>
                 </div>
             </div>
+
             <div className="S5-P2dots">
             <div className="Screen5 P2 P2-S72 P2-S53">
                 <div className="window1 P2 P2-S7 P2-S72">
