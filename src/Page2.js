@@ -27,8 +27,7 @@ function MainPage() {
                 <div className="window1 P2 S2-P2">
                     <h1 className="main-header-second-h2 head2 P2 S2-P2">Senior Advisors</h1>
                     <p className="window1-descript P2 S2-P2">Leverage your network and industry knowledge
-                        <span className="main-post-link P2 S2-P2">to originate</span> proprietary investment opportunities
-                        for <span className="yellow-upper">Private Equity investors</span></p>
+                        <span className="main-post-link P2 S2-P2">to originate</span> proprietary investment opportunities for <span className="yellow-upper">Private Equity investors</span></p>
                     <div className="window1--button-group P2 P2-S2">
                         <div className="window1--description"><a className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</a></div>
                         <div className="window1--description"><a className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2">Learn more</a></div>
@@ -44,9 +43,7 @@ function MainPage() {
                 <h2 className="main-header-second-h2 head2 center P2-h2">WHO OUR</h2>
                 <p className="main-post-link center frame4 P2 P2-S4">Senior Advisors are</p>
                 <div className="idea">
-                    <p className="normal main-p center cover P2 P2-S4">Our Senior Advisors are independent Senior
-                        Executives
-                        across every infrastructure related sector<br/>
+                    <p className="normal main-p center cover P2 P2-S4">Our Senior Advisors are independent Senior Executives across every infrastructure related sector<br/>
                         <span className="main-post-link P2 third-screen third-line">in Europe and beyond</span></p>
                     <div className="two-columns">
                         <p className="two-column--p"><span className="main-post-link P2 third-screen">To join our platform</span> they
@@ -54,28 +51,22 @@ function MainPage() {
                             with in-depth industry knowledge. Most of them have a combination</p>
                         <p className="two-column--p">of both, making them ideally positioned to originate unique <span
                             className="main-post-link P2 third-screen">investment opportunities</span> for our
-                            investors, advise them through the due diligence process, and join their portfolio companies
-                            as NED</p>
+                            investors, advise them through the due diligence process, and join their portfolio companies as NED</p>
                     </div>
                 </div>
             </div>
 
             <div className="Screen5 P2 P2-S5dashed">
                 <div className="window1 P2 P2-S5">
-                    <div className="dots P2 P2-S5 odd dotted photo"><img src={Images.attentionman} className="illustrate P2 odd" alt="bridge"/>
-                    </div>
+                    <div className="dots P2 P2-S5 odd dotted photo"><img src={Images.attentionman} className="illustrate P2 odd" alt="bridge"/></div>
                 </div>
                 <div className="window2 P2 P2-S5 left-dashed">
                     <h2 className="main-header-second-h2 head2 P2">How IT WORKS</h2>
                     <p className="window1-h P2 P2-S5 added-element-before signUp">Sign Up</p>
                     <p className="window1-descript P2 added-element-before rounded-frame global-network">Sign up and
-                        stay connected to your industry network to identify
-                        M&A
-                        opportunities</p>
+                        stay connected to your industry network to identify M&A opportunities</p>
                     <p className="window1-descript P2 added-element-before rounded-frame bird">Receive mandates from
-                        sellers to find investors or from investors
-                        to
-                        originate opportunities</p>
+                        sellers to find investors or from investors to originate opportunities</p>
                 </div>
             </div>
 
@@ -109,7 +100,8 @@ function MainPage() {
                         documents safely</p>
                     <p className="window1-descript P2 P2-S7 added-element-before rounded-frame cursor">Introduce buyer
                         and seller and facilitate the negotiations
-                        between the parties</p></div>
+                        between the parties</p>
+                </div>
             </div>
 
             <div className="Screen6 P2 P2-S7 P2-S5dashed">
@@ -120,12 +112,10 @@ function MainPage() {
                         diligence process</p>
                     <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame infrastructure">Receive
                         a pre-agreed success fee up to<br/> € 2 million
-                        at deal
-                        closure</p>
+                        at deal closure</p>
                 </div>
                 <div className="window2 P2">
-                    <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2" src={Images.handspaper} alt="bridge"/>
-                    </div>
+                    <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2" src={Images.handspaper} alt="bridge"/></div>
                 </div>
             </div>
             <div className="S5-P2dots">
@@ -178,13 +168,11 @@ function MainPage() {
                             </ul>
                         </div>
                         <div className="info-graph">
-                            <span
-                                className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
+                            <span className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
                             <ul className="dot-list">
                                 <li className="dots-item">IDN’s intuitive dashboard helps Advisors through the process
                                 </li>
-                                <li className="dots-item">We provide a number of tools that facilitates smooth
-                                    communication with investors
+                                <li className="dots-item">We provide a number of tools that facilitates smooth communication with investors
                                 </li>
                             </ul>
                         </div>
@@ -223,8 +211,7 @@ function MainPage() {
 
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
-                <a className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Get in Touch
-                </a>
+                <a className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Get in Touch</a>
             </div>
 
             <div className="Screen9 P1-S9 X1023">

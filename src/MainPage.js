@@ -9,7 +9,7 @@ function MainPage() {
                     <div className="Header--logo X1024-1600">
                         <a className="logo-link" href="/"><img className="idnlogo" src={Images.logo} alt="t"/></a>
                     </div>
-                    <div className="top-horizon-menu X1024-1200 X1200-1600 ">
+                    <div className="top-horizon-menu X1024-1200 X1200-1600">
                         <nav className="main-top-nav">
                             <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Senior Advisor</a>
                             <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Investors</a>
