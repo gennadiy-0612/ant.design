@@ -2242,6 +2242,7 @@ body {
 
     .window1--button-group.Screen5--button-group {
         min-width: 526px;
+        justify-content: flex-start;
     }
 
     .main-p.X1600 {
