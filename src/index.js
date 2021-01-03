@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import MainPage from './MainPage';
 // import Page2 from './Page2';
-import Page3 from './Page3';
+// import Page3 from './Page3';
+import Page4 from './Page4';
 import reportWebVitals from './reportWebVitals';
 
 // ReactDOM.render(
@@ -16,7 +17,8 @@ ReactDOM.render(
     <React.StrictMode>
         {/*<MainPage />*/}
         {/*<Page2 />*/}
-        <Page3 />
+        {/*<Page3 />*/}
+        <Page4 />
     </React.StrictMode>,
     document.getElementById('root')
 );

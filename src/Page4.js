@@ -1,7 +1,7 @@
 import Images from './Images/index';
 import "antd/dist/antd.css";
 import './MainPage.css';
-import handsandnote from "./Images/page3/handsandnote.png";
+import citymap from "./Images/page4/citymap.png";
 
 function MainPage() {
     return (
@@ -27,11 +27,12 @@ function MainPage() {
 
                 <div className="Screen2">
                     <div className="window1 P2 S2-P2">
-                        <h1 className="main-header-second-h2 head2 P2 S2-P2">INVESTORS</h1>
-                        <p className="window1-descript P2 S2-P2 page3">
-                            Access proprietary deals <span className="main-post-link P2 S2-P2">originated by</span> a
-                            selected network of Senior Advisors. Negotiate and close transactions <span
-                            className="yellow-upper">bilaterally</span></p>
+                        <h1 className="main-header-second-h2 head2 P2 S2-P2">SECTORS</h1>
+                        <p className="window1-descript P2 S2-P2 page3">Private Equity infrastructure investment nowadays
+                            goes
+                            <span className="main-post-link P2 S2-P2"> far beyond</span> roads and
+                            airports. It can be any defensible business generating <span
+                                className="yellow-upper">stable returns</span></p>
                         <div className="window1--button-group P2 P2-S2">
                             <div className="window1--description"><a
                                 className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</a></div>
@@ -41,70 +42,151 @@ function MainPage() {
                         </div>
                     </div>
                     <div className="window2">
-                        <div className="dots P2-S2 topPhoto"><img src={Images.handsandnote} className="illustrate P2-S2"
+                        <div className="dots P2-S2 topPhoto"><img src={Images.citymap} className="illustrate P2-S2"
                                                                   alt="bridge"/></div>
                     </div>
                 </div>
             </div>
 
-            <div className="common-info">
-                <div className="Screen7 P2-S7-remade">
-                    <h2 className="Screen7--h2 P2-S7-remade">Why IDN?</h2>
-                    <p className="Screen7--p P2-S7-remade">IDN offers Senior Advisors a unique incentive to originate
-                        investment opportunities
-                        for the world’s leading investors while also eliminating all frictions to the deal matching process
-                    </p>
-                    <div className="S7 P2-S7-remade">
-                        <div className="sectors S7 P2-S7-remade">
-                            <div className="info-graph">
-                                <span className="sector one normal main-p center S7 P2-S7-remade">PROPRIETARY</span>
-                                <ul className="dot-list">
-                                    <li className="dots-item">IDN offers access to proprietary investment opportunities</li>
-                                    <li className="dots-item">Our Senior Advisors source deals that are currently off-market</li>
-                                </ul>
-                            </div>
-                            <div className="info-graph">
-                                <span className="sector five normal main-p center S7 P2-S7-remade">TRUST</span>
-                                <ul className="dot-list">
-                                    <li className="dots-item">IDN provides a robust legal framework to the deal origination process</li>
-                                    <li className="dots-item">We guarantee trust and confidentiality to all parties involved</li>
-                                </ul>
-                            </div>
-                            <div className="info-graph">
-                                <span className="sector COMMUNICATION normal main-p center S7 P2-S7-remade">BILATERAL</span>
-                                <ul className="dot-list">
-                                    <li className="dots-item">IDN offers access to bilateral investment opportunities</li>
-                                    <li className="dots-item">Our Senior Advisors facilitate the closing of bilateral deals</li>
-                                </ul>
-                            </div>
-                            <div className="info-graph">
-                                <span className="sector two normal main-p center S7 P2-S7-remade">COMMUNICATION</span>
-                                <ul className="dot-list">
-                                    <li className="dots-item">IDN’s intuitive dashboard guides Investors through the process</li>
-                                    <li className="dots-item">We provide a number of tools that facilitate smooth communication with Advisors</li>
-                                </ul>
-                            </div>
-                            <div className="info-graph">
-                                <span className="sector five supp normal main-p center S7 P2-S7-remade">WIN-WIN</span>
-                                <ul className="dot-list">
-                                    <li className="dots-item">IDN’s success-base model is win-win</li>
-                                    <li className="dots-item">We are fully transparent and don’t charge any upfront fee to Investors</li>
-                                </ul>
-                            </div>
-                            <div className="info-graph">
-                                <div className="window1--description S7 S71 dot-list Advisor">
-                                    <p className="window1--description--button S7 P2-S7 Advisor">Senior Advisors</p>
-                                    <a className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Apply now</a>
-                                </div>
-                            </div>
-                        </div>
+            <div className="S2-P4">
+                <div className="two-explain Screen2">
+                    <div className="window-right">
+                        <div className="dots P2-S2 topPhoto P4-S2"><img src={Images.ways}
+                                                                        className="illustrate P2-S2 P4-S3-img"
+                                                                        alt="bridge"/></div>
+                    </div>
+                    <div className="window-left">
+                        <h2 className="main-header-second-h2 head2 P2 S2-P2 P4-S3-H2">YESTERDAY</h2>
+                        <h3 className="head3 P4-S2">What was Infrastructure?</h3>
+                        <p className="text-extending">By definition, Infrastructures are assets that provide essential
+                            services to society. Traditional infrastructure assets, classified as “Core” infrastructure,
+                            encompass transportation (e.g. airports, ports, roads), energy (e.g. O&G infrastructure),
+                            utilities (e.g. electricity networks), telecommunication (e.g. telecom towers), and “social
+                            infrastructure” (e.g. schools, hospitals).</p>
+                        <p className="text-extending">“Core” assets typically operate on a monopolistic basis due to
+                            regulation or concession, and therefore present a very low risk profile. For this reasons
+                            institutions such as pension funds have pioneered investments in this asset class due to the
+                            low
+                            but stable returns that “core” infrastructure assets typically guarantee
+                        </p>
                     </div>
                 </div>
             </div>
 
+            <div className="two-explain Screen2 P2-S3">
+                <div className="window-left P4-S3">
+                    <h2 className="main-header-second-h2 head2 P2 S2-P2 P4-S3">TODAY</h2>
+                    <h3 className="head3 S2-P2 P4-S3">What is Infrastructure?</h3>
+                    <p className="text-extending">
+                        In recent years however, the definition of infrastructure has expanded dramatically and
+                        investment in the asset class have boomed. In fact, an increasing number of Private Equity firms
+                        have entered the game by expanding the investment scope from “core” to “core plus”, “value
+                        added”, and “opportunistic” investments, embracing a plethora of new sectors and businesses
+                        reflecting higher risk profiles and returns.</p>
+                    <p className="text-extending">
+                        Yet, the underlying characteristics of infrastructure investments remain similar: investors are
+                        still looking for opportunities in low-competitive markets, with high entry barriers and few
+                        associated risks, with business models centered on fairly long-term and sticky contracts. As
+                        competition intensifies and new “non-core” sectors become of interest, the need of investors to
+                        uncover investment opportunities in known and unknown sectors becomes paramount.
+                    </p>
+                </div>
+                <div className="window-right P4-S3">
+                    <div className="dots P2-S2 topPhoto P4-S2 P4-S3"><img src={Images.infra}
+                                                                    className="illustrate P2-S2 P4-S3-img"
+                                                                    alt="bridge"/></div>
+                </div>
+            </div>
+            <div className="S2-P4">
+                <div className="wrapper">
+                    <p className="text-big text-S2-P4 P4 S2 center width800">IDN <span
+                        className="main-post-link P2 S2-P2 text-big text-big text-S2-P4 P4 S2">covers</span> all core
+                        and
+                        non-core infrastructure sectors.</p>
+                    <div className="visualtextinfo">
+                        <div className="cail">
+                            <img className="info-vis" src={Images.track} alt="alt"/>
+                            <h3 className="header h3-P4">Transport & Logistics</h3>
+                            <ul className="ul-P4">
+                                <li className="item h3-P4">Ports</li>
+                                <li className="item h3-P4">Airports</li>
+                                <li className="item h3-P4">Roads, Rail</li>
+                                <li className="item h3-P4">Logistics</li>
+                                <li className="item h3-P4">Storage</li>
+                                <li className="item h3-P4"> Last mile</li>
+                            </ul>
+                        </div>
+                        <div className="cail">
+                            <img className="info-vis" src={Images.powerlines} alt="alt"/>
+                            <h3 className="header h3-P4">Utilities</h3>
+                            <ul className="ul-P4">
+                                <li className="item h3-P4">Electrity</li>
+                                <li className="item h3-P4">Gas</li>
+                                <li className="item h3-P4">Water</li>
+                                <li className="item h3-P4">Waste</li>
+                                <li className="item h3-P4">Recycling</li>
+                                <li className="item h3-P4">Alternatives</li>
+                            </ul>
+                        </div>
+                        <div className="cail">
+                            <img className="info-vis" src={Images.sunbettery} alt="alt"/>
+                            <h3 className="header h3-P4">Energy</h3>
+                            <ul className="ul-P4">
+                                <li className="item h3-P4">Oil & Gas</li>
+                                <li className="item h3-P4">Nuclear & Coal</li>
+                                <li className="item h3-P4"> Renewable</li>
+                                <li className="item h3-P4">Biomass, Biogas</li>
+                                <li className="item h3-P4">Hydrogen</li>
+                                <li className="item h3-P4">New Energy</li>
+                            </ul>
+                        </div>
+                        <div className="cail">
+                            <img className="info-vis" src={Images.antena} alt="alt"/>
+                            <h3 className="header h3-P4">Telecom & ICT</h3>
+                            <ul className="ul-P4">
+                                <li className="item h3-P4">Fixed Networks</li>
+                                <li className="item h3-P4">Wireless</li>
+                                <li className="item h3-P4">Data Storage</li>
+                                <li className="item h3-P4">ICT</li>
+                                <li className="item h3-P4">Radio</li>
+                                <li className="item h3-P4">Satellites</li>
+                            </ul>
+                        </div>
+                        <div className="cail">
+                            <img className="info-vis" src={Images.citysunset} alt="alt"/>
+                            <h3 className="header h3-P4">Green & Infratech</h3>
+                            <ul className="ul-P4">
+                                <li className="item h3-P4">Cleantech</li>
+                                <li className="item h3-P4">Circular Economy</li>
+                                <li className="item h3-P4">IoT & Infratech</li>
+                                <li className="item h3-P4">Smart Energy</li>
+                                <li className="item h3-P4">Smart Mobility</li>
+                                <li className="item h3-P4">Smart Cities</li>
+                            </ul>
+                        </div>
+                        <div className="cail">
+                            <img className="info-vis" src={Images.otherfield} alt="alt"/>
+                            <h3 className="header h3-P4">Other Sectors</h3>
+                            <ul className="ul-P4">
+                                <li className="item h3-P4">Agricolture</li>
+                                <li className="item h3-P4">Chemicals</li>
+                                <li className="item h3-P4">Education</li>
+                                <li className="item h3-P4">Healthcare</li>
+                                <li className="item h3-P4">Housing</li>
+                                <li className="item h3-P4">Social</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p className="text-big text-S2-P4 P4 S2 center foot-head">Help us expand to <span
+                        className="main-post-link P2 S2-P2 text-big text-S2-P4 P4 S2 center"> new ones</span>!</p>
+                </div>
+            </div>
+
             <div className="Screen8">
-                <h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
-                <a className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Get in Touch</a>
+                <h2 className="Screen7--h2 S8 P4-S8">Not sure whether your sector, deal,<br/>
+                    or investment’s scope can be aligned to IDN’s focus? </h2>
+                <a className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Ask
+                    us</a>
             </div>
 
             <div className="Screen9 P1-S9 X1023">
@@ -126,8 +208,11 @@ function MainPage() {
                     </ul>
                     <ul className="foot-ul">
                         <li className="foot-li foot-li-head">Contact</li>
-                        <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
-                        <li className="foot-li opacity6"><a className="footA"  href="tel:+23232323232"> + 23232323232</a></li>
+                        <li className="foot-li opacity6"><a className="footA"
+                                                            href="mailto:info@infradeals.net">info@infradeals.net</a>
+                        </li>
+                        <li className="foot-li opacity6"><a className="footA" href="tel:+23232323232"> + 23232323232</a>
+                        </li>
                         <li className="foot-li"><span className="in"></span></li>
                     </ul>
                 </div>

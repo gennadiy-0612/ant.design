@@ -32,12 +32,23 @@ import handspeople from './page2/handspeople.png'
 import handspaper from './page2/handspaper.png'
 import handscross from './page2/handscross.png'
 //Page3
-import handsandnote from  './page3/handsandnote.png'
+import handsandnote from './page3/handsandnote.png'
 import mannotebook from './page3/mannotebook.png'
 import mannotephone from './page3/mannotephone.png'
 import businessmeeting from './page3/businessmeeting.png'
 import handshake from './page3/handshake.png'
 import manbigsmile from './page3/manbigsmile.png'
+//Page4
+import citymap from './page4/citymap.png'
+import track from './page4/track.png'
+import powerlines from './page4/powerlines.png'
+import sunbettery from './page4/sunbettery.png'
+import antena from './page4/antena.png'
+import citysunset from './page4/citysunset.png'
+import otherfield  from './page4/otherfield.png'
+import ways  from './page4/ways.png'
+import infra  from './page4/infra.png'
+
 const Images = {
     logo: logo,
 
@@ -63,24 +74,33 @@ const Images = {
     security: security,
     trust: trust,
     win: win,
-    arrowdown:arrowdown,
-    manpencil:manpencil,
-    pagetop:pagetop,
-    attentionman:attentionman,
-    manwithsmile:manwithsmile,
-    handspeople:handspeople,
-    handspaper:handspaper,
-    handscross:handscross,
-    notebook:notebook,
-    mannotebook:mannotebook,
-    mannotephone:mannotephone,
-    businessmeeting:businessmeeting,
-    handshake:handshake,
-    manbigsmile:manbigsmile,
-    peopleconnect:peopleconnect,
+    arrowdown: arrowdown,
+    manpencil: manpencil,
+    pagetop: pagetop,
+    attentionman: attentionman,
+    manwithsmile: manwithsmile,
+    handspeople: handspeople,
+    handspaper: handspaper,
+    handscross: handscross,
+    notebook: notebook,
+    mannotebook: mannotebook,
+    mannotephone: mannotephone,
+    businessmeeting: businessmeeting,
+    handshake: handshake,
+    manbigsmile: manbigsmile,
+    peopleconnect: peopleconnect,
     //Page3
-    handsandnote:handsandnote
-
+    handsandnote: handsandnote,
+    //Page4
+    citymap: citymap,
+    track: track,
+    powerlines: powerlines,
+    sunbettery: sunbettery,
+    antena: antena,
+    citysunset : citysunset,
+    otherfield : otherfield,
+    ways : ways,
+    infra : infra
 }
 
 export default Images

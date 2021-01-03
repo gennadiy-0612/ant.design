@@ -2902,6 +2902,7 @@ code {
     position: relative;
 }
 
+.item.h3-P4::before,
 .twofixed .dots-item::before {
     content: '';
     position: absolute;
@@ -6321,4 +6322,158 @@ body {
 
 .window1--button-group.Screen5--button-group.S7 {
     justify-content: space-between;
+}
+
+
+/*Page4*/
+.twofixed .page3.window1-descript.P2.S2-P2 {
+    padding-right: 9%;
+}
+
+.width800 {
+    max-width: 800px;
+    margin: auto;
+    padding: 34px 0 80px;
+}
+
+.S2-P4 {
+    background-color: #F7F7FB;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1400px;
+}
+
+.two-explain.Screen2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto 0;
+    padding: 205px 0 210px;
+}
+
+.head3 {
+    font: normal normal 700 40px/60px 'Poppins', sans-serif;
+}
+
+.text-extending {
+    font: normal normal 300 22px/36px 'Poppins', sans-serif;
+}
+
+.dots.topPhoto.P4-S2 {
+    left: 5.6%;
+}
+
+.dots.topPhoto.P4-S3 {
+    left: 20%;
+}
+
+.dots.topPhoto.P4-S3::after {
+    left: auto;
+    right: 10%;
+}
+
+.illustrate.P2-S2.P4-S3-img {
+    height: 656px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.window-left {
+    flex: 1 0 50%;
+    padding: 0 0 0 7%;
+}
+
+.window-right {
+    flex: 1 0 50%;
+}
+
+.window-left.P4-S3 {
+    padding: 0 0 0 1.2%;
+    flex: 1 0 52%;
+}
+
+.window-right.P4-S3 {
+    flex: 1 0 48%;
+}
+
+.main-header-second-h2.head2.P2.S2-P2.P4-S3-H2,
+.main-header-second-h2.head2.P2.S2-P2.P4-S3,
+.main-header-second-h2.head2.P2.S2-P2 {
+    padding: 0;
+}
+
+.head3.P4-S2 {
+    color: #232D53;
+    margin: 20px 0 0;
+}
+
+.head3.S2-P2.P4-S3,
+.text-extending {
+    margin: 40px 0 0;
+    color: #7E7F7E;
+}
+
+.text-big.text-S2-P4.P4.S2 {
+    font: normal normal 700 40px/60px 'Poppins', sans-serif;
+    color: #10214F;
+}
+
+.visualtextinfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info-vis {
+    height: 240px;
+    width: 360px;
+    border-radius: 25px;
+}
+
+.cail {
+    flex: 0 0 0;
+}
+
+.header.h3-P4 {
+    font: normal normal 700 22px/30px 'Poppins', sans-serif;
+    padding: 8.6% 0 0;
+    margin: 0;
+}
+
+.ul-P4 {
+    padding: 0;
+    margin: 5px 0 82px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item.h3-P4 {
+    position: relative;
+    list-style-type: none;
+    padding: 0 0 0 6%;
+    font: normal normal 300 18px/32px 'Poppins', sans-serif;
+    width: 50%;
+}
+
+.item.h3-P4::before {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.foot-head {
+    padding: 0 0 75px;
+    margin: 0;
+}
+
+.Screen8 {
+    background-image: linear-gradient(to right, #3874FF, #29579F);
+}
+
+.Screen7--h2.S8.P4-S8 {
+    font: normal normal 700 32px/60px 'Poppins', sans-serif;
+    margin: auto;
 }
