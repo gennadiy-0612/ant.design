@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/Mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/antena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/citymap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/citysunset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/infra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/otherfield.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/powerlines.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/sunbettery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/track.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page4/ways.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,21 +180,7 @@
       <workItem from="1609601924141" duration="3052000" />
       <workItem from="1609606494315" duration="20640000" />
       <workItem from="1609651060286" duration="28173000" />
-      <workItem from="1609691154538" duration="2538000" />
-    </task>
-    <task id="LOCAL-00176" summary="main-page-complete">
-      <created>1609137730295</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1609137730295</updated>
-    </task>
-    <task id="LOCAL-00177" summary="main-page-complete">
-      <created>1609140679941</created>
-      <option name="number" value="00177" />
-      <option name="presentableId" value="LOCAL-00177" />
-      <option name="project" value="LOCAL" />
-      <updated>1609140679941</updated>
+      <workItem from="1609691154538" duration="3393000" />
     </task>
     <task id="LOCAL-00178" summary="main-page-complete">
       <created>1609141400397</created>
@@ -539,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609656786701</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="4page-added">
+      <created>1609693922669</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1609693922670</updated>
+    </task>
+    <task id="LOCAL-00226" summary="4page-added">
+      <created>1609693944219</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1609693944219</updated>
+    </task>
+    <option name="localTasksCounter" value="227" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +553,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5screen-has-started" />
     <MESSAGE value="5screen-has-finished" />
     <MESSAGE value="6screen-has-added" />
     <MESSAGE value="7screen-has-started" />
@@ -592,6 +577,7 @@
     <MESSAGE value="fixed" />
     <MESSAGE value="3page-added" />
     <MESSAGE value="3pages-fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="3pages-fixed" />
+    <MESSAGE value="4page-added" />
+    <option name="LAST_COMMIT_MESSAGE" value="4page-added" />
   </component>
 </project>

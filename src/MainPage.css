@@ -6404,12 +6404,12 @@ body {
     padding: 0;
 }
 
+.head3.P4-S3,
 .head3.P4-S2 {
     color: #232D53;
     margin: 20px 0 0;
 }
 
-.head3.S2-P2.P4-S3,
 .text-extending {
     margin: 40px 0 0;
     color: #7E7F7E;
@@ -6440,6 +6440,7 @@ body {
     font: normal normal 700 22px/30px 'Poppins', sans-serif;
     padding: 8.6% 0 0;
     margin: 0;
+    color: #19191B;
 }
 
 .ul-P4 {
