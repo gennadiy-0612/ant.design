@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
+      <change afterPath="$PROJECT_DIR$/src/Page4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/arrowsquare.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/arrowsquare.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/businessmeeting.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/businessmeeting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/favorite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/favorite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/handshake.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/handshake.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/manbigsmile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/manbigsmile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/mannotebook.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/mannotebook.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/mannotephone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/mannotephone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/notificationdot.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/notificationdot.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/papartext.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/papartext.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/target.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/target.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowCommit.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -55,18 +65,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wamp64\www\ant.design\src\Images\page2" />
       <recent name="E:\wamp64\www\ant.design\src" />
+      <recent name="E:\wamp64\www\ant.design\src\Images\page2" />
       <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\jpg" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\svg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\ant.design\src\Images\page3" />
       <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\Images\page2" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img" />
       <recent name="E:\wamp64\www\ant.design\src\img" />
-      <recent name="E:\wamp64\www\ant.design\src\cssimg" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -183,14 +193,7 @@
       <workItem from="1609549836328" duration="2254000" />
       <workItem from="1609601924141" duration="3052000" />
       <workItem from="1609606494315" duration="20640000" />
-      <workItem from="1609651060286" duration="2928000" />
-    </task>
-    <task id="LOCAL-00174" summary="main-page-complete">
-      <created>1609135204574</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1609135204575</updated>
+      <workItem from="1609651060286" duration="4854000" />
     </task>
     <task id="LOCAL-00175" summary="main-page-complete">
       <created>1609135983347</created>
@@ -528,7 +531,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609625034005</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <task id="LOCAL-00223" summary="3pages-fixed">
+      <created>1609654298470</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1609654298470</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,7 +566,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added-dots-decorations-for-4screen" />
     <MESSAGE value="5screen-has-started" />
     <MESSAGE value="5screen-has-finished" />
     <MESSAGE value="6screen-has-added" />
@@ -581,6 +590,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="fixed" />
     <MESSAGE value="3page-added" />
-    <option name="LAST_COMMIT_MESSAGE" value="3page-added" />
+    <MESSAGE value="3pages-fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="3pages-fixed" />
   </component>
 </project>

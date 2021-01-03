@@ -23,11 +23,6 @@ import idn from './idn.png'
 import idnlogo from './idnlogo.svg'
 import manpencil from './manpencil.png'
 import notebook from './notebook.png'
-import mannotebook from './mannotebook.png'
-import mannotephone from './mannotephone.png'
-import businessmeeting from './businessmeeting.png'
-import handshake from './handshake.png'
-import manbigsmile from './manbigsmile.png'
 import peopleconnect from './peopleconnect.png'
 // Page2
 import pagetop from './page2/pagetwotop.png'
@@ -38,6 +33,11 @@ import handspaper from './page2/handspaper.png'
 import handscross from './page2/handscross.png'
 //Page3
 import handsandnote from  './page3/handsandnote.png'
+import mannotebook from './page3/mannotebook.png'
+import mannotephone from './page3/mannotephone.png'
+import businessmeeting from './page3/businessmeeting.png'
+import handshake from './page3/handshake.png'
+import manbigsmile from './page3/manbigsmile.png'
 const Images = {
     logo: logo,
 

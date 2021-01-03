@@ -3939,11 +3939,11 @@ code {
 
 /*3page*/
 .twofixed .arrowsquare::before {
-    background: url('./Images/arrowsquare.svg') #fff center center no-repeat;
+    background: url('./Images/page3/arrowsquare.svg') #fff center center no-repeat;
 }
 
 .twofixed .papartext::before {
-    background: url('./Images/papartext.svg') #fff center center no-repeat;
+    background: url('./Images/page3/papartext.svg') #fff center center no-repeat;
 }
 
 .twofixed .googleforms::before {
@@ -3951,19 +3951,19 @@ code {
 }
 
 .twofixed .notificationdot::before {
-    background: url('./Images/notificationdot.svg') #fff center center no-repeat;
+    background: url('./Images/page3/notificationdot.svg') #fff center center no-repeat;
 }
 
 .twofixed .favorite::before {
-    background: url('./Images/favorite.svg') #fff center center no-repeat;
+    background: url('./Images/page3/favorite.svg') #fff center center no-repeat;
 }
 
 .twofixed .target::before {
-    background: url('./Images/target.svg') #fff center center no-repeat;
+    background: url('./Images/page3/target.svg') #fff center center no-repeat;
 }
 
 .twofixed .ipo::before {
-    background: url('./Images/ipo.svg') #fff center center no-repeat;
+    background: url('./Images/page3/ipo.svg') #fff center center no-repeat;
 }
 
 .twofixed .page3.window1-descript.P2.S2-P2 {
