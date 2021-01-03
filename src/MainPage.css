@@ -2907,7 +2907,7 @@ code {
     position: absolute;
     display: block;
     left: -20px;
-    top: 14px;
+    top: 12px;
     width: 8px;
     height: 8px;
     border-radius: 4px;
@@ -3737,7 +3737,6 @@ code {
 
     .twofixed .Screen7.P2-S7-remade {
         padding: 93px 6.5% 0;
-        max-width: 1200px;
     }
 
     .twofixed .info-graph {
@@ -3802,9 +3801,6 @@ code {
     .twofixed .Screen4.P2.P2-S4.back-color,
     .twofixed .Screen8, .twofixed .common-info {
         width: 100%;
-    }
-
-    .twofixed .Screen2 {
     }
 
     .twofixed .window1, .twofixed .window2 {
@@ -3919,7 +3915,7 @@ code {
 
 }
 
-.twofixed .footA {
+.footA {
     font: normal normal 500 18px/27px 'Poppins', sans-serif;
     color: #1D293F;
     text-decoration: none;
@@ -3970,8 +3966,13 @@ code {
     background: url('./Images/ipo.svg') #fff center center no-repeat;
 }
 
-.twofixed .page4.window1-descript.P2.S2-P2 {
+.twofixed .page3.window1-descript.P2.S2-P2 {
     padding-right: 11%;
+    max-width: 808px;
+}
+
+.twofixed .page2.window1-descript.P2.S2-P2 {
+    padding-right: 14%;
     max-width: 808px;
 }
 
@@ -4503,8 +4504,8 @@ body {
 }
 
 .window1.Screen5--w1 {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .window2.Screen6--w2.Screen5--w1.S6 {
@@ -4536,10 +4537,6 @@ body {
 
 .Screen5--strong.P1-S6 {
     padding: 0 0 0 12.2%;
-}
-
-.Screen5--p.P1-S6 {
-    padding-left: 12.2%;
 }
 
 .Screen5--p {
@@ -4576,7 +4573,7 @@ body {
 }
 
 .Screen5--p.S5::after {
-    left: 5.85%;
+    left: 6.05%;
 }
 
 .Screen5--p.P1-S6::after {
@@ -4591,7 +4588,7 @@ body {
 }
 
 .Screen5--p.S5:last-child::after {
-    left: 8%;
+    left: 8.5%;
 }
 
 .Sreen5--h3 {
@@ -4624,7 +4621,7 @@ body {
 }
 
 .dots.Screen5--dots {
-    left: 0;
+    left: -13.2%;
     top: 9px;
     width: 605px;
     height: 650px;
@@ -4646,11 +4643,11 @@ body {
 }
 
 .Screen5--decription.S5.S52 {
-    width: 85%;
+    width: 63%;
 }
 
 .dots.Screen6--dots {
-    left: 0;
+    left: 16.6%;
     margin: 45px 0 0 auto;
 }
 
@@ -5263,7 +5260,7 @@ body {
     }
 
     .Screen5--p.P1-S6 {
-        padding: 0 8% 27px 12.4%;
+        padding: 0 25.2% 27px 12.4%;
     }
 
     .Screen5--p {
@@ -5286,7 +5283,7 @@ body {
     }
 
     .Screen5--p.P1-S6::after {
-        left: 2.3%;
+        left: 2.2%;
     }
 
     .window1--button-group.Screen5--button-group {
@@ -5609,7 +5606,7 @@ body {
     }
 
     .Screen5--p.S5:after {
-        left: 8.25%;
+        left: 8.55%;
     }
 }
 
@@ -5930,7 +5927,7 @@ body {
     }
 
     .Screen5--p.S5 {
-        width: 52%;
+        width: 67%;
         padding: 0 0 28px 14%;
     }
 
@@ -6001,7 +5998,7 @@ body {
     }
 
     .Screen5--p.P1-S6::after {
-        left: 6.4%;
+        left: 6.15%;
     }
 
     .Screen7 {
@@ -6072,7 +6069,11 @@ body {
     }
 
     .Screen5--p.S5::after {
-        left: 9.05%;
+        left: 8.05%;
+    }
+
+    .Screen5--p.S5:last-child::after {
+        left: 7%;
     }
 
     .top-horizon-menu {
@@ -6172,7 +6173,7 @@ body {
     }
 
     .Screen5--p.S5::after {
-        left: 6.05%;
+        /*left: 6.05%;*/
     }
 
     .Screen5--p.S5:last-child::after {
@@ -6184,7 +6185,7 @@ body {
     }
 
     .dots.Screen5--dots.dots51 {
-        left: -10%;
+        left: 0;
         margin: 0 60px 55px auto;
     }
 
@@ -6242,7 +6243,7 @@ body {
 
 @media (min-width: 1920px) {
     .Screen5--decription.S5.S52 {
-        width: 60%;
+        width: 63%;
     }
 
     .Screen7--h2.why {
@@ -6258,7 +6259,7 @@ body {
     }
 
     .Screen5--p.P1-S6::after {
-        left: 6.5%;
+        left: 6.15%;
     }
 }
 

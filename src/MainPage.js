@@ -226,18 +226,9 @@ function MainPage() {
                         </li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">
-                            Contact
-                        </li>
-                        <li className="foot-li opacity6">
-                            info@infradeals.net
-                        </li>
-                        <li className="foot-li opacity6">
-                            + 23232323232
-                        </li>
-                        <li className="foot-li">
-                            <span className="in"></span>
-                        </li>
+                        <li className="foot-li foot-li-head">Contact</li>
+                        <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
+                        <li className="foot-li opacity6"><a className="footA"  href="tel:+23232323232"> + 23232323232</a></li>
                     </ul>
                 </div>
             </div>
