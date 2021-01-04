@@ -23,7 +23,7 @@ function MainPage() {
                     </div>
                 </div>
 
-            <div id="page2" className="Screen2">
+            <div className="Screen2">
                 <div className="window1 P2 S2-P2">
                     <h1 className="main-header-second-h2 head2 P2 S2-P2">Senior Advisors</h1>
                     <p className="window1-descript P2 S2-P2 page2">Leverage your network and industry knowledge
@@ -39,7 +39,7 @@ function MainPage() {
             </div>
             </div>
 
-            <div className="Screen4 P2 P2-S4 back-color">
+            <div id="page2" className="Screen4 P2 P2-S4 back-color">
                 <h2 className="main-header-second-h2 head2 center P2-h2">WHO OUR</h2>
                 <p className="main-post-link center frame4 P2 P2-S4">Senior Advisors are</p>
                 <div className="idea">
