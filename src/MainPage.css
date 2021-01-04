@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +9,10 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.login.buttonIDN {
+    text-decoration: none;
 }
 
 /*Page2 start*/
@@ -126,7 +134,7 @@ body {
     width: 48px;
     height: 48px;
     border-radius: 24px;
-    box-shadow: 0 0 18px #3780f65e;
+    box-shadow: 0 0 18px #eaeaea;
     left: -1.8%;
     margin: 10px 0 0;
 }
@@ -3059,8 +3067,8 @@ body {
 
 .twofixed .in {
     margin: 31px 0 0 1%;
-    width: 49px;
-    height: 49px;
+    width: 52px;
+    height: 52px;
     display: block;
     background: url('./Images/in.svg') center no-repeat;
     background-size: contain;
@@ -3169,7 +3177,7 @@ body {
 
 .twofixed .Screen4.P2 {
     margin: 60px 0 0;
-    padding: 39px 0 120px;
+    padding: 150px 0 120px;
     overflow-x: hidden;
 }
 
@@ -3470,13 +3478,21 @@ body {
     }
 
     .twofixed .Screen4.P2 {
-        margin: 115px 0;
+        margin: 63px 0;
         padding: 110px 0 103px;
         overflow-x: hidden;
     }
 
     .twofixed .Screen4.P2-S4::before, .twofixed .Screen4.P2-S4::after {
         top: 8.3%;
+    }
+
+    .twofixed .Screen4.P2-S4::before {
+        left: 0;
+    }
+
+    .twofixed .Screen4.P2-S4::after {
+        right: 0;
     }
 
     .twofixed .window1.P2 {
@@ -3873,16 +3889,6 @@ body {
 
     .twofixed .window2.P2.P2-S72.left-dashed::before {
         top: -23%;
-    }
-
-    .twofixed .Screen4.P2-S4::before {
-        right: auto;
-        left: 14px;
-    }
-
-    .twofixed .Screen4.P2-S4::after {
-        left: auto;
-        right: 14px;
     }
 
     .twofixed .main-post-link.center.frame4.P2 {
@@ -4969,8 +4975,8 @@ body {
 
 .in {
     margin: 31px 0 0 1%;
-    width: 49px;
-    height: 49px;
+    width: 52px;
+    height: 52px;
     display: block;
     background: url("./Images/in.svg") center no-repeat;
     background-size: contain;
@@ -6284,7 +6290,6 @@ body {
     box-sizing: border-box;
     width: 100%;
     align-self: center;
-    position: relative;
     display: flex;
     justify-content: center;
     padding: 0;
@@ -6489,3 +6494,11 @@ body {
 }
 
 /*Page4 finish*/
+/*test*/
+.page1,
+.page2,
+.page3 {
+    position: relative;
+}
+
+/*test*/

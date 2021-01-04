@@ -35,7 +35,7 @@ function MainPage() {
                         <div className="window1--button-group P2 P2-S2">
                             <div className="window1--description"><a
                                 className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</a></div>
-                            <div className="window1--description"><a
+                            <div className="window1--description"><a href="#page3"
                                 className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2">Learn
                                 more</a></div>
                         </div>
@@ -47,7 +47,7 @@ function MainPage() {
                 </div>
             </div>
 
-            <div className="Screen4 P2 P2-S4 back-color">
+            <div id="page3" className="Screen4 P2 P2-S4 back-color">
                 <h2 className="main-header-second-h2 head2 center P2-h2">WHO OUR</h2>
                 <p className="main-post-link center frame4 P2 P2-S4">Investors are</p>
                 <div className="idea">

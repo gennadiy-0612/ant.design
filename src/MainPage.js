@@ -44,13 +44,13 @@ function MainPage() {
                                                          alt="bridge"/>
                         </div>
                     </div>
-                    <a className="chevron" href="/">
+                    <a className="chevron" href="#mainpage">
                         <img src={Images.arrowdown} className="chevron--down" alt="t"/>
                     </a>
                 </div>
             </div>
 
-            <div className="Screen3 main">
+            <div id="mainpage" className="Screen3 main">
                 <div className="main-header S3">
                     <div className="main-header-first">
                         <div className="main-header-dots dots hands">
@@ -229,6 +229,7 @@ function MainPage() {
                         <li className="foot-li foot-li-head">Contact</li>
                         <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
                         <li className="foot-li opacity6"><a className="footA"  href="tel:+23232323232"> + 23232323232</a></li>
+                        <li className="foot-li"><span className="in"></span></li>
                     </ul>
                 </div>
             </div>
