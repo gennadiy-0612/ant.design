@@ -48,7 +48,6 @@ body {
     background-repeat: no-repeat;
 }
 
-/*Page2*/
 .twofixed .S5-P2dots {
     position: relative;
 }
@@ -1721,7 +1720,7 @@ body {
 
     /*Page4 finish*/
 }
-
+/*Page1 start*/
 @media (max-width: 1600px) and (min-width: 1024px) {
     .twofixed .login.buttonIDN.decide,
     .twofixed .login.buttonIDN {
@@ -6175,10 +6174,6 @@ body {
         right: -12%;
     }
 
-    .Screen5--p.S5::after {
-        /*left: 6.05%;*/
-    }
-
     .Screen5--p.S5:last-child::after {
         left: 6.5%;
     }
@@ -6267,7 +6262,6 @@ body {
 }
 
 .chevron {
-    /*margin: 10vh auto 5vh;*/
     margin: 12vh auto 3vh;
 }
 
@@ -6303,7 +6297,6 @@ body {
 
 .top-horizon-menu {
     width: 1600px;
-    /*box-shadow: 0 0 2px #000;*/
     display: flex;
     margin-top: 20px;
 }
@@ -6326,6 +6319,7 @@ body {
     justify-content: space-between;
 }
 
+/*Page3 finish*/
 /*Page4 sart*/
 .twofixed .page3.window1-descript.P2.S2-P2 {
     padding-right: 9%;
