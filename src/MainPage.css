@@ -3656,10 +3656,6 @@ body {
         padding: 0 0 0 14.6%;
     }
 
-    .twofixed .window2.P2.P3-S61 {
-        padding-bottom: 40px;
-    }
-
     .twofixed .window1--button-group.P2.P2-S2 {
         margin: 25px auto 0 7%;
     }
@@ -3952,7 +3948,7 @@ body {
     position: relative;
 }
 
-.active::after {
+.main-top-nav .active::after {
     content: '';
     position: absolute;
     bottom: 28%;
@@ -6154,7 +6150,7 @@ body {
         max-width: 1000px;
     }
 
-    .Screen5.S5, .Screen6.S6 {
+    .Screen5.S5.P1-S5, .Screen6.S6.P1-S6 {
         overflow: hidden;
     }
 }

@@ -93,7 +93,7 @@ function MainPage() {
                 </div>
             </div>
 
-            <div className="Screen5 S5">
+            <div className="Screen5 S5 P1-S5">
                 <div className="window1 Screen5--w1">
                     <div className="Screen5--decription S51">
                         <h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
@@ -123,7 +123,7 @@ function MainPage() {
                 </div>
             </div>
 
-            <div className="Screen6 S6">
+            <div className="Screen6 S6 P1-S6">
                 <div className="window2 Screen6--w2 Screen5--w1 S6">
                     <div className="dots Screen5--dots Screen6--dots S6"><img src={Images.people}
                                                                            className="illustrate Screen5-img Screen6-img"
