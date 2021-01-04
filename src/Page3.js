@@ -88,7 +88,7 @@ function MainPage() {
                     <p className="window1-descript P2 S6-P2 added-element-before rounded-frame dotline favorite">
                         Review the opportunities originated by Advisors and submit expressions of interest</p>
                 </div>
-                <div className="window2 P2">
+                <div className="window2 P2 P3-S61">
                     <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2 odd" src={Images.mannotephone} alt="bridge"/></div>
                 </div>
             </div>

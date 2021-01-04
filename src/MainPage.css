@@ -2961,9 +2961,11 @@ body {
 .twofixed .sector.normal.COMMUNICATION.S7.exchange-P3 {
     background: url('./Images/page3/exchange.svg') 12.4% 37px no-repeat;
 }
+
 .twofixed .sector.normal.two.S7.communication-P3 {
     background: url('./Images/communication.svg') 12.4% 37px no-repeat;
 }
+
 .twofixed .sector.normal.five.supp.S7.winwin-P3 {
     background: url('./Images/win.svg') 12.4% 37px no-repeat;
 }
@@ -3652,6 +3654,10 @@ body {
     .twofixed .window1-h.P2.beyond {
         margin: 100px 0 46px;
         padding: 0 0 0 14.6%;
+    }
+
+    .twofixed .window2.P2.P3-S61 {
+        padding-bottom: 40px;
     }
 
     .twofixed .window1--button-group.P2.P2-S2 {
