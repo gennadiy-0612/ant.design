@@ -7,8 +7,9 @@
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/exchange.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/page3/exchange.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,21 +184,7 @@
       <workItem from="1609606494315" duration="20640000" />
       <workItem from="1609651060286" duration="28173000" />
       <workItem from="1609691154538" duration="4263000" />
-      <workItem from="1609743727038" duration="3105000" />
-    </task>
-    <task id="LOCAL-00183" summary="main-page-complete">
-      <created>1609157317628</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1609157317628</updated>
-    </task>
-    <task id="LOCAL-00184" summary="main-page-complete">
-      <created>1609171088405</created>
-      <option name="number" value="00184" />
-      <option name="presentableId" value="LOCAL-00184" />
-      <option name="project" value="LOCAL" />
-      <updated>1609171088405</updated>
+      <workItem from="1609743727038" duration="5212000" />
     </task>
     <task id="LOCAL-00185" summary="main-page-complete">
       <created>1609182223325</created>
@@ -528,7 +515,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609746052737</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="4page">
+      <created>1609747114253</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1609747114253</updated>
+    </task>
+    <task id="LOCAL-00233" summary="4page">
+      <created>1609747512503</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1609747512503</updated>
+    </task>
+    <option name="localTasksCounter" value="234" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

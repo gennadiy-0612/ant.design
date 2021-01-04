@@ -1720,6 +1720,7 @@ body {
 
     /*Page4 finish*/
 }
+
 /*Page1 start*/
 @media (max-width: 1600px) and (min-width: 1024px) {
     .twofixed .login.buttonIDN.decide,
@@ -2953,6 +2954,17 @@ body {
 
 .twofixed .sector.normal.five.P3-S7-remade.S7 {
     /*----------------------------------------------------------*/
+    background: url('./Images/win.svg') 12.4% 37px no-repeat;
+}
+
+/*Page3*/
+.twofixed .sector.normal.COMMUNICATION.S7.exchange-P3 {
+    background: url('./Images/page3/exchange.svg') 12.4% 37px no-repeat;
+}
+.twofixed .sector.normal.two.S7.communication-P3 {
+    background: url('./Images/communication.svg') 12.4% 37px no-repeat;
+}
+.twofixed .sector.normal.five.supp.S7.winwin-P3 {
     background: url('./Images/win.svg') 12.4% 37px no-repeat;
 }
 
