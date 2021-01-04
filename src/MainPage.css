@@ -1712,6 +1712,12 @@ body {
     .twofixed .window1--description {
         margin-right: 40px;
     }
+
+    /*Page4 start*/
+    .visualtextinfo.max-width1200 {
+        justify-content: space-around;
+    }
+    /*Page4 finish*/
 }
 
 @media (max-width: 1600px) and (min-width: 1024px) {

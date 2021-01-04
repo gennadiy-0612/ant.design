@@ -103,7 +103,7 @@ function MainPage() {
                         className="main-post-link P2 S2-P2 text-big text-big text-S2-P4 P4 S2">covers</span> all core
                         and
                         non-core infrastructure sectors.</p>
-                    <div className="visualtextinfo">
+                    <div className="visualtextinfo max-width1200">
                         <div className="cail">
                             <img className="info-vis" src={Images.track} alt="alt"/>
                             <h3 className="header h3-P4">Transport & Logistics</h3>
