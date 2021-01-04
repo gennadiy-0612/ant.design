@@ -3099,11 +3099,18 @@ code {
     .twofixed .dots {
         left: 0;
     }
+
     /*Page4*/
-    .two-explain.Screen2.P2-S3{
-        max-width: 83%;
+    .two-explain.Screen2.P2-S3 {
+        max-width: 100%;
     }
-    .illustrate.P2-S2.P4-S3-img{
+
+    .dots.P2-S2.topPhoto.P4-S2 {
+        left: 0;
+    }
+
+    .dots.P2-S2.topPhoto.P4-S2,
+    .illustrate.P2-S2.P4-S3-img.max-width1850 {
         width: auto;
         height: 100%;
     }
