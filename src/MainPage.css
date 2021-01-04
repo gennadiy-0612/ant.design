@@ -7,6 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+/*Page2 start*/
 .twofixed .center {
     text-align: center;
 }
@@ -1717,6 +1718,7 @@ body {
     .visualtextinfo.max-width1200 {
         justify-content: space-around;
     }
+
     /*Page4 finish*/
 }
 
@@ -2368,21 +2370,7 @@ body {
     justify-content: space-between;
 }
 
-/*2 page */
-
-body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/*2 page start*/
 
 .twofixed .dots {
     position: relative;
@@ -3998,15 +3986,9 @@ code {
     max-width: 808px;
 }
 
-body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
+/*Page2 finish*/
 
+/*Page1 start*/
 .center {
     text-align: center;
 }
@@ -4777,7 +4759,6 @@ body {
 .sectors.S7 {
     max-width: 1335px;
     position: relative;
-    /*right: 1.7%;*/
     justify-content: center;
 }
 
@@ -6345,8 +6326,7 @@ body {
     justify-content: space-between;
 }
 
-
-/*Page4*/
+/*Page4 sart*/
 .twofixed .page3.window1-descript.P2.S2-P2 {
     padding-right: 9%;
 }
@@ -6499,3 +6479,5 @@ body {
     font: normal normal 700 32px/60px 'Poppins', sans-serif;
     margin: auto;
 }
+
+/*Page4 finish*/
