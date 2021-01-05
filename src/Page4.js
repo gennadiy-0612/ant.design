@@ -47,7 +47,7 @@ function MainPage() {
                 <div className="two-explain Screen2">
                     <div className="window-right">
                         <div className="dots P2-S2 topPhoto P4-S2"><img src={Images.ways}
-                                                                        className="illustrate P2-S2 P4-S3-img max-width1850"
+                                                                        className="illustrate P2-S2 P4-S3-img max-width1850 P4-two-exp1"
                                                                         alt="bridge"/></div>
                     </div>
                     <div className="window-left">
@@ -88,7 +88,7 @@ function MainPage() {
                 </div>
                 <div className="window-right P4-S3">
                     <div className="dots P2-S2 topPhoto P4-S2 P4-S3"><img src={Images.infra}
-                                                                    className="illustrate P2-S2 P4-S3-img max-width1850"
+                                                                    className="illustrate P2-S2 P4-S3-img max-width1850 P4-two-exp2"
                                                                     alt="bridge"/></div>
                 </div>
             </div>

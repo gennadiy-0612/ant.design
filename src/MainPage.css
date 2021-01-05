@@ -6357,13 +6357,25 @@ body {
 
 .dots.P2-S2.topPhoto.P4-S2 {
     width: 100%;
+    height: 100%;
     object-fit: cover;
     left: 5.8%;
+}
+
+.dots.P2-S2.topPhoto.P4-S2.P4-S3 {
+    width: auto;
+    left: 20.6%;
+    height: 100%;
 }
 
 .illustrate.P2-S2.P4-S3-img.max-width1850 {
     width: 80.1%;
     object-fit: cover;
+    height: 100%;
+}
+
+.dots.P2-S2.topPhoto.P4-S2.P4-S3 {
+    width: 83.1%;
 }
 
 .head3 {
@@ -6385,6 +6397,9 @@ body {
 .dots.topPhoto.P4-S3::after {
     left: auto;
     right: 10%;
+}
+
+.dots.topPhoto.P4-S3::after {
 }
 
 .illustrate.P2-S2.P4-S3-img {
