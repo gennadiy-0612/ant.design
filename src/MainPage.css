@@ -6492,6 +6492,16 @@ body {
 
 /*test*/
 /*Page5 start*/
+.main-header-second-h2.head2.P2.S2-P2.P5-S2 {
+    padding:0  5% 0 7%;
+}
+
+.page3.window1-descript.P2.S2-P2.P5.P5-S2 {
+    padding-left: 7%;
+    font: normal normal 400 42px/62px 'Poppins', sans-serif;
+    letter-spacing: -1px;
+}
+
 .grey {
     background-color: #f7f7fb;
     width: 100%;
