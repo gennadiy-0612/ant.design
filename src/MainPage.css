@@ -3160,7 +3160,7 @@ body {
 }
 
 .twofixed .main-post-link.P2:before {
-    width: 105%;
+    width: 100%;
     left: auto;
 }
 
