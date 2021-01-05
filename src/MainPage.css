@@ -2736,11 +2736,6 @@ body {
     width: 600px;
 }
 
-.illustrate.Screen5-img.Screen6-img.P5-S6 {
-    height: 355px;
-    width: 481px;
-}
-
 .twofixed .dots.Screen5--dots::after {
     left: auto;
     right: -8%;
@@ -6501,35 +6496,60 @@ body {
     background-color: #f7f7fb;
     width: 100%;
     max-width: initial;
+    padding: 97px 0 0;
 }
 
-.twofixed .dots.Screen6--dots.P5-S6 {
+.Screen6.S6.P5-S6 {
+    max-width: 1470px;
+}
+
+.window2.Screen6--w2.Screen5--w1.S6.P5-S6,
+.window1.Screen6--w2.Screen5--w2.S6.P5-S6 {
+    max-width: 50%;
+    flex: 0 0 50%;
+    top: auto;
+    margin: 0;
+    padding: 10px 0 117px;
+}
+
+.dots.Screen6--dots.P5-S6 {
+    top: 0;
     left: 0;
     height: 395px;
-    width: 531px;
+    width: 567px;
+    margin: 92px auto auto;
 }
 
-.twofixed .dots.Screen5--dots.Screen6--dots.P5-S6::after {
+.illustrate.Screen5-img.Screen6-img.P5-S6 {
+    height: 355px;
+    width: 481px;
+    border-radius: 20px;
+}
+
+.dots.Screen5--dots.Screen6--dots.P5-S6::after {
     bottom: 0;
     top: auto;
 }
 
 .Screen5--decription.S5.S52.P5-S6 {
     width: auto;
+    margin: 10px 0 0;
 }
 
 .Screen5--h2.head2.P5-S6 {
-    font: normal normal 600 40px/60px 'Poppins', sans-serif;
+    font: normal normal 600 40px/84px 'Poppins', sans-serif;
+    margin: 0 0 0 13%;
 }
 
 .Screen5--p.P1-S6.P5-S6 {
-    padding: 3% 0 3% 18%;
-    font: normal normal 400 28px/52px 'Poppins', sans-serif;
+    padding: 3% 0 3% 16%;
+    font: normal normal 400 28px/56px 'Poppins', sans-serif;
     color: #232D53;
 }
 
 .Screen5--description--content.S6c.P5-S6 {
     max-width: initial;
+    padding: 3px 0 0;
 }
 
 .our-team-h2 {
@@ -6592,13 +6612,13 @@ body {
     top: 0;
     bottom: 0;
     margin: auto;
-    left: 3.45%;
+    left: 0;
 }
 
 .Screen5--p.P1-S6.P5-S6::after {
-    height: 100%;
+    height: 110%;
     top: 55%;
-    left: 5%;
+    left: 2%;
 }
 
 .Screen5--p.P1-S6.P5-S6:last-of-type::after {
@@ -6609,6 +6629,8 @@ body {
 .wishes {
     font: normal normal 700 40px/52px 'Poppins', sans-serif;
     color: #FF6B0F;
+    display: block;
+    margin: 29px 0 0 15.4%;
 }
 
 .text-big.text-S2-P4.P4.S2.P5-our-team {

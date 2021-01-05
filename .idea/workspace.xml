@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
-      <change afterPath="$PROJECT_DIR$/src/Images/page5/enricocattabiani.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page5/gautiersegouin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page5/linkedinlogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page5/topfivephoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page5/vasiliysoshnikov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/page5/whoweare.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,21 +185,7 @@
       <workItem from="1609743727038" duration="9441000" />
       <workItem from="1609775037468" duration="7813000" />
       <workItem from="1609787833347" duration="11817000" />
-      <workItem from="1609821998256" duration="3322000" />
-    </task>
-    <task id="LOCAL-00190" summary="2page">
-      <created>1609346926577</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1609346926577</updated>
-    </task>
-    <task id="LOCAL-00191" summary="2page">
-      <created>1609347455755</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1609347455755</updated>
+      <workItem from="1609821998256" duration="6724000" />
     </task>
     <task id="LOCAL-00192" summary="2page">
       <created>1609386217934</created>
@@ -539,7 +516,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609788107555</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="5page-added">
+      <created>1609825364724</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1609825364725</updated>
+    </task>
+    <task id="LOCAL-00240" summary="5page-added">
+      <created>1609825595400</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1609825595400</updated>
+    </task>
+    <option name="localTasksCounter" value="241" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +558,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="6screen-has-added" />
     <MESSAGE value="7screen-has-started" />
     <MESSAGE value="7screen-has-started-added-max-width-1920px" />
     <MESSAGE value="9screen-has-started" />
@@ -592,6 +582,7 @@
     <MESSAGE value="4page" />
     <MESSAGE value="fixed" />
     <MESSAGE value="3pages-fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="3pages-fixed" />
+    <MESSAGE value="5page-added" />
+    <option name="LAST_COMMIT_MESSAGE" value="5page-added" />
   </component>
 </project>
