@@ -44,13 +44,13 @@ function MainPage() {
             </div>
 
             <div id="page4" className="S2-P4">
-                <div className="two-explain Screen2">
+                <div className="two-explain Screen2 max-width1600">
                     <div className="window-right">
                         <div className="dots P2-S2 topPhoto P4-S2"><img src={Images.ways}
-                                                                        className="illustrate P2-S2 P4-S3-img max-width1850 P4-two-exp1"
+                                                                        className="illustrate P2-S2 P4-S3-img max-width1850"
                                                                         alt="bridge"/></div>
                     </div>
-                    <div className="window-left">
+                    <div className="window-left max-width1650">
                         <h2 className="main-header-second-h2 head2 P2 S2-P2 P4-S3-H2">YESTERDAY</h2>
                         <h3 className="head3 P4-S2">What was Infrastructure?</h3>
                         <p className="text-extending">By definition, Infrastructures are assets that provide essential
@@ -61,15 +61,14 @@ function MainPage() {
                         <p className="text-extending">“Core” assets typically operate on a monopolistic basis due to
                             regulation or concession, and therefore present a very low risk profile. For this reasons
                             institutions such as pension funds have pioneered investments in this asset class due to the
-                            low
-                            but stable returns that “core” infrastructure assets typically guarantee
+                            low but stable returns that “core” infrastructure assets typically guarantee
                         </p>
                     </div>
                 </div>
             </div>
 
             <div className="two-explain Screen2 P2-S3">
-                <div className="window-left P4-S3">
+                <div className="window-left P4-S3 max-width1650">
                     <h2 className="main-header-second-h2 head2 P2 S2-P2 P4-S3">TODAY</h2>
                     <h3 className="head3 S2-P2 P4-S3">What is Infrastructure?</h3>
                     <p className="text-extending">
@@ -88,17 +87,16 @@ function MainPage() {
                 </div>
                 <div className="window-right P4-S3">
                     <div className="dots P2-S2 topPhoto P4-S2 P4-S3"><img src={Images.infra}
-                                                                    className="illustrate P2-S2 P4-S3-img max-width1850 P4-two-exp2"
+                                                                    className="illustrate P2-S2 P4-S3-img max-width1850 P4-two-exp1"
                                                                     alt="bridge"/></div>
                 </div>
             </div>
             <div className="S2-P4">
-                <div className="wrapper">
+                <div className="wrapper max-width1650">
                     <p className="text-big text-S2-P4 P4 S2 center width800">IDN <span
                         className="main-post-link P2 S2-P2 text-big text-big text-S2-P4 P4 S2">covers</span> all core
-                        and
-                        non-core infrastructure sectors.</p>
-                    <div className="visualtextinfo">
+                        and non-core infrastructure sectors.</p>
+                    <div className="visualtextinfo max-width1600">
                         <div className="cail">
                             <img className="info-vis" src={Images.track} alt="alt"/>
                             <h3 className="header h3-P4">Transport & Logistics</h3>
