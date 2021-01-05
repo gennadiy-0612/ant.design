@@ -6564,6 +6564,7 @@ body {
     padding: 0 0 0 14%;
     font: normal normal 300 18px/32px 'Poppins', sans-serif;
     width: 100%;
+    letter-spacing: -1px;
 }
 
 .item.h3-P4::before {
