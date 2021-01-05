@@ -5631,11 +5631,24 @@ body {
 
     /*page4*/
     .two-explain.Screen2.P2-S3, .two-explain.Screen2.max-width1600 {
-        max-width: 76%;
+        max-width: 84%;
     }
 
     .max-width1600 .cail {
         padding: 0 1%;
+    }
+
+    .page4 .dots.P2-S2.topPhoto.P4-S2 {
+        left: 0;
+    }
+
+    .page4 .head3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .page4 .text-extending {
+        font: normal normal 300 18px/24px 'Poppins', sans-serif;
     }
 
     /*page4*/
@@ -5687,6 +5700,26 @@ body {
         left: 18.6%;
         padding-top: 50px;
     }
+
+    /*page4*/
+    .page4 .head3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .page4 .text-big.text-S2-P4.P4.S2 {
+        font-size: 30px;
+        line-height: 50px;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .page4 .text-extending {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    /*page4*/
 }
 
 @media (max-width: 1600px) and (min-width: 1024px) {
@@ -6355,6 +6388,10 @@ body {
 
 /*Page3 finish*/
 /*Page4 sart*/
+.P4-S2.window1--description {
+    opacity: 0;
+}
+
 .twofixed .page3.window1-descript.P2.S2-P2 {
     padding-right: 9%;
 }

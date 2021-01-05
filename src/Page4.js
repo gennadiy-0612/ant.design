@@ -5,7 +5,7 @@ import citymap from "./Images/page4/citymap.png";
 
 function MainPage() {
     return (
-        <div className="page3 twofixed">
+        <div className="page4 twofixed">
             <div className="First_Screen">
                 <div className="Header">
                     <div className="Header--logo X1024-1600">
@@ -32,7 +32,7 @@ function MainPage() {
                             <span className="main-post-link P2 S2-P2"> far beyond </span> roads and
                             airports. It can be any defensible business generating <span className="yellow-upper">stable returns</span></p>
                         <div className="window1--button-group P2 P2-S2">
-                            <div className="window1--description"><a className="login buttonIDN S2 big back-slider indent-bigger Screen2 P4-S2">Apply now</a></div>
+                            <div className="window1--description P4-S2"><a className="login buttonIDN S2 big back-slider indent-bigger Screen2 P4-S2">Apply now</a></div>
                             <div className="window1--description"><a href="#page4" className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2 P4-S2">Learn more</a></div>
                         </div>
                     </div>
