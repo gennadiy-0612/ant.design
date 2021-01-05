@@ -84,8 +84,7 @@ function MainPage() {
                         <a className="linkedinlogo" href="/"></a>
                     </div>
                 </div>
-                <p className="text-big text-S2-P4 P4 S2 center foot-head P5-our-team P5">IDN is backed by dozens of prominent Senior<br/> Executives and
-                <span className="main-post-link P2 S2-P2 text-big text-S2-P4 P4 S2 center P5-our-team"> Private  Equity investors</span> across Europe!</p>
+                <p className="text-big text-S2-P4 P4 S2 center foot-head P5-our-team P5">IDN is backed by dozens of prominent Senior<br/> Executives and <span className="main-post-link P2 S2-P2 text-big text-S2-P4 P4 S2 center P5-our-team"> Private  Equity investors</span> across Europe!</p>
             </div>
 
 

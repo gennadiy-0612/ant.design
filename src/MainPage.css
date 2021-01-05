@@ -6584,11 +6584,13 @@ body {
     font: normal normal 700 22px/39px 'Poppins', sans-serif;
     color: #696871;
     margin: 10px 0 0;
+    letter-spacing: -1.2px;
 }
 
 .specialist-type {
     font: normal normal 400 22px/39px 'Poppins', sans-serif;
     color: #696871;
+    letter-spacing: -1.2px;
 }
 
 .linkedinlogo {
