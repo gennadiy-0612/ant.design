@@ -6492,8 +6492,19 @@ body {
 
 /*test*/
 /*Page5 start*/
+.Screen2.P5-S2 {
+    margin: auto 0 8.5vh;
+}
+
 .main-header-second-h2.head2.P2.S2-P2.P5-S2 {
     padding: 0 5% 0 7%;
+}
+
+.page3.window1-descript.P2.S2-P2.P5-S2 {
+    font: normal normal 400 44px/62px 'Poppins', sans-serif;
+    padding: 0 3% 0 6.5%;
+    letter-spacing: -2px;
+    max-width: 790px;
 }
 
 .page3.window1-descript.P2.S2-P2.P5.P5-S2 {
@@ -6503,7 +6514,8 @@ body {
 }
 
 .yellow-upper.P5 {
-    font: normal normal 400 44px/80px 'Poppins', sans-serif;
+    font: normal normal 400 44px/68px 'Poppins', sans-serif;
+    letter-spacing: -2px;
 }
 
 .grey {
@@ -6538,7 +6550,7 @@ body {
 .illustrate.Screen5-img.Screen6-img.P5-S6 {
     height: 355px;
     width: 481px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 .dots.Screen5--dots.Screen6--dots.P5-S6::after {

@@ -5,7 +5,7 @@ import citymap from "./Images/page4/citymap.png";
 
 function MainPage() {
     return (
-        <div className="page3 twofixed">
+        <div className="page5 twofixed">
             <div className="First_Screen">
                 <div className="Header">
                     <div className="Header--logo X1024-1600">
@@ -25,7 +25,7 @@ function MainPage() {
                     </div>
                 </div>
 
-                <div className="Screen2">
+                <div className="Screen2 P5-S2">
                     <div className="window1 P2 S2-P2">
                         <h1 className="main-header-second-h2 head2 P2 S2-P2 P5-S2">MISSION</h1>
                         <p className="window1-descript P2 S2-P2 page3 P5-S2">We founded IDN to address an evident  <span className="main-post-link P2 S2-P2"> market gap: to </span> meet inverstors’ demand to
