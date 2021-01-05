@@ -6501,6 +6501,7 @@ body {
 
 .Screen6.S6.P5-S6 {
     max-width: 1470px;
+    margin: 0 auto;
 }
 
 .window2.Screen6--w2.Screen5--w1.S6.P5-S6,
@@ -6552,11 +6553,15 @@ body {
     padding: 3px 0 0;
 }
 
+.our-team {
+    padding: 112px 0 0;
+}
+
 .our-team-h2 {
     text-align: center;
-    font: normal normal 700 40px/60px 'Poppins', sans-serif;
+    font: normal normal 700 72px/72px 'Poppins', sans-serif;
     letter-spacing: -2.5px;
-    margin: 0 0 90px;
+    margin: 0;
 }
 
 .our-team-strong {
@@ -6570,7 +6575,7 @@ body {
 .avatars-collection {
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 84px auto 0;
     max-width: 1640px;
     justify-content: space-evenly;
 }
