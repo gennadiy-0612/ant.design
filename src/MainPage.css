@@ -6555,16 +6555,15 @@ body {
 .ul-P4 {
     padding: 0;
     margin: 5px 0 82px;
-    display: flex;
-    flex-wrap: wrap;
+    column-count: 2;
 }
 
 .item.h3-P4 {
     position: relative;
     list-style-type: none;
-    padding: 0 0 0 6%;
+    padding: 0 0 0 14%;
     font: normal normal 300 18px/32px 'Poppins', sans-serif;
-    width: 50%;
+    width: 100%;
 }
 
 .item.h3-P4::before {
