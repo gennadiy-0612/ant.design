@@ -83,12 +83,7 @@ function MainPage() {
                         <span className="sector three normal main-p center">Telecom & ICT</span>
                         <span className="sector four normal main-p center">Healthcare & Social</span>
                     </p>
-                    <div className="Screen4--all center">
-                        <a
-                            className="selectors--all"
-                            href="/">
-                            View All Sectors
-                        </a>
+                    <div className="Screen4--all center"><a className="selectors--all" href="/">View All Sectors</a>
                     </div>
                 </div>
             </div>
@@ -125,9 +120,7 @@ function MainPage() {
 
             <div className="Screen6 S6 P1-S6">
                 <div className="window2 Screen6--w2 Screen5--w1 S6">
-                    <div className="dots Screen5--dots Screen6--dots S6"><img src={Images.people}
-                                                                           className="illustrate Screen5-img Screen6-img"
-                                                                           alt="smile man"/></div>
+                    <div className="dots Screen5--dots Screen6--dots S6"><img src={Images.people} className="illustrate Screen5-img Screen6-img" alt="smile man"/></div>
                 </div>
                 <div className="window1 Screen6--w2 Screen5--w2 S6">
                     <div className="Screen5--decription S5 S52">
@@ -135,8 +128,7 @@ function MainPage() {
                         <h3 className="Sreen5--h3">Access unique investment opportunities</h3>
                         <div className="Screen5--description--content S6c">
                             <strong className="Screen5--strong P1-S6">PROPRIETARY</strong>
-                            <p className="Screen5--p P1-S6">Access proprietary deals originated by our Senior
-                                Advisors</p>
+                            <p className="Screen5--p P1-S6">Access proprietary deals originated by our Senior Advisors</p>
                             <strong className="Screen5--strong P1-S6">BILATERAL</strong>
                             <p className="Screen5--p P1-S6">Negotiate and close deals on a bilateral basis</p>
                             <strong className="Screen5--strong P1-S6">WIN-WIN</strong>
@@ -147,8 +139,7 @@ function MainPage() {
                                 <a className="login buttonIDN big S2 back-slider back-slider-two">Join for Free</a>
                             </div>
                             <div className="window1--description">
-                                <a className="login buttonIDN big S2 back-slider back-slider-two indent-bigger white border">Learn
-                                    More</a>
+                                <a className="login buttonIDN big S2 back-slider back-slider-two indent-bigger white border">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -174,14 +165,11 @@ function MainPage() {
                 <div className="window1--button-group Screen5--button-group S7">
                     <div className="window1--description S7 S71">
                         <p className="window1--description--button S7">Senior Advisors</p>
-                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Apply
-                            now
-                        </a>
+                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Apply now</a>
                     </div>
                     <div className="window1--description S7 S72">
                         <p className="window1--description--button S7 S72">Investors</p>
-                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Join
-                            for Free</a>
+                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Join for Free</a>
                     </div>
                 </div>
             </div>
@@ -196,34 +184,18 @@ function MainPage() {
                 <span className="idn-img"></span>
                 <div className="foot-lists">
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">
-                            Users
-                        </li>
-                        <li className="foot-li opacity6">
-                            Investors
-                        </li>
-                        <li className="foot-li opacity6">
-                            Senior Advisors
-                        </li>
+                        <li className="foot-li foot-li-head">Users</li>
+                        <li className="foot-li opacity6">Investors</li>
+                        <li className="foot-li opacity6">Senior Advisors</li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">
-                            Sectors
-                        </li>
-                        <li className="foot-li opacity6">
-                            Sectors
-                        </li>
+                        <li className="foot-li foot-li-head">Sectors</li>
+                        <li className="foot-li opacity6">Sectors</li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">
-                            About
-                        </li>
-                        <li className="foot-li opacity6">
-                            About Us
-                        </li>
-                        <li className="foot-li opacity6">
-                            Terms & Conditions
-                        </li>
+                        <li className="foot-li foot-li-head">About</li>
+                        <li className="foot-li opacity6">About Us</li>
+                        <li className="foot-li opacity6">Terms & Conditions</li>
                     </ul>
                     <ul className="foot-ul">
                         <li className="foot-li foot-li-head">Contact</li>

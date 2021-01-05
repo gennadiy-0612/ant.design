@@ -13,15 +13,12 @@ function MainPage() {
                     </div>
                     <div className="top-horizon-menu X1024-1200 X1200-1600 ">
                         <nav className="main-top-nav">
-                            <a className="main-top-nav-anchor active" href="/" rel="noopener noreferrer">Senior
-                                Advisor</a>
+                            <a className="main-top-nav-anchor active" href="/" rel="noopener noreferrer">Senior Advisor</a>
                             <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Investors</a>
                             <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Sectors</a>
                             <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
                         </nav>
-                        <div className="login-block">
-                            <a className="login buttonIDN back-slider top-login">Login</a>
-                        </div>
+                        <div className="login-block"><a className="login buttonIDN back-slider top-login">Login</a></div>
                     </div>
                 </div>
 

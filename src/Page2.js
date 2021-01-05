@@ -210,8 +210,7 @@ function MainPage() {
             </div>
             </div>
 
-            <div className="Screen8">
-                <h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
+            <div className="Screen8"><h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
                 <a className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Get in Touch</a>
             </div>
 
