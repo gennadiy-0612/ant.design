@@ -27,7 +27,7 @@ function MainPage() {
                 <div className="Screen2 P5-S2">
                     <div className="window1 P2 S2-P2">
                         <h1 className="main-header-second-h2 head2 P2 S2-P2 P5-S2">MISSION</h1>
-                        <p className="window1-descript P2 S2-P2 page3 P5-S2">We founded IDN to address an evident  <span className="main-post-link P2 S2-P2"> market gap: to </span> meet inverstors’ demand to
+                        <p className="window1-descript P2 S2-P2 page3 P5-S2">We founded IDN to address an evident  <span className="main-post-link P2 S2-P2"> market gap: </span> to meet inverstors’ demand to
                             access proprietary, bilateral deals.<br/>
                             <span className="yellow-upper P5 P5-S2"> We just created the right incentives and conditions to stimulate the offer</span>
                         </p>

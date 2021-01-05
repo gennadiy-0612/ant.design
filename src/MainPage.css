@@ -5727,6 +5727,21 @@ body {
         left: 18.6%;
         padding-top: 50px;
     }
+
+    /*page5*/
+    .page5 .yellow-upper.P5,
+    .page5 .window1-descript.P2.S2-P2.page3.P5-S2,
+    .page5 .main-post-link.P2.S2-P2 {
+        font: normal normal 400 30px/60px 'Poppins', sans-serif
+    }
+
+    .page5 .dots.Screen6--dots.P5-S6 {
+        height: 445px;
+        left: 20%;
+        margin: 42px auto auto;
+    }
+
+    /*page5*/
 }
 
 @media (max-width: 1600px) and (min-width: 1024px) {
@@ -6620,17 +6635,11 @@ body {
     padding: 0 5% 0 7%;
 }
 
-.page3.window1-descript.P2.S2-P2.P5-S2 {
-    font: normal normal 400 44px/62px 'Poppins', sans-serif;
+.page5 .window1-descript.P2.S2-P2.P5-S2 {
+    font: normal normal 400 44px/64px 'Poppins', sans-serif;
     padding: 0 3% 0 6.5%;
-    letter-spacing: -2px;
     max-width: 790px;
-}
-
-.page3.window1-descript.P2.S2-P2.P5.P5-S2 {
-    padding-left: 7%;
-    font: normal normal 400 42px/62px 'Poppins', sans-serif;
-    letter-spacing: -1px;
+    letter-spacing: -2.1px;
 }
 
 .yellow-upper.P5 {
@@ -6662,7 +6671,7 @@ body {
 .dots.Screen6--dots.P5-S6 {
     top: 0;
     left: 0;
-    height: 395px;
+    height: 475px;
     width: 567px;
     margin: 92px auto auto;
 }
@@ -6775,8 +6784,9 @@ body {
 }
 
 .Screen5--p.P1-S6.P5-S6:last-of-type::after {
-    width: 5px;
     background-color: #f7f7fb;
+    width: 2%;
+    left: 1.2%;
 }
 
 .wishes {
