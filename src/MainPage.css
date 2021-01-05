@@ -48,7 +48,7 @@ body {
     left: -38px;
     bottom: -38px;
     /*++++++++++++++++++++++++++++++++++++++*/
-    background-image: url('./Images/dots.png');
+    background-image: url('./Images/page2/dotstwothreepage.svg');
     background-size: contain;
     z-index: -1;
     width: 210px;
@@ -5890,6 +5890,12 @@ body {
         padding: 0 0 0 17%;
     }
 
+    /*Page 5*/
+    .Screen5--decription.S5.S52.P5-S6 {
+        padding: 0;
+    }
+
+    /*Page 5*/
     .Screen5--h2.head2 {
         margin-bottom: 0;
     }
