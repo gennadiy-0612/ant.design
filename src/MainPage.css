@@ -991,11 +991,6 @@ body {
     margin: 0;
 }
 
-.twofixed .Screen8 {
-    background-color: #29579F;
-    padding: 0 0 120px 0;
-}
-
 .twofixed .Screen7--h2.S8 {
     font: normal normal 700 40px/60px 'Poppins', sans-serif;
     padding: 118px 0 0 0;
@@ -2741,6 +2736,11 @@ body {
     width: 600px;
 }
 
+.illustrate.Screen5-img.Screen6-img.P5-S6 {
+    height: 355px;
+    width: 481px;
+}
+
 .twofixed .dots.Screen5--dots::after {
     left: auto;
     right: -8%;
@@ -3006,11 +3006,6 @@ body {
 
 .twofixed .window1--description.S7 {
     margin: 0 0 0 5px;
-}
-
-.twofixed .Screen8 {
-    background-color: #29579F;
-    padding: 0 0 123px 0;
 }
 
 .twofixed .Screen7--h2.S8 {
@@ -4570,12 +4565,15 @@ body {
     position: relative;
 }
 
-.Screen5--strong::after, .Screen5--p::after {
+.Screen5--p.P5-S6::before,
+.Screen5--strong::after,
+.Screen5--p::after {
     content: '';
     display: block;
     position: absolute;
 }
 
+.Screen5--p.P5-S6::before,
 .Screen5--strong::after {
     top: 1px;
     left: 4%;
@@ -4908,11 +4906,6 @@ body {
 
 .window1--description.S7 {
     margin: 0;
-}
-
-.Screen8 {
-    background-color: #29579F;
-    padding: 0 0 120px 0;
 }
 
 .Screen7--h2.S8 {
@@ -6485,6 +6478,7 @@ body {
 }
 
 .Screen8 {
+    padding: 0 0 120px 0;
     background-image: linear-gradient(to right, #3874FF, #29579F);
 }
 
@@ -6502,3 +6496,129 @@ body {
 }
 
 /*test*/
+/*Page5 start*/
+.grey {
+    background-color: #f7f7fb;
+    width: 100%;
+    max-width: initial;
+}
+
+.twofixed .dots.Screen6--dots.P5-S6 {
+    left: 0;
+    height: 395px;
+    width: 531px;
+}
+
+.twofixed .dots.Screen5--dots.Screen6--dots.P5-S6::after {
+    bottom: 0;
+    top: auto;
+}
+
+.Screen5--decription.S5.S52.P5-S6 {
+    width: auto;
+}
+
+.Screen5--h2.head2.P5-S6 {
+    font: normal normal 600 40px/60px 'Poppins', sans-serif;
+}
+
+.Screen5--p.P1-S6.P5-S6 {
+    padding: 3% 0 3% 18%;
+    font: normal normal 400 28px/52px 'Poppins', sans-serif;
+    color: #232D53;
+}
+
+.Screen5--description--content.S6c.P5-S6 {
+    max-width: initial;
+}
+
+.our-team-h2 {
+    text-align: center;
+    font: normal normal 700 40px/60px 'Poppins', sans-serif;
+    letter-spacing: -2.5px;
+    margin: 0 0 90px;
+}
+
+.our-team-strong {
+    font-weight: 700;
+}
+
+.our-team-span {
+    font-weight: 400;
+}
+
+.avatars-collection {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1640px;
+    justify-content: space-evenly;
+}
+
+.name-team-member {
+    font: normal normal 700 22px/39px 'Poppins', sans-serif;
+    color: #696871;
+    margin: 10px 0 0;
+}
+
+.specialist-type {
+    font: normal normal 400 22px/39px 'Poppins', sans-serif;
+    color: #696871;
+}
+
+.linkedinlogo {
+    width: 52px;
+    height: 52px;
+    background: url('./Images/page5/linkedinlogo.svg') center no-repeat;
+    margin: 10px 0 0;
+}
+
+.linkedinlogo:hover {
+    filter: invert(100%);
+}
+
+.photo-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-team-photo {
+    border-radius: 21px;
+}
+
+
+.Screen5--p.P1-S6.P5-S6::before {
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 3.45%;
+}
+
+.Screen5--p.P1-S6.P5-S6::after {
+    height: 100%;
+    top: 55%;
+    left: 5%;
+}
+
+.Screen5--p.P1-S6.P5-S6:last-of-type::after {
+    width: 5px;
+    background-color: #f7f7fb;
+}
+
+.wishes {
+    font: normal normal 700 40px/52px 'Poppins', sans-serif;
+    color: #FF6B0F;
+}
+
+.text-big.text-S2-P4.P4.S2.P5-our-team {
+    font: normal normal 700 24px/48px 'Poppins', sans-serif;
+    max-width: 780px;
+    margin: auto;
+}
+
+.text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
+    margin: 105px auto 60px;
+}
+
+/*Page5 finish*/

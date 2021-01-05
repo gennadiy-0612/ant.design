@@ -45,9 +45,15 @@ import powerlines from './page4/powerlines.png'
 import sunbettery from './page4/sunbettery.png'
 import antena from './page4/antena.png'
 import citysunset from './page4/citysunset.png'
-import otherfield  from './page4/otherfield.png'
-import ways  from './page4/ways.png'
-import infra  from './page4/infra.png'
+import otherfield from './page4/otherfield.png'
+import ways from './page4/ways.png'
+import infra from './page4/infra.png'
+//Page5
+import topfivephoto from './page5/topfivephoto.png'
+import whoweare from './page5/whoweare.png'
+import gautiersegouin from './page5/gautiersegouin.png'
+import enricocattabiani from './page5/enricocattabiani.png'
+import vasiliysoshnikov from './page5/vasiliysoshnikov.png'
 
 const Images = {
     logo: logo,
@@ -97,10 +103,17 @@ const Images = {
     powerlines: powerlines,
     sunbettery: sunbettery,
     antena: antena,
-    citysunset : citysunset,
-    otherfield : otherfield,
-    ways : ways,
-    infra : infra
+    citysunset: citysunset,
+    otherfield: otherfield,
+    ways: ways,
+    infra: infra,
+    //Page5
+    topfivephoto: topfivephoto,
+    whoweare: whoweare,
+    gautiersegouin: gautiersegouin,
+    enricocattabiani: enricocattabiani,
+    vasiliysoshnikov: vasiliysoshnikov
+
 }
 
 export default Images
