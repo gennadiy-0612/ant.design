@@ -6493,6 +6493,9 @@ body {
 
 .text-extending {
     font: normal normal 300 22px/36px 'Poppins', sans-serif;
+    margin: 40px 0 0;
+    color: #7E7F7E;
+    letter-spacing: 0.2px;
 }
 
 .dots.topPhoto.P4-S2 {
@@ -6519,7 +6522,7 @@ body {
 
 .window-left {
     flex: 1 0 50%;
-    padding: 0 0 0 7%;
+    padding: 0 0 0 7.2%;
 }
 
 .window-left.P4-S3 {
@@ -6545,11 +6548,7 @@ body {
 .head3.P4-S2 {
     color: #232D53;
     margin: 20px 0 0;
-}
-
-.text-extending {
-    margin: 40px 0 0;
-    color: #7E7F7E;
+    letter-spacing: -1.4px;
 }
 
 .text-big.text-S2-P4.P4.S2 {

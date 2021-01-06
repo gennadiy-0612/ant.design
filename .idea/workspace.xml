@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,6 +188,7 @@
       <workItem from="1609787833347" duration="11817000" />
       <workItem from="1609821998256" duration="14986000" />
       <workItem from="1609851852236" duration="29342000" />
+      <workItem from="1609913597667" duration="1006000" />
     </task>
     <task id="LOCAL-00211" summary="2page">
       <created>1609603651329</created>
