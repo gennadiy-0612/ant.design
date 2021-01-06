@@ -1396,7 +1396,7 @@ body {
         bottom: -46px;
         left: -29px;
         /*++++++++++++++++++++++++++++++++++++++*/
-        background-image: url('./Images/dots.png');
+        background-image: url('./Images/dots.svg');
     }
 
     .twofixed .dots::after {
@@ -3406,7 +3406,7 @@ body {
     height: 210px;
     bottom: -47px;
     /*++++++++++++++++++++++++++++++++++++++*/
-    background-image: url('./Images/dots.png');
+    background-image: url('./Images/dots.svg');
 }
 
 .twofixed .illustrate.P2 {

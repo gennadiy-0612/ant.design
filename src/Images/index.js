@@ -4,7 +4,6 @@ import arrowdown from './down-arrow.svg'
 import building from './building.svg'
 import connection from './connection.svg'
 import delivery from './delivery-truck.svg'
-import dots from './dots.png'
 import flash from './flash.svg'
 import lnkdn from './in.svg'
 import opportunity from './opportunity.svg'
@@ -71,7 +70,6 @@ const Images = {
     building: building,
     connection: connection,
     delivery: delivery,
-    dots: dots,
     flash: flash,
     lnkdn: lnkdn,
     opportunity: opportunity,
