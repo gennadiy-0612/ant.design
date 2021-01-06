@@ -1740,6 +1740,10 @@ body {
         justify-content: space-around;
     }
 
+    .page4 .cail {
+        padding: 0 40px;
+    }
+
     /*Page4 finish*/
     /*Page5 start*/
     .page5 .Screen5--p.P1-S6.P5-S6 {
