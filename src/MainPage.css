@@ -6229,6 +6229,10 @@ body {
     .Screen5.S5.P1-S5, .Screen6.S6.P1-S6 {
         overflow: hidden;
     }
+
+    .page4 .window1--description {
+        margin: 0 auto 30px 44%;
+    }
 }
 
 @media (min-width: 1601px) and (max-width: 1820px) {
