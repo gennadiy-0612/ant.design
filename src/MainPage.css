@@ -3487,8 +3487,6 @@ body {
 
     .twofixed .Screen4.P2-S4::before, .twofixed .Screen4.P2-S4::after {
         top: 8.3%;
-        height: 180px;
-        width: 180px;
     }
 
     .twofixed .Screen4.P2-S4::before {
@@ -4056,7 +4054,7 @@ body {
     background-image: url("./Images/dots.svg");
     background-size: contain;
     z-index: -1;
-    width: 210px;
+    width: 180px;
     height: 180px;
     background-repeat: no-repeat;
 }
@@ -4499,7 +4497,7 @@ body {
 
 .back-color::before {
     top: -90px;
-    left: 2.3%;
+    left: 0;
     z-index: 0;
 }
 
@@ -5974,10 +5972,6 @@ body {
         left: auto;
     }
 
-    .back-color::before {
-        left: 27px;
-    }
-
     .main-header-second-h2.head2 {
         font: normal normal 600 24px/24px 'Poppins', sans-serif;
     }
@@ -6456,7 +6450,7 @@ body {
 
 .two-explain.Screen2 {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     max-width: 1500px;
     margin: 0 auto 0;
     padding: 220px 0;
