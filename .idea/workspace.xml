@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,14 +190,7 @@
       <workItem from="1609851852236" duration="29342000" />
       <workItem from="1609913597667" duration="11366000" />
       <workItem from="1609945850614" duration="2940000" />
-      <workItem from="1609991466235" duration="2783000" />
-    </task>
-    <task id="LOCAL-00217" summary="3page-added">
-      <created>1609618559351</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1609618559351</updated>
+      <workItem from="1609991466235" duration="4335000" />
     </task>
     <task id="LOCAL-00218" summary="3page-added">
       <created>1609622906841</created>
@@ -536,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609947779730</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="4page-is-ready">
+      <created>1609994926459</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1609994926460</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -564,7 +563,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="9screen-almost-done" />
     <MESSAGE value="1page-has-done" />
     <MESSAGE value="6button-finished" />
     <MESSAGE value="7button-finished" />
@@ -589,6 +587,7 @@
     <MESSAGE value="4page-adapting" />
     <MESSAGE value="4page-fixed" />
     <MESSAGE value="dots" />
-    <option name="LAST_COMMIT_MESSAGE" value="dots" />
+    <MESSAGE value="4page-is-ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="4page-is-ready" />
   </component>
 </project>

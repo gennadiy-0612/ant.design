@@ -6721,7 +6721,7 @@ body {
 .dots.Screen6--dots.P5-S6 {
     top: 0;
     left: 0;
-    height: 475px;
+    height: 428px;
     width: 567px;
     margin: 92px auto auto;
 }
@@ -6733,8 +6733,10 @@ body {
 }
 
 .dots.Screen5--dots.Screen6--dots.P5-S6::after {
-    bottom: 0;
+    bottom: 8px;
     top: auto;
+    height: 206px;
+    width: 210px;
 }
 
 .Screen5--decription.S5.S52.P5-S6 {
@@ -6843,13 +6845,12 @@ body {
     font: normal normal 700 40px/52px 'Poppins', sans-serif;
     color: #FF6B0F;
     display: block;
-    margin: 29px 0 0 15.4%;
+    margin: 23px 0 0 16%;
+    letter-spacing: -0.7px;
 }
 
 .text-big.text-S2-P4.P4.S2.P5-our-team {
     font: normal normal 700 24px/48px 'Poppins', sans-serif;
-    max-width: 780px;
-    margin: auto;
 }
 
 .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
