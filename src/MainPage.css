@@ -610,12 +610,12 @@ body {
 
 .twofixed .Screen4.P2-S4::before {
     top: -4.9%;
-    left: 1.1%;
+    left: 1%;
 }
 
 .twofixed .Screen4.P2-S4::before, .twofixed .Screen4.P2-S4::after {
     top: 10.3%;
-    right: -.5%;
+    right: 1%;
 }
 
 .twofixed .back-color::after {
@@ -4517,7 +4517,6 @@ body {
 .Screen4.P2-S4::before,
 .Screen4.P2-S4::after {
     top: .3%;
-    right: -0.5%;
 }
 
 .Screen5 {
