@@ -50,10 +50,16 @@ body {
     bottom: -38px;
     background-size: contain;
     z-index: -1;
-    width: 210px;
+    width: 180px;
     height: 180px;
     background-repeat: no-repeat;
     background-image: url('./Images/dots.svg');
+}
+
+.dots.Screen5--dots::after {
+    left: auto;
+    right: -5.9%;
+    bottom: -45px;
 }
 
 .twofixed .S5-P2dots {
@@ -1431,10 +1437,6 @@ body {
         overflow: hidden;
     }
 
-    .twofixed .main-header-second-h2.head2.Screen5--h2 {
-        margin: 6px 0 0 16px;
-    }
-
     .twofixed .Screen5--h2.head2.center.P1-S6 {
         margin-top: 0;
     }
@@ -1653,11 +1655,13 @@ body {
     .page5 .dots.Screen5--dots.Screen6--dots.S6.P5-S6 {
         left: 0;
         width: 86%;
+        height: 60%;
         padding: 30px 0 60px 0;
     }
 
-    .page5 .Screen5--p.P1-S6.P5-S6::after {
+    .page5.twofixed .Screen5--p.P1-S6.P5-S6::after {
         height: 155%;
+        left: 3.5%;
     }
 
     .page5 .illustrate.Screen5-img.Screen6-img.P5-S6 {
@@ -1712,14 +1716,10 @@ body {
 
     /*Page4 finish*/
     /*Page5 start*/
-    .page5 .Screen5--h2.head2.P5-S6 {
-        margin-left: 3.8%;
-    }
 
     .page5 .Screen5--p.P1-S6.P5-S6 {
-        padding: 10px 0 10px 7%;
         max-width: 490px;
-        font-size: 22px;
+        font-size: 18px;
         line-height: 42px;
     }
 
@@ -3316,9 +3316,7 @@ body {
 }
 
 .twofixed .dots.P2::after, .twofixed .P2-S53::before {
-    width: 210px;
     left: -44px;
-    height: 210px;
 }
 
 .twofixed .P2-S53::before {
@@ -3502,7 +3500,6 @@ body {
         flex: 0 0 55%;
         max-width: 55%;
     }
-
 
     .twofixed .window1.P2.S2-P2 {
         max-width: 500px;
@@ -3819,6 +3816,10 @@ body {
 
     .twofixed .Screen7--p.P2-S7-remade {
         max-width: 1010px;
+    }
+
+    .dots.Screen5--dots::after {
+        right: -1.9%;
     }
 
     /*page4*/
@@ -4644,12 +4645,6 @@ body {
 .illustrate.Screen5-img {
     height: 654px;
     width: 600px;
-}
-
-.dots.Screen5--dots::after {
-    left: auto;
-    right: -10.9%;
-    bottom: -45px;
 }
 
 .dots.Screen5--dots {
@@ -5728,7 +5723,7 @@ body {
     }
 
     .page5 .dots.Screen6--dots.P5-S6 {
-        height: 475px;
+        height: 427px;
         left: 14%;
         margin: 42px auto auto;
     }
@@ -6261,10 +6256,6 @@ body {
         max-width: 100%;
     }
 
-    .dots.Screen5--dots::after {
-        right: -12%;
-    }
-
     .Screen5--p.S5:last-child::after {
         left: 6.5%;
     }
@@ -6510,7 +6501,7 @@ body {
 
 .dots.topPhoto.P4-S3::after {
     left: auto;
-    right: -69px;
+    right: -39px;
 }
 
 .illustrate.P2-S2.P4-S3-img {
