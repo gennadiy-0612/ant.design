@@ -3487,6 +3487,8 @@ body {
 
     .twofixed .Screen4.P2-S4::before, .twofixed .Screen4.P2-S4::after {
         top: 8.3%;
+        height: 180px;
+        width: 180px;
     }
 
     .twofixed .Screen4.P2-S4::before {
@@ -6383,6 +6385,7 @@ body {
     position: absolute;
     top: 30px;
     left: 60px;
+    z-index: 1;
 }
 
 .main-top-nav {

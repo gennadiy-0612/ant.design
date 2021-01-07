@@ -7,6 +7,7 @@ import Page3 from './Page3';
 import Page4 from './Page4';
 import Page5 from './Page5';
 import reportWebVitals from './reportWebVitals';
+import routLocal from "./rout";
 
 // ReactDOM.render(
 //     <React.StrictMode>
@@ -24,7 +25,7 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root')
 );
-
+window.addEventListener('load', routLocal.makePageChanger);
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
