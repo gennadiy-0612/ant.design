@@ -3135,10 +3135,6 @@ body {
         left: 1%;
     }
 
-    .visualtextinfo.max-width1600 {
-        justify-content: space-evenly;
-    }
-
     /*page4*/
 }
 
@@ -3861,6 +3857,17 @@ body {
     .twofixed .Screen7--p.P2-S7-remade {
         max-width: 1010px;
     }
+
+    /*page4*/
+    .visualtextinfo.max-width1600 {
+        justify-content: space-evenly;
+    }
+
+    .page4 .cail {
+        padding: 0 54px;
+    }
+
+    /*page4*/
 }
 
 
@@ -5674,10 +5681,6 @@ body {
         max-width: 84%;
     }
 
-    .max-width1600 .cail {
-        padding: 0 1%;
-    }
-
     .page4 .dots.P2-S2.topPhoto.P4-S2 {
         left: 0;
     }
@@ -6567,6 +6570,10 @@ body {
 .window-left {
     flex: 1 0 50%;
     padding: 0 0 0 7.2%;
+}
+
+.not-so-good {
+    opacity: .77;
 }
 
 .window-left.P4-S3 {

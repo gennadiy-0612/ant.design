@@ -49,7 +49,7 @@ function MainPage() {
                                                                         className="illustrate P2-S2 P4-S3-img max-width1850"
                                                                         alt="bridge"/></div>
                     </div>
-                    <div className="window-left max-width1650">
+                    <div className="window-left max-width1650 not-so-good">
                         <h2 className="main-header-second-h2 head2 P2 S2-P2 P4-S3-H2">YESTERDAY</h2>
                         <h3 className="head3 P4-S2">What was Infrastructure?</h3>
                         <p className="text-extending">By definition, Infrastructures are assets that provide essential
