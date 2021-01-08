@@ -6732,8 +6732,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 84px auto 0;
-    max-width: 1440px;
+    max-width: 1640px;
     justify-content: space-evenly;
+    box-sizing: initial;
 }
 
 .name-team-member {
