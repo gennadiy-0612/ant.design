@@ -81,7 +81,7 @@ body {
 }
 
 .twofixed .P2-S5dashed::before, .twofixed .left-dashed::before {
-    background: url('./Images/page2/dashed.png') center center repeat;
+    background: url('./Images/dashed.png') center center repeat;
     content: '';
     position: absolute;
     top: -52%;
@@ -97,7 +97,7 @@ body {
 }
 
 .twofixed .P2-S5dashed::before {
-    background: url('./Images/page2/linehorizont.png') center center repeat;
+    background: url('./Images/linehorizont.png') center center repeat;
     height: 3px;
     width: 47%;
     bottom: -166px;
@@ -144,44 +144,44 @@ body {
 }
 
 .twofixed .global-network::before {
-    background: url('./Images/page2/global-network.svg') #fff center center no-repeat;
+    background: url('./Images/global-network.svg') #fff center center no-repeat;
 }
 
 .twofixed .bird::before {
-    background: url('./Images/page2/bird.svg') #fff center center no-repeat;
+    background: url('./Images/bird.svg') #fff center center no-repeat;
 }
 
 .twofixed .cursor::before {
-    background: url('./Images/page2/cursor.svg') #fff center center no-repeat;
+    background: url('./Images/cursor.svg') #fff center center no-repeat;
 }
 
 .twofixed .suitcase::before {
-    background: url('./Images/page2/suitcase.svg') #fff center center no-repeat;
+    background: url('./Images/suitcase.svg') #fff center center no-repeat;
 }
 
 .twofixed .phonebook::before {
-    background: url('./Images/page2/phonebook.svg') #fff center center no-repeat;
+    background: url('./Images/phonebook.svg') #fff center center no-repeat;
 }
 
 /*left*/
 .twofixed .chat::before {
-    background: url('./Images/page2/chat.svg') #fff center center no-repeat;
+    background: url('./Images/chat.svg') #fff center center no-repeat;
 }
 
 .twofixed .dotline::before {
-    background: url('./Images/page2/dotline.svg') #fff center center no-repeat;
+    background: url('./Images/dotline.svg') #fff center center no-repeat;
 }
 
 .twofixed .videocall::before {
-    background: url('./Images/page2/videocall.svg') #fff center center no-repeat;
+    background: url('./Images/videocall.svg') #fff center center no-repeat;
 }
 
 .twofixed .process::before {
-    background: url('./Images/page2/process.svg') #fff center center no-repeat;
+    background: url('./Images/process.svg') #fff center center no-repeat;
 }
 
 .twofixed .infrastructure::before {
-    background: url('./Images/page2/infrastructure.svg') #fff center center no-repeat;
+    background: url('./Images/infrastructure.svg') #fff center center no-repeat;
 }
 
 .twofixed .dots.P1-S2::after {
@@ -2970,7 +2970,7 @@ body {
 
 /*Page3*/
 .twofixed .sector.normal.COMMUNICATION.S7.exchange-P3 {
-    background: url('./Images/page3/exchange.svg') 12.4% 37px no-repeat;
+    background: url('./Images/exchange.svg') 12.4% 37px no-repeat;
 }
 
 .twofixed .sector.normal.two.S7.communication-P3 {
@@ -3982,11 +3982,11 @@ body {
 
 /*3page*/
 .twofixed .arrowsquare::before {
-    background: url('./Images/page3/arrowsquare.svg') #fff center center no-repeat;
+    background: url('./Images/arrowsquare.svg') #fff center center no-repeat;
 }
 
 .twofixed .papartext::before {
-    background: url('./Images/page3/papartext.svg') #fff center center no-repeat;
+    background: url('./Images/papartext.svg') #fff center center no-repeat;
 }
 
 .twofixed .googleforms::before {
@@ -3994,19 +3994,19 @@ body {
 }
 
 .twofixed .notificationdot::before {
-    background: url('./Images/page3/notificationdot.svg') #fff center center no-repeat;
+    background: url('./Images/notificationdot.svg') #fff center center no-repeat;
 }
 
 .twofixed .favorite::before {
-    background: url('./Images/page3/favorite.svg') #fff center center no-repeat;
+    background: url('./Images/favorite.svg') #fff center center no-repeat;
 }
 
 .twofixed .target::before {
-    background: url('./Images/page3/target.svg') #fff center center no-repeat;
+    background: url('./Images/target.svg') #fff center center no-repeat;
 }
 
 .twofixed .ipo::before {
-    background: url('./Images/page3/ipo.svg') #fff center center no-repeat;
+    background: url('./Images/ipo.svg') #fff center center no-repeat;
 }
 
 .twofixed .page3.window1-descript.P2.S2-P2 {
@@ -6753,7 +6753,7 @@ body {
 .linkedinlogo {
     width: 52px;
     height: 52px;
-    background: url('./Images/page5/linkedinlogo.svg') center no-repeat;
+    background: url('./Images/linkedinlogo.svg') center no-repeat;
     margin: 10px 0 0;
 }
 
