@@ -1,6 +1,5 @@
 import Images from './Images/index';
 import './MainPage.css';
-import citymap from "./Images/page4/citymap.png";
 
 function MainPage() {
     return (

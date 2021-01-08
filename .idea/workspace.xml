@@ -5,104 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
-      <change afterPath="$PROJECT_DIR$/src/Images/antena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/arrowsquare.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/attentionman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/bird.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/businessmeeting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/chat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/citymap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/citysunset.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/cursor.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/dashed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/dotline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/dotstwothreepage.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/enricocattabiani.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/exchange.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/favorite.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/gautiersegouin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/global-network.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/handsandnote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/handscross.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/handshake.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/handspaper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/handspeople.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/infra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/infrastructure.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ipo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/linehorizont.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/linkedinlogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/manbigsmile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/mannotebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/mannotephone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/manwithsmile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/notificationdot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/otherfield.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/pagetwotop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/papartext.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/phonebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/powerlines.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/process.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/suitcase.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/sunbettery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/target.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/topfivephoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/track.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/vasiliysoshnikov.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/videocall.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/ways.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/whoweare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/attentionman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/bird.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/chat.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/cursor.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/dashed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/dotline.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/dotstwothreepage.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/global-network.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/handscross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/handspaper.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/handspeople.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/infrastructure.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/linehorizont.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/manwithsmile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/pagetwotop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/phonebook.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/process.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/suitcase.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page2/videocall.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/arrowsquare.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/businessmeeting.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/exchange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/favorite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/handsandnote.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/handshake.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/ipo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/manbigsmile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/mannotebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/mannotephone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/notificationdot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/papartext.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page3/target.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page4/antena.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page4/citymap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page4/citysunset.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page4/infra.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page4/otherfield.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page4/powerlines.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page4/sunbettery.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page4/track.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page4/ways.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page5/enricocattabiani.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page5/gautiersegouin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page5/linkedinlogo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page5/topfivephoto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page5/vasiliysoshnikov.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/page5/whoweare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,14 +192,7 @@
       <workItem from="1610011523969" duration="39558000" />
       <workItem from="1610084485651" duration="2823000" />
       <workItem from="1610096925737" duration="256000" />
-      <workItem from="1610124194985" duration="3134000" />
-    </task>
-    <task id="LOCAL-00229" summary="4page">
-      <created>1609744890016</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1609744890016</updated>
+      <workItem from="1610124194985" duration="3879000" />
     </task>
     <task id="LOCAL-00230" summary="4page">
       <created>1609745800720</created>
@@ -634,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610125750839</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="5-photos">
+      <created>1610127938284</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1610127938284</updated>
+    </task>
+    <option name="localTasksCounter" value="279" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

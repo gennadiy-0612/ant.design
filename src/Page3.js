@@ -1,6 +1,5 @@
 import Images from './Images/index';
 import './MainPage.css';
-import handsandnote from "./Images/page3/handsandnote.png";
 
 function MainPage() {
     return (
