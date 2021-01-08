@@ -22,7 +22,6 @@ let routLocal = {
         for (const pages of allPages) {
             if (pages.getAttribute('class') === this.hrefs[window.location.pathname]) {
                 pages.setAttribute('style', 'display:block;');
-                localStorage.setItem('old', pages.getAttribute('class'));
             } else {
                 pages.setAttribute('style', 'display:none;');
             }
@@ -37,9 +36,6 @@ let routLocal = {
             if (!this.links[l]) l = 0;
             all[i].setAttribute('href', this.links[l]);
         }
-    },
-    getChanges: function () {
-        localStorage.setItem('Кіт', 'Барсик');
     },
     makePageChanger: function () {
         routLocal.initPage();
