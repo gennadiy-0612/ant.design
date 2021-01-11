@@ -6396,8 +6396,8 @@ body {
         width: 390px;
         margin: 40px 34% 0 auto;
         left: 11.6%;
+        box-sizing: initial;
     }
-
 }
 
 @media (min-width: 1601px) and (max-width: 1820px) {
