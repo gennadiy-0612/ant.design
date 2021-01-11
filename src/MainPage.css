@@ -3012,7 +3012,7 @@ body {
 }
 
 .twofixed .Screen7--h2.S8 {
-    font: normal normal 700 40px/60px 'Poppins', sans-serif;
+    font: normal normal 600 40px/60px 'Poppins', sans-serif;
     padding: 120px 0 0 0;
     letter-spacing: -1.1px;
 }
@@ -3777,7 +3777,7 @@ body {
 
     .twofixed .window1-descript.P2.S6-P2::before,
     .twofixed .window1-descript.P2.S6-P2.S6-P22::before,
-    .twofixed .rounded-frame::before{
+    .twofixed .rounded-frame::before {
         margin-top: 5px;
     }
 
@@ -6568,6 +6568,7 @@ body {
 .text-big.text-S2-P4.P4.S2 {
     font: normal normal 700 40px/60px 'Poppins', sans-serif;
     color: #10214F;
+    letter-spacing: -1.1px;
 }
 
 .visualtextinfo {
@@ -6628,6 +6629,7 @@ body {
 .Screen7--h2.S8.P4-S8 {
     font: normal normal 400 32px/60px 'Poppins', sans-serif;
     margin: auto;
+    letter-spacing: -0.5px;
 }
 
 /*Page4 finish*/
@@ -6824,6 +6826,7 @@ body {
 
 .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
     margin: 105px auto 60px;
+    letter-spacing: 0;
 }
 
 /*Page5 finish*/
