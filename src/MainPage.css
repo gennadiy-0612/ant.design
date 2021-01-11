@@ -5745,7 +5745,7 @@ body {
     }
 
     .page4 .text-big.text-S2-P4.P4.S2.center.width800 {
-        max-width: 700px;
+        max-width: 600px;
     }
 
     .page4 .text-extending {
@@ -5826,6 +5826,22 @@ body {
 
     .page5 .Screen5--decription.S5.S52.P5-S6 {
         margin: auto;
+    }
+
+    .page5 .Screen2.P5-S2 {
+        margin: auto 0 15.7vh;
+    }
+
+    .page5 .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
+        margin: 114px auto 36px;
+    }
+
+    .page5.twofixed .Screen7--h2.S8.P4-S8 {
+        padding: 122px 0 21px;
+    }
+
+    .page5.twofixed .Screen8 {
+        padding-bottom: 141px;
     }
 
     /*page5*/
@@ -6314,8 +6330,8 @@ body {
     }
 
     .page5 .grey {
-        margin: 35px auto 0;
-        padding-top: 55px;
+        margin: 0 auto 0;
+        padding-top: 38px;
     }
 
     .page5 .Screen5--h2.head2.P5-S6 {
@@ -6784,7 +6800,7 @@ body {
 }
 
 .Screen2.P5-S2 {
-    margin: auto 0 8.5vh;
+    margin: auto 0 15.2vh;
 }
 
 .main-header-second-h2.head2.P2.S2-P2.P5-S2 {
@@ -6962,8 +6978,21 @@ body {
 }
 
 .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
-    margin: 105px auto 60px;
+    margin: 98px auto 65px;
     letter-spacing: 0;
+}
+
+.page5 .Screen8 {
+    padding-bottom: 130px;
+}
+
+.page5 .Screen7--h2.S8.P4-S8 {
+    font: normal normal 400 40px/60px 'Poppins', sans-serif;
+    padding: 94px 0 0;
+}
+
+.page5.twofixed .login.buttonIDN.decide {
+    margin: 36px auto 0;
 }
 
 /*Page5 finish*/
