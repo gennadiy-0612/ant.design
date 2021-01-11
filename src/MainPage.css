@@ -6314,12 +6314,8 @@ body {
         max-width: 100%;
     }
 
-    .Screen5--p.S5:last-child::after {
-        left: 6.5%;
-    }
-
     .Screen5--p.P1-S6::after {
-        left: 5.95%;
+        left: 6.55%;
     }
 
     .dots.Screen5--dots.dots51 {
@@ -6334,6 +6330,10 @@ body {
 
     .window1.Screen5--w1 {
         left: 0;
+    }
+
+    .window2.Screen6--w2.Screen5--w1.S6 {
+        left: 5%;
     }
 }
 
