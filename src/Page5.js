@@ -86,7 +86,7 @@ function MainPage() {
 
 
             <div className="Screen8">
-                <h2 className="Screen7--h2 S8 P4-S8">Do you want to learn more about our mission or our team?<br/>
+                <h2 className="Screen7--h2 S8 P4-S8">Do you want to learn more about our mission<br/>
                     our mission or our team?</h2>
                 <a className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Get
                     In touch</a>

@@ -1660,14 +1660,19 @@ body {
     /*page5*/
     .page5 .dots.Screen5--dots.Screen6--dots.S6.P5-S6 {
         left: 0;
-        width: 481px;
-        height: 60%;
+        width: 390px;
+        height: 303px;
         padding: 0 0 60px 0;
+        margin: 60px 0 auto auto;
     }
 
     .page5.twofixed .Screen5--p.P1-S6.P5-S6::after {
         height: 155%;
-        left: 3.5%;
+        left: .6%;
+    }
+
+    .page5.twofixed .Screen5--p.P1-S6.P5-S6:last-of-type::after {
+        left: 0;
     }
 
     .page5 .illustrate.Screen5-img.Screen6-img.P5-S6 {
@@ -1678,6 +1683,7 @@ body {
 
     .page5 .window1.Screen6--w2.Screen5--w2.S6.P5-S6 {
         align-self: flex-end;
+        padding-top: 0;
     }
 
     .twofixed.page5 .window2.Screen6--w2.Screen5--w1.S6 {
@@ -1731,18 +1737,28 @@ body {
 
     /*Page4 finish*/
     /*Page5 start*/
+    .page5.twofixed .window1.P2.S2-P2 {
+        max-width: 600px;
+    }
+
     .page5 .Screen5--p.P1-S6.P5-S6 {
-        max-width: 490px;
         font-size: 18px;
         line-height: 24px;
+        padding: 27px 0 4% 7%;
+        margin-right: 23%;
+        width: 420px;
+    }
+
+    .page5 .Screen5--p.P1-S6.P5-S6::before {
+        left: -4%;
     }
 
     .page5 .Screen5--p.P1-S6.P5-S6::after {
-        left: 3%;
+        left: -.5%;
     }
 
     .page5 .Screen5--p.P1-S6.P5-S6:last-of-type::after {
-        left: 2.2%;
+        left: -1.3%;
     }
 
     /*Page5 finish*/
@@ -3984,6 +4000,38 @@ body {
 
     .twofixed .sectors.S7.P2-S7-remade {
         max-width: 864px;
+    }
+
+    /*page5*/
+    .page5.twofixed .grey {
+        margin-top: 0;
+        padding: 98px 0 0;
+    }
+
+    .page5.twofixed .Screen5--decription.S5.S52.P5-S6 {
+        margin: 0 auto 0 9.6%;
+    }
+
+    .page5.twofixed .dots.Screen5--dots.Screen6--dots.S6.P5-S6 {
+        margin: 60px 12% auto auto;
+    }
+
+    .page5 .Screen5--description--content.S6c.P5-S6 {
+        padding: 16px 0 0;
+    }
+
+    .page5 .main-header-second-h2.Screen5--h2.head2.center.P1-S6.P5-S6 {
+        margin-left: 21%;
+    }
+
+    .page5.twofixed .Screen5--p.P1-S6.P5-S6 {
+        padding: 6% 0 6% 12.6%;
+        width: 328px;
+        margin: 0 0 0 6.8%;
+    }
+
+    .page5.twofixed .wishes {
+        margin: 0 0 0 20%;
     }
 }
 
@@ -6261,6 +6309,31 @@ body {
         max-width: 1000px;
     }
 
+    .page5 .Screen6.S6.P5-S6 {
+        /*margin: 0 auto;*/
+    }
+
+    .page5 .grey {
+        margin: 35px auto 0;
+        padding-top: 55px;
+    }
+
+    .page5 .Screen5--h2.head2.P5-S6 {
+        margin: 17px 7% 14px;
+        padding: 0;
+        letter-spacing: -1px;
+    }
+
+    .page5 .wishes {
+        margin: 17px 0 0 7%;
+        padding: 0;
+        letter-spacing: -1.3px;
+    }
+
+    .page5 .our-team {
+        padding-top: 80px;
+    }
+
     .Screen5.S5.P1-S5, .Screen6.S6.P1-S6 {
         overflow: hidden;
     }
@@ -6280,9 +6353,35 @@ body {
 
     .page5.twofixed .Screen5--h2.head2.center.P1-S6,
     .page5 .wishes {
-        font-size: 24px;
-        line-height: 24px;
+        line-height: 60px;
+        font-size: 40px;
     }
+
+    .page5 .our-team-h2 {
+        font-size: 40px;
+    }
+
+    .page5 .avatars-collection {
+        margin-top: 56px;
+    }
+
+    .page5 .Screen7--h2.S8.P4-S8 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .page5 .illustrate.Screen5-img.Screen6-img.P5-S6 {
+        height: 290px;
+        width: 390px;
+    }
+
+    .page5 .dots.Screen6--dots.P5-S6 {
+        height: 360px;
+        width: 390px;
+        margin: 40px 34% 0 auto;
+        left: 11.6%;
+    }
+
 }
 
 @media (min-width: 1601px) and (max-width: 1820px) {
@@ -6773,9 +6872,9 @@ body {
 
 .our-team-h2 {
     text-align: center;
-    font: normal normal 700 40px/72px 'Poppins', sans-serif;
+    font: normal normal 700 72px/60px 'Poppins', sans-serif;
     letter-spacing: -2.5px;
-    margin: 0;
+    margin: 10px 0 0;
 }
 
 .our-team-strong {
@@ -6789,7 +6888,7 @@ body {
 .avatars-collection {
     display: flex;
     flex-wrap: wrap;
-    margin: 84px auto 0;
+    margin: 89px auto 0;
     max-width: 1640px;
     justify-content: space-evenly;
     box-sizing: initial;
