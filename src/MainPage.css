@@ -1661,7 +1661,7 @@ body {
 
     .page5.twofixed .Screen5--p.P1-S6.P5-S6::after {
         height: 155%;
-        left: 3.5%;
+        left: 3.6%;
     }
 
     .page5 .illustrate.Screen5-img.Screen6-img.P5-S6 {
@@ -1716,11 +1716,10 @@ body {
 
     /*Page4 finish*/
     /*Page5 start*/
-
     .page5 .Screen5--p.P1-S6.P5-S6 {
         max-width: 490px;
         font-size: 18px;
-        line-height: 42px;
+        line-height: 24px;
     }
 
     .page5 .Screen5--p.P1-S6.P5-S6::after {
@@ -2906,6 +2905,7 @@ body {
     margin: 20px 0 0 4.6%;
     padding: 0;
     max-width: 422px;
+    opacity: .8;
 }
 
 .twofixed .dots-item {
@@ -3537,7 +3537,7 @@ body {
         line-height: 60px;
         margin: 51px auto 125px;
         padding: 0;
-        max-width: 813px;
+        max-width: 860px;
     }
 
     .twofixed .two-columns {
@@ -3763,14 +3763,22 @@ body {
         margin: 3px 0 0;
     }
 
-    .twofixed .window1.P2-S6, .twofixed .window1.P2.P2-S7.P2-S62 {
+    .twofixed .window1.P2-S6,
+    .twofixed .window1.P2.P2-S7.P2-S62 {
         padding: 4px 0 0 7.05%;
     }
 
-    .twofixed .window1-descript.P2.S6-P2, .twofixed .window1-descript.P2.S6-P2.S6-P22 {
+    .twofixed .window1-descript.P2.S6-P2,
+    .twofixed .window1-descript.P2.S6-P2.S6-P22 {
         padding: 35px 0 0 15%;
         letter-spacing: 0;
         margin: 0 0 13px;
+    }
+
+    .twofixed .window1-descript.P2.S6-P2::before,
+    .twofixed .window1-descript.P2.S6-P2.S6-P22::before,
+    .twofixed .rounded-frame::before{
+        margin-top: 5px;
     }
 
     .twofixed .Screen7.P2-S7-remade {
@@ -3779,16 +3787,19 @@ body {
     }
 
     .twofixed .info-graph {
-        padding: 59px 0 75px;
+        padding: 77px 0 52px;
     }
 
     .twofixed .sector.normal.main-p.center.S7 {
         margin: 0;
+        background-position-y: 60%;
+        /*letter-spacing: 2.2px;*/
     }
 
     .twofixed .Screen7--p.P2-S7-remade {
         padding: 0;
-        margin-bottom: 110px;
+        margin-bottom: 83px;
+        max-width: 1010px;
     }
 
     .twofixed .sectors.S7.P2-S7-remade {
@@ -3803,7 +3814,7 @@ body {
     }
 
     .twofixed .S7.S71.dot-list.Advisor {
-        margin: 10px 0;
+        margin: 15px 0 0;
     }
 
     .common-info::before {
@@ -3814,9 +3825,6 @@ body {
         border-radius: 50%;
     }
 
-    .twofixed .Screen7--p.P2-S7-remade {
-        max-width: 1010px;
-    }
 
     .dots.Screen5--dots::after {
         right: -1.9%;
@@ -3904,6 +3912,7 @@ body {
 
     .twofixed .main-post-link.center.frame4.P2 {
         font: normal normal 600 40px/60px 'Poppins', sans-serif;
+        width: auto;
     }
 
     .twofixed .main-p.cover.P2.P2-S4 {
@@ -3955,6 +3964,11 @@ body {
 
     .twofixed .Screen7.P2-S7-remade {
         max-width: 1024px;
+        padding: 93px 5.9% 0;
+    }
+
+    .twofixed .sectors.S7.P2-S7-remade {
+        max-width: 864px;
     }
 }
 
@@ -5370,8 +5384,8 @@ body {
         letter-spacing: -0.1px;
     }
 
-   .page5.twofixed .Screen5--h2.head2.center.P1-S6,
-   .page5 .wishes {
+    .page5.twofixed .Screen5--h2.head2.center.P1-S6,
+    .page5 .wishes {
         font-size: 24px;
         line-height: 24px;
     }
@@ -6612,7 +6626,7 @@ body {
 }
 
 .Screen7--h2.S8.P4-S8 {
-    font: normal normal 700 32px/60px 'Poppins', sans-serif;
+    font: normal normal 400 32px/60px 'Poppins', sans-serif;
     margin: auto;
 }
 
@@ -6626,6 +6640,10 @@ body {
 
 /*test*/
 /*Page5 start*/
+.page5.twofixed .First_Screen {
+    height: 100vh;
+}
+
 .Screen2.P5-S2 {
     margin: auto 0 8.5vh;
 }
@@ -6715,7 +6733,7 @@ body {
 
 .our-team-h2 {
     text-align: center;
-    font: normal normal 700 72px/72px 'Poppins', sans-serif;
+    font: normal normal 700 40px/72px 'Poppins', sans-serif;
     letter-spacing: -2.5px;
     margin: 0;
 }
@@ -6777,6 +6795,7 @@ body {
     bottom: 0;
     margin: auto;
     left: 0;
+    border-color: #f7f7fb;
 }
 
 .Screen5--p.P1-S6.P5-S6::after {

@@ -48,8 +48,8 @@ function MainPage() {
                 <div className="idea">
                     <p className="normal main-p center cover P2 P2-S4">
                         Our investors are Senior professionals working at leading
-                        Private Equity firms targeting infrastructure and related assets <span
-                        className="main-post-link P2 third-screen third-line">in Europe and beyond</span></p>
+                        Private Equity firms targeting infrastructure and related <span
+                        className="main-post-link P2 third-screen third-line"> assets in Europe and beyond</span></p>
                     <div className="two-columns">
                         <p className="two-column--p">Through IDN’s platform, our investors originate and close <span
                             className="main-post-link P2 third-screen">unique investment</span> opportunities, ranging
