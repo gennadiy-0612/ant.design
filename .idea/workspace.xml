@@ -7,7 +7,6 @@
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
       <change afterPath="$PROJECT_DIR$/src/Images/kendall-henderson-Pj6TgpS_Vt4-unsplash.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,14 +196,7 @@
       <workItem from="1610124194985" duration="4145000" />
       <workItem from="1610179070629" duration="59000" />
       <workItem from="1610179209082" duration="1265000" />
-      <workItem from="1610336768288" duration="11338000" />
-    </task>
-    <task id="LOCAL-00232" summary="4page">
-      <created>1609747114253</created>
-      <option name="number" value="00232" />
-      <option name="presentableId" value="LOCAL-00232" />
-      <option name="project" value="LOCAL" />
-      <updated>1609747114253</updated>
+      <workItem from="1610336768288" duration="12680000" />
     </task>
     <task id="LOCAL-00233" summary="4page">
       <created>1609747512503</created>
@@ -542,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610347288489</updated>
     </task>
-    <option name="localTasksCounter" value="281" />
+    <task id="LOCAL-00281" summary="all-fixed">
+      <created>1610352314126</created>
+      <option name="number" value="00281" />
+      <option name="presentableId" value="LOCAL-00281" />
+      <option name="project" value="LOCAL" />
+      <updated>1610352314127</updated>
+    </task>
+    <option name="localTasksCounter" value="282" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
