@@ -6976,32 +6976,3 @@ body {
 }
 
 /*Page5 finish*/
-
-@media (max-width: 1023px) {
-    .main-header-second.S3 {
-        padding: 0 3%;
-    }
-
-    .Screen9.P1-S9.X1023 {
-        margin: 0 60px;
-    }
-
-    .window1--button-group.Screen5--button-group,
-    .window1--button-group.Screen5--button-group.S6bg {
-        flex-direction: column;
-    }
-
-    .window1--button-group.Screen5--button-group.S7 {
-        flex-direction: row;
-        max-width: 100%;
-        justify-content: space-around;
-    }
-
-    .window1--description {
-        margin: 20px auto 0;
-    }
-
-    .Screen7.S7 {
-        padding: 161px 0 0;
-    }
-}
