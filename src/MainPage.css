@@ -1745,10 +1745,6 @@ body {
         justify-content: space-around;
     }
 
-    .page4 .cail {
-        padding: 0 40px;
-    }
-
     /*Page4 finish*/
     /*Page5 start*/
     .page5.twofixed .window1.P2.S2-P2 {
@@ -3852,10 +3848,8 @@ body {
     /*page4*/
     .visualtextinfo.max-width1600 {
         justify-content: space-evenly;
-    }
-
-    .page4 .cail {
-        padding: 0 54px;
+        max-width: 1030px;
+        margin: auto;
     }
 
     /*page4*/
@@ -5720,6 +5714,10 @@ body {
         font: normal normal 300 18px/24px 'Poppins', sans-serif;
     }
 
+    .page4 .Screen7--h2.S8.P4-S8 {
+        max-width: 1000px;
+    }
+
     /*page4*/
 }
 
@@ -5809,6 +5807,10 @@ body {
     .page4 .text-extending {
         font-size: 18px;
         line-height: 30px;
+    }
+
+    .page4 .Screen7--h2.S8.P4-S8 {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
     }
 
     /*page4*/
