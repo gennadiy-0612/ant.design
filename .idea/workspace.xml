@@ -197,28 +197,7 @@
       <workItem from="1610179070629" duration="59000" />
       <workItem from="1610179209082" duration="1265000" />
       <workItem from="1610336768288" duration="39346000" />
-      <workItem from="1610417911487" duration="6906000" />
-    </task>
-    <task id="LOCAL-00244" summary="5page-added">
-      <created>1609830537261</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1609830537261</updated>
-    </task>
-    <task id="LOCAL-00245" summary="5page-added">
-      <created>1609833484848</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1609833484848</updated>
-    </task>
-    <task id="LOCAL-00246" summary="5page-added">
-      <created>1609833907504</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1609833907504</updated>
+      <workItem from="1610417911487" duration="8934000" />
     </task>
     <task id="LOCAL-00247" summary="5page-added">
       <created>1609839790839</created>
@@ -542,7 +521,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610422082148</updated>
     </task>
-    <option name="localTasksCounter" value="293" />
+    <task id="LOCAL-00293" summary="main-page-fixed">
+      <created>1610424950606</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1610424950606</updated>
+    </task>
+    <task id="LOCAL-00294" summary="main-page-fixed">
+      <created>1610425106036</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1610425106036</updated>
+    </task>
+    <task id="LOCAL-00295" summary="main-page-fixed">
+      <created>1610425209239</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1610425209239</updated>
+    </task>
+    <option name="localTasksCounter" value="296" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
