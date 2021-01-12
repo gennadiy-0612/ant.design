@@ -4,7 +4,9 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page" />
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
+      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,14 +198,7 @@
       <workItem from="1610336768288" duration="39346000" />
       <workItem from="1610417911487" duration="15796000" />
       <workItem from="1610442142918" duration="626000" />
-      <workItem from="1610446608846" duration="1543000" />
-    </task>
-    <task id="LOCAL-00253" summary="4page-adapting">
-      <created>1609880858867</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1609880858867</updated>
+      <workItem from="1610446608846" duration="2220000" />
     </task>
     <task id="LOCAL-00254" summary="4page-adapting">
       <created>1609881468231</created>
@@ -541,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610447887502</updated>
     </task>
-    <option name="localTasksCounter" value="302" />
+    <task id="LOCAL-00302" summary="new-changes">
+      <created>1610448228502</created>
+      <option name="number" value="00302" />
+      <option name="presentableId" value="LOCAL-00302" />
+      <option name="project" value="LOCAL" />
+      <updated>1610448228502</updated>
+    </task>
+    <option name="localTasksCounter" value="303" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

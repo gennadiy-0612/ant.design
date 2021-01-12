@@ -181,7 +181,7 @@ function MainPage() {
             </div>
 
             <div className="Screen9 P1-S9 X1023">
-                <span className="idn-img"></span>
+                <a href="/" className="idn-img"></a>
                 <div className="foot-lists">
                     <ul className="foot-ul">
                         <li className="foot-li foot-li-head">Users</li>
