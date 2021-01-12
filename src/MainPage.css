@@ -4456,11 +4456,13 @@ body {
     bottom: -1px;
     left: 34.9%;
 }
-.main-page .main-post-link:before{
+
+.main-page .main-post-link:before {
     width: 58.1%;
     left: auto;
     right: 0;
 }
+
 .Screen4 {
     padding: 94px 0 0;
     position: relative;
@@ -5038,7 +5040,8 @@ body {
     letter-spacing: -1.1px;
 }
 
-.foot-li {
+.foot-li,
+foot-li > a {
     letter-spacing: -1.1px;
     list-style-type: none;
     font: normal normal 500 18px/27px 'Poppins', sans-serif;
