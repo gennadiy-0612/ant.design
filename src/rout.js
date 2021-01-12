@@ -42,5 +42,6 @@ let routLocal = {
         routLocal.setPage();
     }
 }
+window.addEventListener('load', routLocal.makePageChanger);
 
 export default routLocal;
