@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,14 +199,9 @@
       <workItem from="1610179070629" duration="59000" />
       <workItem from="1610179209082" duration="1265000" />
       <workItem from="1610336768288" duration="39346000" />
-      <workItem from="1610417911487" duration="13902000" />
-    </task>
-    <task id="LOCAL-00251" summary="4page-adapting">
-      <created>1609862795871</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1609862795871</updated>
+      <workItem from="1610417911487" duration="15796000" />
+      <workItem from="1610442142918" duration="626000" />
+      <workItem from="1610446608846" duration="1104000" />
     </task>
     <task id="LOCAL-00252" summary="4page-adapting">
       <created>1609878691618</created>
@@ -541,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610433910477</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="main-page-fixed">
+      <created>1610434358834</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1610434358834</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

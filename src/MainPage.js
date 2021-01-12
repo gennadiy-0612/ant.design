@@ -83,7 +83,7 @@ function MainPage() {
                         <span className="sector three normal main-p center">Telecom & ICT</span>
                         <span className="sector four normal main-p center">Healthcare & Social</span>
                     </p>
-                    <div className="Screen4--all center"><a className="selectors--all" href="/">View All Sectors</a>
+                    <div className="Screen4--all center"><a className="selectors--all" href="/">View all Sectors</a>
                     </div>
                 </div>
             </div>

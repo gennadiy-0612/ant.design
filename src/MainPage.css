@@ -2301,6 +2301,11 @@ body {
     .twofixed .window1--description {
         margin-right: 40px;
     }
+
+    .main-page .dots.Screen5--dots.Screen6--dots:after {
+        top: -124px;
+        left: -49px;
+    }
 }
 
 @media (max-width: 1919px) {
@@ -4393,6 +4398,10 @@ body {
     z-index: 0;
 }
 
+.hands.main-header-dots.dots::after {
+    z-index: -1;
+}
+
 .main-header-dots.dots {
     left: 2%;
     position: relative;
@@ -4447,7 +4456,11 @@ body {
     bottom: -1px;
     left: 34.9%;
 }
-
+.main-page .main-post-link:before{
+    width: 58.1%;
+    left: auto;
+    right: 0;
+}
 .Screen4 {
     padding: 94px 0 0;
     position: relative;
