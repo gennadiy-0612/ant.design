@@ -1178,16 +1178,6 @@ body {
     box-sizing: border-box;
 }
 
-@media (max-width: 1023px) {
-    .twofixed .main-header-second.S3 {
-        padding: 0 3%;
-    }
-
-    .twofixed .Screen9.P1-S9.X1023 {
-        margin: 0 60px;
-    }
-}
-
 @media (max-width: 1199px) and (min-width: 1024px) {
     .twofixed .top-horizon-menu.X1024-1200 {
         width: 901px;
@@ -2210,31 +2200,6 @@ body {
 
     .twofixed .Header--logo.X1024-1600 {
         left: 30px;
-    }
-}
-
-@media (max-width: 1023px) {
-    .twofixed .window1--button-group.Screen5--button-group,
-    .twofixed .window1--button-group.Screen5--button-group.S6bg {
-        flex-direction: column;
-    }
-
-    .twofixed .window1--button-group.Screen5--button-group.S7 {
-        flex-direction: row;
-        max-width: 100%;
-        justify-content: space-around;
-    }
-
-    .twofixed .window1--description {
-        margin: 20px auto 0;
-    }
-
-    .twofixed .Screen7.S7 {
-        padding: 161px 0 0;
-    }
-
-    .twofixed .login-block {
-
     }
 }
 
@@ -5238,16 +5203,6 @@ body {
     box-sizing: border-box;
 }
 
-@media (max-width: 1023px) {
-    .main-header-second.S3 {
-        padding: 0 3%;
-    }
-
-    .Screen9.P1-S9.X1023 {
-        margin: 0 60px;
-    }
-}
-
 @media (max-width: 1199px) and (min-width: 1024px) {
     .top-horizon-menu.X1024-1200 {
         width: 901px;
@@ -5748,6 +5703,9 @@ body {
     }
 
     /*page4*/
+    .text-extending {
+    }
+
     .two-explain.Screen2.P2-S3, .two-explain.Screen2.max-width1600 {
         max-width: 84%;
     }
@@ -5785,11 +5743,6 @@ body {
 
     .page4 .text-big.text-S2-P4.P4.S2.center.width800 {
         max-width: 600px;
-    }
-
-    .page4 .text-extending {
-        font-size: 18px;
-        line-height: 24px;
     }
 
     /*page4*/
@@ -5850,6 +5803,18 @@ body {
         top: 55px;
     }
 
+    /*page4*/
+    .page4 .dots.P2-S2.topPhoto.P4-S2,
+    .page4 .dots.P2-S2.topPhoto.P4-S2.P4-S3 {
+        width: 91%;
+    }
+
+    .page4 .text-extending {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    /*page4*/
     /*page5*/
     .page5 .yellow-upper.P5,
     .page5 .window1-descript.P2.S2-P2.page3.P5-S2,
@@ -6320,31 +6285,6 @@ body {
 
     .Header--logo.X1024-1600 {
         left: 30px;
-    }
-}
-
-@media (max-width: 1023px) {
-    .window1--button-group.Screen5--button-group,
-    .window1--button-group.Screen5--button-group.S6bg {
-        flex-direction: column;
-    }
-
-    .window1--button-group.Screen5--button-group.S7 {
-        flex-direction: row;
-        max-width: 100%;
-        justify-content: space-around;
-    }
-
-    .window1--description {
-        margin: 20px auto 0;
-    }
-
-    .Screen7.S7 {
-        padding: 161px 0 0;
-    }
-
-    .login-block {
-
     }
 }
 
@@ -7036,3 +6976,32 @@ body {
 }
 
 /*Page5 finish*/
+
+@media (max-width: 1023px) {
+    .main-header-second.S3 {
+        padding: 0 3%;
+    }
+
+    .Screen9.P1-S9.X1023 {
+        margin: 0 60px;
+    }
+
+    .window1--button-group.Screen5--button-group,
+    .window1--button-group.Screen5--button-group.S6bg {
+        flex-direction: column;
+    }
+
+    .window1--button-group.Screen5--button-group.S7 {
+        flex-direction: row;
+        max-width: 100%;
+        justify-content: space-around;
+    }
+
+    .window1--description {
+        margin: 20px auto 0;
+    }
+
+    .Screen7.S7 {
+        padding: 161px 0 0;
+    }
+}
