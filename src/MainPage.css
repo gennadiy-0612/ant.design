@@ -211,7 +211,7 @@ body {
 }
 
 .main-page .Screen6.S6 {
-    margin-top: 397px;
+    margin: 397px auto 184px;
 }
 
 .main-page .window2.Screen6--w2.Screen5--w1.S6 {
@@ -1194,8 +1194,8 @@ body {
         margin-left: auto;
     }
 
-    .main-page .Screen6.S6 {
-        margin: 47px auto 82px;
+    .main-page .Screen6.S6.P1-S6 {
+        margin-bottom: 63px;
     }
 
     .main-page .Screen7.S7 {
