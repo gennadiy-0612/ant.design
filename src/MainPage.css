@@ -3183,11 +3183,6 @@ body {
     .dots.P2-S2.topPhoto.P4-S2 {
         left: 0;
     }
-
-    .window-left.max-width1650,
-    .window-left.P4-S3.max-width1650 {
-        padding: 0;
-    }
 }
 
 /* page2 */
@@ -3523,9 +3518,11 @@ body {
     .twofixed .Screen8, .twofixed .common-info {
         width: 100%;
     }
+
     .main-page .window2.Screen6--w2.Screen5--w1.S6 {
         top: -33px;
     }
+
     .twofixed .First_Screen {
         min-height: 705px;
     }
@@ -3922,12 +3919,14 @@ body {
         padding: 0 1%;
         flex: 0 0 33%;
     }
+
     .main-page .window2.Screen6--w2.Screen5--w1.S6 {
         top: -46px;
     }
+
     .twofixed .dots.P2-S2 {
         left: -6.4%;
-        top: 0%;
+        top: 0;
     }
 
     .twofixed .Screen9.P1-S9.X1023 {
@@ -6657,21 +6656,21 @@ body {
     flex-wrap: nowrap;
     max-width: 1500px;
     margin: 0 auto 0;
-    padding: 220px 0;
+    padding: 212px 0;
 }
 
 .dots.P2-S2.topPhoto.P4-S2 {
     height: 100%;
     width: 80%;
     object-fit: cover;
-    left: 5.8%;
+    left: 0;
     top: 0;
-    margin: 0;
+    margin: 0 0 0 auto;
 }
 
 .dots.P2-S2.topPhoto.P4-S2.P4-S3 {
-    width: auto;
-    left: 20.6%;
+    width: 83.1%;
+    left: 0;
     height: 100%;
 }
 
@@ -6687,10 +6686,6 @@ body {
 
 .illustrate.P2-S2.P4-S3-img.P4-two-exp2 {
     width: 100%;
-}
-
-.dots.P2-S2.topPhoto.P4-S2.P4-S3 {
-    width: 83.1%;
 }
 
 .head3 {
@@ -6730,11 +6725,16 @@ body {
 
 .not-so-good {
     opacity: .77;
+    padding: 0 0 0 14%;
+}
+
+.not-so-good .text-extending {
+    margin: 40px 11% 0 0.8%;
 }
 
 .window-left.P4-S3 {
     flex: 1 0 52%;
-    padding: 0 0 0 1%;
+    padding: 0 0 0 2.8%;
 }
 
 .window-right.P4-S3 {
