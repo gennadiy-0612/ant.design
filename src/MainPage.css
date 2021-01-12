@@ -210,6 +210,14 @@ body {
     margin-left: auto;
 }
 
+.main-page .Screen6.S6 {
+    margin-top: 397px;
+}
+
+.main-page .window2.Screen6--w2.Screen5--w1.S6 {
+    top: -25px;
+}
+
 .twofixed .Screen4, .twofixed .Screen3.main, .twofixed .Screen7.S7, .twofixed .Screen8 {
     width: 100%;
 }
@@ -1196,6 +1204,14 @@ body {
         margin-left: auto;
     }
 
+    .main-page .Screen6.S6 {
+        margin: 47px auto 82px;
+    }
+
+    .main-page .Screen7.S7 {
+        padding-bottom: 73px;
+    }
+
     .twofixed .Screen4,
     .twofixed .Screen3.main,
     .twofixed .Screen7.S7,
@@ -1724,6 +1740,14 @@ body {
 
     .twofixed .window1--description {
         margin-right: 40px;
+    }
+
+    .main-page .Screen5.S5.P1-S5 {
+        margin: 194px auto 0;
+    }
+
+    .main-page .Screen6.S6 {
+        margin: 242px auto 196px;
     }
 
     /*Page4 start*/
@@ -3499,7 +3523,9 @@ body {
     .twofixed .Screen8, .twofixed .common-info {
         width: 100%;
     }
-
+    .main-page .window2.Screen6--w2.Screen5--w1.S6 {
+        top: -33px;
+    }
     .twofixed .First_Screen {
         min-height: 705px;
     }
@@ -3896,7 +3922,9 @@ body {
         padding: 0 1%;
         flex: 0 0 33%;
     }
-
+    .main-page .window2.Screen6--w2.Screen5--w1.S6 {
+        top: -46px;
+    }
     .twofixed .dots.P2-S2 {
         left: -6.4%;
         top: 0%;
@@ -4609,6 +4637,10 @@ body {
     left: 13.6%;
 }
 
+.main-page .Screen5--w1 {
+    padding: 0;
+}
+
 .window1.Screen5--w1 {
     flex: 0 0 50%;
     max-width: 50%;
@@ -4729,6 +4761,10 @@ body {
     width: 605px;
     height: 650px;
     margin: 0 auto 70px 0;
+}
+
+.main-page .dots.Screen5--dots {
+    top: 0;
 }
 
 .Screen6 {
@@ -5476,6 +5512,10 @@ body {
 
     .main-header-second-h2.head2.Screen5--h2 {
         margin: 6px 0 0 16px;
+    }
+
+    .main-page .main-header-second-h2.head2.Screen5--h2 {
+        margin-top: 0;
     }
 
     .Screen5--h2.head2.center.P1-S6 {
