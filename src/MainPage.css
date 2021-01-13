@@ -6494,6 +6494,11 @@ foot-li > a {
     .window1.Screen6--w2.Screen5--w2.S6 {
         width: 100%;
     }
+
+    .page5.twofixed .Screen7--h2.S8.P4-S8,
+    .page4.twofixed .Screen7--h2.S8.P4-S8 {
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 1920px) {
@@ -6990,7 +6995,7 @@ foot-li > a {
 }
 
 .page5 .Screen7--h2.S8.P4-S8 {
-    font: normal normal 400 40px/60px 'Poppins', sans-serif;
+    font: normal normal 400 32px/60px 'Poppins', sans-serif;
     padding: 94px 0 0;
 }
 
