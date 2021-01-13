@@ -177,7 +177,7 @@ function MainPage() {
                             <div className="info-graph">
                                 <div className="window1--description S7 S71 dot-list Advisor">
                                     <p className="window1--description--button S7 P2-S7 Advisor">Investors</p>
-                                    <a href="/" className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn">Join for Free</a>
+                                    <a href="/" className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn">Join now</a>
                                 </div>
                             </div>
                         </div>
