@@ -109,8 +109,7 @@ function MainPage() {
                     <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame process">Manage
                         the relations and advise throughout the due
                         diligence process</p>
-                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame infrastructure">Receive
-                        a pre-agreed success fee up to<br/> € 2 million
+                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame infrastructure">Earn unparalleled success fees
                         at deal closure</p>
                 </div>
                 <div className="window2 P2">
@@ -234,7 +233,7 @@ function MainPage() {
                         <li className="foot-li foot-li-head"><a className="footA" href="/">Contact</a></li>
                         <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
                         <li className="foot-li opacity6"><a className="footA"  href="tel:+23232323232"> + 23232323232</a></li>
-                        <li className="foot-li"><span className="in"></span></li>
+                        <li className="foot-li"><a href="/"  className="in"></a></li>
                     </ul>
                 </div>
             </div>

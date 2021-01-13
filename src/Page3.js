@@ -53,11 +53,9 @@ function MainPage() {
                         <p className="two-column--p">Through IDN’s platform, our investors originate and close <span
                             className="main-post-link P2 third-screen">unique investment</span> opportunities, ranging
                             from a minimum
-                            of 10 million Euroup to a billion Euro.</p>
-                        <p className="two-column--p">Our sweet spot is <span
-                            className="main-post-link P2 third-screen">mid-market</span> but large
-                            cap transactions are also frequently originated on our platform
-                            by our selected Senior Advisors</p>
+                            of 10 million Euro up to a billion Euro.</p>
+                        <p className="two-column--p">Our sweet spot is small cap and <span
+                            className="main-post-link P2 third-screen">mid-market</span> but large cap transactions are also originated on our platform by our selected Senior Advisors</p>
                     </div>
                 </div>
             </div>
@@ -133,10 +131,7 @@ function MainPage() {
             <div className="common-info">
                 <div className="Screen7 P2-S7-remade">
                     <h2 className="Screen7--h2 P2-S7-remade">Why IDN?</h2>
-                    <p className="Screen7--p P2-S7-remade">IDN offers Senior Advisors a unique incentive to originate
-                        investment opportunities
-                        for the world’s leading investors while also eliminating all frictions to the deal matching process
-                    </p>
+                    <p className="Screen7--p P2-S7-remade">IDN offers leading investors the unique opportunity to access proprietary deals originated by a selected network of Senior Advisors</p>
                     <div className="S7 P2-S7-remade">
                         <div className="sectors S7 P2-S7-remade">
                             <div className="info-graph">
@@ -211,7 +206,7 @@ function MainPage() {
                         <li className="foot-li foot-li-head"><a className="footA" href="/">Contact</a></li>
                         <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
                         <li className="foot-li opacity6"><a className="footA"  href="tel:+23232323232"> + 23232323232</a></li>
-                        <li className="foot-li"><span className="in"></span></li>
+                        <li className="foot-li"><a href="/" className="in"></a></li>
                     </ul>
                 </div>
             </div>

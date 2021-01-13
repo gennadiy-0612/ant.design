@@ -3091,6 +3091,12 @@ body {
     display: block;
     background: url('./Images/in.svg') center no-repeat;
     background-size: contain;
+    border-radius: 26px;
+}
+
+.twofixed .in:hover {
+    background-color: #3680F6;
+    transition: background-color, .7s;
 }
 
 .twofixed .opacity6 {
@@ -5193,6 +5199,7 @@ foot-li > a {
     border-color: transparent;
     height: 60px;
     line-height: 60px;
+    box-sizing: initial;
 }
 
 .back-slider-two.buttonIDN.white.border {
@@ -5824,10 +5831,6 @@ foot-li > a {
     .page4 .text-extending {
         font-size: 18px;
         line-height: 30px;
-    }
-
-    .page4 .Screen7--h2.S8.P4-S8 {
-        font: normal normal 600 40px/60px 'Poppins', sans-serif;
     }
 
     /*page4*/

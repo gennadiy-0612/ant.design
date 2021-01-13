@@ -174,7 +174,7 @@ function MainPage() {
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8 P4-S8">Not sure whether your sector, deal,<br/>
                     or investment’s scope can be aligned to IDN’s focus? </h2>
-                <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Get in Touch</a>
+                <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Ask us</a>
             </div>
 
             <div className="Screen9 P1-S9 X1023">
@@ -201,7 +201,7 @@ function MainPage() {
                         </li>
                         <li className="foot-li opacity6"><a className="footA" href="tel:+23232323232"> + 23232323232</a>
                         </li>
-                        <li className="foot-li"><span className="in"></span></li>
+                        <li className="foot-li"><a href="/" className="in"></a></li>
                     </ul>
                 </div>
             </div>

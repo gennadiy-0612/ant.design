@@ -81,7 +81,7 @@ function MainPage() {
                         <a className="linkedinlogo" href="/"></a>
                     </div>
                 </div>
-                <p className="text-big text-S2-P4 P4 S2 center foot-head P5-our-team P5">IDN is backed by dozens of prominent Senior<br/> Executives and <span className="main-post-link P2 S2-P2 text-big text-S2-P4 P4 S2 center P5-our-team"> Private  Equity investors</span> across Europe!</p>
+                <p className="text-big text-S2-P4 P4 S2 center foot-head P5-our-team P5">IDN is backed by dozens of prominent <span className="main-post-link P2 S2-P2 text-big text-S2-P4 P4 S2 center P5-our-team"> Senior Executives</span> across Europe</p>
             </div>
 
 
@@ -112,7 +112,7 @@ function MainPage() {
                         <li className="foot-li foot-li-head">Contact</li>
                         <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
                         <li className="foot-li opacity6"><a className="footA" href="tel:+23232323232"> + 23232323232</a></li>
-                        <li className="foot-li"><span className="in"></span></li>
+                        <li className="foot-li"><a href="/" className="in"></a></li>
                     </ul>
                 </div>
             </div>

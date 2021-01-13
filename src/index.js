@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 import './index.css';
 // import MainHeader from './MainHeader';
 import MainPage from './MainPage';

@@ -35,7 +35,7 @@ function MainPage() {
                             </div>
                             <div className="window1--description S1">
                                 <p className="window1--description--button">Investors</p>
-                                <a href="/" className="login buttonIDN S2 big white back-slider Screen2 blue-back">Join now</a>
+                                <a href="/" className="login buttonIDN S2 big white back-slider Screen2">Join now</a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ function MainPage() {
                 <div className="window1 Screen5--w1">
                     <div className="Screen5--decription S51">
                         <h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
-                        <h3 className="Sreen5--h3 S5">Success fees up to<br/> 2 million Euro</h3>
+                        <h3 className="Sreen5--h3 S5">Unparalleled remunerationand<br/> opportunities</h3>
                         <div className="Screen5--description--content">
                             <strong className="Screen5--strong S5">CONNECT</strong>
                             <p className="Screen5--p S5">Originate deals and connect to leading investors</p>
@@ -201,7 +201,7 @@ function MainPage() {
                         <li className="foot-li foot-li-head"><a className="footA" href="/">Contact</a></li>
                         <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
                         <li className="foot-li opacity6"><a className="footA"  href="tel:+23232323232"> + 23232323232</a></li>
-                        <li className="foot-li"><span className="in"></span></li>
+                        <li className="foot-li"><a href="/" className="in"></a></li>
                     </ul>
                 </div>
             </div>
