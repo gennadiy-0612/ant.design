@@ -6396,6 +6396,10 @@ foot-li > a {
         left: 11.6%;
         box-sizing: initial;
     }
+
+    .main-page .Sreen5--h3 {
+        padding: 13px 2% 0 4%;
+    }
 }
 
 @media (min-width: 1601px) and (max-width: 1820px) {
