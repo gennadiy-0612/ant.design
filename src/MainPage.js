@@ -17,7 +17,7 @@ function MainPage() {
                             <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
                         </nav>
                         <div className="login-block">
-                            <a className="login buttonIDN back-slider top-login">Login</a>
+                            <a href="/" className="login buttonIDN back-slider top-login">Login</a>
                         </div>
                     </div>
                 </div>
@@ -31,11 +31,11 @@ function MainPage() {
                         <div className="window1--button-group P1-S2 S2 X1600">
                             <div className="window1--description S1">
                                 <p className="window1--description--button">Senior Advisors</p>
-                                <a className="login buttonIDN S2 big back-slider Screen2">Apply now</a>
+                                <a href="/" className="login buttonIDN S2 big back-slider Screen2">Apply now</a>
                             </div>
                             <div className="window1--description S1">
                                 <p className="window1--description--button">Investors</p>
-                                <a className="login buttonIDN S2 big white back-slider Screen2 blue-back">Join now</a>
+                                <a href="/" className="login buttonIDN S2 big white back-slider Screen2 blue-back">Join now</a>
                             </div>
                         </div>
                     </div>
@@ -103,11 +103,11 @@ function MainPage() {
                         </div>
                         <div className="window1--button-group Screen5--button-group">
                             <div className="window1--description">
-                                <a className="login buttonIDN S2 P1-S5 big back-slider">Apply now
+                                <a href="/" className="login buttonIDN S2 P1-S5 big back-slider">Apply now
                                 </a>
                             </div>
                             <div className="window1--description">
-                                <a className="login buttonIDN S2 P1-S5 big white back-slider">Learn more</a>
+                                <a href="/" className="login buttonIDN S2 P1-S5 big white back-slider">Learn more</a>
                             </div>
                         </div>
                     </div>
@@ -136,10 +136,10 @@ function MainPage() {
                         </div>
                         <div className="window1--button-group Screen5--button-group S6bg">
                             <div className="window1--description">
-                                <a className="login buttonIDN big S2 back-slider">Join for Free</a>
+                                <a href="/" className="login buttonIDN big S2 back-slider">Join for Free</a>
                             </div>
                             <div className="window1--description">
-                                <a className="login buttonIDN big S2 back-slider white">Learn More</a>
+                                <a href="/" className="login buttonIDN big S2 back-slider white">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -165,18 +165,18 @@ function MainPage() {
                 <div className="window1--button-group Screen5--button-group S7">
                     <div className="window1--description S7 S71">
                         <p className="window1--description--button S7">Senior Advisors</p>
-                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn">Apply now</a>
+                        <a href="/" className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn">Apply now</a>
                     </div>
                     <div className="window1--description S7 S72">
                         <p className="window1--description--button S7 S72">Investors</p>
-                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn">Join for Free</a>
+                        <a href="/" className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn">Join for Free</a>
                     </div>
                 </div>
             </div>
 
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8 X1200">Do you want to learn more?</h2>
-                <a className="login buttonIDN S8 big white center back-slider white decide">Get
+                <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Get
                     in Touch</a>
             </div>
 
@@ -184,21 +184,21 @@ function MainPage() {
                 <a href="/" className="idn-img"></a>
                 <div className="foot-lists">
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">Users</li>
-                        <li className="foot-li opacity6">Investors</li>
-                        <li className="foot-li opacity6">Senior Advisors</li>
+                        <li className="foot-li foot-li-head"><a className="footA" href="/">Users</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">Investors</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">Senior Advisors</a></li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">Sectors</li>
-                        <li className="foot-li opacity6">Sectors</li>
+                        <li className="foot-li foot-li-head"><a className="footA" href="/">Sectors</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">Sectors</a></li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">About</li>
-                        <li className="foot-li opacity6">About Us</li>
-                        <li className="foot-li opacity6">Terms & Conditions</li>
+                        <li className="foot-li foot-li-head"><a className="footA" href="/">About</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">About Us</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">Terms & Conditions</a></li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">Contact</li>
+                        <li className="foot-li foot-li-head"><a className="footA" href="/">Contact</a></li>
                         <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
                         <li className="foot-li opacity6"><a className="footA"  href="tel:+23232323232"> + 23232323232</a></li>
                         <li className="foot-li"><span className="in"></span></li>

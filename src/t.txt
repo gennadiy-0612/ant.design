@@ -1,1 +1,3 @@
-login buttonIDN S2 big back-slider indent-bigger Screen2
+1. вылезли точки сверху https://prnt.sc/wloo41
+2. оранжевое подчеркивание должно быть под этими словами: "bilateral deals"
+3. all - не с заглавной буквы.

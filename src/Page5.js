@@ -17,7 +17,7 @@ function MainPage() {
                             <a className="main-top-nav-anchor active" href="/" rel="noopener noreferrer">About</a>
                         </nav>
                         <div className="login-block">
-                            <a className="login buttonIDN back-slider top-login">Login</a>
+                            <a href="/" className="login buttonIDN back-slider top-login">Login</a>
                         </div>
                     </div>
                 </div>
@@ -88,25 +88,25 @@ function MainPage() {
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8 P4-S8">Do you want to learn more about<br/>
                     our mission or our team?</h2>
-                <a className="login buttonIDN S8 big white center back-slider white decide">Get In touch</a>
+                <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Get In touch</a>
             </div>
 
             <div className="Screen9 P1-S9 X1023">
-                <span className="idn-img"></span>
+                <a href="/" className="idn-img"></a>
                 <div className="foot-lists">
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">Users</li>
-                        <li className="foot-li opacity6">Investors</li>
-                        <li className="foot-li opacity6">Senior Advisors</li>
+                        <li className="foot-li foot-li-head"><a className="footA" href="/">Users</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">Investors</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">Senior Advisors</a></li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">Sectors</li>
-                        <li className="foot-li opacity6">Sectors</li>
+                        <li className="foot-li foot-li-head"><a className="footA" href="/">Sectors</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">Sectors</a></li>
                     </ul>
                     <ul className="foot-ul">
-                        <li className="foot-li foot-li-head">About</li>
-                        <li className="foot-li opacity6">About Us</li>
-                        <li className="foot-li opacity6">Terms & Conditions</li>
+                        <li className="foot-li foot-li-head"><a className="footA" href="/">About</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">About Us</a></li>
+                        <li className="foot-li opacity6"><a className="footA" href="/">Terms & Conditions</a></li>
                     </ul>
                     <ul className="foot-ul">
                         <li className="foot-li foot-li-head">Contact</li>
