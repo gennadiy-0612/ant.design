@@ -29,7 +29,7 @@ function MainPage() {
                             className="yellow-upper">bilaterally</span></p>
                         <div className="window1--button-group P2 P2-S2">
                             <div className="window1--description"><a
-                                className="login buttonIDN S2 big back-slider indent-bigger Screen2">Apply now</a></div>
+                                className="login buttonIDN S2 big back-slider Screen2">Apply now</a></div>
                             <div className="window1--description"><a href="#page3"
                                 className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2">Learn
                                 more</a></div>
@@ -177,8 +177,8 @@ function MainPage() {
                             </div>
                             <div className="info-graph">
                                 <div className="window1--description S7 S71 dot-list Advisor">
-                                    <p className="window1--description--button S7 P2-S7 Advisor">Senior Advisors</p>
-                                    <a className="login buttonIDN S2 big S2 P1-S7 back-slider back-slider-two font-size-scale sizes-scale why-idn">Apply now</a>
+                                    <p className="window1--description--button S7 P2-S7 Advisor">Investors</p>
+                                    <a className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn">Join for Free</a>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +188,7 @@ function MainPage() {
 
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
-                <a className="login buttonIDN S8 big white center back-slider back-slider-two white decide font-size-scale">Get in Touch</a>
+                <a className="login buttonIDN S8 big white center back-slider white decide">Get in Touch</a>
             </div>
 
             <div className="Screen9 P1-S9 X1023">

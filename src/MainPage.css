@@ -4310,7 +4310,7 @@ body {
 .buttonIDN.white {
     background-color: #fff;
     color: #232D53;
-    border: solid 1px #3680F6;
+    box-shadow: inset 0 0 1px #3680F6;
 }
 
 .login.buttonIDN.S8 {
@@ -5201,7 +5201,8 @@ foot-li > a {
 
 .buttonIDN.white.blue-back.back-slider, .login.buttonIDN.P1-S5 {
     transition: left, font-size .7s;
-    box-sizing: border-box;
+    border-width: 0;
+    box-shadow: inset 0 0 1px #3680F6;
 }
 
 .login.buttonIDN.P1-S5:hover {
