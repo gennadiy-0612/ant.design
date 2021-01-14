@@ -6,7 +6,7 @@ import Images from './Images'
 function MainHeader(props) {
 
   return (
-    <div className="Header">
+    <div id="top" className="Header">
       <div className="Header--logo X1024-1600">
         <Link className="logo-link" to="/"><img className="idnlogo" src={Images.logo} alt="t" /></Link>
       </div>

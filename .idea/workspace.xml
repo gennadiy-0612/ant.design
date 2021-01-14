@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
+      <change afterPath="$PROJECT_DIR$/src/Site.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +25,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -202,14 +219,9 @@
       <workItem from="1610446608846" duration="2220000" />
       <workItem from="1610466356308" duration="6612000" />
       <workItem from="1610497926427" duration="7458000" />
-      <workItem from="1610529022811" duration="14306000" />
-    </task>
-    <task id="LOCAL-00260" summary="4page-fixed">
-      <created>1609914784681</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
-      <option name="project" value="LOCAL" />
-      <updated>1609914784682</updated>
+      <workItem from="1610529022811" duration="16615000" />
+      <workItem from="1610601557744" duration="518000" />
+      <workItem from="1610653716997" duration="6902000" />
     </task>
     <task id="LOCAL-00261" summary="4page-fixed">
       <created>1609915864621</created>
@@ -547,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610547705013</updated>
     </task>
-    <option name="localTasksCounter" value="309" />
+    <task id="LOCAL-00309" summary="corrections">
+      <created>1610548634916</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1610548634916</updated>
+    </task>
+    <option name="localTasksCounter" value="310" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

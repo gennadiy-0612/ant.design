@@ -1,32 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
-import './index.css';
-// import MainHeader from './MainHeader';
-import MainPage from './MainPage';
-import Page2 from './Page2';
-import Page3 from './Page3';
-import Page4 from './Page4';
-import Page5 from './Page5';
+import Site from './Site';
 import reportWebVitals from './reportWebVitals';
-// import MainFooter from './MainFooter';
-import routLocal from "./rout";
 
-// ReactDOM.render(
-//     <React.StrictMode>
-//         <MainPage />
-//     </React.StrictMode>,
-//     document.getElementById('root')
-// );
 ReactDOM.render(
     <React.StrictMode>
-        {/*<MainHeader/>*/}
-        <MainPage/>
-        <Page2/>
-        <Page3/>
-        <Page4/>
-        <Page5/>
-        {/*<MainFooter/>*/}
+        <Site />
     </React.StrictMode>,
     document.getElementById('root')
 );

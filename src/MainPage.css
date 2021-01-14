@@ -15,6 +15,16 @@ body {
     text-decoration: none;
 }
 
+.footA:hover {
+    color: #1f49e4;
+    transition: color, .7s;
+}
+
+.in:hover {
+    background-color: #1f49e4;
+    transition: background-color, .7s;
+}
+
 /*Page2 start*/
 .twofixed .center {
     text-align: center;
@@ -5059,6 +5069,7 @@ foot-li > a {
     width: 52px;
     height: 52px;
     display: block;
+    border-radius: 26px;
     background: url("./Images/in.svg") center no-repeat;
     background-size: contain;
 }
@@ -5488,6 +5499,7 @@ foot-li > a {
 
     .main-page .main-header-second-h2.head2.Screen5--h2 {
         margin-top: 0;
+        margin-left: 1.3%;
     }
 
     .Screen5--h2.head2.center.P1-S6 {
@@ -5573,6 +5585,11 @@ foot-li > a {
         padding: 0;
         left: auto;
         max-width: 100%;
+    }
+
+    .main-page .window1.Screen5--w1 {
+        flex: 0 0 58%;
+        max-width: 58%;
     }
 
     .Screen5--w1, .Screen5--w2 {
@@ -5718,6 +5735,10 @@ foot-li > a {
 
     .Screen5--p.S5:after {
         left: 9%;
+    }
+
+    .main-page .Screen5--p.S5:after {
+        left: 8.7%;
     }
 
     /*page4*/
@@ -6398,7 +6419,7 @@ foot-li > a {
     }
 
     .main-page .Sreen5--h3 {
-        padding: 13px 2% 0 4%;
+        padding: 13px 2% 0 3%;
     }
 }
 
@@ -6951,7 +6972,6 @@ foot-li > a {
 .our-team-photo {
     border-radius: 21px;
 }
-
 
 .Screen5--p.P1-S6.P5-S6::before {
     top: 0;

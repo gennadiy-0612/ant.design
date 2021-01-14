@@ -5,22 +5,6 @@ function MainPage() {
     return (
         <div className="page4 twofixed">
             <div className="First_Screen">
-                <div className="Header">
-                    <div className="Header--logo X1024-1600">
-                        <a className="logo-link" href="/"><img className="idnlogo top" src={Images.logo} alt="t"/></a>
-                    </div>
-                    <div className="top-horizon-menu X1024-1200 X1200-1600 ">
-                        <nav className="main-top-nav">
-                            <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Senior Advisor</a>
-                            <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">Investors</a>
-                            <a className="main-top-nav-anchor active" href="/" rel="noopener noreferrer">Sectors</a>
-                            <a className="main-top-nav-anchor" href="/" rel="noopener noreferrer">About</a>
-                        </nav>
-                        <div className="login-block">
-                            <a href="/" className="login buttonIDN back-slider top-login">Login</a>
-                        </div>
-                    </div>
-                </div>
 
                 <div className="Screen2">
                     <div className="window1 P2 S2-P2">
@@ -175,35 +159,6 @@ function MainPage() {
                 <h2 className="Screen7--h2 S8 P4-S8">Not sure whether your sector, deal,<br/>
                     or investment’s scope can be aligned to IDN’s focus? </h2>
                 <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Ask us</a>
-            </div>
-
-            <div className="Screen9 P1-S9 X1023">
-                <a href="/" className="idn-img"></a>
-                <div className="foot-lists">
-                    <ul className="foot-ul">
-                        <li className="foot-li foot-li-head"><a className="footA" href="/">Users</a></li>
-                        <li className="foot-li opacity6"><a className="footA" href="/">Investors</a></li>
-                        <li className="foot-li opacity6"><a className="footA" href="/">Senior Advisors</a></li>
-                    </ul>
-                    <ul className="foot-ul">
-                        <li className="foot-li foot-li-head"><a className="footA" href="/">Sectors</a></li>
-                        <li className="foot-li opacity6"><a className="footA" href="/">Sectors</a></li>
-                    </ul>
-                    <ul className="foot-ul">
-                        <li className="foot-li foot-li-head"><a className="footA" href="/">About</a></li>
-                        <li className="foot-li opacity6"><a className="footA" href="/">About Us</a></li>
-                        <li className="foot-li opacity6"><a className="footA" href="/">Terms & Conditions</a></li>
-                    </ul>
-                    <ul className="foot-ul">
-                        <li className="foot-li foot-li-head"><a className="footA" href="/">Contact</a></li>
-                        <li className="foot-li opacity6"><a className="footA"
-                                                            href="mailto:info@infradeals.net">info@infradeals.net</a>
-                        </li>
-                        <li className="foot-li opacity6"><a className="footA" href="tel:+23232323232"> + 23232323232</a>
-                        </li>
-                        <li className="foot-li"><a href="/" className="in"></a></li>
-                    </ul>
-                </div>
             </div>
         </div>
     );
