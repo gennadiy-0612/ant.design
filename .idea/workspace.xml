@@ -7,15 +7,6 @@
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Home.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/hands.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/idn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/peoples.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/right-chevron.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/smileman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/window2-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowCommit.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/package.json" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -89,7 +80,7 @@
       <recent name="E:\wamp64\www\ant.design\src\img" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -106,7 +97,8 @@
       <scripts>
         <script value="build" />
       </scripts>
-      <node-interpreter value="project" />
+      <node-interpreter value="$PROJECT_DIR$/../../../prorgramm/node" />
+      <package-manager value="C:\Users\HP\AppData\Roaming\npm\node_modules\npm" />
       <envs />
       <method v="2" />
     </configuration>
@@ -127,6 +119,7 @@
         <script value="start" />
       </scripts>
       <node-interpreter value="project" />
+      <package-manager value="yarn" />
       <envs />
       <method v="2" />
     </configuration>
@@ -138,8 +131,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.eject" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.eject" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.build" />
@@ -241,13 +234,6 @@
       <workItem from="1610529022811" duration="16615000" />
       <workItem from="1610601557744" duration="518000" />
       <workItem from="1610653716997" duration="6902000" />
-    </task>
-    <task id="LOCAL-00261" summary="4page-fixed">
-      <created>1609915864621</created>
-      <option name="number" value="00261" />
-      <option name="presentableId" value="LOCAL-00261" />
-      <option name="project" value="LOCAL" />
-      <updated>1609915864621</updated>
     </task>
     <task id="LOCAL-00262" summary="4page-fixed">
       <created>1609917071148</created>
@@ -585,7 +571,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610548634916</updated>
     </task>
-    <option name="localTasksCounter" value="310" />
+    <task id="LOCAL-00310" summary="test">
+      <created>1610664092345</created>
+      <option name="number" value="00310" />
+      <option name="presentableId" value="LOCAL-00310" />
+      <option name="project" value="LOCAL" />
+      <updated>1610664092345</updated>
+    </task>
+    <option name="localTasksCounter" value="311" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +612,6 @@
     <MESSAGE value="fixed-layuot" />
     <MESSAGE value="two-pages-fixed" />
     <MESSAGE value="animation-fixed" />
-    <MESSAGE value="test" />
     <MESSAGE value="3page-added" />
     <MESSAGE value="4page-added" />
     <MESSAGE value="4page" />
@@ -638,6 +630,7 @@
     <MESSAGE value="new-changes" />
     <MESSAGE value="changed-animation" />
     <MESSAGE value="corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrections" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
