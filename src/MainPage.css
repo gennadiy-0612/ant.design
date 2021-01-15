@@ -5514,7 +5514,9 @@ foot-li > a {
         padding: 14px 4% 0 5.8%;
         letter-spacing: -0.9px;
     }
-
+    .main-page .Sreen5--h3.S5{
+        padding-left: 3.5%;
+    }
     .Screen5--description--content, .Screen5--description--content.S6c {
         max-width: 100%;
         padding: 76px 0 0 0;
@@ -6413,7 +6415,7 @@ foot-li > a {
     }
 
     .main-page .Sreen5--h3 {
-        padding: 13px 2% 0 4%;
+        padding: 13px 2% 0 3%;
     }
 }
 
@@ -6827,7 +6829,7 @@ foot-li > a {
 }
 
 .main-header-second-h2.head2.P2.S2-P2.P5-S2 {
-    padding: 0 5% 0 6%;
+    padding: 0 5% 0 6.5%;
 }
 
 .page5 .window1-descript.P2.S2-P2.P5-S2 {
