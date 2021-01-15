@@ -1,5 +1,4 @@
 import React from "react";
-import MainHeader from './MainHeader';
 import MainPage from './MainPage';
 import Page2 from './Page2';
 import Page3 from './Page3';
@@ -12,7 +11,6 @@ import {
     Route,
     Link, NavLink
 } from "react-router-dom";
-import Images from "./Images";
 
 export default function App() {
     return (

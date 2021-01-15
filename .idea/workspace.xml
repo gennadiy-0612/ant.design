@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFooter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Site.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Site.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -236,21 +234,7 @@
       <workItem from="1610529022811" duration="16615000" />
       <workItem from="1610601557744" duration="518000" />
       <workItem from="1610653716997" duration="6902000" />
-      <workItem from="1610686751361" duration="3650000" />
-    </task>
-    <task id="LOCAL-00265" summary="dots">
-      <created>1609947779730</created>
-      <option name="number" value="00265" />
-      <option name="presentableId" value="LOCAL-00265" />
-      <option name="project" value="LOCAL" />
-      <updated>1609947779730</updated>
-    </task>
-    <task id="LOCAL-00266" summary="4page-is-ready">
-      <created>1609994926459</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1609994926460</updated>
+      <workItem from="1610686751361" duration="4152000" />
     </task>
     <task id="LOCAL-00267" summary="4page-is-ready">
       <created>1609997073366</created>
@@ -581,7 +565,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610692493619</updated>
     </task>
-    <option name="localTasksCounter" value="314" />
+    <task id="LOCAL-00314" summary="separated-header-and-footer">
+      <created>1610697069633</created>
+      <option name="number" value="00314" />
+      <option name="presentableId" value="LOCAL-00314" />
+      <option name="project" value="LOCAL" />
+      <updated>1610697069633</updated>
+    </task>
+    <task id="LOCAL-00315" summary="separated-header-and-footer">
+      <created>1610697095064</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1610697095064</updated>
+    </task>
+    <option name="localTasksCounter" value="316" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
