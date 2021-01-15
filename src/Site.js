@@ -17,27 +17,23 @@ import Images from "./Images";
 export default function App() {
     return (
         <Router>
-            <div>
-                <MainHeader/>
-
-                <Switch>
-                    <Route path="/advisor">
-                        <Advisor/>
-                    </Route>
-                    <Route path="/investors">
-                        <Investors/>
-                    </Route>
-                    <Route path="/sectors">
-                        <Sectors/>
-                    </Route>
-                    <Route path="/about">
-                        <About/>
-                    </Route>
-                    <Route path="/">
-                        <Home/>
-                    </Route>
-                </Switch>
-            </div>
+            <Switch>
+                <Route path="/advisor">
+                    <Advisor/>
+                </Route>
+                <Route path="/investors">
+                    <Investors/>
+                </Route>
+                <Route path="/sectors">
+                    <Sectors/>
+                </Route>
+                <Route path="/about">
+                    <About/>
+                </Route>
+                <Route path="/">
+                    <Home/>
+                </Route>
+            </Switch>
             <MainFooter/>
         </Router>
     );

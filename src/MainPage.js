@@ -1,10 +1,13 @@
 import Images from './Images/index';
 import './MainPage.css';
+import MainHeader from "./MainHeader";
 
 function MainPage() {
     return (
         <div className="main-page">
             <div className="First_Screen">
+
+                <MainHeader/>
 
                 <div className="Screen2 P1-S2">
                     <div className="window1 Screen2 X12000 X1600">

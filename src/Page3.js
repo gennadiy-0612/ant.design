@@ -1,10 +1,14 @@
 import Images from './Images/index';
 import './MainPage.css';
+import MainHeader from "./MainHeader";
+import {BrowserRouter as Router} from "react-router-dom";
 
 function MainPage() {
     return (
         <div className="page3 twofixed">
             <div className="First_Screen">
+
+                <MainHeader/>
 
                 <div className="Screen2">
                     <div className="window1 P2 S2-P2">
