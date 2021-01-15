@@ -20,12 +20,6 @@ body {
     transition: color, .7s;
 }
 
-.foot-li .in:hover {
-    background-color: #1f49e4;
-    transition: background-color, .7s;
-    border-radius: 56px;
-}
-
 /*Page2 start*/
 .twofixed .center {
     text-align: center;
@@ -3109,7 +3103,7 @@ body {
     border-radius: 26px;
 }
 
-.twofixed .in:hover {
+.in:hover {
     background-color: #3680F6;
     transition: background-color, .7s;
 }
