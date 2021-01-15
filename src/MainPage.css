@@ -21,7 +21,6 @@ body {
 }
 
 /*Page2 start*/
-
 .twofixed .center {
     text-align: center;
 }
@@ -3853,10 +3852,6 @@ body {
         margin: 15px 0 0;
     }
 
-    .page2 .S7.S71.dot-list.Advisor {
-        opacity: 1;
-    }
-
     .common-info::before {
         width: 1083px;
         height: 1210px;
@@ -7023,3 +7018,9 @@ foot-li > a {
 }
 
 /*Page5 finish*/
+
+
+.page3 .S7.S71.dot-list.Advisor,
+.page2 .S7.S71.dot-list.Advisor {
+    opacity: 1;
+}

@@ -4,7 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,21 +239,7 @@
       <workItem from="1610529022811" duration="16615000" />
       <workItem from="1610601557744" duration="518000" />
       <workItem from="1610653716997" duration="6902000" />
-      <workItem from="1610686751361" duration="10131000" />
-    </task>
-    <task id="LOCAL-00271" summary="all-fixed">
-      <created>1610046216193</created>
-      <option name="number" value="00271" />
-      <option name="presentableId" value="LOCAL-00271" />
-      <option name="project" value="LOCAL" />
-      <updated>1610046216193</updated>
-    </task>
-    <task id="LOCAL-00272" summary="all-fixed">
-      <created>1610046816902</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1610046816902</updated>
+      <workItem from="1610686751361" duration="12441000" />
     </task>
     <task id="LOCAL-00273" summary="all-fixed">
       <created>1610047862915</created>
@@ -583,7 +570,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610711813253</updated>
     </task>
-    <option name="localTasksCounter" value="320" />
+    <task id="LOCAL-00320" summary="2page">
+      <created>1610712279290</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1610712279291</updated>
+    </task>
+    <task id="LOCAL-00321" summary="fixed">
+      <created>1610712369662</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1610712369662</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -619,7 +620,6 @@
     <MESSAGE value="3page-added" />
     <MESSAGE value="4page-added" />
     <MESSAGE value="4page" />
-    <MESSAGE value="fixed" />
     <MESSAGE value="3pages-fixed" />
     <MESSAGE value="5page-added" />
     <MESSAGE value="dots-2-3-changed" />
@@ -629,13 +629,14 @@
     <MESSAGE value="4page-is-ready" />
     <MESSAGE value="5-photos" />
     <MESSAGE value="all-fixed" />
-    <MESSAGE value="2page" />
     <MESSAGE value="main-page-fixed" />
     <MESSAGE value="new-changes" />
     <MESSAGE value="changed-animation" />
     <MESSAGE value="corrections" />
     <MESSAGE value="test" />
     <MESSAGE value="separated-header-and-footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="separated-header-and-footer" />
+    <MESSAGE value="2page" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
 </project>
