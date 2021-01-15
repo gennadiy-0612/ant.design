@@ -34,7 +34,7 @@ export default function App() {
                     <Home/>
                 </Route>
             </Switch>
-            <Page2/><Page3/><Page4/><Page5/>
+            <Page2/>
             <MainFooter/>
         </Router>
     );
