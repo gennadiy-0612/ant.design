@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="2page">
-      <change afterPath="$PROJECT_DIR$/src/t.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFooter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Site.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Site.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -237,21 +236,7 @@
       <workItem from="1610529022811" duration="16615000" />
       <workItem from="1610601557744" duration="518000" />
       <workItem from="1610653716997" duration="6902000" />
-      <workItem from="1610686751361" duration="1276000" />
-    </task>
-    <task id="LOCAL-00263" summary="4page-fixed">
-      <created>1609918151224</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1609918151224</updated>
-    </task>
-    <task id="LOCAL-00264" summary="4page-fixed">
-      <created>1609928456052</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1609928456052</updated>
+      <workItem from="1610686751361" duration="3650000" />
     </task>
     <task id="LOCAL-00265" summary="dots">
       <created>1609947779730</created>
@@ -582,7 +567,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610665193288</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="separated-header-and-footer">
+      <created>1610692481293</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1610692481293</updated>
+    </task>
+    <task id="LOCAL-00313" summary="separated-header-and-footer">
+      <created>1610692493619</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1610692493619</updated>
+    </task>
+    <option name="localTasksCounter" value="314" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -610,7 +609,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="added-sorted-images" />
     <MESSAGE value="added-scale-hover" />
     <MESSAGE value="main-page-complete" />
     <MESSAGE value="fixed-layuot" />
@@ -635,6 +633,7 @@
     <MESSAGE value="changed-animation" />
     <MESSAGE value="corrections" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="separated-header-and-footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="separated-header-and-footer" />
   </component>
 </project>

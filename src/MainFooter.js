@@ -25,7 +25,7 @@ function MainFooter(props) {
           <li className="foot-li foot-li-head">Contact</li>
           <li className="foot-li opacity6"><a className="footA" href="mailto:info@infradeals.net">info@infradeals.net</a></li>
           <li className="foot-li opacity6"><a className="footA" href="tel:+23232323232"> + 23232323232</a></li>
-          <li className="foot-li"><a className="in"></a></li>
+          <li className="foot-li"><a href="/" className="in"></a></li>
         </ul>
       </div>
     </div>
