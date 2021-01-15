@@ -21,6 +21,7 @@ body {
 }
 
 /*Page2 start*/
+
 .twofixed .center {
     text-align: center;
 }
@@ -5514,9 +5515,11 @@ foot-li > a {
         padding: 14px 4% 0 5.8%;
         letter-spacing: -0.9px;
     }
-    .main-page .Sreen5--h3.S5{
+
+    .main-page .Sreen5--h3.S5 {
         padding-left: 3.5%;
     }
+
     .Screen5--description--content, .Screen5--description--content.S6c {
         max-width: 100%;
         padding: 76px 0 0 0;
