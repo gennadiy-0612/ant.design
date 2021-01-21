@@ -1,5 +1,5 @@
 import Images from './Images/index';
-import './MainPage.css';
+import './css/maincss/MainPage.css';
 import MainHeader from "./MainHeader";
 import {BrowserRouter as Router} from "react-router-dom";
 

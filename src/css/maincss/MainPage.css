@@ -58,7 +58,7 @@ body {
     width: 180px;
     height: 180px;
     background-repeat: no-repeat;
-    background-image: url('./Images/dots.svg');
+    background-image: url('../../Images/dots.svg');
 }
 
 .dots.Screen5--dots::after {
@@ -86,7 +86,7 @@ body {
 }
 
 .twofixed .P2-S5dashed::before, .twofixed .left-dashed::before {
-    background: url('./Images/dashed.png') center center repeat;
+    background: url('../../Images/dashed.png') center center repeat;
     content: '';
     position: absolute;
     top: -52%;
@@ -102,7 +102,7 @@ body {
 }
 
 .twofixed .P2-S5dashed::before {
-    background: url('./Images/linehorizont.png') center center repeat;
+    background: url('../../Images/linehorizont.png') center center repeat;
     height: 3px;
     width: 47%;
     bottom: -166px;
@@ -150,44 +150,44 @@ body {
 }
 
 .twofixed .global-network::before {
-    background: url('./Images/global-network.svg') #fff center center no-repeat;
+    background: url('../../Images/global-network.svg') #fff center center no-repeat;
 }
 
 .twofixed .bird::before {
-    background: url('./Images/bird.svg') #fff center center no-repeat;
+    background: url('../../Images/bird.svg') #fff center center no-repeat;
 }
 
 .twofixed .cursor::before {
-    background: url('./Images/cursor.svg') #fff center center no-repeat;
+    background: url('../../Images/cursor.svg') #fff center center no-repeat;
 }
 
 .twofixed .suitcase::before {
-    background: url('./Images/suitcase.svg') #fff center center no-repeat;
+    background: url('../../Images/suitcase.svg') #fff center center no-repeat;
 }
 
 .twofixed .phonebook::before {
-    background: url('./Images/phonebook.svg') #fff center center no-repeat;
+    background: url('../../Images/phonebook.svg') #fff center center no-repeat;
 }
 
 /*left*/
 .twofixed .chat::before {
-    background: url('./Images/chat.svg') #fff center center no-repeat;
+    background: url('../../Images/chat.svg') #fff center center no-repeat;
 }
 
 .twofixed .dotline::before {
-    background: url('./Images/dotline.svg') #fff center center no-repeat;
+    background: url('../../Images/dotline.svg') #fff center center no-repeat;
 }
 
 .twofixed .videocall::before {
-    background: url('./Images/videocall.svg') #fff center center no-repeat;
+    background: url('../../Images/videocall.svg') #fff center center no-repeat;
 }
 
 .twofixed .process::before {
-    background: url('./Images/process.svg') #fff center center no-repeat;
+    background: url('../../Images/process.svg') #fff center center no-repeat;
 }
 
 .twofixed .infrastructure::before {
-    background: url('./Images/infrastructure.svg') #fff center center no-repeat;
+    background: url('../../Images/infrastructure.svg') #fff center center no-repeat;
 }
 
 .twofixed .dots.P1-S2::after {
@@ -399,7 +399,7 @@ body {
 .twofixed .scroll-button.P2 {
     border-width: 0;
     box-shadow: none;
-    background: url('./Images/down-arrow.svg') 74% center no-repeat;
+    background: url('../../Images/down-arrow.svg') 74% center no-repeat;
     text-indent: -55px;
 }
 
@@ -913,7 +913,7 @@ body {
 }
 
 .twofixed .sector.normal.one.S7 {
-    background: url('./Images/connection.svg') 52.2% 26px no-repeat;
+    background: url('../../Images/connection.svg') 52.2% 26px no-repeat;
 }
 
 .twofixed .sector.normal.main-p.S7.P2-S7-remade {
@@ -921,27 +921,27 @@ body {
 }
 
 .twofixed .sector.normal.two.S7 {
-    background: url('./Images/opportunity.svg') 51.1% 33px no-repeat;
+    background: url('../../Images/opportunity.svg') 51.1% 33px no-repeat;
     position: relative;
     left: -0.65%;
 }
 
 .twofixed .sector.normal.three.S7 {
-    background: url('./Images/win.svg') 43.8% 30px no-repeat;
+    background: url('../../Images/win.svg') 43.8% 30px no-repeat;
     position: relative;
     left: -2.2%;
 }
 
 .twofixed .sector.normal.four.S7 {
-    background: url('./Images/trust.svg') 36% 29px no-repeat;
+    background: url('../../Images/trust.svg') 36% 29px no-repeat;
 }
 
 .twofixed .sector.normal.five.S7 {
-    background: url('./Images/security.svg') 54.4% 25px no-repeat;
+    background: url('../../Images/security.svg') 54.4% 25px no-repeat;
 }
 
 .twofixed .sector.normal.five.P3-S7-remade.S7 {
-    background: url('./Images/win.svg') 12.4% 37px no-repeat;
+    background: url('../../Images/win.svg') 12.4% 37px no-repeat;
 }
 
 .twofixed .Screen5--button-group.S7 {
@@ -993,7 +993,7 @@ body {
     width: 50px;
     height: 60px;
     display: block;
-    background: url('./Images/idn.png') center no-repeat;
+    background: url('../../Images/idn.png') center no-repeat;
     background-size: contain;
     flex-grow: 1;
     margin-top: -15px;
@@ -1189,7 +1189,7 @@ body {
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1199px) and (min-width: 1024px) {
     .twofixed .Screen2.P1-S2,
     .twofixed .Screen5.S5,
     .twofixed .Screen6.S6,
@@ -1705,7 +1705,7 @@ body {
     /*page5*/
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1600px) and (min-width: 1024px) {
     .twofixed .main-header-second-h2.head2.S3 {
         margin-top: -11px;
     }
@@ -2204,7 +2204,7 @@ body {
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1100px) and (min-width: 1024px) {
     .twofixed .main-header-second {
         padding: 0.7% 4%;
     }
@@ -2215,7 +2215,7 @@ body {
     }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1600px) and (min-width: 1024px) {
     .twofixed .normal.main-p.center.S4 {
         max-width: 1000px;
     }
@@ -2313,7 +2313,7 @@ body {
     }
 }
 
-@media (max-width: 1919px) {
+@media (max-width: 1919px) and (min-width: 1024px) {
     .twofixed .window1.P2.S2-P2 {
         padding: 4px 0 0 2%;
         flex: 0 0 50%;
@@ -2959,7 +2959,7 @@ body {
 }
 
 .twofixed .sector.normal.one.S7 {
-    background: url('./Images/connection.svg') 52.2% 26px no-repeat;
+    background: url('../../Images/connection.svg') 52.2% 26px no-repeat;
 }
 
 .twofixed .sector.normal.main-p.S7.P2-S7-remade {
@@ -2967,48 +2967,48 @@ body {
 }
 
 .twofixed .sector.normal.two.S7 {
-    background: url('./Images/opportunity.svg') 51.1% 33px no-repeat;
+    background: url('../../Images/opportunity.svg') 51.1% 33px no-repeat;
     position: relative;
     left: -0.65%;
 }
 
 .twofixed .sector.normal.three.S7 {
-    background: url('./Images/win.svg') 43.8% 30px no-repeat;
+    background: url('../../Images/win.svg') 43.8% 30px no-repeat;
     position: relative;
     left: -2.2%;
 }
 
 .twofixed .sector.normal.four.S7 {
-    background: url('./Images/trust.svg') 36% 29px no-repeat;
+    background: url('../../Images/trust.svg') 36% 29px no-repeat;
 }
 
 .twofixed .sector.normal.COMMUNICATION.S7 {
-    background: url('./Images/communication.svg') 36% 29px no-repeat;
+    background: url('../../Images/communication.svg') 36% 29px no-repeat;
 }
 
 .twofixed .sector.normal.five.S7 {
-    background: url('./Images/security.svg') 54.4% 25px no-repeat;
+    background: url('../../Images/security.svg') 54.4% 25px no-repeat;
 }
 
 .twofixed .sector.normal.five.supp.S7 {
-    background: url('./Images/support.svg') 12.4% 37px no-repeat;
+    background: url('../../Images/support.svg') 12.4% 37px no-repeat;
 }
 
 .twofixed .sector.normal.five.P3-S7-remade.S7 {
-    background: url('./Images/win.svg') 12.4% 37px no-repeat;
+    background: url('../../Images/win.svg') 12.4% 37px no-repeat;
 }
 
 /*Page3*/
 .twofixed .sector.normal.COMMUNICATION.S7.exchange-P3 {
-    background: url('./Images/exchange.svg') 12.4% 37px no-repeat;
+    background: url('../../Images/exchange.svg') 12.4% 37px no-repeat;
 }
 
 .twofixed .sector.normal.two.S7.communication-P3 {
-    background: url('./Images/communication.svg') 12.4% 37px no-repeat;
+    background: url('../../Images/communication.svg') 12.4% 37px no-repeat;
 }
 
 .twofixed .sector.normal.five.supp.S7.winwin-P3 {
-    background: url('./Images/win.svg') 12.4% 37px no-repeat;
+    background: url('../../Images/win.svg') 12.4% 37px no-repeat;
 }
 
 .twofixed .Screen5--button-group.S7 {
@@ -3057,7 +3057,7 @@ body {
     width: 50px;
     height: 60px;
     display: block;
-    background: url('./Images/idn.png') center no-repeat;
+    background: url('../../Images/idn.png') center no-repeat;
     background-size: contain;
     flex-grow: 1;
     margin-top: -15px;
@@ -3098,7 +3098,7 @@ body {
     width: 52px;
     height: 52px;
     display: block;
-    background: url('./Images/in.svg') center no-repeat;
+    background: url('../../Images/in.svg') center no-repeat;
     background-size: contain;
     border-radius: 26px;
 }
@@ -3112,7 +3112,7 @@ body {
     opacity: 0.6;
 }
 
-@media (max-width: 1650px) {
+@media (max-width: 1650px) and (min-width: 1024px) {
     .twofixed .main-header-dots.dots {
         width: 600px;
         height: 572px;
@@ -3142,7 +3142,7 @@ body {
     /*page4*/
 }
 
-@media (max-width: 1850px) {
+@media (max-width: 1850px) and (min-width: 1024px) {
 
     .twofixed .Screen5--button-group, .twofixed .Screen5--button-group.S6bg {
         max-width: none;
@@ -3437,7 +3437,7 @@ body {
     width: 210px;
     height: 210px;
     bottom: -47px;
-    background-image: url('./Images/dots.svg');
+    background-image: url('../../Images/dots.svg');
 }
 
 .twofixed .illustrate.P2 {
@@ -3482,7 +3482,7 @@ body {
     padding: 0 0 0 9.3%;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1600px) and (min-width: 1024px) {
     .twofixed .First_Screen,
     .twofixed .Screen5.P2.P2-S5dashed,
     .twofixed .Screen6.P2.P2-S5dashed,
@@ -3876,7 +3876,7 @@ body {
 }
 
 
-@media (max-width: 1199px) {
+@media (max-width: 1199px) and (min-width: 1024px) {
     .twofixed .First_Screen,
     .twofixed .Screen5.P2.P2-S5dashed,
     .twofixed .Screen6.P2.P2-S5dashed,
@@ -4065,31 +4065,31 @@ body {
 
 /*3page*/
 .twofixed .arrowsquare::before {
-    background: url('./Images/arrowsquare.svg') #fff center center no-repeat;
+    background: url('../../Images/arrowsquare.svg') #fff center center no-repeat;
 }
 
 .twofixed .papartext::before {
-    background: url('./Images/papartext.svg') #fff center center no-repeat;
+    background: url('../../Images/papartext.svg') #fff center center no-repeat;
 }
 
 .twofixed .googleforms::before {
-    background: url('./Images/googleforms.svg') #fff center center no-repeat;
+    background: url('../../Images/googleforms.svg') #fff center center no-repeat;
 }
 
 .twofixed .notificationdot::before {
-    background: url('./Images/notificationdot.svg') #fff center center no-repeat;
+    background: url('../../Images/notificationdot.svg') #fff center center no-repeat;
 }
 
 .twofixed .favorite::before {
-    background: url('./Images/favorite.svg') #fff center center no-repeat;
+    background: url('../../Images/favorite.svg') #fff center center no-repeat;
 }
 
 .twofixed .target::before {
-    background: url('./Images/target.svg') #fff center center no-repeat;
+    background: url('../../Images/target.svg') #fff center center no-repeat;
 }
 
 .twofixed .ipo::before {
-    background: url('./Images/ipo.svg') #fff center center no-repeat;
+    background: url('../../Images/ipo.svg') #fff center center no-repeat;
 }
 
 .twofixed .page3.window1-descript.P2.S2-P2 {
@@ -4135,7 +4135,7 @@ body {
     position: absolute;
     left: -50px;
     bottom: -38px;
-    background-image: url("./Images/dots.svg");
+    background-image: url("../../Images/dots.svg");
     background-size: contain;
     z-index: -1;
     width: 180px;
@@ -4344,7 +4344,7 @@ body {
 .login.S2.invert.P2-S2 {
     border-width: 0;
     box-shadow: none;
-    background: url('./Images/down-arrow.svg') 74% center no-repeat;
+    background: url('../../Images/down-arrow.svg') 74% center no-repeat;
     text-indent: -55px;
 }
 
@@ -4540,21 +4540,21 @@ body {
 }
 
 .sector.normal.one {
-    background: url("./Images/delivery-truck.svg") 52.6% 71px no-repeat;
+    background: url("../../Images/delivery-truck.svg") 52.6% 71px no-repeat;
     left: -2px;
 }
 
 .sector.normal.two {
-    background: url("./Images/flash.svg") 54.6% 64px no-repeat;
+    background: url("../../Images/flash.svg") 54.6% 64px no-repeat;
     left: -22px;
 }
 
 .sector.normal.three {
-    background: url("./Images/satellite-dish.svg") 51.7% 62px no-repeat;
+    background: url("../../Images/satellite-dish.svg") 51.7% 62px no-repeat;
 }
 
 .sector.normal.four {
-    background: url("./Images/building.svg") 50.2% 59px no-repeat;
+    background: url("../../Images/building.svg") 50.2% 59px no-repeat;
     left: -5px;
 }
 
@@ -4576,7 +4576,7 @@ body {
 
 .selectors--all::after {
     content: '';
-    background: url("./Images/right-chevron.svg") center center no-repeat;
+    background: url("../../Images/right-chevron.svg") center center no-repeat;
     display: block;
     width: 10px;
     height: 16px;
@@ -4807,7 +4807,7 @@ body {
 
 .Screen7 {
     padding: 161px 0 0;
-    background: url("./Images/why-idn.png") center no-repeat;
+    background: url("../../Images/why-idn.png") center no-repeat;
     background-size: cover;
 }
 
@@ -4927,7 +4927,7 @@ body {
 }
 
 .sector.normal.one.S7 {
-    background: url("./Images/connection.svg") 52.2% 26px no-repeat;
+    background: url("../../Images/connection.svg") 52.2% 26px no-repeat;
 }
 
 .sector.normal.main-p.S7.P2-S7-remade {
@@ -4935,27 +4935,27 @@ body {
 }
 
 .sector.normal.two.S7 {
-    background: url("./Images/opportunity.svg") 51.1% 33px no-repeat;
+    background: url("../../Images/opportunity.svg") 51.1% 33px no-repeat;
     position: relative;
     left: -0.65%;
 }
 
 .sector.normal.three.S7 {
-    background: url("./Images/win.svg") 43.8% 30px no-repeat;
+    background: url("../../Images/win.svg") 43.8% 30px no-repeat;
     position: relative;
     left: -2.2%;
 }
 
 .sector.normal.four.S7 {
-    background: url("./Images/trust.svg") 36% 29px no-repeat;
+    background: url("../../Images/trust.svg") 36% 29px no-repeat;
 }
 
 .sector.normal.five.S7 {
-    background: url("./Images/security.svg") 54.4% 25px no-repeat;
+    background: url("../../Images/security.svg") 54.4% 25px no-repeat;
 }
 
 .sector.normal.five.P3-S7-remade.S7 {
-    background: url("./Images/win.svg") 12.4% 37px no-repeat;
+    background: url("../../Images/win.svg") 12.4% 37px no-repeat;
 }
 
 .Screen5--button-group.S7 {
@@ -5026,7 +5026,7 @@ body {
     width: 50px;
     height: 60px;
     display: block;
-    background: url("./Images/idn.png") center no-repeat;
+    background: url("../../Images/idn.png") center no-repeat;
     background-size: contain;
     flex-grow: 1;
     margin-top: -15px;
@@ -5069,7 +5069,7 @@ foot-li > a {
     height: 52px;
     display: block;
     border-radius: 26px;
-    background: url("./Images/in.svg") center no-repeat;
+    background: url("../../Images/in.svg") center no-repeat;
     background-size: contain;
 }
 
@@ -5237,7 +5237,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1199px) and (min-width: 1024px) {
     .Screen2.P1-S2,
     .Screen5.S5,
     .Screen6.S6,
@@ -5428,7 +5428,7 @@ foot-li > a {
         height: 180px;
         bottom: -46px;
         left: -29px;
-        background-image: url("./Images/dots.svg");
+        background-image: url("../../Images/dots.svg");
     }
 
     .back-color::after {
@@ -5760,8 +5760,7 @@ foot-li > a {
     /*page4*/
 }
 
-@media (max-width: 1300px) {
-
+@media (max-width: 1300px) and (min-width: 1024px) {
 
     /*page4*/
     .page4 .head3 {
@@ -5782,7 +5781,7 @@ foot-li > a {
     /*page4*/
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1600px) and (min-width: 1024px) {
     .main-header-second-h2.head2.S3 {
         margin-top: -11px;
     }
@@ -6322,7 +6321,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1100px) and (min-width: 1024px) {
     .main-header-second {
         padding: 0.7% 4%;
     }
@@ -6333,7 +6332,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1600px) and (min-width: 1024px) {
     .normal.main-p.center.S4 {
         max-width: 1000px;
     }
@@ -6949,7 +6948,7 @@ foot-li > a {
 .linkedinlogo {
     width: 52px;
     height: 52px;
-    background: url('./Images/linkedinlogo.svg') center no-repeat;
+    background: url('../../Images/linkedinlogo.svg') center no-repeat;
     margin: 10px 0 0;
 }
 
@@ -7023,4 +7022,72 @@ foot-li > a {
 .page3 .S7.S71.dot-list.Advisor,
 .page2 .S7.S71.dot-list.Advisor {
     opacity: 1;
+}
+
+@media (max-width: 1024px) {
+    .First_Screen {
+        height: auto;
+    }
+
+    .main-top-nav {
+        flex-direction: column;
+    }
+
+    .Screen5--button-group, .window1--button-group {
+        flex-direction: column;
+    }
+
+    .window1-h {
+        font: normal normal 600 34px/50px 'Poppins', sans-serif;
+    }
+
+    .main-header {
+        padding: 0 1%;
+    }
+
+    .main-p {
+        font: italic normal 300 18px/27px 'Poppins', sans-serif;
+    }
+
+    .main-post-link {
+        font: italic normal 700 18px/27px 'Poppins', sans-serif;
+    }
+
+    .main-page .window1 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .Sreen5--h3 {
+        font: normal normal 600 20px/30px 'Poppins', sans-serif;
+    }
+
+    .Screen5--strong {
+        font: normal normal 700 20px/30px 'Poppins', sans-serif;
+    }
+
+    .Screen5--p {
+        font: normal normal 400 18px/24px 'Poppins', sans-serif;
+    }
+
+    .Screen5--description--content {
+        max-width: initial;
+    }
+
+    .Screen5--w1 {
+        left: 0;
+    }
+
+    .main-page .dots {
+        width: 100%;
+        height: 100%;
+        left: 0;
+    }
+
+    .first-col-img,
+    .main-page .illustrate {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 }
