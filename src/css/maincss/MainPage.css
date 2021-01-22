@@ -4798,7 +4798,7 @@ body {
     bottom: auto;
     top: -38px;
 }
-
+.Screen5--description--content,
 .Screen5--description--content.S6c {
     max-width: 100%;
     padding: 52px 0 0;
@@ -7194,12 +7194,16 @@ foot-li > a {
         margin-top: 0;
     }
 
-    .main-page .window1, .window2 {
+    .main-page .window1, .window2, .window1.Screen6--w2.Screen5--w2.S6 {
         flex: 0 0 auto;
-        max-width: initial;
+        max-width: 100%;
         margin: 0 0 0 16px;
         padding: 0;
         left: 0;
+    }
+
+    .Screen5--decription.S5.S52 {
+        width: auto;
     }
 
     .Sreen5--h3 {
@@ -7212,10 +7216,19 @@ foot-li > a {
 
     .Screen5--p.P5-S6::before, .Screen5--strong::after {
         box-sizing: border-box;
+        left: 0;
+        height: 20px;
+        width: 20px;
     }
 
     .main-page .Screen5--p::after {
-        left: 7%;
+        left: 9px;
+        width: 1px;
+    }
+
+    .Screen5--p.S5:last-child::after {
+        left: 8px;
+        width: 5px;
     }
 
     .chevron {
@@ -7250,7 +7263,6 @@ foot-li > a {
         height: 110px;
     }
 
-    .illustrate.Screen5-img,
     .illustrate {
         width: 100%;
         height: 100%;
@@ -7270,6 +7282,7 @@ foot-li > a {
         letter-spacing: 0;
     }
 
+    .buttonIDN.big.P1-S7,
     .buttonIDN.big {
         width: 130px;
         height: 40px;
@@ -7316,7 +7329,6 @@ foot-li > a {
         height: 1px;
     }
 
-    .main-page .dots.Screen5--dots,
     .main-header-dots.dots {
         width: 92.5%;
         left: 0;
@@ -7384,7 +7396,7 @@ foot-li > a {
         justify-content: center;
     }
 
-    .main-page .center.sector {
+    .main-page .center.sector, .main-page .center.sector.S7 {
         flex: 0 0 109px;
         max-width: 109px;
         padding-top: 75px;
@@ -7393,6 +7405,9 @@ foot-li > a {
         font: normal normal 500 14px/16px 'Poppins', sans-serif;
         background-size: 30% 30%;
         background-position: center 39%;
+    }
+
+    .main-page .center.sector.S7 {
     }
 
     .selectors--all {
@@ -7409,9 +7424,12 @@ foot-li > a {
         font: normal normal 400 14px/24px 'Poppins', sans-serif;
     }
 
-    .main-page .dots.Screen5--dots {
+    .main-page .dots.Screen5--dots, .main-page .dots.Screen5--dots {
         width: 330px;
         height: 345px;
+        min-height: 345px;
+        margin: auto;
+        left: 0;
     }
 
     .dots.Screen5--dots::after {
@@ -7421,11 +7439,58 @@ foot-li > a {
 
     .illustrate.Screen5-img {
         height: 315px;
-        width: 300px;
+        width: 92%;
+        margin: 40px auto 0 0;
+        border-radius: 15px;
+        object-fit: cover;
     }
 
-    .Screen6,
-    .Screen7,
+    .dots.Screen5--dots::after, .dots.Screen5--dots.Screen6--dots::after {
+        right: 0;
+        bottom: -34px;
+        left: auto;
+        top: auto;
+        width: 115px;
+        height: 110px;
+    }
+
+    /*.Screen6,*/
+    .Screen6 {
+        flex-wrap: wrap-reverse;
+    }
+
+    .window2.Screen6--w2.Screen5--w1.S6 {
+        max-width: initial;
+        flex-basis: auto;
+        margin: auto;
+    }
+
+    .main-page .window2.Screen6--w2.Screen5--w1.S6P {
+    }
+
+    /*.Screen7,*/
+    .Screen7 {
+    }
+
+    .Screen7--h2 {
+        letter-spacing: 0;
+        font: normal normal 600 24px/32px 'Poppins', sans-serif;
+    }
+
+    .sectors.S7 {
+        max-width: 95%;
+    }
+
+    .Screen7--p {
+        display: none;
+    }
+
+    .sector.normal.center.S7, .window1--description--button.S7 {
+        font: normal normal 500 14px/16px 'Poppins', sans-serif;
+        letter-spacing: 0;
+        background-size: 39% 39%;
+    }
+
     .Screen8,
     .Screen9 {
         display: none;
