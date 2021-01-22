@@ -11,6 +11,8 @@ function MainHeader(props) {
                 <Link className="logo-link" to="/"><img className="idnlogo" src={Images.logo} alt="t"/></Link>
             </div>
             <input type="checkbox" className="burger-shower"/>
+            <div className="lines-menu"></div>
+            <div className="lines-x"></div>
             <div className="top-horizon-menu X1024-1200 X1200-1600">
                 <nav className="main-top-nav">
                     <NavLink className="main-top-nav-anchor" to="/advisor">Senior Advisor</NavLink>
