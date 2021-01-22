@@ -2,6 +2,7 @@ import Images from './Images/index';
 import './css/maincss/MainPage.css';
 import MainHeader from "./MainHeader";
 import {BrowserRouter as Router} from "react-router-dom";
+import MainFooter from "./MainFooter";
 
 function MainPage() {
     return (
@@ -23,6 +24,7 @@ function MainPage() {
                     </div>
                 </div>
             </div>
+
             <div className="grey">
                 <div className="Screen6 S6 P1-S6 P5-S6 P5-S6">
                     <div className="window2 Screen6--w2 Screen5--w1 S6 P5-S6">
@@ -72,12 +74,13 @@ function MainPage() {
                 <p className="text-big text-S2-P4 P4 S2 center foot-head P5-our-team P5">IDN is backed by dozens of prominent <span className="main-post-link P2 S2-P2 text-big text-S2-P4 P4 S2 center P5-our-team"> Senior Executives</span> across Europe</p>
             </div>
 
-
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8 P4-S8">Do you want to learn more about<br/>
                     our mission or our team?</h2>
                 <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Get In touch</a>
             </div>
+
+            <MainFooter/>
         </div>
     );
 }

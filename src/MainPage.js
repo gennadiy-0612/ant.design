@@ -1,6 +1,7 @@
 import Images from './Images/index';
 import './css/maincss/MainPage.css';
 import MainHeader from "./MainHeader";
+import MainFooter from "./MainFooter";
 
 function MainPage() {
     return (
@@ -166,6 +167,7 @@ function MainPage() {
                 <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Get
                     in Touch</a>
             </div>
+            <MainFooter/>
         </div>
     );
 }

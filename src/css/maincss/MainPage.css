@@ -4798,7 +4798,7 @@ body {
     bottom: auto;
     top: -38px;
 }
-.Screen5--description--content,
+
 .Screen5--description--content.S6c {
     max-width: 100%;
     padding: 52px 0 0;
@@ -7028,61 +7028,20 @@ foot-li > a {
     opacity: 1;
 }
 
-@media (max-width: 1024px) {
-    /*.First_Screen {*/
-    /*    height: auto;*/
-    /*}*/
-    /*.main-top-nav {*/
-    /*    flex-direction: column;*/
-    /*}*/
-    /*.Screen5--button-group, .window1--button-group {*/
-    /*    flex-direction: column;*/
-    /*}*/
-    /*.window1-h {*/
-    /*    font: normal normal 600 34px/50px 'Poppins', sans-serif;*/
-    /*}*/
-    /*.main-header {*/
-    /*    padding: 0 1%;*/
-    /*}*/
-    /*.main-p {*/
-    /*    font: italic normal 300 18px/27px 'Poppins', sans-serif;*/
-    /*}*/
-    /*.main-post-link {*/
-    /*    font: italic normal 700 18px/27px 'Poppins', sans-serif;*/
-    /*}*/
-    /*.main-page .window1 {*/
-    /*    max-width: 50%;*/
-    /*    flex: 0 0 50%;*/
-    /*}*/
-    /*.Sreen5--h3 {*/
-    /*    font: normal normal 600 20px/30px 'Poppins', sans-serif;*/
-    /*}*/
-    /*.Screen5--strong {*/
-    /*    font: normal normal 700 20px/30px 'Poppins', sans-serif;*/
-    /*}*/
-    /*.Screen5--p {*/
-    /*    font: normal normal 400 18px/24px 'Poppins', sans-serif;*/
-    /*}*/
-    /*.Screen5--description--content {*/
-    /*    max-width: initial;*/
-    /*}*/
-    /*.Screen5--w1 {*/
-    /*    left: 0;*/
-    /*}*/
-    /*.main-page .dots {*/
-    /*    width: 100%;*/
-    /*    height: 100%;*/
-    /*    left: 0;*/
-    /*}*/
-    /*.first-col-img,*/
-    /*.main-page .illustrate {*/
-    /*    width: 100%;*/
-    /*    height: 100%;*/
-    /*    object-fit: cover;*/
-    /*}*/
-}
+@media (max-width: 1023px) {
+    .main-page .First_Screen,
+    .twofixed .First_Screen,
+    .main-header.S3,
+    .main-header.S3,
+    .main-page .Screen5.S5,
+    .twofixed .Screen5.S5,
+    .main-page .Screen6.S6,
+    .twofixed .Screen6.S6,
+    .main-page .Screen9.P1-S9,
+    .twofixed .Screen9.P1-S9 {
+        margin: 0 16px;
+    }
 
-@media (max-width: 600px) {
     .First_Screen {
         height: 100vh;
     }
@@ -7093,8 +7052,8 @@ foot-li > a {
         height: 35px;
         width: 35px;
         position: absolute;
-        right: 15px;
-        top: 15px;
+        right: 14px;
+        top: 11px;
     }
 
     .burger-shower + .lines-menu {
@@ -7115,36 +7074,6 @@ foot-li > a {
         transition: opacity 1s;
     }
 
-    .burger-shower {
-        z-index: 1;
-        display: block;
-        position: absolute;
-        right: 15px;
-        top: 15px;
-        height: 35px;
-        width: 35px;
-        border-width: 0;
-        margin: 0;
-        opacity: 0;
-    }
-
-    .top-horizon-menu {
-        background-color: #ffffff;
-        margin: 0 0 auto;
-        padding: 0 0 0 33%;
-        height: 100vh;
-    }
-
-    .main-top-nav {
-        padding: 29vh 0 0;
-        flex-direction: column;
-    }
-
-    .main-top-nav-anchor {
-        padding: 13px 40px;
-        font-size: 16px;
-    }
-
     .burger-shower + .lines-menu + .lines-x + .top-horizon-menu {
         display: none;
     }
@@ -7153,53 +7082,107 @@ foot-li > a {
         display: block;
     }
 
-    .burger-shower:checked + .top-horizon-menu {
+    .burger-shower {
+        z-index: 1;
         display: block;
+        position: absolute;
+        right: 15px;
+        top: 11px;
+        height: 35px;
+        width: 35px;
+        border-width: 0;
+        margin: 0;
+        opacity: 0;
     }
 
+    .top-horizon-menu {
+        background-color: #00000075;
+        margin: 0 0 auto;
+        padding: 0 0 0 33%;
+        height: 100vh;
+    }
+
+    .twofixed .main-top-nav,
+    .main-top-nav {
+        padding: 29vh 0 0;
+        flex-direction: column;
+        background-color: #fff;
+    }
+
+    .twofixed .main-top-nav-anchor,
+    .main-top-nav-anchor {
+        padding: 13px 40px;
+        font-size: 16px;
+    }
+
+
     /*burger*/
+    .Header {
+        z-index: 2;
+        position: absolute;
+        height: 12.3vh;
+    }
+
+    .twofixed .Header--logo,
     .Header--logo {
         top: 0;
         left: 0;
     }
 
+    .twofixed .logo-link,
     .logo-link {
         height: 35px;
     }
 
     .idnlogo {
         height: 25px;
-        margin: 15px 0 0 15px;
+        margin: 16px 0 0 16px;
     }
 
+    .twofixed .login.buttonIDN.back-slider.top-login,
     .login.buttonIDN.back-slider.top-login {
         height: 40px;
         width: 130px;
-        margin: 14px auto 0 17%;
+        margin: 14px auto 0 40px;
         font: normal normal 500 14px/40px 'Poppins', sans-serif;
     }
 
+    .twofixed .login-block,
     .login-block {
         padding: 0;
+        background-color: #fff;
+        height: 50vh;
     }
 
     .Screen2.P1-S2 {
         flex-direction: column;
         margin: 0;
-        top: -60px;
+        top: 12.3vh;
     }
 
     .back-color {
-        padding-bottom: 40px;
+        padding-bottom: 55px;
         margin-top: 0;
     }
 
     .main-page .window1, .window2, .window1.Screen6--w2.Screen5--w2.S6 {
         flex: 0 0 auto;
-        max-width: 100%;
-        margin: 0 0 0 16px;
         padding: 0;
         left: 0;
+    }
+
+    .twofixed .Screen2 .window2,
+    .main-page .window1,
+    .window2 {
+        max-width: 94%;
+    }
+
+    .window2.Screen5--w2, .window2.Screen6--w2.Screen5--w1.S6 {
+        max-width: 100%;
+    }
+
+    .window1.Screen6--w2.Screen5--w2.S6 {
+        max-width: 100%;
     }
 
     .Screen5--decription.S5.S52 {
@@ -7208,6 +7191,8 @@ foot-li > a {
 
     .Sreen5--h3 {
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
+        padding: 0;
+        margin: 6px 0 0;
     }
 
     .Screen5--strong {
@@ -7245,16 +7230,19 @@ foot-li > a {
     .window1-descript {
         font: normal normal 400 12px/24px 'Poppins', sans-serif;
         letter-spacing: 0;
-        margin: 15px 0 0;
+        margin: 2.5vh 0 0;
+        padding: 0;
     }
 
+    .twofixed .dots.topPhoto,
     .dots {
         left: 0;
         max-height: 200px;
         height: 200px;
-        width: 88%;
+        width: 98%;
     }
 
+    .twofixed .dots::after,
     .dots.P1-S2::after {
         right: -28px;
         left: auto;
@@ -7263,17 +7251,34 @@ foot-li > a {
         height: 110px;
     }
 
+    .page2.twofixed .illustrate,
+    .page3.twofixed .illustrate,
     .illustrate {
         width: 100%;
         height: 100%;
-        margin: 40px auto 0 0;
         border-radius: 15px;
         object-fit: cover;
     }
 
+    .twofixed .window1--button-group.P2.P2-S2,
     .window1--button-group {
-        margin: 67px auto 0 0;
-        width: 82.7%;
+        margin: 4vh auto 0 0;
+        width: auto;
+        min-width: 100%;
+        justify-content: left;
+    }
+
+    .window1--button-group.Screen5--button-group,
+    .Screen5--button-group.S6bg {
+        margin: 10px auto 0 0;
+        width: auto;
+        min-width: 100%;
+        justify-content: flex-start;
+    }
+
+    .twofixed .window1--description,
+    .window1--description {
+        margin: 0 16px 24px 0;
     }
 
     .window1--description--button {
@@ -7282,6 +7287,8 @@ foot-li > a {
         letter-spacing: 0;
     }
 
+    .twofixed .buttonIDN.big,
+    .back-slider.buttonIDN.white.decide,
     .buttonIDN.big.P1-S7,
     .buttonIDN.big {
         width: 130px;
@@ -7292,31 +7299,38 @@ foot-li > a {
     /*.Screen2,*/
     /*.Screen3,*/
     .Screen3.main {
-        margin: 0;
         width: auto;
+        padding: 0 0 20px;
     }
 
     .main-header {
-        padding: 64px 0 0;
-        margin: 0 15px;
+        padding: 0 0 50px;
         flex-direction: column-reverse;
     }
 
     .main-header-second {
-        padding: 0;
+        padding: 35px 0 0;
     }
 
+    .window1.Screen5--w1 {
+        max-width: 100%;
+    }
+
+    .Screen5--decription {
+        padding: 30px 0 0;
+    }
+
+    .twofixed .main-header-second-h2.head2.P2.S2-P2,
     .main-header-second-h2.head2, .main-header-second-h2.head2 {
         font: normal normal 600 12px/24px 'Poppins', sans-serif;
+        padding: 15px 0 0;
+        letter-spacing: 0;
+        margin: 0;
     }
 
     .main-p {
         font: italic normal 400 20px/32px 'Poppins', sans-serif;
         margin: 25px 0 0;
-    }
-
-    .main-p br {
-        display: contents; /*//////////////////////////////////*/
     }
 
     .main-post-link {
@@ -7329,33 +7343,19 @@ foot-li > a {
         height: 1px;
     }
 
-    .main-header-dots.dots {
-        width: 92.5%;
-        left: 0;
-        height: 200px;
-        margin: 40px 0 0;
-    }
-
     .main-header-dots.dots::after {
+        right: -11.7%;
+        bottom: -7%;
         left: auto;
-        right: -28px;
-        height: 110px;
-        width: 115px;
-        bottom: -28px;
-    }
-
-    .first-col-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        position: initial;
-        margin: auto;
-        border-radius: 15px;
+        top: auto;
+        width: 40%;
+        height: 31%;
+        background-position: center;
     }
 
     /*.Screen4,*/
     .Screen4 {
-        padding: 120px 0 0;
+        padding: 35px 0 0;
     }
 
     .normal.main-p.center.S4 {
@@ -7363,6 +7363,7 @@ foot-li > a {
         max-width: 91%;
         margin: 27px auto 0;
         letter-spacing: 0;
+        padding: 0;
     }
 
     .main-post-link.frame4 {
@@ -7370,12 +7371,17 @@ foot-li > a {
         letter-spacing: 0;
     }
 
-    .main-page .main-post-link:before {
-        bottom: -17px;
-        height: 2px;
-        width: 49%;
+    .main-post-link.frame4.center::before {
         margin: auto;
-        left: 0;
+        left: 10%;
+        right: 10%;
+        width: 53%;
+    }
+
+    .main-page .main-post-link:before {
+        bottom: -8px;
+        height: 2px;
+        width: 59%;
     }
 
     .back-color::after, .back-color::before {
@@ -7389,6 +7395,10 @@ foot-li > a {
         max-width: 83%;
     }
 
+    .main-p.cover {
+        padding: 36px 0 6px;
+    }
+
     .sectors {
         max-width: 83%;
         display: flex;
@@ -7399,7 +7409,7 @@ foot-li > a {
     .main-page .center.sector, .main-page .center.sector.S7 {
         flex: 0 0 109px;
         max-width: 109px;
-        padding-top: 75px;
+        padding-top: 73px;
         margin: 0;
         left: auto;
         font: normal normal 500 14px/16px 'Poppins', sans-serif;
@@ -7408,10 +7418,26 @@ foot-li > a {
     }
 
     .main-page .center.sector.S7 {
+        margin: 0 0 20px;
+    }
+
+    .back-color.S7 {
+        padding: 0;
     }
 
     .selectors--all {
         font: normal normal 700 14px/20px 'Poppins', sans-serif;
+    }
+
+    .window1--button-group.Screen5--button-group.S7 {
+        justify-content: space-around;
+        padding: 0 0 48px;
+        margin: 0;
+    }
+
+    .window1--description--button.S7 {
+        margin: 22px 0 9px;
+        padding: 0;
     }
 
     /*.Screen5,*/
@@ -7420,15 +7446,24 @@ foot-li > a {
         margin-top: 0;
     }
 
-    .Screen5--p {
-        font: normal normal 400 14px/24px 'Poppins', sans-serif;
+    .Screen5--description--content, .Screen5--description--content.S6c {
+        max-width: 100%;
+        padding: 24px 0 0;
     }
 
-    .main-page .dots.Screen5--dots, .main-page .dots.Screen5--dots {
-        width: 330px;
-        height: 345px;
-        min-height: 345px;
-        margin: auto;
+    .Screen5--p {
+        font: normal normal 400 14px/24px 'Poppins', sans-serif;
+        padding: 6px 0 26px 11.5%;
+    }
+
+    .main-header-dots.dots,
+    .main-page .dots.Screen5--dots,
+    .main-page .dots.Screen5--dots {
+        width: 92.6%;
+        height: auto;
+        min-height: auto;
+        max-height: initial;
+        margin: 0;
         left: 0;
     }
 
@@ -7437,21 +7472,23 @@ foot-li > a {
         bottom: -45px;
     }
 
+    .first-col-img,
     .illustrate.Screen5-img {
-        height: 315px;
-        width: 92%;
-        margin: 40px auto 0 0;
-        border-radius: 15px;
-        object-fit: cover;
+        height: auto;
+        width: 100%;
+        margin: 20px auto 0 0;
+        border-radius: 5px;
+        object-fit: scale-down;
+        left: 0;
     }
 
     .dots.Screen5--dots::after, .dots.Screen5--dots.Screen6--dots::after {
-        right: 0;
-        bottom: -34px;
+        right: -11.7%;
+        bottom: -7%;
         left: auto;
         top: auto;
-        width: 115px;
-        height: 110px;
+        width: 40%;
+        height: 31%;
     }
 
     /*.Screen6,*/
@@ -7459,22 +7496,24 @@ foot-li > a {
         flex-wrap: wrap-reverse;
     }
 
-    .window2.Screen6--w2.Screen5--w1.S6 {
-        max-width: initial;
-        flex-basis: auto;
-        margin: auto;
+    .main-page .Screen6.S6 {
+        margin: 15px 16px 44px;
     }
 
-    .main-page .window2.Screen6--w2.Screen5--w1.S6P {
+    .window2.Screen6--w2.Screen5--w1.S6 {
+        flex-basis: auto;
+        margin: 0;
     }
 
     /*.Screen7,*/
     .Screen7 {
+        padding: 0;
     }
 
     .Screen7--h2 {
         letter-spacing: 0;
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
+        padding: 50px 0 14px;
     }
 
     .sectors.S7 {
@@ -7491,8 +7530,112 @@ foot-li > a {
         background-size: 39% 39%;
     }
 
-    .Screen8,
-    .Screen9 {
+    /*.Screen8,*/
+    .Screen8 {
+        padding: 0 0 64px;
+    }
+
+    .Screen7--h2.S8 {
+        font: normal normal 600 24px/32px 'Poppins', sans-serif;
+        padding: 65px 0 0;
+        max-width: 72%;
+        margin: auto;
+        letter-spacing: 0;
+    }
+
+    .login.buttonIDN.decide {
+        margin: 23px auto 0;
+    }
+
+    /*.Screen9 {*/
+    .main-page .Screen9, .twofixed .Screen9 {
+        display: flex;
+        flex-direction: column;
+        margin: 37px 16px 0;
+        padding: 0;
+    }
+
+    .foot-ul {
+        margin: 0 0 17px;
+    }
+
+    .foot-li.foot-li-head {
+        font: normal normal 600 16px/24px 'Poppins', sans-serif;
+        padding: 7px 0;
+    }
+
+    .foot-li.opacity6 {
+        display: inline;
+        margin: 0 20px 0 0;
+    }
+
+    .footA, .foot-li.opacity6 {
+        font: normal normal 400 14px/24px 'Poppins', sans-serif;
+        letter-spacing: 0;
+    }
+
+    .idn-img {
+        left: -2px;
+        width: 60px;
+        margin-top: 23px;
+    }
+
+    .foot-lists {
+        flex-direction: column;
+        right: 0;
+    }
+
+    .in {
+        margin: 21px 0 0;
+    }
+
+    /*Page2*/
+    /*.twofixed .First_Screen,*/
+    .twofixed .Screen2 {
+        display: block;
+        margin: auto 0;
+    }
+
+    .twofixed .top-horizon-menu {
+        margin-top: 0;
+    }
+
+    .main-top-nav .active::after {
+        width: 46%;
+        left: 40px;
+        right: auto;
+    }
+
+    /*.twofixed .First_Screen,*/
+    .twofixed .window2,
+    .twofixed .window1.P2 {
+        flex-basis: auto;
+        padding: 0;
+        max-width: initial;
+    }
+
+    .twofixed .page3.window1-descript.P2.S2-P2,
+    .twofixed .main-post-link.P2.S2-P2,
+    .twofixed .page2.window1-descript.P2.S2-P2 {
+        font: normal normal 400 24px/32px 'Poppins', sans-serif;
+        padding: 0;
+        max-width: initial;
+    }
+
+    .twofixed .scroll-button.P2 {
+        text-indent: -30px;
+        background-position: 90% 59%;
+        background-size: 16%;
+    }
+
+    /*.twofixed .Screen4,*/
+    /*.twofixed .Screen4,*/
+    .twofixed .Screen5,
+    .twofixed .S5-P2dots,
+    .twofixed .Screen6,
+    .twofixed .common-info,
+    .twofixed .Screen8,
+    .twofixed .Screen9 {
         display: none;
     }
 }

@@ -2,6 +2,7 @@ import Images from './Images/index';
 import './css/maincss/MainPage.css';
 import MainHeader from "./MainHeader";
 import {BrowserRouter as Router} from "react-router-dom";
+import MainFooter from "./MainFooter";
 
 function MainPage() {
     return (
@@ -75,6 +76,7 @@ function MainPage() {
                                                                     alt="bridge"/></div>
                 </div>
             </div>
+
             <div className="S2-P4">
                 <div className="wrapper max-width1650">
                     <p className="text-big text-S2-P4 P4 S2 center width800">IDN <span
@@ -164,6 +166,8 @@ function MainPage() {
                     or investment’s scope can be aligned to IDN’s focus? </h2>
                 <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Ask us</a>
             </div>
+
+            <MainFooter/>
         </div>
     );
 }

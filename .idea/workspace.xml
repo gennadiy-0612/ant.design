@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
     </list>
@@ -255,20 +256,9 @@
       <workItem from="1611248960301" duration="10946000" />
       <workItem from="1611285549681" duration="12410000" />
       <workItem from="1611304196035" duration="9737000" />
-    </task>
-    <task id="LOCAL-00282" summary="all-fixed">
-      <created>1610354155590</created>
-      <option name="number" value="00282" />
-      <option name="presentableId" value="LOCAL-00282" />
-      <option name="project" value="LOCAL" />
-      <updated>1610354155590</updated>
-    </task>
-    <task id="LOCAL-00283" summary="all-fixed">
-      <created>1610358188488</created>
-      <option name="number" value="00283" />
-      <option name="presentableId" value="LOCAL-00283" />
-      <option name="project" value="LOCAL" />
-      <updated>1610358188489</updated>
+      <workItem from="1611328281372" duration="13145000" />
+      <workItem from="1611342785067" duration="12907000" />
+      <workItem from="1611388372007" duration="5462000" />
     </task>
     <task id="LOCAL-00284" summary="all-fixed">
       <created>1610365634426</created>
@@ -599,7 +589,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611308784912</updated>
     </task>
-    <option name="localTasksCounter" value="331" />
+    <task id="LOCAL-00331" summary="320-600">
+      <created>1611328539220</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1611328539220</updated>
+    </task>
+    <task id="LOCAL-00332" summary="s">
+      <created>1611351659619</created>
+      <option name="number" value="00332" />
+      <option name="presentableId" value="LOCAL-00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1611351659620</updated>
+    </task>
+    <option name="localTasksCounter" value="333" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,8 +631,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fixed-layuot" />
-    <MESSAGE value="two-pages-fixed" />
     <MESSAGE value="animation-fixed" />
     <MESSAGE value="3page-added" />
     <MESSAGE value="4page-added" />
@@ -652,6 +654,19 @@
     <MESSAGE value="fixed" />
     <MESSAGE value="sync" />
     <MESSAGE value="d" />
-    <option name="LAST_COMMIT_MESSAGE" value="d" />
+    <MESSAGE value="320-600" />
+    <MESSAGE value="s" />
+    <option name="LAST_COMMIT_MESSAGE" value="s" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Page2.js</url>
+          <line>199</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -32,7 +32,6 @@ export default function App() {
                     <Home/>
                 </Route>
             </Switch>
-            <MainFooter/>
         </Router>
     );
 }
