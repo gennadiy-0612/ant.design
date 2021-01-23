@@ -7032,7 +7032,7 @@ foot-li > a {
     .main-page .First_Screen,
     .twofixed .First_Screen,
     .main-header.S3,
-    .main-header.S3,
+    .idea,
     .main-page .Screen5.S5,
     .twofixed .Screen5.S5,
     .main-page .Screen6.S6,
@@ -7320,6 +7320,7 @@ foot-li > a {
         padding: 30px 0 0;
     }
 
+    .twofixed .main-header-second-h2.head2,
     .twofixed .main-header-second-h2.head2.P2.S2-P2,
     .main-header-second-h2.head2, .main-header-second-h2.head2 {
         font: normal normal 600 12px/24px 'Poppins', sans-serif;
@@ -7629,13 +7630,64 @@ foot-li > a {
     }
 
     /*.twofixed .Screen4,*/
-    /*.twofixed .Screen4,*/
-    .twofixed .Screen5,
-    .twofixed .S5-P2dots,
-    .twofixed .Screen6,
+    .twofixed .Screen4 {
+    }
+
+    .twofixed .Screen4.P2-S4::before, .twofixed .Screen4.P2-S4::after {
+        display: none;
+    }
+
+    .twofixed .two-columns {
+        column-count: 1;
+    }
+
+    .twofixed .main-post-link.frame4.P2 {
+        font: normal normal 600 24px/32px 'Poppins', sans-serif;
+    }
+
+    .twofixed .main-p.cover.P2.P2-S4,
+    .twofixed .main-post-link.P2.third-screen.third-line {
+        font: normal normal 400 20px/32px 'Poppins', sans-serif;
+    }
+
+    .twofixed .main-post-link.P2.third-screen.third-line:before {
+        bottom: -16px;
+        height: 2px;
+    }
+
+    .twofixed .two-column--p,
+    .twofixed .main-post-link.P2.third-screen {
+        font: normal normal 400 14px/24px 'Poppins', sans-serif;
+    }
+
+    .twofixed .two-column--p {
+        display: inline;
+    }
+
+    .twofixed .Screen5.P2.P2-S5dashed,
+    .twofixed .Screen6.P2.P2-S5dashed.S6,
+    .twofixed .P2.P2-S7.P2-S5dashed,
+    .twofixed .twofixed .S5-P2dots {
+        display: block;
+    }
+
+    .twofixed .window1-h.P2 {
+        font: normal normal 600 24px/32px 'Poppins', sans-serif;
+    }
+
+    .twofixed .window1-descript.P2 {
+        font: normal normal 600 24px/32px 'Poppins', sans-serif;
+    }
+
+    .twofixed .window2.P2 {
+        max-width: initial;
+    }
+
     .twofixed .common-info,
     .twofixed .Screen8,
-    .twofixed .Screen9 {
+    .twofixed .Screen9,
+    .window1.P2.P2-S7.P2-S72,
+    .hide320-600 {
         display: none;
     }
 }

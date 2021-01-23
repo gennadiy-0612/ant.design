@@ -21,7 +21,7 @@ function MainPage() {
                         <div className="window1--description"><a href="#page2" className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2">Learn more</a></div>
                     </div>
                 </div>
-                <div className="window2">
+                <div className="window2 hide320-600">
                     <div className="dots P2-S2 topPhoto"><img src={Images.pagetop} className="illustrate P2-S2" alt="bridge"/></div>
                 </div>
             </div>
@@ -45,7 +45,7 @@ function MainPage() {
             </div>
 
             <div className="Screen5 P2 P2-S5dashed">
-                <div className="window1 P2 P2-S5">
+                <div className="window1 P2 P2-S5 hide320-600">
                     <div className="dots P2 P2-S5 odd dotted photo"><img src={Images.attentionman} className="illustrate P2 odd" alt="bridge"/></div>
                 </div>
                 <div className="window2 P2 P2-S5 left-dashed">
@@ -70,13 +70,13 @@ function MainPage() {
                         in your opportunities</p>
                 </div>
                 <div className="window2 P2">
-                    <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2 odd" src={Images.manwithsmile} alt="bridge"/></div>
+                    <div className="dots P2 S6-P2 dotted photo hide320-600"><img className="illustrate P2 odd" src={Images.manwithsmile} alt="bridge"/></div>
                 </div>
             </div>
 
             <div className="Screen5 P2 P2-S7 P2-S5dashed">
                 <div className="window1 P2 P2-S7">
-                    <div className="dots P2 P2-S7 odd odd1 dotted photo">
+                    <div className="dots P2 P2-S7 odd odd1 dotted photo hide320-600">
                         <img src={Images.handspeople} className="illustrate P2" alt="bridge"/>
                     </div>
                 </div>
@@ -102,14 +102,14 @@ function MainPage() {
                         at deal closure</p>
                 </div>
                 <div className="window2 P2">
-                    <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2" src={Images.handspaper} alt="bridge"/></div>
+                    <div className="dots P2 S6-P2 dotted photo hide320-600"><img className="illustrate P2" src={Images.handspaper} alt="bridge"/></div>
                 </div>
             </div>
 
             <div className="S5-P2dots">
             <div className="Screen5 P2 P2-S72 P2-S53">
                 <div className="window1 P2 P2-S7 P2-S72">
-                    <div className="dots P2 P2-S7 P2-S72 odd dotted photo"><img className="illustrate P2" src={Images.handscross} alt="bridge"/></div></div>
+                    <div className="dots P2 P2-S7 P2-S72 odd dotted photo hide320-600"><img className="illustrate P2" src={Images.handscross} alt="bridge"/></div></div>
                 <div className="window2 P2 P2-S72 left-dashed">
                     <p className="window1-h P2 P2-S72 added-element-before beyond">Beyond</p>
                     <p className="window1-descript P2 P2-S72 added-element-before rounded-frame suitcase beyond">Keep working
