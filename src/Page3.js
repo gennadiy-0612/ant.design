@@ -53,7 +53,7 @@ function MainPage() {
 
             <div className="Screen5 P2 P2-S5dashed">
                 <div className="window1 P2 P2-S5">
-                    <div className="dots P2 P2-S5 odd dotted photo"><img src={Images.mannotebook} className="illustrate P2 odd" alt="bridge"/></div>
+                    <div className="dots P2 P2-S5 odd dotted photo hide320-600"><img src={Images.mannotebook} className="illustrate P2 odd" alt="bridge"/></div>
                 </div>
                 <div className="window2 P2 P2-S5 left-dashed">
                     <h2 className="main-header-second-h2 head2 P2">How IT WORKS</h2>
@@ -72,13 +72,13 @@ function MainPage() {
                         Review the opportunities originated by Advisors and submit expressions of interest</p>
                 </div>
                 <div className="window2 P2 P3-S61">
-                    <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2 odd" src={Images.mannotephone} alt="bridge"/></div>
+                    <div className="dots P2 S6-P2 dotted photo hide320-600"><img className="illustrate P2 odd" src={Images.mannotephone} alt="bridge"/></div>
                 </div>
             </div>
 
             <div className="Screen5 P2 P2-S7 P2-S5dashed">
                 <div className="window1 P2 P2-S7">
-                    <div className="dots P2 P2-S7 odd odd1 dotted photo">
+                    <div className="dots P2 P2-S7 odd odd1 dotted photo hide320-600">
                         <img src={Images.businessmeeting} className="illustrate P2" alt="bridge"/>
                     </div>
                 </div>
@@ -101,14 +101,14 @@ function MainPage() {
                         Successfully close the investments bilaterally</p>
                 </div>
                 <div className="window2 P2">
-                    <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2" src={Images.handshake} alt="bridge"/></div>
+                    <div className="dots P2 S6-P2 dotted photo hide320-600"><img className="illustrate P2" src={Images.handshake} alt="bridge"/></div>
                 </div>
             </div>
 
             <div className="S5-P2dots">
                 <div className="Screen5 P2 P2-S72 P2-S53">
                     <div className="window1 P2 P2-S7 P2-S72">
-                        <div className="dots P2 P2-S7 P2-S72 odd dotted photo"><img className="illustrate P2" src={Images.manbigsmile} alt="bridge"/></div></div>
+                        <div className="dots P2 P2-S7 P2-S72 odd dotted photo hide320-600"><img className="illustrate P2" src={Images.manbigsmile} alt="bridge"/></div></div>
                     <div className="window2 P2 P2-S72 left-dashed">
                         <p className="window1-h P2 P2-S72 added-element-before beyond">Beyond</p>
                         <p className="window1-descript P2 P2-S72 added-element-before rounded-frame suitcase beyond">Engage Senior

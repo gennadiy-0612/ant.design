@@ -7667,16 +7667,59 @@ foot-li > a {
     .twofixed .Screen5.P2.P2-S5dashed,
     .twofixed .Screen6.P2.P2-S5dashed.S6,
     .twofixed .P2.P2-S7.P2-S5dashed,
-    .twofixed .twofixed .S5-P2dots {
+    .twofixed .twofixed .S5-P2dots,
+    .twofixed .Screen5.P2.P2-S72,
+    .twofixed .window1-h.P2.S6-P2.added-element-before::before {
         display: block;
     }
 
     .twofixed .window1-h.P2 {
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
+        letter-spacing: 0;
+        padding: 32px 0 32px 12%;
+        margin: 0;
     }
 
+    .twofixed .window1-descript.P2.S6-P2.S6-P22,
     .twofixed .window1-descript.P2 {
-        font: normal normal 600 24px/32px 'Poppins', sans-serif;
+        font: normal normal 400 14px/24px 'Poppins', sans-serif;
+        letter-spacing: 0;
+    }
+
+    .twofixed .window1-h.P2.S6-P2.added-element-before::before,
+    .twofixed .added-element-before::before {
+        left: 25px;
+        height: 16px;
+        width: 16px;
+    }
+
+    .twofixed .rounded-frame::before {
+        width: 32px;
+        height: 32px;
+        box-sizing: border-box;
+        background-size: 45%;
+        top: 0;
+        left: 16px;
+    }
+
+    .twofixed .window1-descript.P2,
+    .twofixed .window1-descript.P2.S6-P2,
+    .twofixed .window1-descript.P2.P2-S7,
+    .twofixed .window1-descript.P2.S6-P2.S6-P22,
+    .twofixed .window1-descript.P2.P2-S72.beyond {
+        padding: 0 0 40px 48px;
+    }
+
+    .twofixed .left-dashed::before,
+    .twofixed .window1.P2.P2-S6::before,
+    .twofixed .window1.P2.P2-S7.P2-S62::before,
+    .twofixed .window2.P2.P2-S72.left-dashed::before,
+    .twofixed .window2.P2.P2-S5.left-dashed::before,
+    .twofixed .window2.P2.P2-S7.left-dashed::before {
+        height: 25%;
+        top: 150px;
+        left: 32px;
+        width: 2px;
     }
 
     .twofixed .window2.P2 {
@@ -7687,6 +7730,7 @@ foot-li > a {
     .twofixed .Screen8,
     .twofixed .Screen9,
     .window1.P2.P2-S7.P2-S72,
+    .twofixed .P2-S5dashed::before,
     .hide320-600 {
         display: none;
     }
