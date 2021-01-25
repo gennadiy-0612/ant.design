@@ -7089,20 +7089,17 @@ foot-li > a {
     .burger-shower:checked + .lines-menu + .lines-x {
         background: url("../../Images/x.svg") center no-repeat #ffffff;
         opacity: 1;
-        transition: opacity 1s;
     }
 
-    #root .top-horizon-menu {
-        margin-top: 0;
-    }
-
-    .top-horizon-menu {
+    .main-page .top-horizon-menu,
+    .twofixed .top-horizon-menu {
         display: none;
-        background-color: rgba(0, 0, 0, 0.46);
+        background-color: #00000075;
         margin: 0 0 auto;
         padding: 0 0 0 33%;
         height: 100vh;
         opacity: 0;
+        transition: opacity 1s;
     }
 
     .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
@@ -7353,7 +7350,7 @@ foot-li > a {
 
     .twofixed .window1--button-group.P2.P2-S2 {
         margin: auto;
-        height: 7vh;
+        /*height: 7vh;*/
     }
 
     .window1--button-group.Screen5--button-group,
