@@ -7059,10 +7059,6 @@ foot-li > a {
         height: 100vh;
     }
 
-    .Screen2 {
-        /*height: 93vh;*/
-    }
-
     .twofixed .main-post-link.P2.third-screen:before,
     .main-post-link.P2.S2-P2::before {
         height: 2px;
@@ -7141,6 +7137,7 @@ foot-li > a {
         padding: 29vh 0 0;
         flex-direction: column;
         background-color: #fff;
+        height: 29vh;
     }
 
     .twofixed .main-top-nav-anchor,
@@ -7185,12 +7182,12 @@ foot-li > a {
     .login-block {
         padding: 0;
         background-color: #fff;
-        height: 50vh;
+        height: 42vh;
     }
 
     .twofixed .First_Screen,
     .First_Screen {
-        min-height: 600px;
+        min-height: 500px;
         max-height: 700px;
     }
 
@@ -7215,6 +7212,10 @@ foot-li > a {
     .main-page .window1,
     .window2 {
         max-width: 94%;
+    }
+
+    .main-page .window2.X1600 {
+        margin-bottom: 30px;
     }
 
     .main-header-dots.dots.hands,
@@ -7745,9 +7746,13 @@ foot-li > a {
 
     /*Page2*/
     /*.twofixed .First_Screen,*/
-    .twofixed .Screen2 {
+    .twofixed .First_Screen {
+        height: 100vh;
+    }
+
+    .twofixed .First_Screen .Screen2 {
         display: block;
-        margin: auto 0;
+        margin: auto 0 32px;
     }
 
     /*.twofixed .First_Screen,*/
@@ -7804,7 +7809,7 @@ foot-li > a {
     }
 
     .twofixed .Screen4.P2 {
-        margin: 47px 0;
+        margin: 0 0 47px;
         padding: 30px 0;
     }
 
