@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,14 +264,7 @@
       <workItem from="1611471784737" duration="8021000" />
       <workItem from="1611486822125" duration="14671000" />
       <workItem from="1611516447706" duration="6431000" />
-      <workItem from="1611553573565" duration="7065000" />
-    </task>
-    <task id="LOCAL-00289" summary="all-fixed">
-      <created>1610383064596</created>
-      <option name="number" value="00289" />
-      <option name="presentableId" value="LOCAL-00289" />
-      <option name="project" value="LOCAL" />
-      <updated>1610383064596</updated>
+      <workItem from="1611553573565" duration="7747000" />
     </task>
     <task id="LOCAL-00290" summary="2page">
       <created>1610388692060</created>
@@ -606,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611561299658</updated>
     </task>
-    <option name="localTasksCounter" value="338" />
+    <task id="LOCAL-00338" summary="mobile-design320-1023">
+      <created>1611562028870</created>
+      <option name="number" value="00338" />
+      <option name="presentableId" value="LOCAL-00338" />
+      <option name="project" value="LOCAL" />
+      <updated>1611562028870</updated>
+    </task>
+    <option name="localTasksCounter" value="339" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,7 +669,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Page2.js</url>
-          <line>199</line>
+          <line>226</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

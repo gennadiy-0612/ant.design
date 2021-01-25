@@ -3,6 +3,7 @@ import './css/maincss/MainPage.css';
 import MainHeader from "./MainHeader";
 import {BrowserRouter as Router} from "react-router-dom";
 import MainFooter from "./MainFooter";
+import {Link} from "react-router-dom";
 
 function MainPage() {
     return (
@@ -14,11 +15,15 @@ function MainPage() {
                 <div className="Screen2">
                     <div className="window1 P2 S2-P2">
                         <h1 className="main-header-second-h2 head2 P2 S2-P2">SECTORS</h1>
-                        <p className="window1-descript P2 S2-P2 page3">Private Equity infrastructure investment nowadays goes
+                        <p className="window1-descript P2 S2-P2 page3">Private Equity infrastructure investment nowadays
+                            goes
                             <span className="main-post-link P2 S2-P2"> far beyond </span> roads and
-                            airports. It can be any defensible business generating <span className="yellow-upper">stable returns</span></p>
+                            airports. It can be any defensible business generating <span className="yellow-upper">stable returns</span>
+                        </p>
                         <div className="window1--button-group P2 P2-S2">
-                            <div className="window1--description page4"><a href="#page4" className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2 P4-S2">Learn more</a></div>
+                            <div className="window1--description page4"><Link to="/investors"
+                                                                              className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2 P4-S2">Learn
+                                more</Link></div>
                         </div>
                     </div>
                     <div className="window2">
@@ -72,8 +77,8 @@ function MainPage() {
                 </div>
                 <div className="window-right P4-S3">
                     <div className="dots P2-S2 topPhoto P4-S2 P4-S3"><img src={Images.infra}
-                                                                    className="illustrate P2-S2 P4-S3-img max-width1850 P4-two-exp1"
-                                                                    alt="bridge"/></div>
+                                                                          className="illustrate P2-S2 P4-S3-img max-width1850 P4-two-exp1"
+                                                                          alt="bridge"/></div>
                 </div>
             </div>
 
@@ -164,7 +169,8 @@ function MainPage() {
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8 P4-S8">Not sure whether your sector, deal,<br/>
                     or investment’s scope can be aligned to IDN’s focus? </h2>
-                <a href="mailto:info@infradeals.net" className="login buttonIDN S8 big white center back-slider white decide">Ask us</a>
+                <a href="mailto:info@infradeals.net"
+                   className="login buttonIDN S8 big white center back-slider white decide">Ask us</a>
             </div>
 
             <MainFooter/>

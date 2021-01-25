@@ -3,6 +3,7 @@ import './css/maincss/MainPage.css';
 import MainHeader from "./MainHeader";
 import {BrowserRouter as Router} from "react-router-dom";
 import MainFooter from "./MainFooter";
+import {Link} from "react-router-dom";
 
 function MainPage() {
     return (
