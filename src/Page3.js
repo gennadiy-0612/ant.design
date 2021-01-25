@@ -20,10 +20,11 @@ function MainPage() {
                             selected network of Senior Advisors. Negotiate and close transactions <span
                             className="yellow-upper">bilaterally</span></p>
                         <div className="window1--button-group P2 P2-S2">
-                            <div className="window1--description"><a href="/" className="login buttonIDN S2 big back-slider Screen2">Apply now</a></div>
                             <div className="window1--description">
-                                <Link className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2" to="/investors">Learn
-                                more</Link>
+                                <Link className="login buttonIDN S2 big back-slider Screen2" to="/intro">Join now</Link></div>
+                            <div className="window1--description">
+                                <a href="#page3" className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2">Learn
+                                more</a>
                             </div>
                         </div>
                     </div>
