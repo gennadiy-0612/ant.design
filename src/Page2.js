@@ -18,7 +18,7 @@ function MainPage() {
                         <span className="main-post-link P2 S2-P2">to originate</span> proprietary investment opportunities for <span className="yellow-upper">Private Equity investors</span></p>
                     <div className="window1--button-group P2 P2-S2">
                         <div className="window1--description"><a href="/" className="login buttonIDN S2 big back-slider Screen2">Apply now</a></div>
-                        <div className="window1--description"><a href="#page2" className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2">Learn more</a></div>
+                        <div className="window1--description"><a className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2" to="/investors">Learn more</a></div>
                     </div>
                 </div>
                 <div className="window2">
@@ -197,8 +197,9 @@ function MainPage() {
             </div>
             </div>
 
-            <div className="Screen8"><h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
-                <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Get in Touch</a>
+            <div className="Screen8">
+                <h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
+                <a href="mailto:info@infradeals.net" className="login buttonIDN S8 big white center back-slider white decide">Get in Touch</a>
             </div>
 
             <MainFooter/>

@@ -7,8 +7,11 @@
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="fixed">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Page3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -265,14 +268,7 @@
       <workItem from="1611471784737" duration="8021000" />
       <workItem from="1611486822125" duration="14671000" />
       <workItem from="1611516447706" duration="6431000" />
-      <workItem from="1611553573565" duration="3532000" />
-    </task>
-    <task id="LOCAL-00287" summary="all-fixed">
-      <created>1610367965184</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1610367965185</updated>
+      <workItem from="1611553573565" duration="6394000" />
     </task>
     <task id="LOCAL-00288" summary="all-fixed">
       <created>1610380101628</created>
@@ -610,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611400985690</updated>
     </task>
-    <option name="localTasksCounter" value="336" />
+    <task id="LOCAL-00336" summary="mobile-design320-1023">
+      <created>1611558341204</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1611558341205</updated>
+    </task>
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -638,7 +641,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="3page-added" />
     <MESSAGE value="4page-added" />
     <MESSAGE value="4page" />
     <MESSAGE value="3pages-fixed" />
@@ -663,7 +665,8 @@
     <MESSAGE value="320-600" />
     <MESSAGE value="f" />
     <MESSAGE value="s" />
-    <option name="LAST_COMMIT_MESSAGE" value="s" />
+    <MESSAGE value="mobile-design320-1023" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile-design320-1023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

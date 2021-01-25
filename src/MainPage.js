@@ -71,7 +71,7 @@ function MainPage() {
                         <span className="sector three normal main-p center">Telecom & ICT</span>
                         <span className="sector four normal main-p center">Healthcare & Social</span>
                     </p>
-                    <div className="Screen4--all center"><a className="selectors--all" href="/">View all Sectors</a>
+                    <div className="Screen4--all center"><a className="selectors--all" to="/sectors">View all Sectors</a>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ function MainPage() {
                                 <a href="/" className="login buttonIDN big S2 back-slider">Join for Free</a>
                             </div>
                             <div className="window1--description">
-                                <a href="/" className="login buttonIDN big S2 back-slider white">Learn More</a>
+                                <a className="login buttonIDN big S2 back-slider white" to="/investors">Learn More</a>
                             </div>
                         </div>
                     </div>
@@ -157,14 +157,14 @@ function MainPage() {
                     </div>
                     <div className="window1--description S7 S72">
                         <p className="window1--description--button S7 S72">Investors</p>
-                        <a href="/" className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn">Join for Free</a>
+                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn" to="/intro">Join now</a>
                     </div>
                 </div>
             </div>
 
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8 X1200">Do you want to learn more?</h2>
-                <a href="/" className="login buttonIDN S8 big white center back-slider white decide">Get
+                <a href="mailto:info@infradeals.net" className="login buttonIDN S8 big white center back-slider white decide">Get
                     in Touch</a>
             </div>
             <MainFooter/>

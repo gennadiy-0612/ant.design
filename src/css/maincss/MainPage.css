@@ -7059,6 +7059,9 @@ foot-li > a {
         height: 100vh;
     }
 
+    .Screen2 {
+        /*height: 93vh;*/
+    }
 
     .twofixed .main-post-link.P2.third-screen:before,
     .main-post-link.P2.S2-P2::before {
@@ -7184,6 +7187,7 @@ foot-li > a {
         background-color: #fff;
         height: 50vh;
     }
+
     .twofixed .First_Screen,
     .First_Screen {
         min-height: 600px;
