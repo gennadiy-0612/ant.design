@@ -7,6 +7,11 @@
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="fixed">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdvisorPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page4.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SectorsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Site.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Site.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,14 +267,7 @@
       <workItem from="1611471784737" duration="8021000" />
       <workItem from="1611486822125" duration="14671000" />
       <workItem from="1611516447706" duration="6431000" />
-      <workItem from="1611553573565" duration="10893000" />
-    </task>
-    <task id="LOCAL-00295" summary="main-page-fixed">
-      <created>1610425209239</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1610425209239</updated>
+      <workItem from="1611553573565" duration="12446000" />
     </task>
     <task id="LOCAL-00296" summary="main-page-fixed">
       <created>1610428198835</created>
@@ -607,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611565804725</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary="mobile-design320-1023">
+      <created>1611566056576</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1611566056576</updated>
+    </task>
+    <option name="localTasksCounter" value="345" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -666,8 +671,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/Page2.js</url>
-          <line>226</line>
+          <url>file://$PROJECT_DIR$/src/AdvisorPage.js</url>
+          <line>196</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -5,12 +5,12 @@ import {BrowserRouter as Router} from "react-router-dom";
 import MainFooter from "./MainFooter";
 import {Link} from "react-router-dom";
 
-function MainPage() {
+function SectorsPage(props) {
+
     return (
         <div className="page4 twofixed">
             <div className="First_Screen">
-
-                <MainHeader/>
+                <MainHeader />
 
                 <div className="Screen2">
                     <div className="window1 P2 S2-P2">
@@ -21,14 +21,12 @@ function MainPage() {
                             airports. It can be any defensible business generating <span className="yellow-upper">stable returns</span>
                         </p>
                         <div className="window1--button-group P2 P2-S2">
-                            <div className="window1--description page4"><Link to="/investors"
-                                                                              className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2 P4-S2">Learn
-                                more</Link></div>
+                            <div className="window1--description page4"><a href="#page4" className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2 P4-S2">Learn more</a></div>
                         </div>
                     </div>
                     <div className="window2">
                         <div className="dots P2-S2 topPhoto"><img src={Images.citymap} className="illustrate P2-S2"
-                                                                  alt="bridge"/></div>
+                                                                  alt="bridge" /></div>
                     </div>
                 </div>
             </div>
@@ -38,7 +36,7 @@ function MainPage() {
                     <div className="window-right">
                         <div className="dots P2-S2 topPhoto P4-S2"><img src={Images.ways}
                                                                         className="illustrate P2-S2 P4-S3-img max-width1850"
-                                                                        alt="bridge"/></div>
+                                                                        alt="bridge" /></div>
                     </div>
                     <div className="window-left max-width1650 not-so-good">
                         <h2 className="main-header-second-h2 head2 P2 S2-P2 P4-S3-H2">YESTERDAY</h2>
@@ -78,7 +76,7 @@ function MainPage() {
                 <div className="window-right P4-S3">
                     <div className="dots P2-S2 topPhoto P4-S2 P4-S3"><img src={Images.infra}
                                                                           className="illustrate P2-S2 P4-S3-img max-width1850 P4-two-exp1"
-                                                                          alt="bridge"/></div>
+                                                                          alt="bridge" /></div>
                 </div>
             </div>
 
@@ -89,7 +87,7 @@ function MainPage() {
                         and non-core infrastructure sectors.</p>
                     <div className="visualtextinfo max-width1600">
                         <div className="cail">
-                            <img className="info-vis" src={Images.track} alt="alt"/>
+                            <img className="info-vis" src={Images.track} alt="alt" />
                             <h3 className="header h3-P4">Transport & Logistics</h3>
                             <ul className="ul-P4">
                                 <li className="item h3-P4">Ports</li>
@@ -101,7 +99,7 @@ function MainPage() {
                             </ul>
                         </div>
                         <div className="cail">
-                            <img className="info-vis" src={Images.powerlines} alt="alt"/>
+                            <img className="info-vis" src={Images.powerlines} alt="alt" />
                             <h3 className="header h3-P4">Utilities</h3>
                             <ul className="ul-P4">
                                 <li className="item h3-P4">Electrity</li>
@@ -113,7 +111,7 @@ function MainPage() {
                             </ul>
                         </div>
                         <div className="cail">
-                            <img className="info-vis" src={Images.sunbettery} alt="alt"/>
+                            <img className="info-vis" src={Images.sunbettery} alt="alt" />
                             <h3 className="header h3-P4">Energy</h3>
                             <ul className="ul-P4">
                                 <li className="item h3-P4">Oil & Gas</li>
@@ -125,7 +123,7 @@ function MainPage() {
                             </ul>
                         </div>
                         <div className="cail">
-                            <img className="info-vis" src={Images.antena} alt="alt"/>
+                            <img className="info-vis" src={Images.antena} alt="alt" />
                             <h3 className="header h3-P4">Telecom & ICT</h3>
                             <ul className="ul-P4">
                                 <li className="item h3-P4">Fixed Networks</li>
@@ -137,7 +135,7 @@ function MainPage() {
                             </ul>
                         </div>
                         <div className="cail">
-                            <img className="info-vis" src={Images.citysunset} alt="alt"/>
+                            <img className="info-vis" src={Images.citysunset} alt="alt" />
                             <h3 className="header h3-P4">Green & Infratech</h3>
                             <ul className="ul-P4">
                                 <li className="item h3-P4">Cleantech</li>
@@ -149,7 +147,7 @@ function MainPage() {
                             </ul>
                         </div>
                         <div className="cail">
-                            <img className="info-vis" src={Images.otherfield} alt="alt"/>
+                            <img className="info-vis" src={Images.otherfield} alt="alt" />
                             <h3 className="header h3-P4">Other Sectors</h3>
                             <ul className="ul-P4">
                                 <li className="item h3-P4">Agricolture</li>
@@ -167,15 +165,15 @@ function MainPage() {
             </div>
 
             <div className="Screen8">
-                <h2 className="Screen7--h2 S8 P4-S8">Not sure whether your sector, deal,<br/>
+                <h2 className="Screen7--h2 S8 P4-S8">Not sure whether your sector, deal,<br />
                     or investment’s scope can be aligned to IDN’s focus? </h2>
                 <a href="mailto:info@infradeals.net"
                    className="login buttonIDN S8 big white center back-slider white decide">Ask us</a>
             </div>
 
-            <MainFooter/>
+            <MainFooter />
         </div>
-    );
+    )
 }
 
-export default MainPage;
+export default SectorsPage;

@@ -1,9 +1,9 @@
 import React from "react";
 import MainPage from './MainPage';
-import Page2 from './Page2';
-import Page3 from './Page3';
-import Page4 from './Page4';
-import Page5 from './Page5';
+import AdvisorPage from './AdvisorPage';
+import InvestorsPage from './InvestorsPage';
+import SectorsPage from './SectorsPage';
+import AboutPage from './AboutPage';
 import MainFooter from './MainFooter';
 import {
     BrowserRouter as Router,
@@ -41,17 +41,17 @@ function Home() {
 }
 
 function Advisor() {
-    return <Page2/>;
+    return <AdvisorPage/>;
 }
 
 function Investors() {
-    return <Page3/>;
+    return <InvestorsPage/>;
 }
 
 function Sectors() {
-    return <Page4/>;
+    return <SectorsPage/>;
 }
 
 function About() {
-    return <Page5/>;
+    return <AboutPage/>;
 }
