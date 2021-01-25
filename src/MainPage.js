@@ -20,11 +20,11 @@ function MainPage() {
                         <div className="window1--button-group P1-S2 S2 X1600">
                             <div className="window1--description S1">
                                 <p className="window1--description--button">Senior Advisors</p>
-                                <a href="/" className="login buttonIDN S2 big back-slider Screen2">Apply now</a>
+                                <Link className="login buttonIDN S2 big back-slider Screen2">Apply now</Link>
                             </div>
                             <div className="window1--description S1">
                                 <p className="window1--description--button">Investors</p>
-                                <a href="/" className="login buttonIDN S2 big white back-slider Screen2">Join now</a>
+                                <Link className="login buttonIDN S2 big white back-slider Screen2">Join now</Link>
                             </div>
                         </div>
                     </div>
