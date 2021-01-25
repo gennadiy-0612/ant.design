@@ -2,6 +2,7 @@ import Images from './Images/index';
 import './css/maincss/MainPage.css';
 import MainHeader from "./MainHeader";
 import MainFooter from "./MainFooter";
+import {Link} from "react-router-dom";
 
 function MainPage() {
     return (
@@ -71,7 +72,8 @@ function MainPage() {
                         <span className="sector three normal main-p center">Telecom & ICT</span>
                         <span className="sector four normal main-p center">Healthcare & Social</span>
                     </p>
-                    <div className="Screen4--all center"><a className="selectors--all" to="/sectors">View all Sectors</a>
+                    <div className="Screen4--all center">
+                        <Link className="selectors--all" to="/sectors">View all Sectors</Link>
                     </div>
                 </div>
             </div>
@@ -127,7 +129,7 @@ function MainPage() {
                                 <a href="/" className="login buttonIDN big S2 back-slider">Join for Free</a>
                             </div>
                             <div className="window1--description">
-                                <a className="login buttonIDN big S2 back-slider white" to="/investors">Learn More</a>
+                                <Link className="login buttonIDN big S2 back-slider white" to="/investors">Learn More</Link>
                             </div>
                         </div>
                     </div>
@@ -157,7 +159,7 @@ function MainPage() {
                     </div>
                     <div className="window1--description S7 S72">
                         <p className="window1--description--button S7 S72">Investors</p>
-                        <a className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn" to="/intro">Join now</a>
+                        <Link className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn" to="/intro">Join now</Link>
                     </div>
                 </div>
             </div>

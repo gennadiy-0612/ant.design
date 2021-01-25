@@ -20,8 +20,10 @@ function MainPage() {
                             className="yellow-upper">bilaterally</span></p>
                         <div className="window1--button-group P2 P2-S2">
                             <div className="window1--description"><a href="/" className="login buttonIDN S2 big back-slider Screen2">Apply now</a></div>
-                            <div className="window1--description"><a className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2" to="/investors">Learn
-                                more</a></div>
+                            <div className="window1--description">
+                                <Link className="login buttonIDN S2 big white Screen2 blue-back scroll-button P2" to="/investors">Learn
+                                more</Link>
+                            </div>
                         </div>
                     </div>
                     <div className="window2">
@@ -162,7 +164,7 @@ function MainPage() {
                             <div className="info-graph">
                                 <div className="window1--description S7 S71 dot-list Advisor">
                                     <p className="window1--description--button S7 P2-S7 Advisor">Investors</p>
-                                    <a className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn" to="/intro">Join now</a>
+                                    <Link className="login buttonIDN S2 big S2 P1-S7 back-slider why-idn" to="/intro">Join now</Link>
                                 </div>
                             </div>
                         </div>
