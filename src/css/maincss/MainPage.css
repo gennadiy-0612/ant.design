@@ -7089,12 +7089,6 @@ foot-li > a {
     .burger-shower:checked + .lines-menu + .lines-x {
         background: url("../../Images/x.svg") center no-repeat #ffffff;
         opacity: 1;
-        transition: opacity 1s;
-    }
-
-    .main-page .top-horizon-menu,
-    .twofixed .top-horizon-menu {
-        opacity: 0;
     }
 
     .main-page .top-horizon-menu,
@@ -7104,6 +7098,8 @@ foot-li > a {
         margin: 0 0 auto;
         padding: 0 0 0 33%;
         height: 100vh;
+        opacity: 0;
+        transition: opacity 1s;
     }
 
     .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
@@ -7352,6 +7348,11 @@ foot-li > a {
         justify-content: left;
     }
 
+    .twofixed .window1--button-group.P2.P2-S2 {
+        margin: auto;
+        height: 7vh;
+    }
+
     .window1--button-group.Screen5--button-group,
     .Screen5--button-group.S6bg {
         margin: 10px auto 0 0;
@@ -7514,6 +7515,10 @@ foot-li > a {
 
     .selectors--all {
         font: normal normal 700 14px/20px 'Poppins', sans-serif;
+    }
+
+    .selectors--all::after {
+        top: 2px;
     }
 
     .window1--button-group.Screen5--button-group.S7 {
@@ -7752,7 +7757,7 @@ foot-li > a {
 
     .twofixed .First_Screen .Screen2 {
         display: block;
-        margin: auto 0 32px;
+        margin: auto 0 10px;
     }
 
     /*.twofixed .First_Screen,*/
@@ -8144,5 +8149,9 @@ foot-li > a {
 
     .page5.twofixed .login.buttonIDN.decide {
         margin: 25px auto 0;
+    }
+
+    .login.buttonIDN[href="#page2"], .login.buttonIDN[href="#page3"] {
+        display: none;
     }
 }
