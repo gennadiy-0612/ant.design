@@ -7,8 +7,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 .burger-shower, .lines-menu, .lines-x {
@@ -7003,8 +7001,22 @@ foot-li > a {
 }
 
 .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
-    margin: 98px auto 65px;
+    margin: 65px auto 55px;
     letter-spacing: 0;
+    position: relative;
+    padding: 38px 0 80px;
+}
+
+.text-big.text-S2-P4.P4.S2.P5-our-team.P5::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 1px;
+    width: 67%;
+    background-color: #EAE9F2;
 }
 
 .page5 .Screen8 {
@@ -7038,12 +7050,19 @@ foot-li > a {
     .main-page .Screen6.S6,
     .twofixed .Screen6.S6,
     .main-page .Screen9.P1-S9,
-    .twofixed .Screen9.P1-S9 {
+    .twofixed .Screen9.P1-S9,
+    .twofixed .sectors.S7.P2-S7-remade {
         margin: 0 16px;
     }
 
     .First_Screen {
         height: 100vh;
+    }
+
+
+    .twofixed .main-post-link.P2.third-screen:before,
+    .main-post-link.P2.S2-P2::before {
+        height: 2px;
     }
 
     /*burger*/
@@ -7074,12 +7093,24 @@ foot-li > a {
         transition: opacity 1s;
     }
 
-    .burger-shower + .lines-menu + .lines-x + .top-horizon-menu {
+    .main-page .top-horizon-menu,
+    .twofixed .top-horizon-menu {
+        opacity: 0;
+    }
+
+    .main-page .top-horizon-menu,
+    .twofixed .top-horizon-menu {
         display: none;
+        background-color: #00000075;
+        margin: 0 0 auto;
+        padding: 0 0 0 33%;
+        height: 100vh;
     }
 
     .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
         display: block;
+        opacity: 1;
+        transition: opacity 1s;
     }
 
     .burger-shower {
@@ -7095,11 +7126,11 @@ foot-li > a {
         opacity: 0;
     }
 
-    .top-horizon-menu {
-        background-color: #00000075;
-        margin: 0 0 auto;
-        padding: 0 0 0 33%;
-        height: 100vh;
+    .main-top-nav .active::after {
+        width: 15%;
+        left: 40px;
+        right: auto;
+        bottom: 5px;
     }
 
     .twofixed .main-top-nav,
@@ -7153,11 +7184,15 @@ foot-li > a {
         background-color: #fff;
         height: 50vh;
     }
+    .twofixed .First_Screen,
+    .First_Screen {
+        min-height: 600px;
+        max-height: 700px;
+    }
 
-    .Screen2.P1-S2 {
+    .Screen2.P1-S2, .twofixed .Screen2 {
         flex-direction: column;
-        margin: 0;
-        top: 12.3vh;
+        margin: auto 0 -11px 0;
     }
 
     .back-color {
@@ -7171,13 +7206,20 @@ foot-li > a {
         left: 0;
     }
 
+    .window2.Screen6--w2.Screen5--w1.S6.P5-S6,
     .twofixed .Screen2 .window2,
     .main-page .window1,
     .window2 {
         max-width: 94%;
     }
 
-    .window2.Screen5--w2, .window2.Screen6--w2.Screen5--w1.S6 {
+    .main-header-dots.dots.hands,
+    .twofixed .Screen2 .window2 {
+        height: 44%;
+    }
+
+    .main-page .window2.Screen6--w2.Screen5--w1.S6,
+    .window2.Screen5--w2 {
         max-width: 100%;
     }
 
@@ -7189,12 +7231,41 @@ foot-li > a {
         width: auto;
     }
 
+    .twofixed .main-post-link.P2.S2-P2.text-S2-P4,
+    .twofixed .main-post-link.text-big.text-S2-P4.P4.S2.center,
+    .text-big.text-S2-P4.P4.S2,
+    .head3.P4-S3, .head3.P4-S2,
+    .twofixed .Screen7--h2.P2-S7-remade,
     .Sreen5--h3 {
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
         padding: 0;
         margin: 6px 0 0;
+        letter-spacing: 0;
     }
 
+    .twofixed .main-header-second-h2.P1-S6.P5-S6 {
+        margin: 10px 0 6px 32px;
+    }
+
+    .text-big.text-S2-P4.P4.S2 {
+        padding: 25px 16px 43px;
+    }
+
+    .twofixed .Screen7.P2-S7-remade {
+        padding: 43px 16px 0 16px;
+    }
+
+
+    .Screen7--p.P2-S7-remade::after {
+        width: 100%;
+        bottom: -20px;
+    }
+
+    .twofixed .info-graph {
+        padding: 0;
+    }
+
+    .twofixed .center.main-p.sector.normal,
     .Screen5--strong {
         font: normal normal 600 14px/24px 'Poppins', sans-serif;
     }
@@ -7234,17 +7305,22 @@ foot-li > a {
         padding: 0;
     }
 
+    .dots.Screen6--dots.P5-S6,
     .twofixed .dots.topPhoto,
     .dots {
         left: 0;
-        max-height: 200px;
-        height: 200px;
-        width: 98%;
+        height: 81%;
+        width: 98.5%;
     }
 
+    .twofixed .dots.topPhoto, .dots {
+        height: 77%;
+    }
+
+    .dots.Screen5--dots.Screen6--dots.P5-S6::after,
     .twofixed .dots::after,
     .dots.P1-S2::after {
-        right: -28px;
+        right: -30px;
         left: auto;
         bottom: -28px;
         width: 115px;
@@ -7253,11 +7329,14 @@ foot-li > a {
 
     .page2.twofixed .illustrate,
     .page3.twofixed .illustrate,
-    .illustrate {
+    .twofixed .illustrate,
+    .illustrate,
+    .illustrate.Screen5-img.Screen6-img.P5-S6 {
         width: 100%;
         height: 100%;
         border-radius: 15px;
         object-fit: cover;
+        object-position: top;
     }
 
     .twofixed .window1--button-group.P2.P2-S2,
@@ -7287,6 +7366,7 @@ foot-li > a {
         letter-spacing: 0;
     }
 
+    .twofixed .buttonIDN.big.P1-S7,
     .twofixed .buttonIDN.big,
     .back-slider.buttonIDN.white.decide,
     .buttonIDN.big.P1-S7,
@@ -7344,14 +7424,15 @@ foot-li > a {
         height: 1px;
     }
 
+    .dots.Screen5--dots::after, .dots.Screen5--dots.Screen6--dots::after,
     .main-header-dots.dots::after {
-        right: -11.7%;
-        bottom: -7%;
+        right: -8%;
+        bottom: -6%;
         left: auto;
         top: auto;
         width: 40%;
         height: 31%;
-        background-position: center;
+        background-position: right bottom;
     }
 
     /*.Screen4,*/
@@ -7452,9 +7533,27 @@ foot-li > a {
         padding: 24px 0 0;
     }
 
+    .Screen5--p.P1-S6.P5-S6,
+    .text-extending,
+    .twofixed .Screen7--p.P2-S7-remade,
     .Screen5--p {
         font: normal normal 400 14px/24px 'Poppins', sans-serif;
         padding: 6px 0 26px 11.5%;
+    }
+
+    .twofixed .Screen7--p.P2-S7-remade {
+        padding: 0;
+        margin: 25px 0 50px;
+        display: block;
+    }
+
+    .twofixed .dot-list {
+        padding: 0;
+        margin: 10px 0 -10px 16px;
+    }
+
+    .twofixed .sectors.S7.P2-S7-remade {
+        margin: 0;
     }
 
     .main-header-dots.dots,
@@ -7468,9 +7567,20 @@ foot-li > a {
         left: 0;
     }
 
-    .dots.Screen5--dots::after {
-        right: -5.9%;
-        bottom: -45px;
+    .twofixed .sector.normal.main-p.center.S7.P2-S7-remade {
+        background-size: 42px 30px;
+        background-position: 0 35px;
+        display: block;
+        width: 150px;
+        text-align: left;
+        margin-left: 0;
+        padding: 80px 0 0;
+        left: 0;
+    }
+
+    .window1--description--button.S7.Advisor.P2-S7 {
+        text-indent: 0;
+        margin: 10px 0 0;
     }
 
     .first-col-img,
@@ -7481,15 +7591,6 @@ foot-li > a {
         border-radius: 5px;
         object-fit: scale-down;
         left: 0;
-    }
-
-    .dots.Screen5--dots::after, .dots.Screen5--dots.Screen6--dots::after {
-        right: -11.7%;
-        bottom: -7%;
-        left: auto;
-        top: auto;
-        width: 40%;
-        height: 31%;
     }
 
     /*.Screen6,*/
@@ -7511,10 +7612,25 @@ foot-li > a {
         padding: 0;
     }
 
+    .our-team-h2,
+    .page5 .Screen7--h2.S8.P4-S8,
+    .twofixed .Screen7--h2.S8,
     .Screen7--h2 {
         letter-spacing: 0;
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
-        padding: 50px 0 14px;
+        /*padding: 50px 0 14px;*/
+    }
+
+    .twofixed .Screen7--h2.S8 {
+        padding: 65px 0 0;
+    }
+
+    .twofixed .login.buttonIDN.decide {
+        margin-top: 23px;
+    }
+
+    .our-team-h2 {
+        font-weight: 400;
     }
 
     .sectors.S7 {
@@ -7549,20 +7665,48 @@ foot-li > a {
     }
 
     /*.Screen9 {*/
-    .main-page .Screen9, .twofixed .Screen9 {
+    .main-page .Screen9,
+    .twofixed .Screen9 {
         display: flex;
         flex-direction: column;
         margin: 37px 16px 0;
         padding: 0;
     }
 
+    .twofixed .foot-ul,
     .foot-ul {
         margin: 0 0 17px;
     }
 
+    .window1--description--button.S7.Advisor.P2-S7,
     .foot-li.foot-li-head {
         font: normal normal 600 16px/24px 'Poppins', sans-serif;
+        letter-spacing: 0;
+    }
+
+    .window1--description--button.S7.Advisor.P2-S7,
+    .foot-li.foot-li-head {
         padding: 7px 0;
+    }
+
+    .twofixed .info-graph:last-child {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .common-info::before {
+        left: -68.9%;
+        bottom: -90.4%;
+        width: 240%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+    .twofixed .S7.S71.dot-list.Advisor {;
+        padding: 0 0 10px;
+        align-items: center;
     }
 
     .foot-li.opacity6 {
@@ -7575,10 +7719,15 @@ foot-li > a {
         letter-spacing: 0;
     }
 
+    .twofixed .idn-img,
     .idn-img {
         left: -2px;
         width: 60px;
         margin-top: 23px;
+    }
+
+    .twofixed .foot-lists {
+        left: 0;
     }
 
     .foot-lists {
@@ -7586,7 +7735,7 @@ foot-li > a {
         right: 0;
     }
 
-    .in {
+    .twofixed .in, .in {
         margin: 21px 0 0;
     }
 
@@ -7597,30 +7746,29 @@ foot-li > a {
         margin: auto 0;
     }
 
-    .twofixed .top-horizon-menu {
-        margin-top: 0;
-    }
-
-    .main-top-nav .active::after {
-        width: 46%;
-        left: 40px;
-        right: auto;
-    }
-
     /*.twofixed .First_Screen,*/
     .twofixed .window2,
     .twofixed .window1.P2 {
         flex-basis: auto;
         padding: 0;
         max-width: initial;
+        margin: 0;
     }
 
+    .twofixed .window1.P2.P2-S7.P2-S62,
+    .twofixed .window2.P2.P2-S72.left-dashed,
+    .twofixed .window2.P2.P2-S7.left-dashed {
+        margin: 0;
+    }
+
+    .yellow-upper.P5,
     .twofixed .page3.window1-descript.P2.S2-P2,
     .twofixed .main-post-link.P2.S2-P2,
     .twofixed .page2.window1-descript.P2.S2-P2 {
         font: normal normal 400 24px/32px 'Poppins', sans-serif;
         padding: 0;
         max-width: initial;
+        letter-spacing: 0;
     }
 
     .twofixed .scroll-button.P2 {
@@ -7641,8 +7789,33 @@ foot-li > a {
         column-count: 1;
     }
 
+    .wishes,
     .twofixed .main-post-link.frame4.P2 {
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
+    }
+
+    .wishes {
+        margin: 0 0 0 36px;
+        letter-spacing: 0;
+    }
+
+    .twofixed .Screen4.P2 {
+        margin: 47px 0;
+        padding: 30px 0;
+    }
+
+    .twofixed .main-post-link.center.frame4.P2 {
+        letter-spacing: 0;
+        margin: 10px 0 0;
+        text-indent: 0;
+    }
+
+    .twofixed .main-p.cover.P2.P2-S4 {
+        margin: 25px 0 0;
+    }
+
+    .twofixed .two-columns {
+        margin: 40px 0 0;
     }
 
     .twofixed .main-p.cover.P2.P2-S4,
@@ -7655,13 +7828,14 @@ foot-li > a {
         height: 2px;
     }
 
-    .twofixed .two-column--p,
-    .twofixed .main-post-link.P2.third-screen {
-        font: normal normal 400 14px/24px 'Poppins', sans-serif;
-    }
-
     .twofixed .two-column--p {
         display: inline;
+    }
+
+    .twofixed .main-post-link.P2.third-screen:before {
+        bottom: 0;
+        width: 100%;
+        height: 2px;
     }
 
     .twofixed .Screen5.P2.P2-S5dashed,
@@ -7669,28 +7843,49 @@ foot-li > a {
     .twofixed .P2.P2-S7.P2-S5dashed,
     .twofixed .twofixed .S5-P2dots,
     .twofixed .Screen5.P2.P2-S72,
-    .twofixed .window1-h.P2.S6-P2.added-element-before::before {
+    .twofixed .window1-h.P2.S6-P2.added-element-before::before,
+    .wrapper.max-width1650 {
         display: block;
+        margin: 0 16px;
     }
 
-    .twofixed .window1-h.P2 {
+    .twofixed .window1-h.P2.S6-P2.added-element-before,
+    .twofixed .window1-h.P2,
+    .twofixed .window1-h.P2.P2-S7,
+    .twofixed .window1-h.P2.S6-P2.added-element-before.P2-S6,
+    .twofixed .window1-h.P2.beyond {
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
         letter-spacing: 0;
-        padding: 32px 0 32px 12%;
+        padding: 32px 0 32px 48px;
         margin: 0;
     }
 
+    .twofixed .main-header-second-h2.head2.P2 {
+        padding: 0;
+    }
+
     .twofixed .window1-descript.P2.S6-P2.S6-P22,
-    .twofixed .window1-descript.P2 {
+    .twofixed .window1-descript.P2,
+    .twofixed .window1-descript.P2.P2-S72.beyond,
+    .twofixed .two-column--p,
+    .twofixed .main-post-link.P2.third-screen,
+    .twofixed .dots-item {
         font: normal normal 400 14px/24px 'Poppins', sans-serif;
         letter-spacing: 0;
     }
 
     .twofixed .window1-h.P2.S6-P2.added-element-before::before,
-    .twofixed .added-element-before::before {
-        left: 25px;
+    .twofixed .window1-h.P2::before {
+        left: 8px;
+        top: 0;
+        margin: auto;
         height: 16px;
         width: 16px;
+        bottom: 0;
+    }
+
+    .twofixed .window1.P2.P2-S7.P2-S62 {
+        padding: 0;
     }
 
     .twofixed .rounded-frame::before {
@@ -7699,7 +7894,7 @@ foot-li > a {
         box-sizing: border-box;
         background-size: 45%;
         top: 0;
-        left: 16px;
+        left: 0;
     }
 
     .twofixed .window1-descript.P2,
@@ -7716,22 +7911,229 @@ foot-li > a {
     .twofixed .window2.P2.P2-S72.left-dashed::before,
     .twofixed .window2.P2.P2-S5.left-dashed::before,
     .twofixed .window2.P2.P2-S7.left-dashed::before {
-        height: 25%;
-        top: 150px;
-        left: 32px;
+        height: 51%;
+        top: 17%;
+        left: 15px;
         width: 2px;
+    }
+
+    .twofixed .window2.P2.P2-S5.left-dashed::before {
+        top: 80px;
     }
 
     .twofixed .window2.P2 {
         max-width: initial;
     }
 
-    .twofixed .common-info,
-    .twofixed .Screen8,
-    .twofixed .Screen9,
+    .twofixed .window1.P2.P2-S7.P2-S62 {
+        display: block;
+    }
+
+    /*.twofixed .common-info,*/
+    .twofixed .common-info {
+    }
+
+    .twofixed .dots-item::before {
+        width: 6px;
+        height: 6px;
+        top: 10px;
+        left: -16px;
+    }
+
+    /*.twofixed .window1.P2.P2-S6.left-dashed .window2.P2,*/
     .window1.P2.P2-S7.P2-S72,
+    .twofixed .window1.P2.P2-S7,
     .twofixed .P2-S5dashed::before,
-    .hide320-600 {
+    .Screen6.P2-S7 .window2.P2,
+    .twofixed.page2 .hide320-600,
+    .twofixed.page3 .hide320-600,
+    .twofixed .common-info::after {
         display: none;
+    }
+
+    /*page4*/
+    .window-left.P4-S3 {
+        padding: 0;
+    }
+
+    .two-explain.Screen2,
+    .two-explain.Screen2.P2-S3 {
+        margin: 0 16px;
+        padding: 32px 0;
+    }
+
+    .two-explain.Screen2.max-width1600 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .window-right {
+        padding: 0;
+        height: initial;
+        min-height: initial;
+        max-height: initial;
+    }
+
+    .not-so-good {
+        padding: 0;
+    }
+
+    .dots.P2-S2.topPhoto.P4-S2,
+    .dots.P2-S2.topPhoto.P4-S2.P4-S3 {
+        width: 92.7%;
+        padding: 0 10% 7% 0;
+        margin: 16px auto;
+        max-height: initial;
+    }
+
+    .dots.P2-S2.topPhoto.P4-S2::after {
+        right: 4px;
+        bottom: 0;
+    }
+
+    .head3.P4-S3, .head3.P4-S2 {
+        letter-spacing: 0;
+    }
+
+    .not-so-good .text-extending {
+        margin: 0;
+    }
+
+    .text-extending {
+        padding: 0;
+        margin: 0;
+    }
+
+    .visualtextinfo {
+        justify-content: center;
+    }
+
+    .cail {
+        flex: 0 0 100%;
+        margin: 5px 0 0;
+    }
+
+    .ul-P4 {
+        margin: 5px 0 40px;
+    }
+
+    .info-vis {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .header.h3-P4 {
+        font: normal normal 700 20px/24px 'Poppins', sans-serif;
+    }
+
+    .item.h3-P4 {
+        font: normal normal 400 14px/24px 'Poppins', sans-serif;
+    }
+
+    /*Page5*/
+    .window2.Screen6--w2.Screen5--w1.S6.P5-S6 {
+        margin: 0;
+        padding: 0 5% 42px 0;
+        max-width: 94%;
+    }
+
+    .illustrate.Screen5-img.Screen6-img.P5-S6 {
+        margin: 0;
+    }
+
+    .Screen5--p.P1-S6.P5-S6::before {
+        left: 0;
+    }
+
+    .Screen5--p.P1-S6.P5-S6::after {
+        left: 9px;
+        width: 1px;
+        box-sizing: border-box;
+    }
+
+    .Screen5--p.P1-S6.P5-S6:last-of-type::after {
+        left: 6px;
+    }
+
+    .Screen5--decription.S5.S52.P5-S6 {
+        margin: 0;
+    }
+
+    .grey {
+        padding: 0;
+    }
+
+    .Screen6.P5-S6.P5-S6 {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .name-team-member {
+        font: normal normal 600 16px/24px 'Poppins', sans-serif;
+    }
+
+    .specialist-type {
+        font: normal normal 400 16px/24px 'Poppins', sans-serif;
+    }
+
+    .window1.Screen6--w2.Screen5--w2.S6.P5-S6 {
+        max-width: initial;
+        padding: 0;
+    }
+
+    .dots.Screen6--dots.P5-S6 {
+        margin: 25px 0 0;
+    }
+
+    .Screen5--p.P1-S6.P5-S6 {
+        padding: 14px 0 14px 36px;
+    }
+
+    .Screen7--h2.S8.P4-S8 {
+        max-width: initial;
+        padding: 65px 16px 0;
+    }
+
+    .our-team {
+        padding: 40px 0 0;
+    }
+
+    .avatars-collection {
+        margin: 30px 0 0;
+    }
+
+    .our-team-photo {
+        width: 65%;
+        border-radius: 5px;
+    }
+
+    .linkedinlogo {
+        width: 24px;
+        height: 24px;
+        background-size: 24px;
+        margin-bottom: 26px;
+    }
+
+    .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
+        margin: 10px auto 60px;
+        padding: 20px 0 0;
+    }
+
+    .main-post-link.P5-our-team::before {
+        height: 2px;
+        bottom: -10px;
+    }
+
+    .page5 .Screen7--h2.S8.P4-S8 {
+        padding: 62px 0 0;
+    }
+
+    .text-big.text-S2-P4.P4.S2.P5-our-team.P5::after {
+        width: 90%;
+    }
+
+    .page5.twofixed .login.buttonIDN.decide {
+        margin: 25px auto 0;
     }
 }
