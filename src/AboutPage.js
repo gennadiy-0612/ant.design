@@ -56,19 +56,19 @@ function AboutPage(props) {
                         <img src={Images.gautiersegouin} className="our-team-photo" alt="bridge" />
                         <strong className="name-team-member">Gautier Segouin</strong>
                         <span className="specialist-type">Co-Founder & CCO</span>
-                        <a className="linkedinlogo" href="/"></a>
+                        <a className="linkedinlogo" href="https://www.linkedin.com/in/gautier-segouin-defrancois-57645855/" target="_blank"></a>
                     </div>
                     <div className="photo-avatar">
                         <img src={Images.enricocattabiani} className="our-team-photo" alt="bridge" />
                         <strong className="name-team-member">Enrico Cattabiani</strong>
                         <span className="specialist-type">Founder & CEO</span>
-                        <a className="linkedinlogo" href="/"></a>
+                        <a className="linkedinlogo" href="https://www.linkedin.com/in/enrico-cattabiani-73641780/" target="_blank"></a>
                     </div>
                     <div className="photo-avatar">
                         <img src={Images.vasiliysoshnikov} className="our-team-photo" alt="bridge" />
                         <strong className="name-team-member">Vasiliy Soshnikov</strong>
                         <span className="specialist-type">Tech Advisor</span>
-                        <a className="linkedinlogo" href="/"></a>
+                        <a className="linkedinlogo" href="https://www.linkedin.com/in/vasiliy-soshnikov-76722783/" target="_blank"></a>
                     </div>
                 </div>
                 <p className="text-big text-S2-P4 P4 S2 center foot-head P5-our-team P5">IDN is backed by dozens of prominent <span className="main-post-link P2 S2-P2 text-big text-S2-P4 P4 S2 center P5-our-team"> Senior Executives</span> across Europe</p>

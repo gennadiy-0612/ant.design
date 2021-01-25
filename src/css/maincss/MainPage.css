@@ -6996,7 +6996,7 @@ foot-li > a {
     letter-spacing: -0.7px;
 }
 
-.text-big.text-S2-P4.P4.S2.P5-our-team {
+.page5 .twofixed .main-post-link.text-big.text-S2-P4.P4.S2.center {
     font: normal normal 700 24px/48px 'Poppins', sans-serif;
 }
 
@@ -7062,6 +7062,7 @@ foot-li > a {
     .twofixed .main-post-link.P2.third-screen:before,
     .main-post-link.P2.S2-P2::before {
         height: 2px;
+        bottom: 0;
     }
 
     /*burger*/
@@ -7363,7 +7364,7 @@ foot-li > a {
 
     .twofixed .window1--description,
     .window1--description {
-        margin: 0 16px 24px 0;
+        margin: 1vh 16px 1vh 0;
     }
 
     .window1--description--button {
@@ -7767,6 +7768,10 @@ foot-li > a {
         padding: 0;
         max-width: initial;
         margin: 0;
+    }
+
+    .twofixed .Screen2 .window1.P2 {
+        margin-top: 5vh;
     }
 
     .twofixed .window1.P2.P2-S7.P2-S62,
