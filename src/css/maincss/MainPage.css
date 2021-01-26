@@ -7199,17 +7199,17 @@ foot-li > a {
 
     .twofixed .First_Screen,
     .First_Screen {
-        min-height: 500px;
-        max-height: 700px;
+        min-height: initial;
+        max-height: initial;
     }
 
     .Screen2.P1-S2, .twofixed .Screen2 {
         flex-direction: column;
-        margin: auto 0 -11px 0;
+        margin: auto 0 24px 0;
     }
 
     .back-color {
-        padding-bottom: 55px;
+        padding-bottom: 56px;
         margin-top: 0;
     }
 
@@ -7227,11 +7227,9 @@ foot-li > a {
     }
 
     .main-page .Screen2.window1 {
-        margin: 8vh 0 2vh;
-    }
-
-    .main-page .window2.X1600 {
-        margin-bottom: 23px;
+        margin: 6vh 0 auto;
+        display: block;
+        height: 43vh;
     }
 
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
@@ -7260,7 +7258,7 @@ foot-li > a {
     .Sreen5--h3 {
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
         padding: 0;
-        margin: 6px 0 0;
+        margin: 8px 0 0;
         letter-spacing: 0;
     }
 
@@ -7324,8 +7322,11 @@ foot-li > a {
     .window1-descript {
         font: normal normal 400 12px/24px 'Poppins', sans-serif;
         letter-spacing: 0;
-        margin: 2.5vh 0 0;
         padding: 0;
+    }
+
+    .window1-descript, .window1-h {
+        margin: 0 0 8px 0;
     }
 
     .dots.Screen6--dots.P5-S6,
@@ -7373,7 +7374,7 @@ foot-li > a {
 
     .twofixed .window1--button-group.P2.P2-S2,
     .window1--button-group {
-        margin: 20px auto 0 0;
+        margin: 24px auto 0 0;
         width: auto;
         min-width: 100%;
         justify-content: left;
@@ -7425,35 +7426,33 @@ foot-li > a {
         flex-direction: column-reverse;
     }
 
+    .Screen4, .Screen5--decription,
     .main-header-second {
-        padding: 35px 0 0;
+        padding: 0;
     }
 
     .window1.Screen5--w1 {
         max-width: 100%;
     }
 
-    .Screen5--decription {
-        padding: 30px 0 0;
-    }
-
     .twofixed .main-header-second-h2.head2,
     .twofixed .main-header-second-h2.head2.P2.S2-P2,
-    .main-header-second-h2.head2, .main-header-second-h2.head2 {
+    .main-header-second-h2.head2, .main-header-second-h2.head2,
+    .twofixed .main-header-second-h2.head2.P2 {
         font: normal normal 600 12px/24px 'Poppins', sans-serif;
-        padding: 15px 0 0;
+        padding: 48px 0 0;
         letter-spacing: 0;
         margin: 0;
     }
-
+    .twofixed .main-header-second-h2.head2.P2.S2-P2{
+        margin: 0;
+    }
     .main-p {
         font: italic normal 400 20px/32px 'Poppins', sans-serif;
-        margin: 25px 0 0;
     }
 
     .main-post-link {
         font: normal normal 700 20px/20px 'Poppins', sans-serif;
-        margin: 25px 0 0;
     }
 
     .main-page .main-post-link:before {
@@ -7473,20 +7472,24 @@ foot-li > a {
     }
 
     /*.Screen4,*/
-    .Screen4 {
-        padding: 35px 0 0;
-    }
-
     .normal.main-p.center.S4 {
         font: normal normal 400 20px/32px 'Poppins', sans-serif;
         max-width: 91%;
-        margin: 27px auto 0;
         letter-spacing: 0;
         padding: 0;
+        margin: 24px 16px 0;
+    }
+
+    .main-p,
+    .n.main-p.coverormal.main-p.center.S4,
+    .main-post-link,
+    .main-post-link.frame4,
+    .main-p.cover,
+    .twofixed .main-p.cover.P2.P2-S4 {
+        margin: 24px auto 0;
     }
 
     .main-post-link.frame4 {
-        margin-top: 30px;
         letter-spacing: 0;
     }
 
@@ -7509,14 +7512,10 @@ foot-li > a {
     }
 
     .normal.main-p {
-        font: italic normal 400 20px/32px 'Poppins', sans-serif;
+        font: normal normal 400 20px/32px 'Poppins', sans-serif;
         margin-top: 80px;
-        padding-top: 50px;
+        padding-top: 48px;
         max-width: 83%;
-    }
-
-    .main-p.cover {
-        padding: 36px 0 6px;
     }
 
     .sectors {
@@ -7810,10 +7809,6 @@ foot-li > a {
         margin: 0;
     }
 
-    .twofixed .Screen2 .window1.P2 {
-        margin-top: 5vh;
-    }
-
     .twofixed .window1.P2.P2-S7.P2-S62,
     .twofixed .window2.P2.P2-S72.left-dashed,
     .twofixed .window2.P2.P2-S7.left-dashed {
@@ -7859,8 +7854,8 @@ foot-li > a {
     }
 
     .twofixed .Screen4.P2 {
-        margin: 0 0 47px;
-        padding: 30px 0;
+        margin: 0;
+        padding: 0;
     }
 
     .twofixed .main-post-link.center.frame4.P2 {
@@ -7869,17 +7864,14 @@ foot-li > a {
         text-indent: 0;
     }
 
-    .twofixed .main-p.cover.P2.P2-S4 {
-        margin: 25px 0 0;
-    }
-
     .twofixed .two-columns {
-        margin: 40px 0 0;
+        margin: 48px 0 24px;
     }
 
     .twofixed .main-p.cover.P2.P2-S4,
     .twofixed .main-post-link.P2.third-screen.third-line {
         font: normal normal 400 20px/32px 'Poppins', sans-serif;
+        text-indent: 0;
     }
 
     .twofixed .main-post-link.P2.third-screen.third-line:before {
@@ -7917,10 +7909,6 @@ foot-li > a {
         letter-spacing: 0;
         margin: -10px 0 8px;
         padding: 32px 0 32px 48px;
-    }
-
-    .twofixed .main-header-second-h2.head2.P2 {
-        padding: 0;
     }
 
     .twofixed .window1-descript.P2.S6-P2.S6-P22,
@@ -7982,6 +7970,8 @@ foot-li > a {
 
     .twofixed .window2.P2 {
         max-width: initial;
+        padding: 0;
+        margin: 0;
     }
 
     .twofixed .window1.P2.P2-S7.P2-S62 {
@@ -8019,7 +8009,7 @@ foot-li > a {
     .two-explain.Screen2,
     .two-explain.Screen2.P2-S3 {
         margin: 0 16px;
-        padding: 32px 0;
+        padding: 0 0 48px;
     }
 
     .two-explain.Screen2.max-width1600 {
@@ -8123,6 +8113,7 @@ foot-li > a {
         margin: 0;
     }
 
+    .two-explain.Screen2.max-width1600,
     .grey {
         padding: 0;
     }
@@ -8220,5 +8211,58 @@ foot-li > a {
 
     .login.buttonIDN[href="#page2"], .login.buttonIDN[href="#page3"] {
         display: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+    .main-page .First_Screen,
+    .twofixed .First_Screen,
+    .main-header.S3,
+    .idea,
+    .main-page .Screen5.S5,
+    .twofixed .Screen5.S5,
+    .main-page .Screen6.S6,
+    .twofixed .Screen6.S6,
+    .main-page .Screen9.P1-S9,
+    .twofixed .Screen9.P1-S9,
+    .twofixed .sectors.S7.P2-S7-remade {
+        margin: 0 60px;
+    }
+
+    .idnlogo {
+        height: 35px;
+        margin: 16px 0 0 16px;
+    }
+
+    .logo-link {
+        /*height: 35px;*/
+        /*width: 105px;*/
+    }
+
+    .burger-shower, .lines-menu, .lines-x {
+        height: 40px;
+        width: 45px;
+    }
+
+    .window1-h {
+        font: normal normal 600 48px/70px 'Poppins', sans-serif;
+    }
+
+    .window1-descript {
+        font: normal normal 400 22px/40px 'Poppins', sans-serif;
+    }
+
+    .window1--description--button {
+        font: normal normal 500 24px/36px 'Poppins', sans-serif;
+    }
+
+    .twofixed .buttonIDN.big.P1-S7,
+    .twofixed .buttonIDN.big,
+    .back-slider.buttonIDN.white.decide,
+    .buttonIDN.big.P1-S7,
+    .buttonIDN.big {
+        width: 190px;
+        height: 50px;
+        font: normal normal 500 24px/50px 'Poppins', sans-serif;
     }
 }
