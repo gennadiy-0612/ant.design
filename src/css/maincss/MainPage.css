@@ -7099,6 +7099,17 @@ foot-li > a {
 
     .main-page .top-horizon-menu,
     .twofixed .top-horizon-menu {
+        flex-direction: column;
+        margin: 0;
+        display: none;
+    }
+
+    .twofixed .login-block, .login-block {
+        width: 100%;
+    }
+
+    .main-page .top-horizon-menu,
+    .top-horizon-menu {
         display: none;
         background-color: #00000075;
         margin: 0 0 auto;
@@ -7111,7 +7122,6 @@ foot-li > a {
     .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
         display: block;
         opacity: 1;
-        transition: opacity 1s;
     }
 
     .burger-shower {
@@ -7216,13 +7226,12 @@ foot-li > a {
         max-width: 94%;
     }
 
-    .main-page .window2.X1600 {
-        margin-bottom: 30px;
+    .main-page .Screen2.window1 {
+        margin: 8vh 0 2vh;
     }
 
-    .main-header-dots.dots.hands,
-    .twofixed .Screen2 .window2 {
-        height: 44%;
+    .main-page .window2.X1600 {
+        margin-bottom: 23px;
     }
 
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
@@ -7257,10 +7266,12 @@ foot-li > a {
 
     .twofixed .main-header-second-h2.P1-S6.P5-S6 {
         margin: 10px 0 6px 32px;
+        font: normal normal 600 24px/26px 'Poppins', sans-serif;
     }
 
+
     .text-big.text-S2-P4.P4.S2 {
-        padding: 25px 16px 43px;
+        display: none;
     }
 
     .twofixed .Screen7.P2-S7-remade {
@@ -7307,7 +7318,7 @@ foot-li > a {
         font: normal normal 600 28px/40px 'Poppins', sans-serif;
         margin: 0 auto 0 0;
         letter-spacing: 0;
-        max-width: 300px;
+        max-width: initial;
     }
 
     .window1-descript {
@@ -7339,6 +7350,11 @@ foot-li > a {
         height: 110px;
     }
 
+    .dots.Screen5--dots.Screen6--dots.P5-S6::after {
+        right: -25px;
+        bottom: -22px;
+    }
+
     .page2.twofixed .illustrate,
     .page3.twofixed .illustrate,
     .twofixed .illustrate,
@@ -7351,9 +7367,13 @@ foot-li > a {
         object-position: top;
     }
 
+    .P1-S2 .illustrate {
+        max-height: 330px;
+    }
+
     .twofixed .window1--button-group.P2.P2-S2,
     .window1--button-group {
-        margin: 20px auto 6vh 0;
+        margin: 20px auto 0 0;
         width: auto;
         min-width: 100%;
         justify-content: left;
@@ -7366,7 +7386,7 @@ foot-li > a {
 
     .window1--button-group.Screen5--button-group,
     .Screen5--button-group.S6bg {
-        margin: 10px auto 0 0;
+        margin: 0 auto 20px 0;
         width: auto;
         min-width: 100%;
         justify-content: flex-start;
@@ -7475,6 +7495,7 @@ foot-li > a {
         left: 10%;
         right: 10%;
         width: 53%;
+        bottom: -18px;
     }
 
     .main-page .main-post-link:before {
@@ -7564,7 +7585,7 @@ foot-li > a {
 
     .twofixed .Screen7--p.P2-S7-remade {
         padding: 0;
-        margin: 25px 0 50px;
+        margin: 25px 0 30px;
         display: block;
     }
 
@@ -7606,12 +7627,20 @@ foot-li > a {
 
     .first-col-img,
     .illustrate.Screen5-img {
-        height: auto;
+        height: 100%;
         width: 100%;
         margin: 20px auto 0 0;
         border-radius: 5px;
-        object-fit: scale-down;
+        object-fit: cover;
         left: 0;
+    }
+
+    .illustrate.Screen5-img {
+        margin-top: 0;
+    }
+
+    .first-col-img {
+        margin-top: 40px;
     }
 
     /*.Screen6,*/
@@ -7652,6 +7681,7 @@ foot-li > a {
 
     .our-team-h2 {
         font-weight: 400;
+        padding: 37px 0 0;
     }
 
     .sectors.S7 {
@@ -7767,8 +7797,8 @@ foot-li > a {
     }
 
     .twofixed .First_Screen .Screen2 {
-        display: block;
         margin: auto 0 10px;
+        flex-direction: column;
     }
 
     /*.twofixed .First_Screen,*/
@@ -7885,8 +7915,8 @@ foot-li > a {
     .twofixed .window1-h.P2.beyond {
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
         letter-spacing: 0;
+        margin: -10px 0 8px;
         padding: 32px 0 32px 48px;
-        margin: 0;
     }
 
     .twofixed .main-header-second-h2.head2.P2 {
@@ -7960,6 +7990,7 @@ foot-li > a {
 
     /*.twofixed .common-info,*/
     .twofixed .common-info {
+        margin-top: 20px;
     }
 
     .twofixed .dots-item::before {
@@ -8060,6 +8091,11 @@ foot-li > a {
         font: normal normal 400 14px/24px 'Poppins', sans-serif;
     }
 
+    .item.h3-P4::before {
+        height: 6px;
+        width: 6px;
+    }
+
     /*Page5*/
     .window2.Screen6--w2.Screen5--w1.S6.P5-S6 {
         margin: 0;
@@ -8069,10 +8105,8 @@ foot-li > a {
 
     .illustrate.Screen5-img.Screen6-img.P5-S6 {
         margin: 0;
-    }
-
-    .Screen5--p.P1-S6.P5-S6::before {
-        left: 0;
+        max-height: 270px;
+        object-position: center;
     }
 
     .Screen5--p.P1-S6.P5-S6::after {
@@ -8125,7 +8159,7 @@ foot-li > a {
     }
 
     .our-team {
-        padding: 40px 0 0;
+        padding: 0;
     }
 
     .avatars-collection {
@@ -8145,8 +8179,13 @@ foot-li > a {
     }
 
     .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
-        margin: 10px auto 60px;
+        margin: 10px 16px 60px;
         padding: 20px 0 0;
+    }
+
+    .text-big.text-S2-P4.P4.S2.P5-our-team.P5,
+    .twofixed .main-post-link.text-big.text-S2-P4.P4.S2.center {
+        font: normal normal 600 16px/24px 'Poppins', sans-serif;
     }
 
     .main-post-link.P5-our-team::before {
@@ -8173,6 +8212,10 @@ foot-li > a {
 
     .page5.twofixed .login.buttonIDN.decide {
         margin: 25px auto 0;
+    }
+
+    .page5 .Screen8 {
+        padding-bottom: 65px;
     }
 
     .login.buttonIDN[href="#page2"], .login.buttonIDN[href="#page3"] {
