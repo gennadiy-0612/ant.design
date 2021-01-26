@@ -7163,7 +7163,6 @@ foot-li > a {
     .Header {
         z-index: 2;
         position: absolute;
-        height: 12.3vh;
     }
 
     .twofixed .Header--logo,
@@ -7205,7 +7204,12 @@ foot-li > a {
 
     .Screen2.P1-S2, .twofixed .Screen2 {
         flex-direction: column;
-        margin: auto 0 24px 0;
+        margin: 0;
+        height: 100vh;
+    }
+    .twofixed .Screen2 .window2,
+    .First_Screen .window2 {
+        margin: auto auto 26px;
     }
 
     .back-color {
@@ -7226,10 +7230,9 @@ foot-li > a {
         max-width: 94%;
     }
 
-    .main-page .Screen2.window1 {
-        margin: 6vh 0 auto;
+    #top + .Screen2 .window1 {
+        margin: 10vh 0 auto;
         display: block;
-        height: 43vh;
     }
 
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
@@ -7444,15 +7447,18 @@ foot-li > a {
         letter-spacing: 0;
         margin: 0;
     }
-    .twofixed .main-header-second-h2.head2.P2.S2-P2{
+
+    .twofixed .main-header-second-h2.head2.P2.S2-P2 {
         margin: 0;
     }
+
     .main-p {
         font: italic normal 400 20px/32px 'Poppins', sans-serif;
     }
 
     .main-post-link {
         font: normal normal 700 20px/20px 'Poppins', sans-serif;
+        text-align: left;
     }
 
     .main-page .main-post-link:before {
@@ -7460,7 +7466,8 @@ foot-li > a {
         height: 1px;
     }
 
-    .dots.Screen5--dots::after, .dots.Screen5--dots.Screen6--dots::after,
+    .dots.Screen5--dots::after,
+    .dots.Screen5--dots.Screen6--dots::after,
     .main-header-dots.dots::after {
         right: -8%;
         bottom: -6%;
@@ -7793,11 +7800,6 @@ foot-li > a {
     /*.twofixed .First_Screen,*/
     .twofixed .First_Screen {
         height: 100vh;
-    }
-
-    .twofixed .First_Screen .Screen2 {
-        margin: auto 0 10px;
-        flex-direction: column;
     }
 
     /*.twofixed .First_Screen,*/

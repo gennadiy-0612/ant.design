@@ -165,8 +165,7 @@ function SectorsPage(props) {
             </div>
 
             <div className="Screen8">
-                <h2 className="Screen7--h2 S8 P4-S8">Not sure whether your sector, deal,<br />
-                    or investment’s scope can be aligned to IDN’s focus? </h2>
+                <h2 className="Screen7--h2 S8 P4-S8">Not sure whether your sector, deal, or investment’s scope can be aligned to IDN’s focus? </h2>
                 <a href="mailto:info@infradeals.net"
                    className="login buttonIDN S8 big white center back-slider white decide">Ask us</a>
             </div>

@@ -48,9 +48,9 @@ function MainPage(props) {
 					</div>
 					<div className="main-header-second S3">
 						<h2 className="main-header-second-h2 head2 S3">WHAT WE OFFER</h2>
-						<p className="main-p X1600">“IDN unleashes<br />
+						<p className="main-p X1600">“IDN unleashes
 							the power of networking
-							and industry expertise<br />
+							and industry expertise
 							to give Private Equity infrastructure investors
 							what they want:</p>
 						<p className="main-post-link">Access to bilateral deals</p>
@@ -82,7 +82,7 @@ function MainPage(props) {
 				<div className="window1 Screen5--w1">
 					<div className="Screen5--decription S51">
 						<h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
-						<h3 className="Sreen5--h3 S5">Unparalleled remuneration<br /> and opportunities</h3>
+						<h3 className="Sreen5--h3 S5">Unparalleled remuneration and opportunities</h3>
 						<div className="Screen5--description--content">
 							<strong className="Screen5--strong S5">CONNECT</strong>
 							<p className="Screen5--p S5">Originate deals and connect to leading investors</p>
@@ -142,7 +142,7 @@ function MainPage(props) {
 					Senior
 					Executives to originate deals in a structured, innovative, and transparent way, creating an
 					environment
-					of trust,<br /> protecting & promoting the interests of all parties involved</p>
+					of trust, protecting & promoting the interests of all parties involved</p>
 				<div className="back-color S7 P1-S7">
 					<p className="sectors S7">
 						<span className="sector one normal main-p center S7">CONNECTION</span>

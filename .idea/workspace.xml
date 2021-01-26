@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,14 +267,8 @@
       <workItem from="1611574381265" duration="13652000" />
       <workItem from="1611626540588" duration="6433000" />
       <workItem from="1611640131815" duration="12493000" />
-      <workItem from="1611663353972" duration="6993000" />
-    </task>
-    <task id="LOCAL-00305" summary="changed-animation">
-      <created>1610506282406</created>
-      <option name="number" value="00305" />
-      <option name="presentableId" value="LOCAL-00305" />
-      <option name="project" value="LOCAL" />
-      <updated>1610506282406</updated>
+      <workItem from="1611663353972" duration="7728000" />
+      <workItem from="1611681322935" duration="1496000" />
     </task>
     <task id="LOCAL-00306" summary="corrections">
       <created>1610546732370</created>
@@ -613,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611648943674</updated>
     </task>
-    <option name="localTasksCounter" value="354" />
+    <task id="LOCAL-00354" summary="Added-scroll">
+      <created>1611674865468</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1611674865468</updated>
+    </task>
+    <option name="localTasksCounter" value="355" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -641,7 +641,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="5page-added" />
     <MESSAGE value="dots-2-3-changed" />
     <MESSAGE value="4page-adapting" />
     <MESSAGE value="4page-fixed" />
@@ -666,7 +665,8 @@
     <MESSAGE value="complete320-600" />
     <MESSAGE value="screen320-600" />
     <MESSAGE value="review-320-600" />
-    <option name="LAST_COMMIT_MESSAGE" value="review-320-600" />
+    <MESSAGE value="Added-scroll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added-scroll" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

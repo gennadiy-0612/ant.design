@@ -15,7 +15,7 @@ function AboutPage(props) {
                     <div className="window1 P2 S2-P2">
                         <h1 className="main-header-second-h2 head2 P2 S2-P2 P5-S2">MISSION</h1>
                         <p className="window1-descript P2 S2-P2 page3 P5-S2">We founded IDN to address an evident  <span className="main-post-link P2 S2-P2"> market gap: </span> to meet inverstors’ demand to
-                            access proprietary, bilateral deals.<br />
+                            access proprietary, bilateral deals.
                             <span className="yellow-upper P5 P5-S2"> We just created the right incentives and conditions to stimulate the offer</span>
                         </p>
                     </div>
@@ -75,7 +75,7 @@ function AboutPage(props) {
             </div>
 
             <div className="Screen8">
-                <h2 className="Screen7--h2 S8 P4-S8">Do you want to learn more about<br />
+                <h2 className="Screen7--h2 S8 P4-S8">Do you want to learn more about
                     our mission or our team?</h2>
                 <a href="mailto:info@infradeals.net" className="login buttonIDN S8 big white center back-slider white decide">Get In touch</a>
             </div>

@@ -36,7 +36,7 @@ function AdvisorPage(props) {
                 <p className="main-post-link center frame4 P2 P2-S4">Senior Advisors are</p>
                 <div className="idea">
                     <p className="normal main-p center cover P2 P2-S4">Our Senior Advisors are independent Senior
-                        Executives across every infrastructure related sector<br />
+                        Executives across every infrastructure related sector
                         <span className="main-post-link P2 third-screen third-line">in Europe and beyond</span></p>
                     <div className="two-columns">
                         <p className="two-column--p"><span className="main-post-link P2 third-screen">To join our platform</span> they
