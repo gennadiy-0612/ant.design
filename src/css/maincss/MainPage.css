@@ -7108,27 +7108,23 @@ foot-li > a {
     .main-page .top-horizon-menu,
     .twofixed .top-horizon-menu {
         flex-direction: column;
-        margin: 0;
-        display: none;
+        margin-top: -100vh;
     }
 
     .twofixed .login-block, .login-block {
         width: 100%;
     }
 
-    #root .top-horizon-menu {
-        display: none;
+    #top .top-horizon-menu {
         background-color: #00000075;
-        margin: 0 0 auto;
         padding: 0 0 0 33%;
         height: 100vh;
-        opacity: 0;
-        transition: opacity 1s;
+        transition: margin-top 1s;
     }
 
-    #root .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
+    #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
         display: block;
-        opacity: 1;
+        margin-top: 0%;
     }
 
     .burger-shower {
@@ -7209,18 +7205,20 @@ foot-li > a {
         max-height: initial;
     }
 
-    .First_Screen .Screen2.P1-S2, .First_Screen .Screen2 {
+    .First_Screen .Screen2.P1-S2,
+    .First_Screen .Screen2 {
         flex-direction: column;
         margin: 0;
         height: 100vh;
     }
 
-    .First_Screen .window2 {
-        margin: auto auto 26px;
+    .First_Screen #top + .Screen2 .window2 {
+        margin: auto auto 24px;
     }
 
-    .twofixed .First_Screen .Screen2 .window2 {
-        margin: auto auto 20px;
+    .First_Screen .Screen2 .window2 {
+        display: flex;
+        justify-content: left;
     }
 
     .back-color {
@@ -7236,10 +7234,7 @@ foot-li > a {
         left: 0;
     }
 
-    .window2.Screen6--w2.Screen5--w1.S6.P5-S6,
-    .twofixed .Screen2 .window2,
-    .main-page .window1,
-    .window2 {
+    .window2.Screen6--w2.Screen5--w1.S6.P5-S6 {
         margin: 0 16px;
     }
 
@@ -7831,6 +7826,7 @@ foot-li > a {
 
     /*Page2*/
     /*.twofixed .First_Screen,*/
+    .page5.twofixed .First_Screen,
     .twofixed .First_Screen {
         height: auto;
     }
