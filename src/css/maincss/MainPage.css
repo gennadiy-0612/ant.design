@@ -7211,7 +7211,6 @@ foot-li > a {
         flex-direction: column;
         margin: 0;
         height: 100vh;
-        height: available;
     }
 
     .First_Screen #top + .Screen2 .window2 {
