@@ -7020,8 +7020,8 @@ foot-li > a {
     background-color: #EAE9F2;
 }
 
-.main-page .First_Screen .window1-descript {
-    position: relative;
+.main-page .First_Screen .window1-descript::after {
+    content: none;
 }
 
 .page5 .Screen8 {
@@ -7046,6 +7046,10 @@ foot-li > a {
 }
 
 @media (max-width: 1023px) {
+    .main-page .First_Screen .window1-descript::after {
+        content: '';
+    }
+
     .main-page .First_Screen,
     .twofixed .First_Screen,
     .main-header.S3,
@@ -7064,10 +7068,14 @@ foot-li > a {
         height: 100vh;
     }
 
+    .main-page .First_Screen .window1-descript {
+        position: relative;
+    }
+
     .twofixed .main-post-link.P2.third-screen:before,
     .main-post-link.P2.S2-P2::before {
         height: 2px;
-        bottom: 0;
+        bottom: -4px;
     }
 
     /*burger*/
@@ -7202,22 +7210,28 @@ foot-li > a {
         max-height: initial;
     }
 
-    .Screen2.P1-S2, .twofixed .Screen2 {
+    .First_Screen .Screen2.P1-S2, .First_Screen .Screen2 {
         flex-direction: column;
         margin: 0;
         height: 100vh;
     }
-    .twofixed .Screen2 .window2,
+
     .First_Screen .window2 {
         margin: auto auto 26px;
     }
 
+    .twofixed .First_Screen .Screen2 .window2 {
+        margin: auto auto 20px;
+    }
+
     .back-color {
-        padding-bottom: 56px;
+        padding-bottom: 48px;
         margin-top: 0;
     }
 
-    .main-page .window1, .window2, .window1.Screen6--w2.Screen5--w2.S6 {
+    .main-page .window1,
+    .window2,
+    .window1.Screen6--w2.Screen5--w2.S6 {
         flex: 0 0 auto;
         padding: 0;
         left: 0;
@@ -7227,7 +7241,7 @@ foot-li > a {
     .twofixed .Screen2 .window2,
     .main-page .window1,
     .window2 {
-        max-width: 94%;
+        margin: 0 16px;
     }
 
     #top + .Screen2 .window1 {
@@ -7238,21 +7252,19 @@ foot-li > a {
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
     .window2.Screen5--w2 {
         max-width: 100%;
-        top: 25px;
+        top: 0;
+        margin: 48px 0 0;
     }
 
     .main-page .window2.Screen6--w2.Screen5--w1.S6 {
-        margin: 0 0 50px;
-    }
-
-    .window1.Screen6--w2.Screen5--w2.S6 {
-        max-width: 100%;
+        top: 24px;
+        margin: 0 0 24px;
     }
 
     .Screen5--decription.S5.S52 {
         width: auto;
     }
-
+    .page4 .main-post-link.P2.S2-P2.text-big.text-S2-P4.P4.S2.center,
     .twofixed .main-post-link.P2.S2-P2.text-S2-P4,
     .twofixed .main-post-link.text-big.text-S2-P4.P4.S2.center,
     .text-big.text-S2-P4.P4.S2,
@@ -7265,20 +7277,25 @@ foot-li > a {
         letter-spacing: 0;
     }
 
+    .text-big.text-S2-P4.P4.S2 {
+        padding: 32px 0 0;
+    }
+
     .twofixed .main-header-second-h2.P1-S6.P5-S6 {
         margin: 10px 0 6px 32px;
         font: normal normal 600 24px/26px 'Poppins', sans-serif;
     }
 
 
-    .text-big.text-S2-P4.P4.S2 {
-        display: none;
+    .page4 .text-big.text-S2-P4.P4.S2.center.foot-head,
+    .page5 .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
+        padding: 24px 0 48px;
+        margin: 0;
     }
 
     .twofixed .Screen7.P2-S7-remade {
-        padding: 43px 16px 0 16px;
+        padding: 40px 16px 0;
     }
-
 
     .Screen7--p.P2-S7-remade::after {
         width: 100%;
@@ -7337,7 +7354,7 @@ foot-li > a {
     .dots {
         left: 0;
         height: 81%;
-        width: 98.5%;
+        width: 92.5%;
     }
 
     .twofixed .dots.topPhoto, .dots {
@@ -7390,7 +7407,7 @@ foot-li > a {
 
     .window1--button-group.Screen5--button-group,
     .Screen5--button-group.S6bg {
-        margin: 0 auto 20px 0;
+        margin: 0 0 24px;
         width: auto;
         min-width: 100%;
         justify-content: flex-start;
@@ -7398,7 +7415,7 @@ foot-li > a {
 
     .twofixed .window1--description,
     .window1--description {
-        margin: 1vh 16px 1vh 0;
+        margin: 0 16px 0 0;
     }
 
     .window1--description--button {
@@ -7421,11 +7438,11 @@ foot-li > a {
     /*.Screen3,*/
     .Screen3.main {
         width: auto;
-        padding: 0 0 20px;
+        padding: 0 0 24px;
     }
 
     .main-header {
-        padding: 0 0 50px;
+        padding: 0 0 48px;
         flex-direction: column-reverse;
     }
 
@@ -7434,8 +7451,10 @@ foot-li > a {
         padding: 0;
     }
 
+    .window1.Screen6--w2.Screen5--w2.S6,
     .window1.Screen5--w1 {
         max-width: 100%;
+        margin: 0;
     }
 
     .twofixed .main-header-second-h2.head2,
@@ -7457,9 +7476,9 @@ foot-li > a {
     }
 
     .main-post-link {
-        font: normal normal 700 20px/20px 'Poppins', sans-serif;
-        text-align: left;
+        font: normal normal 700 20px/24px 'Poppins', sans-serif;
     }
+
 
     .main-page .main-post-link:before {
         bottom: -7px;
@@ -7480,7 +7499,6 @@ foot-li > a {
 
     /*.Screen4,*/
     .normal.main-p.center.S4 {
-        font: normal normal 400 20px/32px 'Poppins', sans-serif;
         max-width: 91%;
         letter-spacing: 0;
         padding: 0;
@@ -7489,15 +7507,25 @@ foot-li > a {
 
     .main-p,
     .n.main-p.coverormal.main-p.center.S4,
-    .main-post-link,
-    .main-post-link.frame4,
     .main-p.cover,
     .twofixed .main-p.cover.P2.P2-S4 {
         margin: 24px auto 0;
     }
 
+    .main-post-link,
+    .main-post-link.frame4 {
+        text-align: center;
+        margin: 24px auto;
+    }
+
+    .main-post-link {
+        text-align: left;
+        margin: 24px 0;
+    }
+
     .main-post-link.frame4 {
         letter-spacing: 0;
+        margin-bottom: 48px;
     }
 
     .main-post-link.frame4.center::before {
@@ -7505,7 +7533,7 @@ foot-li > a {
         left: 10%;
         right: 10%;
         width: 53%;
-        bottom: -18px;
+        bottom: -10px;
     }
 
     .main-page .main-post-link:before {
@@ -7518,11 +7546,15 @@ foot-li > a {
         display: none;
     }
 
+    .normal.main-p.center.S4,
     .normal.main-p {
-        font: normal normal 400 20px/32px 'Poppins', sans-serif;
-        margin-top: 80px;
+        padding-top: 0;
+        margin: 48px 16px 0;
+    }
+
+    .normal.main-p {
         padding-top: 48px;
-        max-width: 83%;
+        margin: 0 auto 0;
     }
 
     .sectors {
@@ -7566,7 +7598,7 @@ foot-li > a {
     }
 
     .window1--description--button.S7 {
-        margin: 22px 0 9px;
+        margin: 24px 0 8px;
         padding: 0;
     }
 
@@ -7578,7 +7610,7 @@ foot-li > a {
 
     .Screen5--description--content, .Screen5--description--content.S6c {
         max-width: 100%;
-        padding: 24px 0 0;
+        padding: 24px 0;
     }
 
     .Screen5--p.P1-S6.P5-S6,
@@ -7586,18 +7618,18 @@ foot-li > a {
     .twofixed .Screen7--p.P2-S7-remade,
     .Screen5--p {
         font: normal normal 400 14px/24px 'Poppins', sans-serif;
-        padding: 6px 0 26px 11.5%;
+        padding: 8px 0 24px 11.5%;
     }
 
     .twofixed .Screen7--p.P2-S7-remade {
         padding: 0;
-        margin: 25px 0 30px;
+        margin: 24px 0 32px;
         display: block;
     }
 
     .twofixed .dot-list {
         padding: 0;
-        margin: 10px 0 -10px 16px;
+        margin: 8px 0 0 16px;
     }
 
     .twofixed .sectors.S7.P2-S7-remade {
@@ -7645,17 +7677,13 @@ foot-li > a {
         margin-top: 0;
     }
 
-    .first-col-img {
-        margin-top: 40px;
-    }
-
     /*.Screen6,*/
     .Screen6 {
         flex-wrap: wrap-reverse;
     }
 
     .main-page .Screen6.S6 {
-        margin: 15px 16px 44px;
+        margin: 32px 16px 62px;
     }
 
     .window2.Screen6--w2.Screen5--w1.S6 {
@@ -7674,7 +7702,7 @@ foot-li > a {
     .Screen7--h2 {
         letter-spacing: 0;
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
-        padding: 50px 0 14px;
+        padding: 48px 0 16px;
     }
 
     .twofixed .Screen7--h2.S8 {
@@ -7682,7 +7710,7 @@ foot-li > a {
     }
 
     .twofixed .login.buttonIDN.decide {
-        margin-top: 23px;
+        margin-top: 24px;
     }
 
     .our-team-h2 {
@@ -7711,14 +7739,14 @@ foot-li > a {
 
     .Screen7--h2.S8 {
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
-        padding: 65px 0 0;
+        padding: 64px 0 0;
         max-width: 72%;
         margin: auto;
         letter-spacing: 0;
     }
 
     .login.buttonIDN.decide {
-        margin: 23px auto 0;
+        margin: 24px auto 0;
     }
 
     /*.Screen9 {*/
@@ -7732,7 +7760,7 @@ foot-li > a {
 
     .twofixed .foot-ul,
     .foot-ul {
-        margin: 0 0 17px;
+        margin: 0 0 16px;
     }
 
     .window1--description--button.S7.Advisor.P2-S7,
@@ -7743,7 +7771,8 @@ foot-li > a {
 
     .window1--description--button.S7.Advisor.P2-S7,
     .foot-li.foot-li-head {
-        padding: 7px 0;
+        padding: 16px 0 8px;
+        margin-top: 0;
     }
 
     .twofixed .info-graph:last-child {
@@ -7762,7 +7791,8 @@ foot-li > a {
     }
 
     .twofixed .S7.S71.dot-list.Advisor {
-        padding: 0 0 10px;
+        padding: 0;
+        margin: 40px 0 48px;
         align-items: center;
     }
 
@@ -7780,7 +7810,7 @@ foot-li > a {
     .idn-img {
         left: -2px;
         width: 60px;
-        margin-top: 23px;
+        margin-top: 30px;
     }
 
     .twofixed .foot-lists {
@@ -7793,7 +7823,7 @@ foot-li > a {
     }
 
     .twofixed .in, .in {
-        margin: 21px 0 0;
+        margin: 24px 0 0;
     }
 
     /*Page2*/
@@ -7825,6 +7855,11 @@ foot-li > a {
         padding: 0;
         max-width: initial;
         letter-spacing: 0;
+    }
+
+    .twofixed .page3.window1-descript.P2.S2-P2,
+    .twofixed .page2.window1-descript.P2.S2-P2 {
+        margin: 24px 0;
     }
 
     .twofixed .scroll-button.P2 {
@@ -7862,7 +7897,7 @@ foot-li > a {
 
     .twofixed .main-post-link.center.frame4.P2 {
         letter-spacing: 0;
-        margin: 10px 0 0;
+        margin: 8px 0 0;
         text-indent: 0;
     }
 
@@ -7871,7 +7906,9 @@ foot-li > a {
     }
 
     .twofixed .main-p.cover.P2.P2-S4,
-    .twofixed .main-post-link.P2.third-screen.third-line {
+    .twofixed .main-post-link.P2.third-screen.third-line,
+    .normal.main-p.center.S4,
+    .normal.main-p {
         font: normal normal 400 20px/32px 'Poppins', sans-serif;
         text-indent: 0;
     }
@@ -7902,6 +7939,10 @@ foot-li > a {
         margin: 0 16px;
     }
 
+    .twofixed .window1.P2.P2-S5 {
+        margin-top: 0;
+    }
+
     .twofixed .window1-h.P2.S6-P2.added-element-before,
     .twofixed .window1-h.P2,
     .twofixed .window1-h.P2.P2-S7,
@@ -7909,7 +7950,7 @@ foot-li > a {
     .twofixed .window1-h.P2.beyond {
         font: normal normal 600 24px/32px 'Poppins', sans-serif;
         letter-spacing: 0;
-        margin: -10px 0 8px;
+        margin: -8px 0 8px;
         padding: 32px 0 32px 48px;
     }
 
@@ -7954,6 +7995,10 @@ foot-li > a {
         padding: 0 0 40px 48px;
     }
 
+    .twofixed .S5-P2dots::before {
+        content: none;
+    }
+
     .twofixed .left-dashed::before,
     .twofixed .window1.P2.P2-S6::before,
     .twofixed .window1.P2.P2-S7.P2-S62::before,
@@ -7964,6 +8009,10 @@ foot-li > a {
         top: 17%;
         left: 15px;
         width: 2px;
+    }
+
+    .twofixed .S5-P2dots {
+        padding-bottom: 24px;
     }
 
     .twofixed .window2.P2.P2-S5.left-dashed::before {
@@ -7981,10 +8030,6 @@ foot-li > a {
     }
 
     /*.twofixed .common-info,*/
-    .twofixed .common-info {
-        margin-top: 20px;
-    }
-
     .twofixed .dots-item::before {
         width: 6px;
         height: 6px;
@@ -8012,6 +8057,11 @@ foot-li > a {
     .two-explain.Screen2.P2-S3 {
         margin: 0 16px;
         padding: 0 0 48px;
+        flex-direction: column;
+    }
+
+    #page4, .two-explain {
+        padding-bottom: 48px;
     }
 
     .two-explain.Screen2.max-width1600 {
@@ -8035,7 +8085,6 @@ foot-li > a {
         width: 92.7%;
         padding: 0 10% 7% 0;
         margin: 16px auto;
-        max-height: initial;
     }
 
     .dots.P2-S2.topPhoto.P4-S2::after {
@@ -8047,8 +8096,9 @@ foot-li > a {
         letter-spacing: 0;
     }
 
-    .not-so-good .text-extending {
-        margin: 0;
+    .not-so-good .text-extending,
+    .page4 .text-extending {
+        margin: 24px 0;
     }
 
     .text-extending {
@@ -8058,15 +8108,16 @@ foot-li > a {
 
     .visualtextinfo {
         justify-content: center;
+        padding-bottom: 40px;
     }
 
     .cail {
         flex: 0 0 100%;
-        margin: 5px 0 0;
+        margin: 40px 0 0;
     }
 
     .ul-P4 {
-        margin: 5px 0 40px;
+        margin: 0;
     }
 
     .info-vis {
@@ -8077,6 +8128,7 @@ foot-li > a {
 
     .header.h3-P4 {
         font: normal normal 700 20px/24px 'Poppins', sans-serif;
+        padding: 32px 0 8px;
     }
 
     .item.h3-P4 {
@@ -8127,10 +8179,12 @@ foot-li > a {
 
     .name-team-member {
         font: normal normal 600 16px/24px 'Poppins', sans-serif;
+        margin-top: 8px;
     }
 
     .specialist-type {
         font: normal normal 400 16px/24px 'Poppins', sans-serif;
+        margin-top: 8px;
     }
 
     .window1.Screen6--w2.Screen5--w2.S6.P5-S6 {
@@ -8148,11 +8202,12 @@ foot-li > a {
 
     .Screen7--h2.S8.P4-S8 {
         max-width: initial;
-        padding: 65px 16px 0;
+        padding: 64px 16px 0;
     }
 
     .our-team {
         padding: 0;
+        margin: 0 16px;
     }
 
     .avatars-collection {
@@ -8168,7 +8223,8 @@ foot-li > a {
         width: 24px;
         height: 24px;
         background-size: 24px;
-        margin-bottom: 26px;
+        margin-top: 8px;
+        margin-bottom: 24px;
     }
 
     .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
@@ -8187,7 +8243,7 @@ foot-li > a {
     }
 
     .page5 .Screen7--h2.S8.P4-S8 {
-        padding: 62px 0 0;
+        padding: 64px 0 0;
     }
 
     .main-page .First_Screen .window1-descript::after,
@@ -8204,11 +8260,11 @@ foot-li > a {
     }
 
     .page5.twofixed .login.buttonIDN.decide {
-        margin: 25px auto 0;
+        margin: 24px auto 0;
     }
 
     .page5 .Screen8 {
-        padding-bottom: 65px;
+        padding-bottom: 64px;
     }
 
     .login.buttonIDN[href="#page2"], .login.buttonIDN[href="#page3"] {
