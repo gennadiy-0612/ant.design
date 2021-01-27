@@ -7869,6 +7869,10 @@ foot-li > a {
         letter-spacing: 0;
     }
 
+    .twofixed.page4 .main-post-link.P2.S2-P2 {
+        margin-left: 3px;
+    }
+
     .twofixed .page3.window1-descript.P2.S2-P2,
     .twofixed .page2.window1-descript.P2.S2-P2 {
         margin: 24px 0;
@@ -8384,7 +8388,6 @@ foot-li > a {
     /*.main-post-link {*/
     /*    max-width: initial;*/
     /*}*/
-
     .main-page .main-post-link::before {
         left: 0;
         right: 0;
