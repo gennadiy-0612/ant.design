@@ -7218,7 +7218,7 @@ foot-li > a {
         flex-grow: 1;
         align-items: center;
         /* top: 40px; */
-        margin-top: calc(6vh + 40px);
+        margin-top: calc(10vh + 40px);
         /* display: block; */
         height: auto;
         flex-grow: 0;
