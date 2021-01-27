@@ -7214,7 +7214,11 @@ foot-li > a {
     }
 
     .First_Screen #top + .Screen2 .window2 {
-        margin: auto auto 24px;
+        margin: 0 0 auto;
+    }
+
+    .First_Screen #top + .Screen2 .window2 .dots {
+        height: 35vh;
     }
 
     .First_Screen .Screen2 .window2 {
@@ -7856,6 +7860,10 @@ foot-li > a {
         padding: 0;
         max-width: initial;
         letter-spacing: 0;
+    }
+
+    #root .main-post-link {
+        margin-left: 0;
     }
 
     .twofixed .page3.window1-descript.P2.S2-P2,
