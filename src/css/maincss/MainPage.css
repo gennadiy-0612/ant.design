@@ -7210,6 +7210,7 @@ foot-li > a {
         flex-direction: column;
         margin: 0;
         height: 100vh;
+        height: available;
     }
 
     .First_Screen #top + .Screen2 .window2 {
@@ -7829,6 +7830,7 @@ foot-li > a {
     .page5.twofixed .First_Screen,
     .twofixed .First_Screen {
         height: auto;
+        height: available;
     }
 
     /*.twofixed .First_Screen,*/
