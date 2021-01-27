@@ -8152,8 +8152,8 @@ foot-li > a {
     /*Page5*/
     .window2.Screen6--w2.Screen5--w1.S6.P5-S6 {
         margin: 0;
-        padding: 0 5% 42px 0;
-        max-width: 94%;
+        padding: 0 0 42px 0;
+        max-width: 100%;
     }
 
     .illustrate.Screen5-img.Screen6-img.P5-S6 {
