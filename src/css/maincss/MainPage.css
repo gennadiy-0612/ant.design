@@ -7152,7 +7152,8 @@ foot-li > a {
         padding: 29vh 0 0;
         flex-direction: column;
         background-color: #fff;
-        height: 29vh;
+        height: 58vh;
+        box-sizing: border-box;
     }
 
     .twofixed .main-top-nav-anchor,
@@ -7214,7 +7215,14 @@ foot-li > a {
     }
 
     .First_Screen #top + .Screen2 .window2 {
-        margin: 0 0 auto;
+        /* margin: 0 0 auto; */
+        flex-grow: 1;
+        align-items: center;
+        /* top: 40px; */
+        margin-top: calc(6vh + 40px);
+        /* display: block; */
+        height: auto;
+        flex-grow: 0;
     }
 
     .First_Screen #top + .Screen2 .window2 .dots {
@@ -7862,10 +7870,6 @@ foot-li > a {
         letter-spacing: 0;
     }
 
-    #root .main-post-link {
-        margin-left: 0;
-    }
-
     .twofixed .page3.window1-descript.P2.S2-P2,
     .twofixed .page2.window1-descript.P2.S2-P2 {
         margin: 24px 0;
@@ -8331,5 +8335,75 @@ foot-li > a {
         width: 190px;
         height: 50px;
         font: normal normal 500 24px/50px 'Poppins', sans-serif;
+    }
+
+
+    .twofixed .main-header-second-h2.head2,
+    .twofixed .main-header-second-h2.head2.P2.S2-P2,
+    .main-header-second-h2.head2, .main-header-second-h2.head2,
+    .twofixed .main-header-second-h2.head2.P2 {
+        font: normal normal 600 24px/36px 'Poppins', sans-serif;
+        padding: 60px 0 0;
+        letter-spacing: 0;
+        margin: 0;
+    }
+
+    .main-p,
+    .n.main-p.coverormal.main-p.center.S4,
+    .main-p.cover,
+    .twofixed .main-p.cover.P2.P2-S4 {
+        margin: 30px auto 0;
+    }
+
+    .main-p {
+        font: italic normal 400 30px/48px 'Poppins', sans-serif;
+    }
+
+    .main-post-link {
+        font: normal normal 700 30px/48px 'Poppins', sans-serif;
+    }
+
+    .main-post-link {
+        text-align: left;
+        margin: 30px 0;
+    }
+
+    .twofixed .main-p.cover.P2.P2-S4,
+    .twofixed .main-post-link.P2.third-screen.third-line,
+    .normal.main-p.center.S4,
+    .normal.main-p {
+        font: normal normal 400 30px/60px 'Poppins', sans-serif;
+        text-indent: 0;
+    }
+
+    .main-post-link,
+    .main-post-link.frame4 {
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    /*.main-post-link {*/
+    /*    max-width: initial;*/
+    /*}*/
+
+    .main-page .main-post-link::before {
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 40%;
+        height: 3px;
+    }
+
+    #root .main-post-link {
+        text-align: center;
+        margin: 30px auto 60px;
+    }
+
+    .main-page .center.sector, .main-page .center.sector.S7 {
+        font: normal normal 400 18px/30px 'Poppins', sans-serif;
+    }
+
+    .selectors--all {
+        font: normal normal 700 16px/24px 'Poppins', sans-serif;
     }
 }
