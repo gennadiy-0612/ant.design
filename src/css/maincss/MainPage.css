@@ -7116,8 +7116,7 @@ foot-li > a {
         width: 100%;
     }
 
-    .main-page .top-horizon-menu,
-    .top-horizon-menu {
+    #root .top-horizon-menu {
         display: none;
         background-color: #00000075;
         margin: 0 0 auto;
@@ -7127,7 +7126,7 @@ foot-li > a {
         transition: opacity 1s;
     }
 
-    .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
+    #root .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
         display: block;
         opacity: 1;
     }
@@ -7245,8 +7244,10 @@ foot-li > a {
     }
 
     #top + .Screen2 .window1 {
-        margin: 10vh 0 auto;
+        top: 40px;
+        margin: 6vh 0 auto;
         display: block;
+        height: auto;
     }
 
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
@@ -7264,6 +7265,7 @@ foot-li > a {
     .Screen5--decription.S5.S52 {
         width: auto;
     }
+
     .page4 .main-post-link.P2.S2-P2.text-big.text-S2-P4.P4.S2.center,
     .twofixed .main-post-link.P2.S2-P2.text-S2-P4,
     .twofixed .main-post-link.text-big.text-S2-P4.P4.S2.center,
@@ -7390,6 +7392,7 @@ foot-li > a {
 
     .P1-S2 .illustrate {
         max-height: 330px;
+        height: 100%;
     }
 
     .twofixed .window1--button-group.P2.P2-S2,
@@ -7829,7 +7832,7 @@ foot-li > a {
     /*Page2*/
     /*.twofixed .First_Screen,*/
     .twofixed .First_Screen {
-        height: 100vh;
+        height: auto;
     }
 
     /*.twofixed .First_Screen,*/
