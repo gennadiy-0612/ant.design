@@ -7218,14 +7218,11 @@ foot-li > a {
         margin: 0 0 auto;
         flex-grow: 3;
         align-items: center;
-        /* top: 40px; */
-        /*margin-top: calc(10vh + 40px);*/
-        /* display: block; */
-        height: auto;
+        height: 40%;
     }
 
     .First_Screen #top + .Screen2 .window2 .dots {
-        height: 35vh;
+        margin: auto 0 60px 0;
     }
 
     .First_Screen .Screen2 .window2 {
@@ -7251,11 +7248,10 @@ foot-li > a {
     }
 
     #top + .Screen2 .window1 {
-        top: 40px;
-        margin: 10vh 0 auto;
+        margin-top: calc(6vh + 24px + 32px);
         display: block;
         height: auto;
-        flex-grow: 1;
+        flex-grow: 0;
     }
 
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
@@ -7399,7 +7395,6 @@ foot-li > a {
     }
 
     .P1-S2 .illustrate {
-        max-height: 330px;
         height: 100%;
     }
 
@@ -8294,7 +8289,7 @@ foot-li > a {
     .First_Screen,
     .First_Screen #top + .Screen2 .window2 .dots,
     .First_Screen .Screen2.P1-S2, .First_Screen .Screen2 {
-        height: auto;
+        height: 60%;
     }
 
     .First_Screen #top + .Screen2 .window2 {
