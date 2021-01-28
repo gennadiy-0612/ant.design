@@ -7046,6 +7046,10 @@ foot-li > a {
 }
 
 @media (max-width: 1023px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .main-page .First_Screen .window1-descript::after {
         content: '';
     }
@@ -7089,7 +7093,8 @@ foot-li > a {
     }
 
     .burger-shower + .lines-menu {
-        background: url("../../Images/burger.svg") center no-repeat #ffffff;
+        background: url("../../Images/burger.svg") center no-repeat;
+        z-index: 1;
     }
 
     .burger-shower:checked + .lines-menu {
@@ -7098,13 +7103,14 @@ foot-li > a {
 
     .lines-x {
         opacity: 0;
+        z-index: 1;
     }
 
     .burger-shower:checked + .lines-menu + .lines-x {
-        background: url("../../Images/x.svg") center no-repeat #ffffff;
+        background: url("../../Images/x.svg") center no-repeat;
         opacity: 1;
+        z-index: 1;
     }
-
 
     .twofixed .login-block, .login-block {
         width: 100%;
@@ -7113,23 +7119,27 @@ foot-li > a {
     .main-page .top-horizon-menu,
     .twofixed .top-horizon-menu {
         flex-direction: column;
-        margin-top: -100vh;
+        margin: 0;
+        background-color: #00000000;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        right: -100%;
     }
 
     #top .top-horizon-menu {
         background-color: #00000075;
-        padding: 0 0 0 33%;
-        height: 100vh;
-        transition: margin-top .7s;
+        transition: all .7s ease-out;
     }
 
     #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
         display: block;
-        margin-top: 0%;
+        right: -33%;
+        padding-left: 33%;
     }
 
     .burger-shower {
-        z-index: 1;
+        z-index: 2;
         display: block;
         position: absolute;
         right: 15px;
