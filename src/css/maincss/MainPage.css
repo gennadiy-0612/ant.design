@@ -7252,7 +7252,7 @@ foot-li > a {
 
     #top + .Screen2 .window1 {
         top: 40px;
-        margin: 6vh 0 auto;
+        margin: 10vh 0 auto;
         display: block;
         height: auto;
         flex-grow: 1;
@@ -8287,6 +8287,18 @@ foot-li > a {
 
     .login.buttonIDN[href="#page2"], .login.buttonIDN[href="#page3"] {
         display: none;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 1023px) {
+    .First_Screen,
+    .First_Screen #top + .Screen2 .window2 .dots,
+    .First_Screen .Screen2.P1-S2, .First_Screen .Screen2 {
+        height: auto;
+    }
+
+    .First_Screen #top + .Screen2 .window2 {
+        margin: 100px 0 60px;
     }
 }
 
