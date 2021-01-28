@@ -7105,21 +7105,22 @@ foot-li > a {
         opacity: 1;
     }
 
+
+    .twofixed .login-block, .login-block {
+        width: 100%;
+    }
+
     .main-page .top-horizon-menu,
     .twofixed .top-horizon-menu {
         flex-direction: column;
         margin-top: -100vh;
     }
 
-    .twofixed .login-block, .login-block {
-        width: 100%;
-    }
-
     #top .top-horizon-menu {
         background-color: #00000075;
         padding: 0 0 0 33%;
         height: 100vh;
-        transition: margin-top 1s;
+        transition: margin-top .7s;
     }
 
     #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
@@ -7214,14 +7215,13 @@ foot-li > a {
     }
 
     .First_Screen #top + .Screen2 .window2 {
-        /* margin: 0 0 auto; */
-        flex-grow: 1;
+        margin: 0 0 auto;
+        flex-grow: 3;
         align-items: center;
         /* top: 40px; */
-        margin-top: calc(10vh + 40px);
+        /*margin-top: calc(10vh + 40px);*/
         /* display: block; */
         height: auto;
-        flex-grow: 0;
     }
 
     .First_Screen #top + .Screen2 .window2 .dots {
@@ -7255,6 +7255,7 @@ foot-li > a {
         margin: 6vh 0 auto;
         display: block;
         height: auto;
+        flex-grow: 1;
     }
 
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
@@ -8098,13 +8099,14 @@ foot-li > a {
 
     .dots.P2-S2.topPhoto.P4-S2,
     .dots.P2-S2.topPhoto.P4-S2.P4-S3 {
-        width: 92.7%;
-        padding: 0 10% 7% 0;
+        width: 100%;
+        padding: 0 7% 7% 0;
         margin: 16px auto;
+        box-sizing: border-box;
     }
 
     .dots.P2-S2.topPhoto.P4-S2::after {
-        right: 4px;
+        right: -5px;
         bottom: 0;
     }
 
@@ -8159,7 +8161,7 @@ foot-li > a {
     /*Page5*/
     .window2.Screen6--w2.Screen5--w1.S6.P5-S6 {
         margin: 0;
-        padding: 0 0 42px 0;
+        padding: 0 0 70px 0;
         max-width: 100%;
     }
 
@@ -8301,6 +8303,8 @@ foot-li > a {
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
+    .main-page .Screen9.P1-S9,
+    .twofixed .Screen9.P1-S9,
     .main-page .First_Screen,
     .twofixed .First_Screen,
     .main-header.S3,
@@ -8309,15 +8313,18 @@ foot-li > a {
     .twofixed .Screen5.S5,
     .main-page .Screen6.S6,
     .twofixed .Screen6.S6,
-    .main-page .Screen9.P1-S9,
-    .twofixed .Screen9.P1-S9,
-    .twofixed .sectors.S7.P2-S7-remade {
+    .twofixed .sectors.S7.P2-S7-remade,
+    .twofixed .Screen5.P2.P2-S5dashed,
+    .twofixed .Screen6.P2.P2-S5dashed.S6,
+    .twofixed .P2.P2-S7.P2-S5dashed,
+    .twofixed .S5-P2dots,
+    .twofixed .Screen7.P2-S7-remade {
         margin: 0 60px;
     }
 
     .idnlogo {
         height: 35px;
-        margin: 16px 0 0 16px;
+        margin: 40px 0 0 30px;
     }
 
     .logo-link {
@@ -8328,6 +8335,8 @@ foot-li > a {
     .burger-shower, .lines-menu, .lines-x {
         height: 40px;
         width: 45px;
+        top: 40px;
+        right: 30px;
     }
 
     .window1-h {
@@ -8391,26 +8400,32 @@ foot-li > a {
         text-indent: 0;
     }
 
-    .main-post-link,
     .main-post-link.frame4 {
         text-align: center;
         margin: 30px auto;
     }
 
-    /*.main-post-link {*/
-    /*    max-width: initial;*/
-    /*}*/
-    .main-page .main-post-link::before {
-        left: 0;
-        right: 0;
-        margin: auto;
-        width: 40%;
-        height: 3px;
+    .main-page .main-post-link {
+        margin-right: 0;
+
     }
 
-    #root .main-post-link {
-        text-align: center;
-        margin: 30px auto 60px;
+    .main-page .Screen4 .main-post-link {
+        margin: 30px auto 90px;
+    }
+
+    .sectors {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .main-page .main-post-link::before {
+        right: 0;
+        left: auto;
+        margin: auto;
+        width: 58%;
+        height: 3px;
+        bottom: 0;
     }
 
     .main-page .center.sector, .main-page .center.sector.S7 {
@@ -8444,10 +8459,106 @@ foot-li > a {
 
     .main-page .Screen5--p::after {
         top: -15px;
+        left: 16px;
     }
 
     .Screen5--p.P5-S6::before, .Screen5--strong::after {
         height: 32px;
         width: 32px;
+    }
+
+    .Screen7--h2.S8 {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
+        padding: 120px 0 0;
+    }
+
+    .Screen8 {
+        padding: 0 0 120px 0;
+    }
+
+    .twofixed .Screen7--h2.S8 {
+        padding-top: 120px;
+    }
+
+    .twofixed .idn-img, .idn-img {
+        width: 70px;
+        margin-top: 60px;
+    }
+
+    .window1--description--button.S7.Advisor.P2-S7,
+    .foot-li.foot-li-head {
+        padding: 20px 0 10px;
+        margin-top: 0;
+    }
+
+    .window1--description--button.S7.Advisor.P2-S7, .foot-li.foot-li-head {
+        font: normal normal 600 18px/30px 'Poppins', sans-serif;
+    }
+
+    .foot-lists {
+        padding-bottom: 60px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .foot-ul {
+        flex: 1 0 20%;
+        margin: 0 14% 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .foot-ul:last-child .foot-li:last-child {
+        position: absolute;
+        right: 40px;
+        bottom: 60px;
+    }
+
+    .in {
+        height: 48px;
+        width: 48px;
+    }
+
+    /*page2*/
+    .twofixed .Screen4.P2 {
+        padding-bottom: 60px;
+    }
+
+    .wishes, .twofixed .main-post-link.frame4.P2 {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
+    }
+
+    .twofixed .window1-descript.P2.S6-P2.S6-P22,
+    .twofixed .window1-descript.P2,
+    .twofixed .window1-descript.P2.P2-S72.beyond,
+    .twofixed .two-column--p,
+    .twofixed .main-post-link.P2.third-screen,
+    .twofixed .dots-item {
+        font: normal normal 400 18px/42px 'Poppins', sans-serif;
+    }
+
+    .twofixed .window1-h.P2.S6-P2.added-element-before, .twofixed .window1-h.P2, .twofixed .window1-h.P2.P2-S7, .twofixed .window1-h.P2.S6-P2.added-element-before.P2-S6, .twofixed .window1-h.P2.beyond {
+        font: normal normal 600 24px/32px 'Poppins', sans-serif;
+        letter-spacing: 0;
+        margin: -10px 0 10px;
+        padding: 40px 0 40px 60px;
+    }
+
+    .twofixed .window1-h.P2.S6-P2.added-element-before::before, .twofixed .window1-h.P2::before {
+        left: 10px;
+        top: 0;
+        margin: auto;
+        height: 20px;
+        width: 20px;
+        bottom: 0;
+    }
+
+    .twofixed .rounded-frame::before {
+        width: 48px;
+        height: 48px;
+        box-sizing: border-box;
+        top: 0;
+        left: 0;
     }
 }

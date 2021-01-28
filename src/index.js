@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import Site from './Site';
+import vhSHCH from './vh';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
