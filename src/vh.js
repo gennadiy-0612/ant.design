@@ -12,6 +12,5 @@ let vhSHCH = {
     }
 }
 window.addEventListener('orientationchange', vhSHCH.setVh);
-window.addEventListener('resize', vhSHCH.setVh);
 window.addEventListener('load', vhSHCH.setVh);
 export default vhSHCH;
