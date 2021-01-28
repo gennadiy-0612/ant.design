@@ -8290,18 +8290,6 @@ foot-li > a {
     }
 }
 
-@media (orientation: landscape) {
-    .First_Screen,
-    .First_Screen #top + .Screen2 .window2 .dots,
-    .First_Screen .Screen2.P1-S2, .First_Screen .Screen2 {
-        height: auto;
-    }
-
-    .First_Screen #top + .Screen2 .window2 {
-        margin: 100px 0 60px;
-    }
-}
-
 @media (min-width: 600px) and (max-width: 1023px) {
     .main-page .Screen9.P1-S9,
     .twofixed .Screen9.P1-S9,
