@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="fixed">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +60,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -270,14 +272,10 @@
       <workItem from="1611715473292" duration="4644000" />
       <workItem from="1611725169852" duration="13327000" />
       <workItem from="1611744931733" duration="8488000" />
-      <workItem from="1611754924733" duration="5613000" />
-    </task>
-    <task id="LOCAL-00316" summary="separated-header-and-footer">
-      <created>1610697918689</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1610697918689</updated>
+      <workItem from="1611754924733" duration="6098000" />
+      <workItem from="1611798524613" duration="46000" />
+      <workItem from="1611799654340" duration="8000" />
+      <workItem from="1611800889850" duration="2459000" />
     </task>
     <task id="LOCAL-00317" summary="separated-header-and-footer">
       <created>1610710948074</created>
@@ -615,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611761051040</updated>
     </task>
-    <option name="localTasksCounter" value="365" />
+    <task id="LOCAL-00365" summary="menu-fixed">
+      <created>1611761240234</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1611761240234</updated>
+    </task>
+    <option name="localTasksCounter" value="366" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

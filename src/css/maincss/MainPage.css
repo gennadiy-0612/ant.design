@@ -8288,6 +8288,18 @@ foot-li > a {
     }
 }
 
+@media (orientation: landscape) {
+    .First_Screen,
+    .First_Screen #top + .Screen2 .window2 .dots,
+    .First_Screen .Screen2.P1-S2, .First_Screen .Screen2 {
+        height: auto;
+    }
+
+    .First_Screen #top + .Screen2 .window2 {
+        margin: 100px 0 60px;
+    }
+}
+
 @media (min-width: 600px) and (max-width: 1023px) {
     .main-page .First_Screen,
     .twofixed .First_Screen,
@@ -8407,5 +8419,35 @@ foot-li > a {
 
     .selectors--all {
         font: normal normal 700 16px/24px 'Poppins', sans-serif;
+    }
+
+    .page4 .main-post-link.P2.S2-P2.text-big.text-S2-P4.P4.S2.center,
+    .twofixed .main-post-link.P2.S2-P2.text-S2-P4,
+    .twofixed .main-post-link.text-big.text-S2-P4.P4.S2.center,
+    .text-big.text-S2-P4.P4.S2,
+    .head3.P4-S3,
+    .head3.P4-S2,
+    .twofixed .Screen7--h2.P2-S7-remade,
+    .Sreen5--h3 {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
+        margin-top: 10px;
+    }
+
+    .twofixed .center.main-p.sector.normal, .Screen5--strong {
+        font: normal normal 600 22px/36px 'Poppins', sans-serif;
+    }
+
+    .Screen5--p.P1-S6.P5-S6, .text-extending, .twofixed .Screen7--p.P2-S7-remade, .Screen5--p {
+        font: normal normal 400 18px/24px 'Poppins', sans-serif;
+        padding: 10px 0 30px 11.5%;
+    }
+
+    .main-page .Screen5--p::after {
+        top: -15px;
+    }
+
+    .Screen5--p.P5-S6::before, .Screen5--strong::after {
+        height: 32px;
+        width: 32px;
     }
 }
