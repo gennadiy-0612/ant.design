@@ -7046,10 +7046,6 @@ foot-li > a {
 }
 
 @media (max-width: 1023px) {
-    body {
-        overflow-x: hidden;
-    }
-
     .main-page .First_Screen .window1-descript::after {
         content: '';
     }
@@ -7066,6 +7062,10 @@ foot-li > a {
     .twofixed .Screen9.P1-S9,
     .twofixed .sectors.S7.P2-S7-remade {
         margin: 0 16px;
+    }
+    .twofixed .Screen9.P1-S9,
+    .main-page .Screen9.P1-S9 {
+        padding-bottom: 48px;
     }
 
     .First_Screen {
@@ -7122,9 +7122,10 @@ foot-li > a {
         margin: 0;
         background-color: #00000000;
         height: 100vh;
-        width: 100%;
         position: absolute;
-        right: -100%;
+        right: 0;
+        width: 67%;
+        display: none;
     }
 
     #top .top-horizon-menu {
@@ -7134,7 +7135,6 @@ foot-li > a {
 
     #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
         display: block;
-        right: -33%;
         padding-left: 33%;
     }
 
@@ -7228,11 +7228,12 @@ foot-li > a {
         margin: 0 0 auto;
         flex-grow: 3;
         align-items: center;
-        height: 40%;
+        height: 30%;
     }
 
     .First_Screen #top + .Screen2 .window2 .dots {
         margin: auto 0 60px 0;
+        /*height: 30%;*/
     }
 
     .First_Screen .Screen2 .window2 {
@@ -7826,7 +7827,7 @@ foot-li > a {
     .idn-img {
         left: -2px;
         width: 60px;
-        margin-top: 30px;
+        margin-top: 48px;
     }
 
     .twofixed .foot-lists {
@@ -8287,7 +8288,8 @@ foot-li > a {
     }
 
     .page5 .Screen8 {
-        padding-bottom: 64px;
+        padding: 0 16px 64px;
+        width: auto;
     }
 
     .login.buttonIDN[href="#page2"], .login.buttonIDN[href="#page3"] {
