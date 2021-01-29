@@ -7063,6 +7063,7 @@ foot-li > a {
     .twofixed .sectors.S7.P2-S7-remade {
         margin: 0 16px;
     }
+
     .twofixed .Screen9.P1-S9,
     .main-page .Screen9.P1-S9 {
         padding-bottom: 48px;
@@ -7124,8 +7125,8 @@ foot-li > a {
         height: 100vh;
         position: absolute;
         right: 0;
-        width: 67%;
         display: none;
+        width: 100%;
     }
 
     #top .top-horizon-menu {
