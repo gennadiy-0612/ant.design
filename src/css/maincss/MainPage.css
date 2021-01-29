@@ -7137,6 +7137,7 @@ foot-li > a {
     #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
         display: block;
         padding-left: 33%;
+        box-sizing: border-box;
     }
 
     .burger-shower {
