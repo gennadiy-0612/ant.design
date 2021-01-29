@@ -7234,7 +7234,10 @@ foot-li > a {
 
     .First_Screen #top + .Screen2 .window2 .dots {
         margin: auto 0 60px 0;
-        /*height: 30%;*/
+    }
+
+    .page5 #top + .Screen2 .window2 .dots {
+        height: 78%;
     }
 
     .First_Screen .Screen2 .window2 {
