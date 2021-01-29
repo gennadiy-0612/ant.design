@@ -7130,7 +7130,28 @@ foot-li > a {
     }
 
     #top .top-horizon-menu {
+        transition: all .7s ease-out;
+    }
+
+
+    .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu::before {
+        opacity: 1;
+    }
+
+    .top-horizon-menu::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
         background-color: #00000075;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    #top .top-horizon-menu::before {
         transition: all .7s ease-out;
     }
 
