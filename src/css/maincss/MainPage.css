@@ -7117,43 +7117,37 @@ foot-li > a {
         width: 100%;
     }
 
+    #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
+        display: block;
+        padding-left: 33%;
+        right: 0;
+        box-sizing: border-box;
+    }
+
     .main-page .top-horizon-menu,
     .twofixed .top-horizon-menu {
         flex-direction: column;
         margin: 0;
-        background-color: #00000000;
         height: 100vh;
-        position: absolute;
-        right: 0;
-        display: none;
         width: 100%;
-        transition: all .7s ease-out;
-    }
-
-    .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
-        display: block;
+        position: absolute;
+        opacity: 0;
         padding-left: 33%;
-        box-sizing: border-box;
-    }
-
-    .top-horizon-menu::before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        z-index: -1;
-        opacity: .1;
+        background-color: #00000075;
         transition: all .7s ease-out;
+        right: -100%;
     }
 
-    .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu::before {
-        opacity: .7;
-        background-color: #000000;
+    .Header {
+        overflow: hidden;
+        height: 100%;
     }
 
+    #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
+        display: block;
+        opacity: 1;
+        right: 0;
+    }
 
     .burger-shower {
         z-index: 2;
