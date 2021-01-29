@@ -8400,7 +8400,7 @@ foot-li > a {
     .main-header-second-h2.head2, .main-header-second-h2.head2,
     .twofixed .main-header-second-h2.head2.P2 {
         font: normal normal 600 24px/36px 'Poppins', sans-serif;
-        padding: 60px 0 0;
+        padding: 64px 0 0;
         letter-spacing: 0;
         margin: 0;
     }
@@ -8487,7 +8487,7 @@ foot-li > a {
 
     .Screen5--p.P1-S6.P5-S6, .text-extending, .twofixed .Screen7--p.P2-S7-remade, .Screen5--p {
         font: normal normal 400 18px/24px 'Poppins', sans-serif;
-        padding: 10px 0 30px 11.5%;
+        padding: 0 0 30px 11.5%;
     }
 
     .main-page .Screen5--p::after {
@@ -8593,5 +8593,87 @@ foot-li > a {
         box-sizing: border-box;
         top: 0;
         left: 0;
+    }
+
+    /*page2*/
+    .dots.Screen5--dots::after,
+    .dots.Screen5--dots.Screen6--dots::after,
+    .main-header-dots.dots::after,
+    .dots.Screen5--dots.Screen6--dots.P5-S6::after,
+    .twofixed .dots::after, .dots.P1-S2::after {
+        width: 180px;
+        height: 200px;
+        bottom: -34px;
+    }
+
+    .twofixed .main-p.cover.P2.P2-S4,
+    .twofixed .main-post-link.P2.third-screen.third-line,
+    .normal.main-p.center.S4,
+    .normal.main-p {
+        font: normal normal 400 26px/40px 'Poppins', sans-serif;
+        text-indent: 0;
+    }
+
+    .back-color {
+        padding-bottom: 70px;
+    }
+
+    .main-page .center.sector, .main-page .center.sector.S7 {
+        font: normal normal 400 18px/62px 'Poppins', sans-serif;
+    }
+
+    .sectors {
+        max-width: 366px;
+    }
+
+    .main-page .center.sector, .main-page .center.sector.S7 {
+        flex: 0 0 180px;
+        max-width: 180px;
+        padding-top: 142px;
+        font: normal normal 500 18px/30px 'Poppins', sans-serif;
+        background-position: center 44%;
+    }
+
+    .Screen4--all.center {
+        margin: 80px 0 0;
+    }
+
+    .page4 .main-post-link.P2.S2-P2.text-big.text-S2-P4.P4.S2.center,
+    .twofixed .main-post-link.P2.S2-P2.text-S2-P4,
+    .twofixed .main-post-link.text-big.text-S2-P4.P4.S2.center,
+    .text-big.text-S2-P4.P4.S2, .head3.P4-S3,
+    .head3.P4-S2, .twofixed .Screen7--h2.P2-S7-remade,
+    .Sreen5--h3 {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
+        margin-top: 10px;
+    }
+
+    .Screen5--description--content, .Screen5--description--content.S6c {
+        padding: 10px 0;
+    }
+
+    .twofixed .window1--description, .window1--description {
+        margin: 0 30px 0 0;
+    }
+
+    .twofixed .buttonIDN.big.P1-S7,
+    .twofixed .buttonIDN.big,
+    .back-slider.buttonIDN.white.decide,
+    .buttonIDN.big.P1-S7,
+    .buttonIDN.big {
+        width: 190px;
+        height: 60px;
+        font: normal normal 500 24px/60px 'Poppins', sans-serif;
+    }
+
+    .main-page .window2.Screen6--w2.Screen5--w1.S6 {
+        top: 30px;
+        margin: 0 0 135px;
+    }
+
+    .our-team-h2, .page5 .Screen7--h2.S8.P4-S8, .twofixed .Screen7--h2.S8, .Screen7--h2 {
+        letter-spacing: 0;
+        font: normal normal 600 24px/32px 'Poppins', sans-serif;
+        padding: 48px 0 16px;
     }
 }
