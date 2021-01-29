@@ -12,10 +12,13 @@ let vhSHCH = {
         vhSHCH.w = window.innerWidth;
         vhSHCH.h = window.innerHeight;
         if ((600 > vhSHCH.w && vhSHCH.w > 359) && (vhSHCH.h > vhSHCH.w)) vhSHCH.update();
+        if (600 > window.innerWidth && window.innerWidth > 359) console.log('ok');
         else document.querySelector(vhSHCH.firstScreen)?.setAttribute('style','');
     }
 }
 
 window.addEventListener('load', vhSHCH.setVh);
 window.addEventListener('resize', vhSHCH.setVh);
+window.addEventListener('orientationchange', vhSHCH.setVh);
+
 export default vhSHCH;
