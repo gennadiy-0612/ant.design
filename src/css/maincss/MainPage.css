@@ -7129,30 +7129,22 @@ foot-li > a {
         width: 100%;
     }
 
-    #top .top-horizon-menu {
-        transition: all .7s ease-out;
-    }
-
-
-    .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu::before {
-        opacity: 1;
-    }
-
     .top-horizon-menu::before {
         content: '';
         display: block;
         position: absolute;
         top: 0;
         right: 0;
-        background-color: #00000075;
         height: 100%;
         width: 100%;
         z-index: -1;
         opacity: 0;
+        transition: all .7s ease-out;
     }
 
-    #top .top-horizon-menu::before {
-        transition: all .7s ease-out;
+    .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu::before {
+        opacity: 1;
+        background-color: #00000075;
     }
 
     #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
@@ -8627,11 +8619,17 @@ foot-li > a {
     }
 
     .main-page .center.sector, .main-page .center.sector.S7 {
-        flex: 0 0 180px;
-        max-width: 180px;
-        padding-top: 142px;
+        flex: 0 0 165px;
+        max-width: 165px;
+        padding-top: 125px;
         font: normal normal 500 18px/30px 'Poppins', sans-serif;
         background-position: center 44%;
+        background-size: 29% 29%;
+        margin: 0;
+    }
+
+    .sectors.S7 {
+        max-width: 90%;
     }
 
     .Screen4--all.center {
@@ -8649,7 +8647,7 @@ foot-li > a {
     }
 
     .Screen5--description--content, .Screen5--description--content.S6c {
-        padding: 10px 0;
+        padding: 60px 0 0;
     }
 
     .twofixed .window1--description, .window1--description {
@@ -8672,8 +8670,81 @@ foot-li > a {
     }
 
     .our-team-h2, .page5 .Screen7--h2.S8.P4-S8, .twofixed .Screen7--h2.S8, .Screen7--h2 {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
+        padding: 130px 0 60px;
+
+    }
+
+    .Screen7--p {
+        display: block;
+        font: normal normal 400 22px/40px 'Poppins', sans-serif;
+        max-width: 490px;
+        margin: 30px auto;
+        left: 0;
+    }
+
+    .window1--description--button.S7 {
+        margin: 70px 0 36px;
+        padding: 0;
+        font: normal normal 500 24px/36px 'Poppins', sans-serif;
+    }
+
+    .buttonIDN.big.P1-S7, .buttonIDN.big {
+        width: 220px;
+    }
+
+    .back-slider.buttonIDN.white.decide {
+        width: 260px;
+        height: 50px;
+        margin: 70px auto 0;
+        font: normal normal 500 20px/50px 'Poppins', sans-serif;
+    }
+
+    .twofixed .main-header-second-h2.head2 {
+        padding: 120px 0 30px;
+    }
+
+    .idea {
+        padding: 20px 0;
+    }
+
+    .twofixed .main-post-link.P2.third-screen.third-line,
+    .twofixed .main-p.cover.P2.P2-S4 {
+        font: normal normal 500 30px/60px 'Poppins', sans-serif;
+        width: 480px;
+    }
+
+    .twofixed .two-columns {
+        margin-top: 100px;
+    }
+
+    .twofixed .window1-h.P2.S6-P2.added-element-before,
+    .twofixed .window1-h.P2,
+    .twofixed .window1-h.P2.P2-S7,
+    .twofixed .window1-h.P2.S6-P2.added-element-before.P2-S6,
+    .twofixed .window1-h.P2.beyond {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
         letter-spacing: 0;
-        font: normal normal 600 24px/32px 'Poppins', sans-serif;
-        padding: 48px 0 16px;
+        margin: -10px 0 10px;
+        padding: 40px 0 40px 100px;
+    }
+
+    .twofixed .window1-descript.P2.S6-P2.S6-P22,
+    .twofixed .window1-descript.P2,
+    .twofixed .window1-descript.P2.P2-S72.beyond,
+    .twofixed .two-column--p,
+    .twofixed .main-post-link.P2.third-screen,
+    .twofixed .dots-item,
+    .twofixed .main-header-second-h2.head2.P2 {
+        padding-left: 100px;
+    }
+
+    .twofixed .left-dashed::before, .twofixed .window1.P2.P2-S6::before, .twofixed .window1.P2.P2-S7.P2-S62::before, .twofixed .window2.P2.P2-S72.left-dashed::before,
+    .twofixed .window2.P2.P2-S5.left-dashed::before, .twofixed .window2.P2.P2-S7.left-dashed::before {
+        top: 33%;
+    }
+
+    .twofixed .window2.P2.P2-S5.left-dashed::before {
+        top: 110px;
     }
 }
