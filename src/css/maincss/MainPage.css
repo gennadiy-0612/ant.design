@@ -7102,14 +7102,14 @@ foot-li > a {
         display: none;
     }
 
-    .lines-x {
-        opacity: 0;
-        z-index: 1;
-    }
-
     .burger-shower:checked + .lines-menu + .lines-x {
         background: url("../../Images/x.svg") center no-repeat;
         opacity: 1;
+        z-index: 1;
+    }
+
+    .lines-x {
+        opacity: 0;
         z-index: 1;
     }
 
@@ -7117,36 +7117,63 @@ foot-li > a {
         width: 100%;
     }
 
-    #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
-        display: block;
-        padding-left: 33%;
-        right: 0;
-        box-sizing: border-box;
-    }
-
     .main-page .top-horizon-menu,
     .twofixed .top-horizon-menu {
         flex-direction: column;
         margin: 0;
+        background-color: #00000000;
         height: 100vh;
-        width: 100%;
         position: absolute;
-        opacity: 0;
-        padding-left: 33%;
-        background-color: #00000075;
-        transition: all .7s ease-out;
+        width: 100%;
         right: -100%;
     }
 
-    .Header {
-        overflow: hidden;
-        height: 100%;
+    .Header::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        /*height: 100%;*/
+        /*width: 100%;*/
+        z-index: -1;
+        opacity: 0;
+        transition: all .7s ease-out;
+        background-color: #000;
     }
 
-    #top .burger-shower:checked + .lines-menu + .lines-x + .top-horizon-menu {
-        display: block;
-        opacity: 1;
-        right: 0;
+
+    .Header {
+        overflow: hidden;
+        /*height: 100%;*/
+    }
+
+    #show-back-shadow::before {
+        opacity: .6;
+        animation: animateshadowshow 0.7s ease-in;
+    }
+
+    @keyframes animateshadowshow {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: .6;
+        }
+    }
+
+    #hide-back-shadow::before {
+        opacity: 0;
+        animation: animateshadowshow 0.7s ease-in;
+    }
+
+    @keyframes animateshadowhide {
+        from {
+            opacity: .6;
+        }
+        to {
+            right: 0;
+        }
     }
 
     .burger-shower {
@@ -7178,12 +7205,56 @@ foot-li > a {
         box-sizing: border-box;
     }
 
+    .burger-shower:checked ~ .top-horizon-menu, .burger-shower:checked ~ .top-horizon-menu {
+        right: -34%;
+        padding-left: 34%;
+        background-color: #000000a8;
+        transition: all 1s ease-in;
+    }
+
+    .burger-shower:not(:checked) ~ .top-horizon-menu, .burger-shower:not(:checked) ~ .top-horizon-menu {
+        right: -100%;
+        padding-left: 0;
+        background-color: #00000000;
+        transition: all 1s ease-in;
+    }
+
     .twofixed .main-top-nav-anchor,
     .main-top-nav-anchor {
         padding: 13px 40px;
         font-size: 16px;
     }
 
+
+    #show-back-shadow .top-horizon-menu {
+        position: relative;
+        right: -34%;
+        animation: animateinitail 0.7s ease-in;
+    }
+
+    @keyframes animateinitail {
+        from {
+            right: -100%;
+        }
+        to {
+            right: -34%;
+        }
+    }
+
+    #hide-back-shadow .top-horizon-menu {
+        position: relative;
+        right: -100%;
+        animation: animateright 0.7s ease-out;
+    }
+
+    @keyframes animateright {
+        from {
+            right: -34%;
+        }
+        to {
+            right: -100%;
+        }
+    }
 
     /*burger*/
     .Header {
@@ -8335,23 +8406,20 @@ foot-li > a {
     .twofixed .Screen5.S5,
     .main-page .Screen6.S6,
     .twofixed .Screen6.S6,
-    .twofixed .sectors.S7.P2-S7-remade,
     .twofixed .Screen5.P2.P2-S5dashed,
     .twofixed .Screen6.P2.P2-S5dashed.S6,
     .twofixed .P2.P2-S7.P2-S5dashed,
     .twofixed .S5-P2dots,
-    .twofixed .Screen7.P2-S7-remade {
+    .twofixed .Screen7.P2-S7-remade,
+    .two-explain.Screen2.max-width1600,
+    .grey, .two-explain.Screen2, .two-explain.Screen2.P2-S3,
+    .wrapper.max-width1650, .twofixed .Screen7--h2.S8 {
         margin: 0 60px;
     }
 
     .idnlogo {
         height: 35px;
         margin: 40px 0 0 30px;
-    }
-
-    .logo-link {
-        /*height: 35px;*/
-        /*width: 105px;*/
     }
 
     .burger-shower, .lines-menu, .lines-x {
@@ -8517,13 +8585,13 @@ foot-li > a {
         font: normal normal 600 18px/30px 'Poppins', sans-serif;
     }
 
-    .foot-lists {
+    .twofixed .foot-lists, .foot-lists {
         padding-bottom: 60px;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .foot-ul {
+    .twofixed .foot-ul, .foot-ul {
         flex: 1 0 20%;
         margin: 0 14% 0 0;
         display: flex;
@@ -8537,7 +8605,7 @@ foot-li > a {
         bottom: 60px;
     }
 
-    .in {
+    .twofixed .in, .in {
         height: 48px;
         width: 48px;
     }
@@ -8681,6 +8749,8 @@ foot-li > a {
         left: 0;
     }
 
+    .twofixed .foot-li.foot-li-head,
+    .window1--description--button.S7.Advisor.P2-S7, .foot-li.foot-li-head,
     .window1--description--button.S7 {
         margin: 70px 0 36px;
         padding: 0;
@@ -8727,6 +8797,10 @@ foot-li > a {
         padding: 40px 0 40px 100px;
     }
 
+    .twofixed .main-header-second-h2.head2.P2 {
+        padding-left: 100px;
+    }
+
     .twofixed .window1-descript.P2,
     .twofixed .window1-descript.P2.S6-P2, .twofixed .window1-descript.P2.P2-S7,
     .twofixed .window1-descript.P2.S6-P2.S6-P22, .twofixed .window1-descript.P2.P2-S72.beyond {
@@ -8747,5 +8821,122 @@ foot-li > a {
 
     .twofixed .window2.P2.P2-S5.left-dashed::before {
         top: 110px;
+    }
+
+    .twofixed .Screen7.P2-S7-remade {
+        padding: 80px 0 0;
+    }
+
+    .twofixed .Screen7--p.P2-S7-remade {
+        font: normal normal 400 24px/56px 'Poppins', sans-serif;
+    }
+
+    .twofixed .Screen7--p.P2-S7-remade {
+        padding: 0;
+        margin: 20px 0 60px;
+    }
+
+    .Screen7--p.P2-S7-remade::after {
+        bottom: -35px;
+    }
+
+    .twofixed .sector.normal.main-p.center.S7.P2-S7-remade {
+        padding: 95px 0 0;
+        background-size: 55px 45px;
+        background-position: 0 30px;
+        font: normal normal 600 22px/32px 'Poppins', sans-serif;
+    }
+
+    .twofixed .window1-descript.P2.S6-P2.S6-P22, .twofixed .window1-descript.P2, .twofixed .window1-descript.P2.P2-S72.beyond, .twofixed .two-column--p, .twofixed .main-post-link.P2.third-screen, .twofixed .dots-item {
+        font: normal normal 400 20px/32px 'Poppins', sans-serif;
+    }
+
+    .twofixed .dots-item {
+        font-weight: 700;
+    }
+
+    .twofixed .dot-list {
+        margin: 20px 0 20px 20px;
+    }
+
+    .twofixed .S7.S71.dot-list.Advisor {
+        margin: 0;
+        align-items: baseline;
+        max-width: initial;
+        min-width: initial;
+        padding: 0 0 0 10px;
+    }
+
+    .twofixed .info-graph:last-child {
+        justify-content: flex-start;
+    }
+
+    .window1--description--button.S7.Advisor.P2-S7 {
+        margin: 20px 0 10px;
+        font: normal normal 500 32px/60px 'Poppins', sans-serif;
+    }
+
+    .twofixed .buttonIDN.big.P1-S7 {
+        width: 276px;
+        margin: 0 0 70px;
+    }
+
+    .twofixed .Screen7--h2.S8 {
+        padding-bottom: 0;
+    }
+
+    .common-info::before {
+        width: 193%;
+        bottom: -89.2%;
+        left: -47%;
+        height: 100%;
+    }
+
+    .yellow-upper.P5,
+    .twofixed .main-post-link.P2.S2-P2,
+    .twofixed.page4 .main-post-link.P2.S2-P2,
+    .twofixed .page3.window1-descript.P2.S2-P2 {
+        font: normal normal 400 30px/54px 'Poppins', sans-serif;
+    }
+
+    .not-so-good .text-extending, .page4 .text-extending {
+        margin: 50px 0 60px;
+        padding: 0;
+    }
+
+    .not-so-good .text-extending, .page4 .text-extending, .item.h3-P4 {
+        font: normal normal 400 18px/30px 'Poppins', sans-serif;
+    }
+
+    .item.h3-P4::before {
+        height: 8px;
+        width: 8px;
+    }
+
+    .grey {
+        margin: auto;
+    }
+
+    .twofixed .Screen6.S6 {
+        padding: 0 60px;
+    }
+
+    .twofixed .main-header-second-h2.P1-S6.P5-S6 {
+        margin: 0;
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
+        padding: 100px 0 40px 55px;
+    }
+
+    .Screen5--p.P1-S6.P5-S6 {
+        padding: 30px 0 30px 11.5%;
+    }
+
+    .Screen5--p.P1-S6.P5-S6::after {
+        left: 15px;
+        width: 2px;
+    }
+
+    .Screen5--p.P1-S6.P5-S6:last-of-type::after {
+        left: 10px;
     }
 }

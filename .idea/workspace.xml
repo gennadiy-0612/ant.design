@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vh.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -286,14 +287,12 @@
       <workItem from="1611902283119" duration="11016000" />
       <workItem from="1611917241959" duration="17138000" />
       <workItem from="1611938297839" duration="2532000" />
-      <workItem from="1611946948366" duration="2537000" />
-    </task>
-    <task id="LOCAL-00336" summary="mobile-design320-1023">
-      <created>1611558341204</created>
-      <option name="number" value="00336" />
-      <option name="presentableId" value="LOCAL-00336" />
-      <option name="project" value="LOCAL" />
-      <updated>1611558341205</updated>
+      <workItem from="1611946948366" duration="3398000" />
+      <workItem from="1611950551982" duration="10260000" />
+      <workItem from="1611986185954" duration="2328000" />
+      <workItem from="1612001147948" duration="837000" />
+      <workItem from="1612021097375" duration="4105000" />
+      <workItem from="1612066270103" duration="5936000" />
     </task>
     <task id="LOCAL-00337" summary="mobile-design320-1023">
       <created>1611561299657</created>
@@ -631,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611940343207</updated>
     </task>
-    <option name="localTasksCounter" value="385" />
+    <task id="LOCAL-00385" summary="fixed">
+      <created>1611949570491</created>
+      <option name="number" value="00385" />
+      <option name="presentableId" value="LOCAL-00385" />
+      <option name="project" value="LOCAL" />
+      <updated>1611949570492</updated>
+    </task>
+    <option name="localTasksCounter" value="386" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
