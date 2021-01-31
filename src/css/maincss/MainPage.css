@@ -8983,5 +8983,7 @@ foot-li > a {
     .twofixed .main-top-nav-anchor, .main-top-nav-anchor {
         line-height: 48px;
         font-size: 32px;
-    }
+    }.twofixed .main-top-nav-anchor, .main-top-nav-anchor {
+         min-width: 250px;
+     }
 }
