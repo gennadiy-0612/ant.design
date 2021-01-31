@@ -7909,6 +7909,7 @@ foot-li > a {
 
     /*Page2*/
     /*.twofixed .First_Screen,*/
+    .First_Screen,
     .page5.twofixed .First_Screen,
     .twofixed .First_Screen {
         height: 100vh;
