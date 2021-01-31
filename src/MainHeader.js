@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link, NavLink} from "react-router-dom"
-
+import Toggle from './Toggle';
 import Images from './Images'
 
 function MainHeader(props) {
@@ -10,7 +10,7 @@ function MainHeader(props) {
             <div className="Header--logo X1024-1600">
                 <Link className="logo-link" to="/"><img className="idnlogo" src={Images.logo} alt="t"/></Link>
             </div>
-            <input type="checkbox" className="burger-shower"/>
+            <Toggle/>
             <div className="lines-menu"></div>
             <div className="lines-x"></div>
             <div className="top-horizon-menu X1024-1200 X1200-1600">

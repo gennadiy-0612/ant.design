@@ -15,25 +15,6 @@ let vhSHCH = {
         if (600 > window.innerWidth && window.innerWidth > 359) console.log('ok');
         else document.querySelector(vhSHCH.firstScreen)?.setAttribute('style', '');
     },
-    changeClass: function () {
-        let head = document.querySelector('.Header');
-        console.log(this.id);
-        if (this.id === '') {
-            this.id = 'show-all-menu';
-            head.id = 'show-back-shadow';
-            return true;
-        }
-        if (this.id === 'hide-all-menu') {
-            this.id = 'show-all-menu';
-            head.id = 'show-back-shadow';
-            return true;
-        }
-        if (this.id === 'show-all-menu') {
-            this.id = 'hide-all-menu';
-            head.id = 'hide-back-shadow';
-            return true;
-        }
-    },
     burger: function () {
         document.querySelector('.burger-shower').addEventListener('click', vhSHCH.changeClass);
     },
@@ -51,6 +32,5 @@ let vhSHCH = {
 
 window.addEventListener('load', vhSHCH.allInOne);
 window.addEventListener('resize', vhSHCH.allInOne);
-window.addEventListener('orientationchange', vhSHCH.allInOne);
 
 export default vhSHCH;
