@@ -7125,30 +7125,7 @@ foot-li > a {
         height: 100vh;
         position: absolute;
         width: 100%;
-        right: -100%;
-    }
-
-    @keyframes animateshadowshow {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: .6;
-        }
-    }
-
-    #hide-back-shadow::before {
-        opacity: 0;
-        animation: animateshadowshow 0.7s ease-in;
-    }
-
-    @keyframes animateshadowhide {
-        from {
-            opacity: .6;
-        }
-        to {
-            right: 0;
-        }
+        box-sizing: border-box;
     }
 
     .burger-shower {
@@ -7182,30 +7159,37 @@ foot-li > a {
     }
 
     .main-page .top-horizon-menu::before,
-    .twofixed .top-horizon-menu::before{
+    .twofixed .top-horizon-menu::before {
         content: '';
         display: block;
         position: absolute;
         top: 0;
         right: 0;
-        /*height: 100%;*/
-        /*width: 100%;*/
+        height: 100%;
+        width: 100%;
         z-index: -1;
-        opacity: 0;
         transition: all .7s ease-out;
-        background-color: #000;
+        background-color: #000000;
     }
-    .burger-shower:checked ~ .top-horizon-menu, .burger-shower:checked ~ .top-horizon-menu {
-        right: -34%;
-        padding-left: 34%;
-        background-color: #000000a8;
+
+
+    .burger-shower:not(:checked) ~ .top-horizon-menu::before {
+        opacity: 0;
         transition: all 1s ease-in;
     }
 
-    .burger-shower:not(:checked) ~ .top-horizon-menu, .burger-shower:not(:checked) ~ .top-horizon-menu {
-        right: -100%;
-        padding-left: 0;
-        background-color: #00000000;
+    .burger-shower:checked ~ .top-horizon-menu::before {
+        opacity: .6;
+        transition: all 1s ease-out;
+    }
+
+    .burger-shower:checked ~ .top-horizon-menu {
+        padding-left: 34%;
+        transition: all 1s ease-in;
+    }
+
+    .burger-shower:not(:checked) ~ .top-horizon-menu {
+        padding-left: 100%;
         transition: all 1s ease-in;
     }
 
@@ -7242,9 +7226,11 @@ foot-li > a {
     /*burger*/
     .Header {
         z-index: 2;
-        overflow: hidden;
         height: 100px;
-        background-color: #1f49e4;
+    }
+
+    body {
+        overflow-x: hidden;
     }
 
     .twofixed .Header--logo,
@@ -7276,6 +7262,11 @@ foot-li > a {
         padding: 0;
         background-color: #fff;
         height: 42vh;
+        display: block;
+    }
+
+    .twofixed .main-top-nav-anchor, .main-top-nav-anchor {
+        min-width: 130px;
     }
 
     .twofixed .First_Screen,
