@@ -7290,7 +7290,7 @@ foot-li > a {
     }
 
     .First_Screen #top + .Screen2 .window2 {
-        flex-grow: 3;
+        flex-grow: 1;
         align-items: center;
         height: 30%;
     }
