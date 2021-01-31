@@ -7440,10 +7440,10 @@ foot-li > a {
     .dots.Screen5--dots.Screen6--dots.P5-S6::after,
     .twofixed .dots::after,
     .dots.P1-S2::after {
-        right: -30px;
+        right: -20px;
         left: auto;
-        bottom: -28px;
-        width: 115px;
+        bottom: -30px;
+        width: 100px;
         height: 110px;
     }
 
@@ -7478,7 +7478,6 @@ foot-li > a {
 
     .twofixed .window1--button-group.P2.P2-S2 {
         margin: auto;
-        /*height: 7vh;*/
     }
 
     .window1--button-group.Screen5--button-group,
@@ -7569,8 +7568,8 @@ foot-li > a {
         bottom: -6%;
         left: auto;
         top: auto;
-        width: 40%;
-        height: 31%;
+        width: 36%;
+        height: 33%;
         background-position: right bottom;
     }
 
@@ -8983,7 +8982,9 @@ foot-li > a {
     .twofixed .main-top-nav-anchor, .main-top-nav-anchor {
         line-height: 48px;
         font-size: 32px;
-    }.twofixed .main-top-nav-anchor, .main-top-nav-anchor {
-         min-width: 250px;
-     }
+    }
+
+    .twofixed .main-top-nav-anchor, .main-top-nav-anchor {
+        min-width: 250px;
+    }
 }
