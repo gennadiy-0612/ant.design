@@ -7128,31 +7128,6 @@ foot-li > a {
         right: -100%;
     }
 
-    .Header::before {
-        content: '';
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        /*height: 100%;*/
-        /*width: 100%;*/
-        z-index: -1;
-        opacity: 0;
-        transition: all .7s ease-out;
-        background-color: #000;
-    }
-
-
-    .Header {
-        overflow: hidden;
-        height: 100%;
-    }
-
-    #show-back-shadow::before {
-        opacity: .6;
-        animation: animateshadowshow 0.7s ease-in;
-    }
-
     @keyframes animateshadowshow {
         from {
             opacity: 0;
@@ -7203,8 +7178,23 @@ foot-li > a {
         background-color: #fff;
         height: 58vh;
         box-sizing: border-box;
+        position: relative;
     }
 
+    .main-page .top-horizon-menu::before,
+    .twofixed .top-horizon-menu::before{
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        /*height: 100%;*/
+        /*width: 100%;*/
+        z-index: -1;
+        opacity: 0;
+        transition: all .7s ease-out;
+        background-color: #000;
+    }
     .burger-shower:checked ~ .top-horizon-menu, .burger-shower:checked ~ .top-horizon-menu {
         right: -34%;
         padding-left: 34%;
@@ -7223,13 +7213,6 @@ foot-li > a {
     .main-top-nav-anchor {
         padding: 13px 40px;
         font-size: 16px;
-    }
-
-
-    #show-back-shadow .top-horizon-menu {
-        position: absolute;
-        right: -34%;
-        animation: animateinitail 0.7s ease-in;
     }
 
     @keyframes animateinitail {
@@ -7259,7 +7242,9 @@ foot-li > a {
     /*burger*/
     .Header {
         z-index: 2;
-        position: absolute;
+        overflow: hidden;
+        height: 100px;
+        background-color: #1f49e4;
     }
 
     .twofixed .Header--logo,

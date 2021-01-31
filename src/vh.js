@@ -38,7 +38,6 @@ let vhSHCH = {
         document.querySelector('.burger-shower').addEventListener('click', vhSHCH.changeClass);
     },
     allInOne: function () {
-        vhSHCH.burger();
         vhSHCH.setVh();
         document.querySelector('.main-top-nav-anchor').addEventListener('click', vhSHCH.burger);
         window.addEventListener('popstate', function (e) {
