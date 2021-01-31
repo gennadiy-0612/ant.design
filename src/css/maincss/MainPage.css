@@ -7175,22 +7175,22 @@ foot-li > a {
 
     .burger-shower:not(:checked) ~ .top-horizon-menu::before {
         opacity: 0;
-        transition: all 1s ease-in;
+        transition: all .7s ease-in;
     }
 
     .burger-shower:checked ~ .top-horizon-menu::before {
         opacity: .6;
-        transition: all 1s ease-out;
+        transition: all .7s ease-out;
     }
 
     .burger-shower:checked ~ .top-horizon-menu {
         padding-left: 34%;
-        transition: all 1s ease-in;
+        transition: all .7s ease-in;
     }
 
     .burger-shower:not(:checked) ~ .top-horizon-menu {
         padding-left: 100%;
-        transition: all 1s ease-in;
+        transition: all .7s ease-in;
     }
 
     .twofixed .main-top-nav-anchor,
@@ -8794,7 +8794,11 @@ foot-li > a {
     }
 
     .twofixed .window2.P2.P2-S5.left-dashed::before {
-        top: 110px;
+        top: 153px;
+    }
+
+    .twofixed .window2.P2.P2-S72.left-dashed::before {
+        top: 70px;
     }
 
     .twofixed .Screen7.P2-S7-remade {
@@ -8891,7 +8895,7 @@ foot-li > a {
         margin: auto;
     }
 
-    .twofixed .Screen6.S6 {
+    .Screen6.P5-S6.P5-S6 {
         padding: 0 60px;
         margin: 0;
     }
@@ -8902,6 +8906,12 @@ foot-li > a {
         padding: 100px 0 10px 55px;
     }
 
+    .wishes {
+        padding-left: 20px;
+    }
+    .window2.Screen6--w2.Screen5--w1.S6.P5-S6{
+        margin:0;
+    }
     .Screen5--p.P1-S6.P5-S6 {
         padding: 30px 0 30px 11.5%;
     }
