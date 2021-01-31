@@ -8863,6 +8863,7 @@ foot-li > a {
 
     .twofixed .Screen7--h2.S8 {
         padding-bottom: 0;
+        margin: auto;
     }
 
     .common-info::before {
