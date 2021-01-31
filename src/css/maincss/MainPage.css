@@ -7070,7 +7070,7 @@ foot-li > a {
     }
 
     .First_Screen {
-        height: 100vh;
+        height: auto;
     }
 
     .main-page .First_Screen .window1-descript {
@@ -7229,7 +7229,7 @@ foot-li > a {
     /*burger*/
     .Header {
         z-index: 2;
-        height: 100px;
+        height: 40px;
     }
 
     .vis {
@@ -7290,14 +7290,9 @@ foot-li > a {
     }
 
     .First_Screen #top + .Screen2 .window2 {
-        margin: 0 0 auto;
         flex-grow: 3;
         align-items: center;
         height: 30%;
-    }
-
-    .First_Screen #top + .Screen2 .window2 .dots {
-        margin: auto 0 60px 0;
     }
 
     .page5 #top + .Screen2 .window2 {
@@ -7327,7 +7322,7 @@ foot-li > a {
     }
 
     #top + .Screen2 .window1 {
-        margin-top: calc(6vh + 24px + 32px);
+        margin-top: 6vh;
         display: block;
         height: auto;
         flex-grow: 0;
