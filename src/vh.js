@@ -2,7 +2,7 @@ import "./index"
 
 let vhSHCH = {
     height: '',
-    firstScreen: '#top + .Screen2',
+    firstScreen: '.First_Screen',
     update: function () {
         vhSHCH.height = window.innerHeight / 100;
         vhSHCH.wholeHeight = Math.ceil(vhSHCH.height * 100);
@@ -18,6 +18,6 @@ let vhSHCH = {
 
 window.addEventListener('load', vhSHCH.setVh);
 window.addEventListener('orientationchange', vhSHCH.setVh);
-window.addEventListener('resize', vhSHCH.setVh;
+window.addEventListener('resize', vhSHCH.setVh);
 
 export default vhSHCH;
