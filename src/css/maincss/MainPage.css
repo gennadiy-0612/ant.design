@@ -8702,6 +8702,10 @@ foot-li > a {
         font: normal normal 500 24px/60px 'Poppins', sans-serif;
     }
 
+    .twofixed .scroll-button.P2 {
+        background-size: 9%;
+    }
+
     .main-page .window2.Screen6--w2.Screen5--w1.S6 {
         top: 30px;
         margin: 0 0 135px;
