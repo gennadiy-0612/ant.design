@@ -8863,7 +8863,15 @@ foot-li > a {
 
     .twofixed .Screen7--h2.S8 {
         padding-bottom: 0;
+    }
+
+    .page2 .Screen7--h2.S8,
+    .page3 .Screen7--h2.S8 {
         margin: auto;
+    }
+
+    .page5 .Screen8 {
+        padding: 0 60px 64px;
     }
 
     .common-info::before {
