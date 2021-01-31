@@ -7911,8 +7911,7 @@ foot-li > a {
     /*.twofixed .First_Screen,*/
     .page5.twofixed .First_Screen,
     .twofixed .First_Screen {
-        height: auto;
-        height: available;
+        height: 100vh;
     }
 
     /*.twofixed .First_Screen,*/
