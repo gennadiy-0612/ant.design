@@ -6557,7 +6557,7 @@ foot-li > a {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
     min-height: 700px;
 }
 
@@ -7170,24 +7170,24 @@ foot-li > a {
 
     .hide .top-horizon-menu::before {
         opacity: 0;
-        transition: opacity 2s ease-in;
+        transition: opacity .2s ease-in;
     }
 
     .vis .top-horizon-menu::before {
         opacity: 0.6;
-        transition: opacity 2s ease-out;
+        transition: opacity .2s ease-out;
     }
 
     .vis .top-horizon-menu {
         padding-left: 34%;
         visibility: visible;
-        transition: all 2s ease-in;
+        transition: all .2s ease-in .1s;
     }
 
     .hide .top-horizon-menu {
         padding-left: 100%;
         visibility: collapse;
-        transition: all 2s ease-out 1s;
+        transition: all .2s ease-out .1s;
     }
 
     .twofixed .main-top-nav-anchor,
@@ -7256,7 +7256,7 @@ foot-li > a {
     .First_Screen .Screen2 {
         flex-direction: column;
         margin: 0;
-        height: 100vh;
+        flex-grow: 1;
     }
 
     .First_Screen #top + .Screen2 .window2 {
@@ -7296,10 +7296,6 @@ foot-li > a {
         display: block;
         height: auto;
         flex-grow: 0;
-    }
-
-    .main-page #top + .Screen2 .window1 {
-        margin-top: 10vh;
     }
 
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
@@ -7413,7 +7409,7 @@ foot-li > a {
     }
 
     .twofixed .dots.topPhoto, .dots {
-        height: 80%;
+        height: 64%;
     }
 
     .dots.Screen5--dots.Screen6--dots.P5-S6::after,
@@ -7882,14 +7878,6 @@ foot-li > a {
     }
 
     /*Page2*/
-    /*.twofixed .First_Screen,*/
-    .First_Screen,
-    .page5.twofixed .First_Screen,
-    .twofixed .First_Screen {
-        height: 100vh;
-    }
-
-    /*.twofixed .First_Screen,*/
     .twofixed .window2,
     .twofixed .window1.P2 {
         flex-basis: auto;
