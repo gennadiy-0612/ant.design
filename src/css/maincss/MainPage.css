@@ -8227,6 +8227,7 @@ foot-li > a {
         left: 9px;
         width: 1px;
         box-sizing: border-box;
+        height: 125%;
     }
 
     .Screen5--p.P1-S6.P5-S6:last-of-type::after {
