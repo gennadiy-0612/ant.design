@@ -8633,8 +8633,15 @@ foot-li > a {
     .twofixed .dots::after, .dots.P1-S2::after {
         width: 180px;
         height: 200px;
-        bottom: -60px;
+        bottom: -40px;
         right: -36px;
+    }
+
+    .dots.P2-S2.topPhoto.P4-S2::after {
+        bottom: 0;
+        right: 0;
+        width: 37.7%;
+        height: 34.7%;
     }
 
     .twofixed .main-p.cover.P2.P2-S4,
@@ -8946,8 +8953,8 @@ foot-li > a {
     }
 
     .dots.Screen5--dots.Screen6--dots.P5-S6::after {
-        right: -40px;
-        bottom: -38px;
+        right: -46px;
+        bottom: -40px;
     }
 
     .our-team-h2 {
