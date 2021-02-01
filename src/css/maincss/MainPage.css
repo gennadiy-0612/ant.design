@@ -7153,6 +7153,7 @@ foot-li > a {
         height: 58vh;
         box-sizing: border-box;
         position: relative;
+        margin: 1px 0 -1px;
     }
 
     .main-page .top-horizon-menu::before,
