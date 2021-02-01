@@ -1,6 +1,4 @@
-import "./index"
-
-let vhSHCH = {
+const vhSHCH = {
     height: '',
     firstScreen: '.First_Screen',
     update: function () {
