@@ -7323,7 +7323,7 @@ foot-li > a {
         height: auto;
         flex-grow: 0;
     }
-
+    .main-page #top + .Screen2 .window1{margin-top: 10vh;}
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
     .window2.Screen5--w2 {
         max-width: 100%;
