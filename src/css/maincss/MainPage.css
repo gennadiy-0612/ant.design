@@ -8340,6 +8340,11 @@ foot-li > a {
     .login.buttonIDN[href="#page2"], .login.buttonIDN[href="#page3"] {
         display: none;
     }
+
+    .twofixed .First_Screen,
+    .main-page .First_Screen {
+        height: 100vh;
+    }
 }
 
 @media (orientation: landscape) and (max-width: 1023px) {
@@ -9000,10 +9005,5 @@ foot-li > a {
     .twofixed .dots.topPhoto, .dots {
         height: 190px;
         margin: 48px 0;
-    }
-
-    .twofixed .First_Screen,
-    .First_Screen {
-        height: 100vh;
     }
 }
