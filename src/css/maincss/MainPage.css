@@ -8339,7 +8339,7 @@ foot-li > a {
     .First_Screen,
     .First_Screen #top + .Screen2 .window2 .dots,
     .First_Screen .Screen2.P1-S2, .First_Screen .Screen2 {
-        height: 60%;
+        height: 30%;
     }
 
     .First_Screen #top + .Screen2 .window2 {
