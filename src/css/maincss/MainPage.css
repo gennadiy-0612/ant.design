@@ -7167,6 +7167,7 @@ foot-li > a {
         width: 100%;
         z-index: -1;
         background-color: #000000;
+        padding-left: 100%;
     }
 
     .hide .top-horizon-menu::before {
