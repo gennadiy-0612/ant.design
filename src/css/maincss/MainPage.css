@@ -8172,7 +8172,7 @@ foot-li > a {
     }
 
     .dots.P2-S2.topPhoto.P4-S2::after {
-        right: -5px;
+        right: 5px;
         bottom: 0;
     }
 
