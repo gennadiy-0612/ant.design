@@ -9009,3 +9009,9 @@ foot-li > a {
         margin: 48px 0;
     }
 }
+
+@media (max-width: 1024px) {
+    .twofixed .First_Screen, .main-page .First_Screen {
+        height: auto;
+    }
+}
