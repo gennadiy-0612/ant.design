@@ -8631,7 +8631,7 @@ foot-li > a {
     .main-header-dots.dots::after,
     .dots.Screen5--dots.Screen6--dots.P5-S6::after,
     .twofixed .dots::after, .dots.P1-S2::after {
-        width: 180px;
+        width: 201px;
         height: 200px;
         bottom: -40px;
         right: -36px;
