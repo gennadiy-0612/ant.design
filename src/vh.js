@@ -11,14 +11,8 @@ let vhSHCH = {
     setVh: function () {
         vhSHCH.w = window.innerWidth;
         vhSHCH.h = window.innerHeight;
-        if (600 > vhSHCH.w && vhSHCH.w > 359 && vhSHCH.h > vhSHCH.w) {
-            vhSHCH.update();
-            return true;
-        }
-        if (1024 > vhSHCH.w && vhSHCH.h < vhSHCH.w) {
-            document.querySelector(vhSHCH.firstScreen)?.setAttribute('style', 'height: auto;');
-            return true;
-        } else document.querySelector(vhSHCH.firstScreen)?.setAttribute('style', '');
+        if ((600 > vhSHCH.w && vhSHCH.w > 359) && (vhSHCH.h > vhSHCH.w)) vhSHCH.update();
+        else document.querySelector(vhSHCH.firstScreen)?.setAttribute('style', '');
     },
 }
 
