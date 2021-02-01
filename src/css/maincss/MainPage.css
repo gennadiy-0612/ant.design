@@ -7165,61 +7165,35 @@ foot-li > a {
         height: 100%;
         width: 100%;
         z-index: -1;
-        transition: all .7s ease-out;
         background-color: #000000;
     }
 
-
     .hide .top-horizon-menu::before {
         opacity: 0;
-        transition: opacity .7s ease-in;
+        transition: opacity 2s ease-in;
     }
 
     .vis .top-horizon-menu::before {
-        opacity: .6;
-        transition: opacity .7s ease-out;
+        opacity: 0.6;
+        transition: opacity 2s ease-out;
     }
 
     .vis .top-horizon-menu {
         padding-left: 34%;
         visibility: visible;
-        transition: all .7s ease-in;
+        transition: all 2s ease-in 1s;
     }
 
     .hide .top-horizon-menu {
         padding-left: 100%;
         visibility: collapse;
-        transition: all .7s ease-in;
+        transition: all 2s ease-in 1s;
     }
 
     .twofixed .main-top-nav-anchor,
     .main-top-nav-anchor {
         padding: 13px 40px;
         font-size: 16px;
-    }
-
-    @keyframes animateinitail {
-        from {
-            right: -100%;
-        }
-        to {
-            right: -34%;
-        }
-    }
-
-    #hide-back-shadow .top-horizon-menu {
-        position: relative;
-        right: -100%;
-        animation: animateright 0.7s ease-out;
-    }
-
-    @keyframes animateright {
-        from {
-            right: -34%;
-        }
-        to {
-            right: -100%;
-        }
     }
 
     /*burger*/
@@ -7323,7 +7297,11 @@ foot-li > a {
         height: auto;
         flex-grow: 0;
     }
-    .main-page #top + .Screen2 .window1{margin-top: 10vh;}
+
+    .main-page #top + .Screen2 .window1 {
+        margin-top: 10vh;
+    }
+
     .main-page .window2.Screen6--w2.Screen5--w1.S6,
     .window2.Screen5--w2 {
         max-width: 100%;
