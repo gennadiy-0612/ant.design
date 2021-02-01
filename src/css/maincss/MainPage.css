@@ -7177,7 +7177,9 @@ foot-li > a {
         opacity: 0.6;
         transition: opacity .2s ease-out;
     }
-
+    .top-horizon-menu{
+        visibility: hidden;
+    }
     .vis .top-horizon-menu {
         padding-left: 34%;
         visibility: visible;
