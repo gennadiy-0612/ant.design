@@ -7187,7 +7187,7 @@ foot-li > a {
     .hide .top-horizon-menu {
         padding-left: 100%;
         visibility: collapse;
-        transition: all 2s ease-out 1s;
+        transition: all 2s ease-out;
     }
 
     .twofixed .main-top-nav-anchor,
@@ -7262,7 +7262,7 @@ foot-li > a {
     .First_Screen #top + .Screen2 .window2 {
         flex-grow: 1;
         align-items: center;
-        height: 30%;
+        /*height: 30%;*/
     }
 
     .page5 #top + .Screen2 .window2 {
