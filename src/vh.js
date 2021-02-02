@@ -9,13 +9,15 @@ const vhSHCH = {
     setVh: function () {
         vhSHCH.w = window.innerWidth;
         vhSHCH.h = window.innerHeight;
-        if ((600 > vhSHCH.w && vhSHCH.w > 359) && (vhSHCH.h > vhSHCH.w)) vhSHCH.update();
-        else document.querySelector(vhSHCH.firstScreen)?.setAttribute('style', '');
+        if (600 > vhSHCH.w && vhSHCH.w > 359 && vhSHCH.h > vhSHCH.w) vhSHCH.update();
+        console.log('setVh')
     },
+    styleEmpty:function (){
+        document.querySelector(vhSHCH.firstScreen)?.setAttribute('style', '');
+    }
 }
 
 window.addEventListener('load', vhSHCH.setVh);
-window.addEventListener('orientationchange', vhSHCH.setVh);
-window.addEventListener('resize', vhSHCH.setVh);
+window.addEventListener('orientationchange', vhSHCH.styleEmpty);
 
 export default vhSHCH;
