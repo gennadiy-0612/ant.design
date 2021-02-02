@@ -4,12 +4,13 @@ import MainHeader from "./MainHeader";
 import {BrowserRouter as Router} from "react-router-dom";
 import MainFooter from "./MainFooter";
 import {Link} from "react-router-dom";
+import vhSHCH from "./vh";
 
 function SectorsPage(props) {
 
     return (
         <div className="page4 twofixed">
-            <div className="First_Screen">
+            <div style={{ height: vhSHCH.setVh() }} className="First_Screen">
                 <MainHeader />
 
                 <div className="Screen2">

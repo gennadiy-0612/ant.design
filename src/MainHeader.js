@@ -1,21 +1,9 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import {Link, NavLink} from "react-router-dom"
 import Toggle from './Toggle';
 import Images from './Images'
-import vhSHCH from "./vh";
 
 function MainHeader(props) {
-    useEffect(() => {
-        const navs = document.querySelectorAll('.main-top-nav-anchor');
-        navs.forEach(el => {
-            el.addEventListener('click', vhSHCH.setVh);
-        })
-        return () => {
-            navs.forEach(el => {
-                el.removeEventListener('click', vhSHCH.setVh);
-            })
-        };
-    }, [0])
 
     return (
         <div id="top" className="Header">

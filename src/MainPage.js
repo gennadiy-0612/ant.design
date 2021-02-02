@@ -3,12 +3,13 @@ import './css/maincss/MainPage.css';
 import MainHeader from "./MainHeader";
 import MainFooter from "./MainFooter";
 import {Link} from "react-router-dom";
+import vhSHCH from "./vh";
 
 function MainPage(props) {
 
 	return (
 		<div className="main-page">
-			<div className="First_Screen">
+			<div style={{ height: vhSHCH.setVh() }} className="First_Screen">
 				<MainHeader />
 
 				<div className="Screen2 P1-S2">

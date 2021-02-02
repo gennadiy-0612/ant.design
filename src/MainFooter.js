@@ -1,19 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Link} from "react-router-dom"
 import vhSHCH from "./vh";
 
 function MainFooter(props) {
-    useEffect(() => {
-        const navs = document.querySelectorAll('.footA');
-        navs.forEach(el => {
-            el.addEventListener('click', vhSHCH.setVh);
-        })
-        return () => {
-            navs.forEach(el => {
-                el.removeEventListener('click', vhSHCH.setVh);
-            })
-        };
-    }, [0])
 
     return (
         <div className="Screen9 P1-S9 X1023">

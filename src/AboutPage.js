@@ -3,12 +3,13 @@ import './css/maincss/MainPage.css';
 import MainHeader from "./MainHeader";
 import {BrowserRouter as Router} from "react-router-dom";
 import MainFooter from "./MainFooter";
+import vhSHCH from "./vh";
 
 function AboutPage(props) {
 
     return (
         <div className="page5 twofixed">
-            <div className="First_Screen">
+            <div style={{ height: vhSHCH.setVh() }} className="First_Screen">
                 <MainHeader />
 
                 <div className="Screen2 P5-S2">
