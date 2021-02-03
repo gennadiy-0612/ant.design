@@ -4,26 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/React App.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/0.chunk.js.завантаження" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/bridge.152aea91.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/bundle.js.завантаження" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/css2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/down-arrow.d26cd660.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/hands.e648dfdd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/logo.3615f022.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/main.5c3cdad19aaaff16b73e.hot-update.js.завантаження" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/main.6d8923a55ed36fe928db.hot-update.js.завантаження" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/main.chunk.js.завантаження" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/people.5fdcc197.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/React App_files/smileman.7a10260a.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vh.js" afterDir="false" />
-    </list>
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -322,14 +303,7 @@
       <workItem from="1612332244994" duration="1072000" />
       <workItem from="1612338659041" duration="2490000" />
       <workItem from="1612348962932" duration="7277000" />
-      <workItem from="1612364209699" duration="6959000" />
-    </task>
-    <task id="LOCAL-00389" summary="burger-work">
-      <created>1612085935608</created>
-      <option name="number" value="00389" />
-      <option name="presentableId" value="LOCAL-00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1612085935608</updated>
+      <workItem from="1612364209699" duration="7258000" />
     </task>
     <task id="LOCAL-00390" summary="burger-work">
       <created>1612102401362</created>
@@ -667,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612367755023</updated>
     </task>
-    <option name="localTasksCounter" value="438" />
+    <task id="LOCAL-00438" summary="burger-work">
+      <created>1612372254256</created>
+      <option name="number" value="00438" />
+      <option name="presentableId" value="LOCAL-00438" />
+      <option name="project" value="LOCAL" />
+      <updated>1612372254256</updated>
+    </task>
+    <option name="localTasksCounter" value="439" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
