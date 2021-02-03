@@ -83,7 +83,7 @@ function MainPage(props) {
 				<div className="window1 Screen5--w1">
 					<div className="Screen5--decription S51">
 						<h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
-						<h3 className="Sreen5--h3 S5">Unparalleled remuneration and opportunities</h3>
+						<h3 className="Sreen5--h3 S5">Unparalleled fees and opportunities</h3>
 						<div className="Screen5--description--content">
 							<strong className="Screen5--strong S5">CONNECT</strong>
 							<p className="Screen5--p S5">Originate deals and connect to leading investors</p>
