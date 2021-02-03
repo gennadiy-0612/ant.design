@@ -15,7 +15,7 @@ function MainHeader(props) {
             <div className="lines-x"></div>
             <div className="top-horizon-menu X1024-1200 X1200-1600">
                 <nav className="main-top-nav">
-                    <NavLink className="main-top-nav-anchor less1023" to="/advisor">Home</NavLink>
+                    <NavLink className="main-top-nav-anchor less1023" to="/">Home</NavLink>
                     <NavLink className="main-top-nav-anchor" to="/advisor">Senior&#160;Advisor</NavLink>
                     <NavLink className="main-top-nav-anchor" to="/investors">Investors</NavLink>
                     <NavLink className="main-top-nav-anchor" to="/sectors">Sectors</NavLink>
