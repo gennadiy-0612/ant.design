@@ -10,14 +10,14 @@ const vhSHCH = {
             }
         }
     },
-    g: function () {
-        if (window.screen.orientation.type === 'landscape-primary' && 600 > vhSHCH.w && vhSHCH.w > 359) {
-            document.querySelector('.First_Screen')?.setAttribute('style', 'height:auto;');
-        }
-        if (window.screen.orientation.type === 'portrait-primary' && 600 > vhSHCH.w && vhSHCH.w > 359) {
-            document.querySelector('.First_Screen')?.setAttribute('style', 'height:' + vhSHCH.wholeHeight + 'px');
-        }
-    }
+    // g: function () {
+    //     if (window.screen.orientation.type === 'landscape-primary' && 600 > vhSHCH.w && vhSHCH.w > 359) {
+    //         document.querySelector('.First_Screen')?.setAttribute('style', 'height:auto;');
+    //     }
+    //     if (window.screen.orientation.type === 'portrait-primary' && 600 > vhSHCH.w && vhSHCH.w > 359) {
+    //         document.querySelector('.First_Screen')?.setAttribute('style', 'height:' + vhSHCH.wholeHeight + 'px');
+    //     }
+    // }
 }
 
 window.addEventListener('load', vhSHCH.setVh);

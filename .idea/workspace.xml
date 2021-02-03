@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/React App.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/0.chunk.js.завантаження" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/bridge.152aea91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/bundle.js.завантаження" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/css2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/down-arrow.d26cd660.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/hands.e648dfdd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/logo.3615f022.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/main.5c3cdad19aaaff16b73e.hot-update.js.завантаження" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/main.6d8923a55ed36fe928db.hot-update.js.завантаження" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/main.chunk.js.завантаження" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/people.5fdcc197.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/React App_files/smileman.7a10260a.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vh.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowCommit.ShowToolbar" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -307,21 +322,7 @@
       <workItem from="1612332244994" duration="1072000" />
       <workItem from="1612338659041" duration="2490000" />
       <workItem from="1612348962932" duration="7277000" />
-      <workItem from="1612364209699" duration="3143000" />
-    </task>
-    <task id="LOCAL-00387" summary="remove-burger-onload">
-      <created>1612079721393</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1612079721393</updated>
-    </task>
-    <task id="LOCAL-00388" summary="burger-work">
-      <created>1612082264500</created>
-      <option name="number" value="00388" />
-      <option name="presentableId" value="LOCAL-00388" />
-      <option name="project" value="LOCAL" />
-      <updated>1612082264500</updated>
+      <workItem from="1612364209699" duration="6959000" />
     </task>
     <task id="LOCAL-00389" summary="burger-work">
       <created>1612085935608</created>
@@ -652,7 +653,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612357089007</updated>
     </task>
-    <option name="localTasksCounter" value="436" />
+    <task id="LOCAL-00436" summary="burger-work">
+      <created>1612367736302</created>
+      <option name="number" value="00436" />
+      <option name="presentableId" value="LOCAL-00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1612367736302</updated>
+    </task>
+    <task id="LOCAL-00437" summary="burger-work">
+      <created>1612367755023</created>
+      <option name="number" value="00437" />
+      <option name="presentableId" value="LOCAL-00437" />
+      <option name="project" value="LOCAL" />
+      <updated>1612367755023</updated>
+    </task>
+    <option name="localTasksCounter" value="438" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

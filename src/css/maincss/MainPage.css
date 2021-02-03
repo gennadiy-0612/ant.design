@@ -2325,10 +2325,6 @@ body {
 }
 
 @media (min-width: 1920px) {
-    .main-page .Sreen5--h3 {
-        padding-right: 18%;
-    }
-
     .twofixed .Screen7--h2.why {
         padding: 157px 0 70px;
     }
