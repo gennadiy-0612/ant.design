@@ -9030,7 +9030,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1023px) and (orientation: landscape ) {
+@media (max-width: 1023px) and (orientation: landscape) {
     .twofixed .main-top-nav, .main-top-nav {
         height: auto;
         padding: 0;
