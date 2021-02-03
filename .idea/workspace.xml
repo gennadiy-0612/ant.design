@@ -7,13 +7,6 @@
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdvisorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdvisorPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InvestorsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvestorsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SectorsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/SectorsPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vh.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,14 +303,8 @@
       <workItem from="1612256287969" duration="4652000" />
       <workItem from="1612265676741" duration="11559000" />
       <workItem from="1612279244020" duration="4184000" />
-      <workItem from="1612285797654" duration="10923000" />
-    </task>
-    <task id="LOCAL-00381" summary="fixed">
-      <created>1611922810806</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
-      <option name="project" value="LOCAL" />
-      <updated>1611922810806</updated>
+      <workItem from="1612285797654" duration="12846000" />
+      <workItem from="1612332244994" duration="302000" />
     </task>
     <task id="LOCAL-00382" summary="fixed">
       <created>1611930397276</created>
@@ -655,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612203153341</updated>
     </task>
-    <option name="localTasksCounter" value="430" />
+    <task id="LOCAL-00430" summary="burger-work">
+      <created>1612297274502</created>
+      <option name="number" value="00430" />
+      <option name="presentableId" value="LOCAL-00430" />
+      <option name="project" value="LOCAL" />
+      <updated>1612297274503</updated>
+    </task>
+    <option name="localTasksCounter" value="431" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

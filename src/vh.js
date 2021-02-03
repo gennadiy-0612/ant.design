@@ -1,5 +1,4 @@
 const vhSHCH = {
-    style: '',
     setVh: function () {
         vhSHCH.height = window.innerHeight / 100;
         vhSHCH.wholeHeight = Math.ceil(vhSHCH.height * 100);
@@ -12,7 +11,12 @@ const vhSHCH = {
         }
     },
     g: function () {
-        document.querySelector('.First_Screen')?.setAttribute('style', '');
+        if (window.screen.orientation.type === 'landscape-primary' && 600 > vhSHCH.w && vhSHCH.w > 359) {
+            document.querySelector('.First_Screen')?.setAttribute('style', 'height:auto;');
+        }
+        if (window.screen.orientation.type === 'portrait-primary' && 600 > vhSHCH.w && vhSHCH.w > 359) {
+            document.querySelector('.First_Screen')?.setAttribute('style', 'height:' + vhSHCH.wholeHeight + 'px');
+        }
     }
 }
 
