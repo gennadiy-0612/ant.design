@@ -9,6 +9,7 @@ body {
     sans-serif;
 }
 
+.less1023,
 .burger-shower, .lines-menu, .lines-x {
     display: none;
 }
@@ -1185,13 +1186,13 @@ body {
     box-sizing: border-box;
 }
 
-@media (max-width: 1199px) and (min-width: 1024px) {
+@media (max-width: 1199px) and (min-width: 1023px) {
     .twofixed .top-horizon-menu.X1024-1200 {
         width: 901px;
     }
 }
 
-@media (max-width: 1199px) and (min-width: 1024px) {
+@media (max-width: 1199px) and (min-width: 1023px) {
     .twofixed .Screen2.P1-S2,
     .twofixed .Screen5.S5,
     .twofixed .Screen6.S6,
@@ -1707,7 +1708,7 @@ body {
     /*page5*/
 }
 
-@media (max-width: 1600px) and (min-width: 1024px) {
+@media (max-width: 1600px) and (min-width: 1023px) {
     .twofixed .main-header-second-h2.head2.S3 {
         margin-top: -11px;
     }
@@ -1782,7 +1783,7 @@ body {
 }
 
 /*Page1 start*/
-@media (max-width: 1600px) and (min-width: 1024px) {
+@media (max-width: 1600px) and (min-width: 1023px) {
     .twofixed .login.buttonIDN.decide,
     .twofixed .login.buttonIDN {
         width: 240px;
@@ -2206,7 +2207,7 @@ body {
     }
 }
 
-@media (max-width: 1100px) and (min-width: 1024px) {
+@media (max-width: 1100px) and (min-width: 1023px) {
     .twofixed .main-header-second {
         padding: 0.7% 4%;
     }
@@ -2217,7 +2218,7 @@ body {
     }
 }
 
-@media (max-width: 1600px) and (min-width: 1024px) {
+@media (max-width: 1600px) and (min-width: 1023px) {
     .twofixed .normal.main-p.center.S4 {
         max-width: 1000px;
     }
@@ -2315,7 +2316,7 @@ body {
     }
 }
 
-@media (max-width: 1919px) and (min-width: 1024px) {
+@media (max-width: 1919px) and (min-width: 1023px) {
     .twofixed .window1.P2.S2-P2 {
         padding: 4px 0 0 2%;
         flex: 0 0 50%;
@@ -3114,7 +3115,7 @@ body {
     opacity: 0.6;
 }
 
-@media (max-width: 1650px) and (min-width: 1024px) {
+@media (max-width: 1650px) and (min-width: 1023px) {
     .twofixed .main-header-dots.dots {
         width: 600px;
         height: 572px;
@@ -3144,7 +3145,7 @@ body {
     /*page4*/
 }
 
-@media (max-width: 1850px) and (min-width: 1024px) {
+@media (max-width: 1850px) and (min-width: 1023px) {
 
     .twofixed .Screen5--button-group, .twofixed .Screen5--button-group.S6bg {
         max-width: none;
@@ -3484,7 +3485,7 @@ body {
     padding: 0 0 0 9.3%;
 }
 
-@media (max-width: 1600px) and (min-width: 1024px) {
+@media (max-width: 1600px) and (min-width: 1023px) {
     .twofixed .First_Screen,
     .twofixed .Screen5.P2.P2-S5dashed,
     .twofixed .Screen6.P2.P2-S5dashed,
@@ -3878,7 +3879,7 @@ body {
 }
 
 
-@media (max-width: 1199px) and (min-width: 1024px) {
+@media (max-width: 1199px) and (min-width: 1023px) {
     .twofixed .First_Screen,
     .twofixed .Screen5.P2.P2-S5dashed,
     .twofixed .Screen6.P2.P2-S5dashed,
@@ -5233,13 +5234,13 @@ foot-li > a {
     box-sizing: border-box;
 }
 
-@media (max-width: 1199px) and (min-width: 1024px) {
+@media (max-width: 1199px) and (min-width: 1023px) {
     .top-horizon-menu.X1024-1200 {
         width: 901px;
     }
 }
 
-@media (max-width: 1199px) and (min-width: 1024px) {
+@media (max-width: 1199px) and (min-width: 1023px) {
     .Screen2.P1-S2,
     .Screen5.S5,
     .Screen6.S6,
@@ -5762,7 +5763,7 @@ foot-li > a {
     /*page4*/
 }
 
-@media (max-width: 1300px) and (min-width: 1024px) {
+@media (max-width: 1300px) and (min-width: 1023px) {
 
     /*page4*/
     .page4 .head3 {
@@ -5783,7 +5784,7 @@ foot-li > a {
     /*page4*/
 }
 
-@media (max-width: 1600px) and (min-width: 1024px) {
+@media (max-width: 1600px) and (min-width: 1023px) {
     .main-header-second-h2.head2.S3 {
         margin-top: -11px;
     }
@@ -5886,7 +5887,7 @@ foot-li > a {
     /*page5*/
 }
 
-@media (max-width: 1600px) and (min-width: 1024px) {
+@media (max-width: 1600px) and (min-width: 1023px) {
     .login.buttonIDN.decide,
     .login.buttonIDN {
         width: 240px;
@@ -6323,7 +6324,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1100px) and (min-width: 1024px) {
+@media (max-width: 1100px) and (min-width: 1023px) {
     .main-header-second {
         padding: 0.7% 4%;
     }
@@ -6334,7 +6335,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1600px) and (min-width: 1024px) {
+@media (max-width: 1600px) and (min-width: 1023px) {
     .normal.main-p.center.S4 {
         max-width: 1000px;
     }
@@ -8351,7 +8352,7 @@ foot-li > a {
 }
 
 @media (orientation: landscape) and (max-width: 1023px) {
-    .First_Screen,
+    /*.First_Screen,*/
     .First_Screen #top + .Screen2 .window2 .dots,
     .First_Screen .Screen2.P1-S2, .First_Screen .Screen2 {
         height: 30%;
@@ -8995,7 +8996,7 @@ foot-li > a {
     }
 
     .twofixed .main-top-nav-anchor, .main-top-nav-anchor {
-        line-height: 48px;
+        line-height: 8vh;
         font-size: 32px;
     }
 
@@ -9015,6 +9016,12 @@ foot-li > a {
     .twofixed .First_Screen, .main-page .First_Screen {
         height: auto;
     }
+
+    .less1023 {
+        display: block;
+    }
+
+
 }
 
 @media (max-width: 1023px)  and (orientation: portrait ) {
@@ -9027,5 +9034,9 @@ foot-li > a {
     .twofixed .main-top-nav, .main-top-nav {
         height: auto;
         padding: 0;
+    }
+
+    #top + .Screen2 .window1 {
+        margin-top: 100px;
     }
 }
