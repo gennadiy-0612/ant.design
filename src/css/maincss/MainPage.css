@@ -2325,6 +2325,10 @@ body {
 }
 
 @media (min-width: 1920px) {
+    .main-page .Sreen5--h3 {
+        padding-right: 18%;
+    }
+
     .twofixed .Screen7--h2.why {
         padding: 157px 0 70px;
     }
@@ -7188,13 +7192,13 @@ foot-li > a {
     .vis .top-horizon-menu {
         padding-left: 34%;
         visibility: visible;
-        transition: all .2s ease-in .1s;
+        transition: padding-left, visibility .2s ease-in .1s;
     }
 
     .hide .top-horizon-menu {
         padding-left: 100%;
         visibility: collapse;
-        transition: all .2s ease-out .1s;
+        transition: padding-left, visibility .2s ease-out .1s;
     }
 
     .twofixed .main-top-nav-anchor,
@@ -7225,7 +7229,7 @@ foot-li > a {
 
     .twofixed .logo-link,
     .logo-link {
-        height: 35px;
+        height: 100px;
     }
 
     .idnlogo {
