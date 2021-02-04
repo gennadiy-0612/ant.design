@@ -6,7 +6,6 @@ const vhSHCH = {
             if (vhSHCH.h > vhSHCH.w) {
                 vhSHCH.height = window.innerHeight / 100;
                 vhSHCH.wholeHeight = Math.ceil(vhSHCH.height * 100);
-                console.log(vhSHCH.wholeHeight);
             }
             if (vhSHCH.h < vhSHCH.w) {
                 vhSHCH.wholeHeight = 'auto';

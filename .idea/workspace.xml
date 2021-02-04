@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vh.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/vh.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -308,14 +306,7 @@
       <workItem from="1612338659041" duration="2490000" />
       <workItem from="1612348962932" duration="7277000" />
       <workItem from="1612364209699" duration="8888000" />
-      <workItem from="1612416825549" duration="12163000" />
-    </task>
-    <task id="LOCAL-00396" summary="burger-work">
-      <created>1612119612560</created>
-      <option name="number" value="00396" />
-      <option name="presentableId" value="LOCAL-00396" />
-      <option name="project" value="LOCAL" />
-      <updated>1612119612560</updated>
+      <workItem from="1612416825549" duration="12720000" />
     </task>
     <task id="LOCAL-00397" summary="burger-work">
       <created>1612119642193</created>
@@ -653,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612429388452</updated>
     </task>
-    <option name="localTasksCounter" value="445" />
+    <task id="LOCAL-00445" summary="burger-work">
+      <created>1612430576747</created>
+      <option name="number" value="00445" />
+      <option name="presentableId" value="LOCAL-00445" />
+      <option name="project" value="LOCAL" />
+      <updated>1612430576747</updated>
+    </task>
+    <option name="localTasksCounter" value="446" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
