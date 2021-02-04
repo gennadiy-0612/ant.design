@@ -4,7 +4,7 @@ const vhSHCH = {
     setVh: function () {
         vhSHCH.w = window.innerWidth;
         vhSHCH.h = window.innerHeight;
-        if (1024 > vhSHCH.w && vhSHCH.w > 0) {
+        if (601 > vhSHCH.w && vhSHCH.w > 359) {
             if (vhSHCH.h > vhSHCH.w) {
                 vhSHCH.height = window.innerHeight / 100;
                 vhSHCH.wholeHeight = Math.ceil(vhSHCH.height * 100);
