@@ -2,23 +2,23 @@ const vhSHCH = {
     setVh: function () {
         vhSHCH.w = window.innerWidth;
         vhSHCH.h = window.innerHeight;
-        if (601 > vhSHCH.w && vhSHCH.w > 359) {
+        if (1000 > vhSHCH.w || 1000 > vhSHCH.h) {
             if (vhSHCH.h > vhSHCH.w) {
                 vhSHCH.height = window.innerHeight / 100;
                 vhSHCH.wholeHeight = Math.ceil(vhSHCH.height * 100);
                 console.log(vhSHCH.wholeHeight);
             }
+            if (vhSHCH.h < vhSHCH.w) {
+                vhSHCH.wholeHeight = 'auto';
+            }
         }
+        window.addEventListener('orientationchange', vhSHCH.g);
         return vhSHCH.wholeHeight;
     },
     g: function () {
-        if ((window.screen.orientation.type === 'landscape-primary') && (vhSHCH.h < 1023)) {
+        vhSHCH.setVh();
+        if (1000 > vhSHCH.w || 1000 > vhSHCH.h) {
             document.querySelector('.First_Screen')?.setAttribute('style', '');
-            vhSHCH.land = 1;
-        }
-        if ((window.screen.orientation.type === 'portrait-primary') && (vhSHCH.h < 1023)) {
-            document.querySelector('.First_Screen')?.setAttribute('style', '');
-            vhSHCH.portrait = 1;
         }
     }
 }
