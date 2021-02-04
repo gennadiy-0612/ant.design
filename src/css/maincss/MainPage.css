@@ -8987,8 +8987,8 @@ foot-li > a {
         letter-spacing: 0;
     }
 
-    .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
-        padding: 80px 0;
+    .page5 .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
+        padding: 60px 0;
     }
 
     .text-big.text-S2-P4.P4.S2.P5-our-team.P5::after {
