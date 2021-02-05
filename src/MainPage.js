@@ -98,7 +98,7 @@ function MainPage(props) {
 								</a>
 							</div>
 							<div className="window1--description">
-								<Link className="login buttonIDN S2 P1-S5 big white back-slider" to="/advisor">Learn more</Link>
+								<Link className="login buttonIDN S2 P1-S5 big white back-slider" to="/advisors">Learn more</Link>
 							</div>
 						</div>
 					</div>
