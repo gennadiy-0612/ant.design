@@ -2,13 +2,17 @@ const vhSHCH = {
     setVh: function () {
         vhSHCH.w = window.innerWidth;
         vhSHCH.h = window.innerHeight;
-        if (1000 > vhSHCH.w || 1000 > vhSHCH.h) {
+        if (1060 > vhSHCH.w || 1060 > vhSHCH.h) {
             if (vhSHCH.h > vhSHCH.w) {
-                vhSHCH.height = window.innerHeight / 100;
-                vhSHCH.wholeHeight = Math.ceil(vhSHCH.height * 100);
+                if (601 > window.innerWidth && window.innerWidth > 359) {
+                    vhSHCH.height = window.innerHeight / 100;
+                    vhSHCH.wholeHeight = Math.ceil(vhSHCH.height * 100);
+                }
             }
-            if (vhSHCH.h < vhSHCH.w) {
-                vhSHCH.wholeHeight = 'auto';
+            if (1060 > window.innerWidth) {
+                if (vhSHCH.h < vhSHCH.w) {
+                    vhSHCH.wholeHeight = 'auto';
+                }
             }
         }
         window.addEventListener('orientationchange', vhSHCH.g);
@@ -16,7 +20,7 @@ const vhSHCH = {
     },
     g: function () {
         vhSHCH.setVh();
-        if (1000 > vhSHCH.w || 1000 > vhSHCH.h) {
+        if (1060 > vhSHCH.w || 1060 > vhSHCH.h) {
             document.querySelector('.First_Screen')?.setAttribute('style', '');
         }
     }

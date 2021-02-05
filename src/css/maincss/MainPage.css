@@ -1121,7 +1121,7 @@ body {
     box-sizing: border-box;
 }
 
-@media (max-width: 1199px) and (min-width: 1023px) {
+@media (max-width: 1199px) and (min-width: 1070px) {
     .main-page .top-horizon-menu,
     .twofixed .top-horizon-menu.X1024-1200 {
         width: 990px;
@@ -1650,7 +1650,7 @@ body {
     /*page5*/
 }
 
-@media (max-width: 1600px) and (min-width: 1023px) {
+@media (max-width: 1600px) and (min-width: 1070px) {
     .twofixed .main-header-second-h2.head2.S3 {
         margin-top: -11px;
     }
@@ -1725,7 +1725,7 @@ body {
 }
 
 /*Page1 start*/
-@media (max-width: 1600px) and (min-width: 1023px) {
+@media (max-width: 1600px) and (min-width: 1070px) {
     .twofixed .login.buttonIDN.decide,
     .twofixed .login.buttonIDN {
         width: 240px;
@@ -2142,7 +2142,7 @@ body {
     }
 }
 
-@media (max-width: 1100px) and (min-width: 1023px) {
+@media (max-width: 1100px) and (min-width: 1070px) {
     .twofixed .main-header-second {
         padding: 0.7% 4%;
     }
@@ -2153,7 +2153,7 @@ body {
     }
 }
 
-@media (max-width: 1600px) and (min-width: 1023px) {
+@media (max-width: 1600px) and (min-width: 1070px) {
     .twofixed .normal.main-p.center.S4 {
         max-width: 1000px;
     }
@@ -2251,7 +2251,7 @@ body {
     }
 }
 
-@media (max-width: 1919px) and (min-width: 1023px) {
+@media (max-width: 1919px) and (min-width: 1070px) {
     .twofixed .window1.P2.S2-P2 {
         padding: 4px 0 0 2%;
         flex: 0 0 50%;
@@ -2298,6 +2298,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.twofixed.page2 .First_Screen,
+.twofixed.page3 .First_Screen {
+    height: 94vh;
+}
+
+.twofixed.page5 .First_Screen {
+    height: 100vh;
 }
 
 .twofixed .Header--logo {
@@ -3014,7 +3023,7 @@ body {
     opacity: 0.6;
 }
 
-@media (max-width: 1650px) and (min-width: 1023px) {
+@media (max-width: 1650px) and (min-width: 1070px) {
     .twofixed .main-header-dots.dots {
         width: 600px;
         height: 572px;
@@ -3044,7 +3053,7 @@ body {
     /*page4*/
 }
 
-@media (max-width: 1850px) and (min-width: 1023px) {
+@media (max-width: 1850px) and (min-width: 1070px) {
 
     .twofixed .Screen5--button-group, .twofixed .Screen5--button-group.S6bg {
         max-width: none;
@@ -3384,7 +3393,7 @@ body {
     padding: 0 0 0 9.3%;
 }
 
-@media (max-width: 1600px) and (min-width: 1023px) {
+@media (max-width: 1600px) and (min-width: 1070px) {
     .twofixed .First_Screen,
     .twofixed .Screen5.P2.P2-S5dashed,
     .twofixed .Screen6.P2.P2-S5dashed,
@@ -3778,7 +3787,7 @@ body {
 }
 
 
-@media (max-width: 1199px) and (min-width: 1023px) {
+@media (max-width: 1199px) and (min-width: 1070px) {
     .twofixed .First_Screen,
     .twofixed .Screen5.P2.P2-S5dashed,
     .twofixed .Screen6.P2.P2-S5dashed,
@@ -5152,7 +5161,7 @@ foot-li > a {
     box-sizing: border-box;
 }
 
-@media (max-width: 1199px) and (min-width: 1023px) {
+@media (max-width: 1199px) and (min-width: 1070px) {
     .Screen2.P1-S2,
     .Screen5.S5,
     .Screen6.S6,
@@ -5687,7 +5696,7 @@ foot-li > a {
     /*page4*/
 }
 
-@media (max-width: 1300px) and (min-width: 1023px) {
+@media (max-width: 1300px) and (min-width: 1070px) {
 
     /*page4*/
     .page4 .head3 {
@@ -5708,7 +5717,7 @@ foot-li > a {
     /*page4*/
 }
 
-@media (max-width: 1600px) and (min-width: 1023px) {
+@media (max-width: 1600px) and (min-width: 1070px) {
     .main-header-second-h2.head2.S3 {
         margin-top: -11px;
     }
@@ -5811,7 +5820,7 @@ foot-li > a {
     /*page5*/
 }
 
-@media (max-width: 1600px) and (min-width: 1023px) {
+@media (max-width: 1600px) and (min-width: 1070px) {
     .login.buttonIDN.decide,
     .login.buttonIDN {
         width: 240px;
@@ -6271,7 +6280,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1100px) and (min-width: 1023px) {
+@media (max-width: 1100px) and (min-width: 1070px) {
     .main-header-second {
         padding: 1.9% 3% 0 10.7%;
     }
@@ -6282,7 +6291,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1600px) and (min-width: 1023px) {
+@media (max-width: 1600px) and (min-width: 1070px) {
     .normal.main-p.center.S4 {
         max-width: 1000px;
     }
@@ -6939,7 +6948,7 @@ foot-li > a {
     opacity: 1;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1070px) {
     .main-page .First_Screen .window1-descript::after {
         content: '';
     }
@@ -6976,6 +6985,10 @@ foot-li > a {
     .main-post-link.P2.S2-P2::before {
         height: 2px;
         bottom: 0;
+    }
+
+    .twofixed.page2 .First_Screen, .twofixed.page3 .First_Screen {
+        height: auto;
     }
 
     /*burger*/
@@ -8244,13 +8257,12 @@ foot-li > a {
         display: none;
     }
 
-    .twofixed .First_Screen,
-    .main-page .First_Screen {
-        height: 100vh;
+    .main-page .login.buttonIDN.S2.big.white.back-slider.Screen2 {
+        line-height: 36px;
     }
 }
 
-@media (orientation: landscape) and (max-width: 1023px) {
+@media (orientation: landscape) and (max-width: 1070px) {
     /*.First_Screen,*/
     .First_Screen #top + .Screen2 .window2 .dots,
     .First_Screen .Screen2.P1-S2, .First_Screen .Screen2 {
@@ -8262,7 +8274,7 @@ foot-li > a {
     }
 }
 
-@media (min-width: 600px) and (max-width: 1023px) {
+@media (min-width: 600px) and (max-width: 1070px) {
     .main-page .Screen9.P1-S9,
     .twofixed .Screen9.P1-S9,
     .main-page .First_Screen,
@@ -8638,6 +8650,10 @@ foot-li > a {
         width: 220px;
     }
 
+    .login.buttonIDN.S2.big.white.back-slider.Screen2 {
+        line-height: 56px;
+    }
+
     .back-slider.buttonIDN.white.decide {
         width: 260px;
         height: 50px;
@@ -8899,6 +8915,11 @@ foot-li > a {
         font-size: 32px;
         min-width: 250px;
     }
+
+    .main-page .login.buttonIDN.S2.big.white.back-slider.Screen2 {
+        line-height: 56px;
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 359px) {
@@ -8908,7 +8929,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1070px) {
     .twofixed .First_Screen, .main-page .First_Screen {
         height: auto;
     }
@@ -8917,16 +8938,19 @@ foot-li > a {
         display: block;
     }
 
-
 }
 
-@media (max-width: 1023px)  and (orientation: portrait ) {
-    .twofixed .First_Screen, .main-page .First_Screen {
-        height: 100vh;
+@media (max-width: 1070px) and (orientation: portrait ) {
+    .twofixed .window1--button-group.P2.P2-S2, .window1--button-group {
+        margin-bottom: 24px;
+    }
+
+    .First_Screen #top + .Screen2 .window2 {
+        padding-bottom: 20%;
     }
 }
 
-@media (max-width: 1023px) and (orientation: landscape) {
+@media (max-width: 1070px)  and (orientation: landscape) {
     .twofixed .main-top-nav, .main-top-nav {
         height: auto;
         padding: 0;
@@ -8937,12 +8961,11 @@ foot-li > a {
     }
 }
 
-.login.buttonIDN.back-slider.white {
+.login.buttonIDN.S2.big.white.back-slider.Screen2 {
     border: 2px solid #3680f6;
 }
 
-.buttonIDN.white,
-.login.buttonIDN.back-slider.white {
+.login.buttonIDN.S2.big.white.back-slider.Screen2 {
     box-shadow: none;
     box-sizing: border-box;
 }
