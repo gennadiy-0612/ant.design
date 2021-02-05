@@ -234,75 +234,10 @@ body {
     max-width: 800px;
 }
 
-.twofixed .Header {
-    display: flex;
-    padding: 33px 3.9% 140px 3.4%;
-}
-
-.twofixed .Header--logo {
-    flex-grow: 1;
-    margin-top: 0;
-}
-
-.twofixed .logo-link {
-    display: flex;
-    width: 234px;
-    height: 106px;
-    margin: 0;
-}
-
-.twofixed .Header--logo--img {
-    height: 75px;
-    width: 77px;
-}
-
-.twofixed .logo-texts {
-    margin-left: 1px;
-    color: #232D53;
-}
-
-.twofixed .logo-text-sub {
-    font: normal normal 300 10.6px/20px 'Poppins', sans-serif;
-    color: #232D53;
-    padding: 0 7%;
-}
-
-.twofixed .logo-text {
-    color: #232D53;
-    font: normal normal 900 80px/48px 'Poppins', sans-serif;
-    padding: 5px 4%;
-    letter-spacing: 2.2px;
-}
-
-.twofixed .main-top-nav {
-    flex-grow: 3;
-}
-
-.twofixed .main-top-nav {
-    display: flex;
-    padding: 67px 40px 30px 10%;
-    justify-content: flex-end;
-}
-
-.twofixed .main-top-nav-anchor {
-    margin: 9px 3.1% 4.8% 5%;
-    font: normal normal 500 22px/22px 'Poppins', sans-serif;
-    letter-spacing: -0.2px;
-    color: #232D53;
-    text-decoration: none;
-}
-
 .twofixed .main-top-nav-anchor:hover, .twofixed .footA:hover {
     color: #3680F6;
     transition: color 0.7s;
     text-decoration: none;
-}
-
-.twofixed .login-block {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    padding-left: 75px;
 }
 
 .twofixed .Screen2 {
@@ -1187,12 +1122,12 @@ body {
 }
 
 @media (max-width: 1199px) and (min-width: 1023px) {
+    .main-page .top-horizon-menu,
     .twofixed .top-horizon-menu.X1024-1200 {
-        width: 901px;
+        width: 990px;
+        margin-top: 15px;
     }
-}
 
-@media (max-width: 1199px) and (min-width: 1023px) {
     .twofixed .Screen2.P1-S2,
     .twofixed .Screen5.S5,
     .twofixed .Screen6.S6,
@@ -1222,24 +1157,31 @@ body {
         margin: 40px 0 0 0;
     }
 
+    .main-page .idnlogo,
     .twofixed .idnlogo {
         height: 51px;
         width: 155px;
+        margin-top: 15px;
     }
 
     .twofixed .main-top-nav {
-        padding: 45px 0 30px 1%;
+        padding: 0;
         flex-grow: 8;
     }
 
+    .main-page .main-top-nav-anchor,
     .twofixed .main-top-nav-anchor {
-        margin: 9px 1.75% 4.8% 6%;
+        margin: 0;
         font: normal normal 500 19px/22px 'Poppins', sans-serif;
         letter-spacing: -0.6px;
+        padding: 43px 20px 40px 20px;
     }
 
+    .main-page .login-block,
     .twofixed .login-block {
         justify-content: flex-end;
+        padding-left: 20px;
+        margin-right: 10px;
     }
 
     .twofixed .buttonIDN.login {
@@ -1812,10 +1754,6 @@ body {
     .twofixed .window1.Screen5--w1 {
         flex: 0 0 54%;
     }
-
-    .twofixed .login-block {
-        padding-left: 40px;
-    }
 }
 
 @media (max-width: 1600px) and (min-width: 1200px) {
@@ -1840,20 +1778,16 @@ body {
         margin: 0 auto 0 0;
     }
 
+    .main-page .logo-link,
     .twofixed .logo-link {
         width: 155px;
         height: 31px;
-        margin: 7px 0 0 2px;
+        margin: 15px 0 0 2px;
     }
 
     .twofixed .idnlogo {
         width: 185px;
         height: 51px;
-    }
-
-    .twofixed .main-top-nav {
-        padding: 11px 0 0;
-        position: relative;
     }
 
     .twofixed .main-top-nav-anchor {
@@ -2198,8 +2132,9 @@ body {
         width: 1050px;
     }
 
+    .main-page .top-horizon-menu,
     .twofixed .top-horizon-menu.X1200-1600 {
-        width: 1050px;
+        width: 1180px;
     }
 
     .twofixed .Header--logo.X1024-1600 {
@@ -2372,30 +2307,6 @@ body {
     left: 60px;
 }
 
-.twofixed .main-top-nav {
-    padding: 0;
-}
-
-.twofixed .top-horizon-menu {
-    width: 1600px;
-    display: flex;
-    margin-top: 20px;
-}
-
-.twofixed .main-top-nav {
-    flex-grow: 1;
-}
-
-.twofixed .main-top-nav-anchor {
-    font: normal normal 500 22px/22px 'Poppins', sans-serif;
-    letter-spacing: -0.2px;
-    color: #232D53;
-    text-decoration: none;
-    margin: 0;
-    font-size: 18px;
-    padding: 40px 20px;
-}
-
 .twofixed .window1--button-group.Screen5--button-group.S7 {
     justify-content: space-between;
 }
@@ -2420,12 +2331,6 @@ body {
     z-index: 1;
 }
 
-.twofixed .logo-link {
-    display: flex;
-    width: 234px;
-    height: 106px;
-}
-
 .twofixed .logo-link:hover {
     cursor: pointer;
 }
@@ -2438,12 +2343,6 @@ body {
 .twofixed .logo-texts {
     margin-left: 1px;
     color: #232D53;
-}
-
-.twofixed .logo-text-sub {
-    font: normal normal 300 10.6px/20px 'Poppins', sans-serif;
-    color: #232D53;
-    padding: 0 7%;
 }
 
 .twofixed .logo-text {
@@ -4061,7 +3960,7 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-    width: 70%;
+    width: 65%;
     height: 3px;
     background-color: #FF6B0F;
 }
@@ -4176,9 +4075,47 @@ body {
     max-width: 800px;
 }
 
+
+.First_Screen {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 700px;
+}
+
 .Header {
     display: flex;
-    padding: 33px 3.9% 140px 3.4%;
+    box-sizing: border-box;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
+
+.Header--logo {
+    margin-top: 0;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    z-index: 1;
+}
+
+.top-horizon-menu {
+    width: 1600px;
+    display: flex;
+}
+
+.main-top-nav {
+    flex-grow: 1;
+}
+
+.main-top-nav-anchor {
+    font: normal normal 500 22px/22px 'Poppins', sans-serif;
+    letter-spacing: -0.2px;
+    color: #232D53;
+    text-decoration: none;
+    margin: 0;
+    padding: 40px;
 }
 
 .Header--logo {
@@ -4189,31 +4126,12 @@ body {
 .logo-link {
     display: flex;
     width: 234px;
-    height: 106px;
-    margin: 0;
+    height: 80px;
 }
 
 .Header--logo--img {
     height: 75px;
     width: 77px;
-}
-
-.logo-texts {
-    margin-left: 1px;
-    color: #232D53;
-}
-
-.logo-text-sub {
-    font: normal normal 300 10.6px/20px 'Poppins', sans-serif;
-    color: #232D53;
-    padding: 0 7%;
-}
-
-.logo-text {
-    color: #232D53;
-    font: normal normal 900 80px/48px 'Poppins', sans-serif;
-    padding: 5px 4%;
-    letter-spacing: 2.2px;
 }
 
 .main-top-nav {
@@ -4222,12 +4140,12 @@ body {
 
 .main-top-nav {
     display: flex;
-    padding: 67px 40px 30px 10%;
+    padding: 58px 0 30px 10%;
     justify-content: flex-end;
 }
 
 .main-top-nav-anchor {
-    margin: 9px 3.1% 4.8% 5%;
+    margin: 9px 0 2.8%;
     font: normal normal 500 22px/22px 'Poppins', sans-serif;
     letter-spacing: -0.2px;
     color: #232D53;
@@ -5235,12 +5153,6 @@ foot-li > a {
 }
 
 @media (max-width: 1199px) and (min-width: 1023px) {
-    .top-horizon-menu.X1024-1200 {
-        width: 901px;
-    }
-}
-
-@media (max-width: 1199px) and (min-width: 1023px) {
     .Screen2.P1-S2,
     .Screen5.S5,
     .Screen6.S6,
@@ -5258,8 +5170,12 @@ foot-li > a {
     }
 
     .Header {
-        padding: 6px 3.9% 76px 30px;
-        margin: 40px 0 0 0;
+        padding: 0;
+        margin: 0;
+    }
+
+    .Header--logo {
+        margin-left: -30px;
     }
 
     .idnlogo {
@@ -5268,7 +5184,7 @@ foot-li > a {
     }
 
     .main-top-nav {
-        padding: 45px 0 30px 1%;
+        padding: 0 0 1%;
         flex-grow: 8;
     }
 
@@ -5493,6 +5409,14 @@ foot-li > a {
     .Screen5.S5 {
         margin: 80px auto 0;
         overflow: hidden;
+    }
+
+    .main-page .Screen5.S5.P1-S5 {
+        margin: 90px auto 0;
+    }
+
+    .main-page .Screen6.S6.P1-S6 {
+        margin: 75px auto 70px;
     }
 
     .main-header-second-h2.head2.Screen5--h2 {
@@ -5912,7 +5836,7 @@ foot-li > a {
     }
 }
 
-@media (max-width: 1600px) and (min-width: 1199px) {
+@media (max-width: 1600px) and (min-width: 1200px) {
     .Screen2.P1-S2,
     .Screen5.S5,
     .Screen6.S6,
@@ -5934,14 +5858,7 @@ foot-li > a {
     }
 
     .Header {
-        padding: 39px 1% 0;
         margin: 0 auto 0 0;
-    }
-
-    .logo-link {
-        width: 234px;
-        height: 31px;
-        margin: 7px 0 0 2px;
     }
 
     .idnlogo {
@@ -5950,14 +5867,21 @@ foot-li > a {
     }
 
     .main-top-nav {
-        padding: 11px 0 0;
+        padding: 20px 0 0;
         position: relative;
     }
 
-    .main-top-nav-anchor {
-        margin: 9px 0.1% 4.8% 5.4%;
-        font: normal normal 500 20px/27px 'Poppins', sans-serif;
+    .main-top-nav-anchor,
+    .twofixed .main-top-nav-anchor {
+        margin: 9px 0 4.8% 4.9%;
         letter-spacing: -0.8px;
+        padding: 33px 0 20px;
+        font: normal normal 500 18px/22px 'Poppins', sans-serif;
+    }
+
+    .main-top-nav .active::after {
+        bottom: 7%;
+        width: 100%;
     }
 
     .login-block {
@@ -5978,7 +5902,7 @@ foot-li > a {
     .window1.Screen2.X1600 {
         flex: 0 0 48%;
         width: 48%;
-        padding: 2px 0 0 0.75%;
+        padding: 2px 0 0 3.35%;
         margin-top: -20px;
     }
 
@@ -6307,26 +6231,48 @@ foot-li > a {
         left: 7%;
     }
 
-    .top-horizon-menu {
-        width: 1050px;
-    }
-
-    .top-horizon-menu {
-        width: 1050px;
-    }
-
-    .top-horizon-menu.X1200-1600 {
-        width: 1050px;
-    }
-
     .Header--logo.X1024-1600 {
         left: 30px;
+    }
+
+    .page4. .First_Screen .Screen2 {
+        margin: 9vh 0 auto;
+    }
+
+    .twofixed.page4 .window1.P2.S2-P2 {
+        max-width: 59%;
+        flex: 0 0 59%;
+        padding: 0 0 0 3.4%;
+    }
+
+    .twofixed.page4 .dots.P2-S2 {
+        left: 0;
+        top: 0;
+    }
+
+    .twofixed.page4 .window2 {
+        max-width: 39%;
+        flex: 0 0 39%;
+    }
+
+    .page4 .text-big.text-S2-P4.P4.S2,
+    .page4 .text-big.text-S2-P4.P4.S2.center.width800 {
+        font: normal normal 700 40px/60px 'Poppins', sans-serif;
+    }
+
+    .page4 .text-big.text-S2-P4.P4.S2.center.width800 {
+        max-width: 660px;
+        padding: 50px 0 80px;
+    }
+    .page5.twofixed .Screen7--h2.S8.P4-S8,
+    .page4.twofixed .Screen7--h2.S8 {
+        font: normal normal 600 40px/60px 'Poppins', sans-serif;
     }
 }
 
 @media (max-width: 1100px) and (min-width: 1023px) {
     .main-header-second {
-        padding: 0.7% 4%;
+        padding: 1.9% 3% 0 10.7%;
     }
 
     .normal.main-p.center.S4 {
@@ -6415,7 +6361,7 @@ foot-li > a {
     }
 
     .main-page .Sreen5--h3 {
-        padding: 13px 2% 0 3%;
+        padding: 13px 6% 0 3%;
     }
 }
 
@@ -6544,55 +6490,6 @@ foot-li > a {
     margin: 12vh auto 3vh;
 }
 
-.Header {
-    margin: 0;
-    box-sizing: border-box;
-    width: 100%;
-    align-self: center;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-}
-
-.First_Screen {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 700px;
-}
-
-.Header--logo {
-    margin-top: 0;
-    position: absolute;
-    top: 30px;
-    left: 60px;
-    z-index: 1;
-}
-
-.main-top-nav {
-    padding: 0;
-}
-
-.top-horizon-menu {
-    width: 1600px;
-    display: flex;
-    margin-top: 20px;
-}
-
-.main-top-nav {
-    flex-grow: 1;
-}
-
-.main-top-nav-anchor {
-    font: normal normal 500 22px/22px 'Poppins', sans-serif;
-    letter-spacing: -0.2px;
-    color: #232D53;
-    text-decoration: none;
-    margin: 0;
-    font-size: 18px;
-    padding: 40px 20px;
-}
 
 .window1--button-group.Screen5--button-group.S7 {
     justify-content: space-between;
@@ -6820,7 +6717,7 @@ foot-li > a {
 
 /*Page5 start*/
 .Screen2.P5-S2 {
-    margin: auto 0 15.2vh;
+    margin: auto 0 8.2vh;
 }
 
 .main-header-second-h2.head2.P2.S2-P2.P5-S2 {
@@ -7251,6 +7148,7 @@ foot-li > a {
 
     .twofixed .main-top-nav-anchor, .main-top-nav-anchor {
         min-width: 130px;
+        margin: 0;
     }
 
     .twofixed .First_Screen,
@@ -8998,9 +8896,6 @@ foot-li > a {
     .twofixed .main-top-nav-anchor, .main-top-nav-anchor {
         line-height: 8vh;
         font-size: 32px;
-    }
-
-    .twofixed .main-top-nav-anchor, .main-top-nav-anchor {
         min-width: 250px;
     }
 }
@@ -9039,4 +8934,14 @@ foot-li > a {
     #top + .Screen2 .window1 {
         margin-top: 100px;
     }
+}
+
+.login.buttonIDN.back-slider.white {
+    border: 1px solid #3680f6;
+}
+
+.buttonIDN.white,
+.login.buttonIDN.back-slider.white {
+    box-shadow: none;
+    box-sizing: border-box;
 }

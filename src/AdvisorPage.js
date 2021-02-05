@@ -16,8 +16,8 @@ function AdvisorPage(props) {
                 <div className="Screen2">
                     <div className="window1 P2 S2-P2">
                         <h1 className="main-header-second-h2 head2 P2 S2-P2">Senior Advisors</h1>
-                        <p className="window1-descript P2 S2-P2 page2">Leverage your network and industry knowledge
-                            <span className="main-post-link P2 S2-P2">&nbsp;to originate</span> proprietary investment
+                        <p className="window1-descript P2 S2-P2 page2">Leverage your network and industry knowledge&nbsp;
+                            <span className="main-post-link P2 S2-P2">to originate</span> proprietary investment
                             opportunities for <span className="yellow-upper">Private Equity investors</span></p>
                         <div className="window1--button-group P2 P2-S2">
                             <div className="window1--description"><a className="login buttonIDN S2 big back-slider Screen2">Apply now</a></div>
