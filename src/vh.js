@@ -8,18 +8,26 @@ const vhSHCH = {
                 vhSHCH.wholeHeight = Math.ceil(vhSHCH.height * 100);
             }
             if (vhSHCH.h < vhSHCH.w) {
-                vhSHCH.wholeHeight = 'auto';
+                vhSHCH.wholeHeight = '';
             }
         }
         window.addEventListener('orientationchange', vhSHCH.g);
         return vhSHCH.wholeHeight;
     },
     g: function () {
-        vhSHCH.setVh();
-        if (1000 > vhSHCH.w || 1000 > vhSHCH.h) {
-            document.querySelector('.First_Screen')?.setAttribute('style', '');
+        if (1000 > window.innerWidth || 1000 > window.innerHeight) {
+            if (window.innerHeight > window.innerWidth) {
+                document.querySelector('.First_Screen')?.setAttribute('style', '');
+                console.log('Height < Width')
+            }
+            if (window.innerHeight < window.innerWidth) {
+                vhSHCH.height = window.innerHeight / 100;
+                vhSHCH.wholeHeight = Math.ceil(vhSHCH.height * 100);
+                document.querySelector('.First_Screen')?.setAttribute('style', 'height:' + vhSHCH.wholeHeight + 'px');
+                console.log('Height > Width')
+            }
         }
-    }
+    },
 }
 
 window.addEventListener('loadstart', vhSHCH.setVh);
