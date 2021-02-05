@@ -11,7 +11,7 @@ function MainFooter(props) {
                 <ul className="foot-ul">
                     <li className="foot-li foot-li-head">Users</li>
                     <li className="foot-li opacity6"><Link className="footA" to="/investors">Investors</Link></li>
-                    <li className="foot-li opacity6"><Link className="footA" to="/advisors">Seniors Advisors</Link></li>
+                    <li className="foot-li opacity6"><Link className="footA" to="/advisors">Senior Advisors</Link></li>
                 </ul>
                 <ul className="foot-ul">
                     <li className="foot-li foot-li-head">Sectors</li>
