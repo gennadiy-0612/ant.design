@@ -16,7 +16,7 @@ export default function App() {
     return (
         <Router>
             <Switch>
-                <Route path="/advisor">
+                <Route path="/advisors">
                     <Advisor/>
                 </Route>
                 <Route path="/investors">
