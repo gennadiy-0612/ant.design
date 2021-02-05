@@ -6264,6 +6264,7 @@ foot-li > a {
         max-width: 660px;
         padding: 50px 0 80px;
     }
+
     .page5.twofixed .Screen7--h2.S8.P4-S8,
     .page4.twofixed .Screen7--h2.S8 {
         font: normal normal 600 40px/60px 'Poppins', sans-serif;
@@ -8937,7 +8938,7 @@ foot-li > a {
 }
 
 .login.buttonIDN.back-slider.white {
-    border: 1px solid #3680f6;
+    border: 2px solid #3680f6;
 }
 
 .buttonIDN.white,
