@@ -6479,6 +6479,10 @@ foot-li > a {
         width: 63%;
     }
 
+    .page4 .Screen8 .Screen7--h2 {
+        max-width: 1000px;
+    }
+
     .Screen7--h2.why {
         padding: 157px 0 70px;
     }
@@ -6508,7 +6512,7 @@ foot-li > a {
 /*Page3 finish*/
 /*Page4 sart*/
 .page4 .Screen2 {
-    margin: auto 0 2.6vh;
+    margin: auto 0 3.5vh;
 }
 
 .page4 .First_Screen {
@@ -6764,7 +6768,7 @@ foot-li > a {
     flex: 0 0 50%;
     top: auto;
     margin: 0;
-    padding: 10px 0 117px;
+    padding: 40px 0 117px;
 }
 
 .dots.Screen6--dots.P5-S6 {
@@ -6908,6 +6912,19 @@ foot-li > a {
     letter-spacing: 0;
     position: relative;
     padding: 38px 0 80px;
+}
+
+.text-big.text-S2-P4.P4.S2,
+.text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
+    font: normal normal 700 24px/48px 'Poppins', sans-serif;
+}
+
+.text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
+    max-width: 700px;
+}
+
+.page5.twofixed .Screen7--h2.S8.P4-S8 {
+    max-width: 700px;
 }
 
 .main-page .First_Screen .window1-descript::after,
@@ -8221,6 +8238,11 @@ foot-li > a {
         font: normal normal 600 16px/24px 'Poppins', sans-serif;
     }
 
+    .page5.twofixed .Screen7--h2.S8.P4-S8,
+    .page5 .text-big.text-S2-P4.P4.S2.P5-our-team.P5 {
+        margin: auto;
+    }
+
     .main-post-link.P5-our-team::before {
         height: 2px;
         bottom: -10px;
@@ -8799,10 +8821,7 @@ foot-li > a {
     }
 
     .twofixed .page3.window1-descript.P2.S2-P2, .twofixed .page2.window1-descript.P2.S2-P2,
-    .yellow-upper.P5,
-    .twofixed .main-post-link.P2.S2-P2,
-    .twofixed.page4 .main-post-link.P2.S2-P2,
-    .twofixed .page3.window1-descript.P2.S2-P2 {
+    .yellow-upper.P5, .twofixed .main-post-link.P2.S2-P2, .twofixed .page3.window1-descript.P2.S2-P2 {
         font: normal normal 400 30px/54px 'Poppins', sans-serif;
     }
 
@@ -8937,16 +8956,51 @@ foot-li > a {
     .less1023 {
         display: block;
     }
-
 }
 
-@media (max-width: 1070px) and (orientation: portrait ) {
+@media (min-width: 600px) and  (max-width: 1070px) and (orientation: portrait ) {
+    .twofixed .window1--button-group.P2.P2-S2, .window1--button-group {
+        margin-bottom: 24px;
+    }
+
+    .First_Screen #top + .Screen2 .window2 {
+        padding: 10% 0 20%;
+    }
+}
+
+@media (min-width: 800px) and  (max-width: 1070px) and (orientation: landscape ) {
+    .First_Screen #top + .Screen2 .window2 {
+        padding: 0 0 20% 0;
+    }
+}
+
+@media (max-width: 359px) and (orientation: portrait ) {
     .twofixed .window1--button-group.P2.P2-S2, .window1--button-group {
         margin-bottom: 24px;
     }
 
     .First_Screen #top + .Screen2 .window2 {
         padding-bottom: 20%;
+    }
+}
+
+@media (max-width: 1070px) and (orientation: landscape ) {
+    .main-page .First_Screen,
+    .twofixed.page2 .First_Screen,
+    .twofixed.page3 .First_Screen,
+    .twofixed.page4 .First_Screen,
+    .twofixed.page5 .First_Screen {
+        height: auto;
+    }
+}
+
+@media (min-width: 360px) and  (max-width: 599px) and (orientation: portrait ) {
+    .main-page .First_Screen,
+    .twofixed.page2 .First_Screen,
+    .twofixed.page3 .First_Screen,
+    .twofixed.page4 .First_Screen,
+    .twofixed.page5 .First_Screen {
+        height: 100vh;
     }
 }
 
