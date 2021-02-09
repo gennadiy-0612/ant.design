@@ -50,9 +50,9 @@ function MainPage(props) {
 					<div className="main-header-second S3">
 						<h2 className="main-header-second-h2 head2 S3">WHAT WE OFFER</h2>
 						<p className="main-p X1600">“IDN unleashes
-							the power of networking
-							and industry expertise
-							to give Private Equity infrastructure investors
+							the&nbsp;power of&nbsp;networking
+							and&nbsp;industry expertise
+							to&nbsp;give Private Equity infrastructure investors
 							what they want:</p>
 						<p className="main-post-link">Access to bilateral deals</p>
 					</div>
