@@ -42,15 +42,12 @@ function InvestorsPage(props) {
                 <div className="idea">
                     <p className="normal main-p center cover P2 P2-S4">
                         Our investors are Senior professionals working at leading
-                        Private Equity firms targeting infrastructure and related <span
+                        private equity firms targeting infrastructure and related <span
                         className="main-post-link P2 third-screen third-line"> assets in Europe and beyond</span></p>
                     <div className="two-columns">
-                        <p className="two-column--p">Through IDN’s platform, our investors originate and close <span
-                            className="main-post-link P2 third-screen">unique investment</span> opportunities, ranging
-                            from a minimum
-                            of 10 million Euro up to a billion Euro.</p>
-                        <p className="two-column--p">Our sweet spot is small cap and <span
-                            className="main-post-link P2 third-screen">mid-market</span> but large cap transactions are also originated on our platform by our selected Senior Advisors</p>
+                        <p className="two-column--p">Through IDN, investors <span
+                            className="main-post-link P2 third-screen">originate and close</span> investment opportunities ranging from a minimum of 10 million Euro up to a billion Euro.</p>
+                        <p className="two-column--p">IDN’s sweet spot is small cap and <span className="main-post-link P2 third-screen">mid-market</span> but large cap transactions are also originated by our trusted Senior Advisors</p>
                     </div>
                 </div>
             </div>
@@ -73,7 +70,7 @@ function InvestorsPage(props) {
                     <p className="window1-descript P2 S6-P2 added-element-before rounded-frame notificationdot">Get notified when
                         Senior Advisors originate relevant opportunities or assign origination mandates</p>
                     <p className="window1-descript P2 S6-P2 added-element-before rounded-frame dotline favorite">
-                        Review the opportunities originated by Advisors and submit expressions of interest</p>
+                        Review the opportunities originated by Senior Advisors and submit expressions of interest</p>
                 </div>
                 <div className="window2 P2 P3-S61 hide320-600">
                     <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2 odd" src={Images.mannotephone} alt="bridge" /></div>
@@ -99,10 +96,8 @@ function InvestorsPage(props) {
             <div className="Screen6 P2 P2-S7 P2-S5dashed">
                 <div className="window1 P2 P2-S7 P2-S6 P2-S62 left-dashed">
                     <p className="window1-h P2 S6-P2 added-element-before P2-S6">Close</p>
-                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame process">Engage
-                        Advisors to support you through the execution of the transactions</p>
-                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame infrastructure">
-                        Successfully close the investments bilaterally</p>
+                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame process">Engage Senior Advisors to support you through the execution of the transactions</p>
+                    <p className="window1-descript P2 S6-P2 S6-P22 added-element-before rounded-frame infrastructure">Successfully close the investments bilaterally</p>
                 </div>
                 <div className="window2 P2 hide320-600">
                     <div className="dots P2 S6-P2 dotted photo"><img className="illustrate P2" src={Images.handshake} alt="bridge" /></div>

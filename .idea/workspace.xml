@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdvisorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdvisorPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InvestorsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvestorsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/t.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/t.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,9 +80,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src" />
       <recent name="E:\wamp64\www\ant.design\src\Images\page2" />
-      <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\jpg" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\svg" />
     </key>
@@ -323,14 +329,8 @@
       <workItem from="1612851176486" duration="3678000" />
       <workItem from="1612859877058" duration="299000" />
       <workItem from="1612881543158" duration="360000" />
-      <workItem from="1612947864822" duration="1547000" />
-    </task>
-    <task id="LOCAL-00410" summary="burger-work">
-      <created>1612166899171</created>
-      <option name="number" value="00410" />
-      <option name="presentableId" value="LOCAL-00410" />
-      <option name="project" value="LOCAL" />
-      <updated>1612166899171</updated>
+      <workItem from="1612947864822" duration="2911000" />
+      <workItem from="1612954290449" duration="4383000" />
     </task>
     <task id="LOCAL-00411" summary="burger-work">
       <created>1612168716788</created>
@@ -668,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612949066338</updated>
     </task>
-    <option name="localTasksCounter" value="459" />
+    <task id="LOCAL-00459" summary="burger-work">
+      <created>1612949489129</created>
+      <option name="number" value="00459" />
+      <option name="presentableId" value="LOCAL-00459" />
+      <option name="project" value="LOCAL" />
+      <updated>1612949489129</updated>
+    </task>
+    <option name="localTasksCounter" value="460" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,7 +735,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/AdvisorPage.js</url>
-          <line>197</line>
+          <line>196</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

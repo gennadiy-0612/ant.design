@@ -18,7 +18,7 @@ function AdvisorPage(props) {
                         <h1 className="main-header-second-h2 head2 P2 S2-P2">Senior Advisors</h1>
                         <p className="window1-descript P2 S2-P2 page2">Leverage your network and industry knowledge&nbsp;
                             <span className="main-post-link P2 S2-P2">to originate</span> proprietary investment
-                            opportunities for <span className="yellow-upper">Private Equity investors</span></p>
+                            opportunities for <span className="yellow-upper">private equity investors</span></p>
                         <div className="window1--button-group P2 P2-S2">
                             <div className="window1--description"><a className="login buttonIDN S2 big back-slider Screen2">Apply now</a></div>
                             <div className="window1--description">
@@ -36,8 +36,7 @@ function AdvisorPage(props) {
                 <h2 className="main-header-second-h2 head2 center P2-h2">WHO OUR</h2>
                 <p className="main-post-link center frame4 P2 P2-S4">Senior Advisors are</p>
                 <div className="idea">
-                    <p className="normal main-p center cover P2 P2-S4">Our Senior Advisors are independent Senior
-                        Executives across every infrastructure related sector
+                    <p className="normal main-p center cover P2 P2-S4">Our Senior Advisors are independent senior executives across every infrastructure related sector
                         <span className="main-post-link P2 third-screen third-line">in Europe and beyond</span></p>
                     <div className="two-columns">
                         <p className="two-column--p"><span className="main-post-link P2 third-screen">To join our platform</span> they
@@ -200,14 +199,7 @@ function AdvisorPage(props) {
                             <div className="info-graph">
                                 <span className="sector five supp normal main-p center S7 P2-S7-remade">SUPPORT</span>
                                 <ul className="dot-list">
-                                    <li className="dots-item">IDN offers full support and counsel to Advisors throughout
-                                        the
-                                        process
-                                    </li>
-                                    <li className="dots-item">We are always available to support Advisors with a
-                                        dedicated
-                                        Relationship Manager
-                                    </li>
+                                    <li className="dots-item">IDN’s&#160;Partner</li>
                                 </ul>
                             </div>
                             <div className="info-graph">

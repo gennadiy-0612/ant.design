@@ -15,9 +15,7 @@ function MainPage(props) {
 				<div className="Screen2 P1-S2">
 					<div className="window1 Screen2 X12000 X1600">
 						<h1 className="window1-h X12000">The Infrastructure Deals Network</h1>
-						<p className="window1-descript">
-							The first deal origination platform for Private Equity
-							investments in infrastructure-related sectors</p>
+						<p className="window1-descript">A unique deal origination platform for private equity investments in infrastructure-related sectors</p>
 						<div className="window1--button-group P1-S2 S2 X1600">
 							<div className="window1--description S1">
 								<p className="window1--description--button">Senior Advisors</p>
@@ -52,7 +50,7 @@ function MainPage(props) {
 						<p className="main-p X1600">“IDN unleashes
 							the&nbsp;power of&nbsp;networking
 							and&nbsp;industry expertise
-							to&nbsp;give Private Equity infrastructure investors
+							to&nbsp;give private equity infrastructure investors
 							what they want:</p>
 						<p className="main-post-link">Access to bilateral deals</p>
 					</div>
@@ -66,7 +64,7 @@ function MainPage(props) {
 				<p className="main-post-link center frame4">Senior Advisors</p>
 				<div className="back-color">
 					<p className="normal main-p center cover P2">We cover all infrastructure-related sectors across
-						Europe and beyond </p>
+						Europe</p>
 					<p className="sectors S4">
 						<span className="sector one normal main-p center">Transport & Logistics</span>
 						<span className="sector two normal main-p center">Energy & Utilies</span>
@@ -83,14 +81,14 @@ function MainPage(props) {
 				<div className="window1 Screen5--w1">
 					<div className="Screen5--decription S51">
 						<h2 className="main-header-second-h2 Screen5--h2 head2 center">FOR SENIOR ADVISORS</h2>
-						<h3 className="Sreen5--h3 S5">Unparalleled fees<br/> and opportunities</h3>
+						<h3 className="Sreen5--h3 S5">Unlock opportunities</h3>
 						<div className="Screen5--description--content">
 							<strong className="Screen5--strong S5">CONNECT</strong>
 							<p className="Screen5--p S5">Originate deals and connect to leading investors</p>
 							<strong className="Screen5--strong S5">ADVISE</strong>
 							<p className="Screen5--p S5">Introduce the parties and advise through the process</p>
 							<strong className="Screen5--strong S5">CLOSE</strong>
-							<p className="Screen5--p S5">Earn a success fee at deal closure and join the Board</p>
+							<p className="Screen5--p S5">Earn a success fee at deal closure</p>
 						</div>
 						<div className="window1--button-group Screen5--button-group">
 							<div className="window1--description">
@@ -119,11 +117,11 @@ function MainPage(props) {
 						<h3 className="Sreen5--h3">Access unique investment opportunities</h3>
 						<div className="Screen5--description--content S6c">
 							<strong className="Screen5--strong P1-S6">PROPRIETARY</strong>
-							<p className="Screen5--p P1-S6">Access proprietary deals originated by our Senior Advisors</p>
-							<strong className="Screen5--strong P1-S6">BILATERAL</strong>
-							<p className="Screen5--p P1-S6">Negotiate and close deals on a bilateral basis</p>
-							<strong className="Screen5--strong P1-S6">WIN-WIN</strong>
-							<p className="Screen5--p P1-S6">View the deal pipeline and pay only for what you get</p>
+							<p className="Screen5--p P1-S6">Originate and close deals on a bilateral basis</p>
+							<strong className="Screen5--strong P1-S6">TRANSPARENT</strong>
+							<p className="Screen5--p P1-S6">Automated legal process and standard fees</p>
+							<strong className="Screen5--strong P1-S6">NO DOWNSIDE</strong>
+							<p className="Screen5--p P1-S6">Access the deal pipeline with no upfront costs</p>
 						</div>
 						<div className="window1--button-group Screen5--button-group S6bg">
 							<div className="window1--description">
@@ -139,9 +137,8 @@ function MainPage(props) {
 
 			<div className="Screen7 S7">
 				<h2 className="Screen7--h2 why">Why IDN?</h2>
-				<p className="Screen7--p S7">Our unique platform is the first of its kind incentivizing independent
-					Senior
-					Executives to originate deals in a structured, innovative, and transparent way, creating an
+				<p className="Screen7--p S7">Our platform is the first of its kind incentivizing independent
+					senior executives to originate deals in a structured, innovative, and transparent way, creating an
 					environment
 					of trust, protecting & promoting the interests of all parties involved</p>
 				<div className="back-color S7 P1-S7">
