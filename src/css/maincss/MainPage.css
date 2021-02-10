@@ -9027,3 +9027,20 @@ foot-li > a {
     box-shadow: none;
     box-sizing: border-box;
 }
+
+.policy {
+    max-width: 1920px;
+    margin: 0 60px;
+}
+
+.head-policy {
+    text-align: right;
+}
+
+.head-policy-h2 {
+    text-align: center;
+}
+
+.policy > ul > li, .policy > ul > li > ul > li {
+    list-style-type: none;
+}
