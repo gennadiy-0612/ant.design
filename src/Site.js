@@ -4,14 +4,13 @@ import AdvisorPage from './AdvisorPage';
 import InvestorsPage from './InvestorsPage';
 import SectorsPage from './SectorsPage';
 import AboutPage from './AboutPage';
-import MainFooter from './MainFooter';
+import PrivacyPolicyPage from './PrivacyPolicyPage';
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link, NavLink
 } from "react-router-dom";
-import TermsAndConditionsPage from "./TermsAndConditionsPage";
 
 export default function App() {
     return (
@@ -30,7 +29,7 @@ export default function App() {
                     <About/>
                 </Route>
                 <Route path="/privacy-policy">
-                    <Terms/>
+                    <Privacy/>
                 </Route>
                 <Route path="/">
                     <Home/>
@@ -59,6 +58,6 @@ function Sectors() {
 function About() {
     return <AboutPage/>;
 }
-function Terms() {
-    return <TermsAndConditionsPage/>;
+function Privacy() {
+    return <PrivacyPolicyPage/>;
 }
