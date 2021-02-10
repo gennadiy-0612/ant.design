@@ -54,16 +54,16 @@ function AboutPage(props) {
                 </h2>
                 <div className="avatars-collection">
                     <div className="photo-avatar">
-                        <img src={Images.gautiersegouin} className="our-team-photo" alt="bridge" />
-                        <strong className="name-team-member">Gautier Segouin</strong>
-                        <span className="specialist-type">Co-Founder & CCO</span>
-                        <a className="linkedinlogo" href="https://www.linkedin.com/in/gautier-segouin-defrancois-57645855/" target="_blank"></a>
-                    </div>
-                    <div className="photo-avatar">
                         <img src={Images.enricocattabiani} className="our-team-photo" alt="bridge" />
                         <strong className="name-team-member">Enrico Cattabiani</strong>
                         <span className="specialist-type">Founder & CEO</span>
                         <a className="linkedinlogo" href="https://www.linkedin.com/in/enrico-cattabiani-73641780/" target="_blank"></a>
+                    </div>
+                    <div className="photo-avatar">
+                        <img src={Images.gautiersegouin} className="our-team-photo" alt="bridge" />
+                        <strong className="name-team-member">Gautier Segouin</strong>
+                        <span className="specialist-type">Co-Founder & CCO</span>
+                        <a className="linkedinlogo" href="https://www.linkedin.com/in/gautier-segouin-defrancois-57645855/" target="_blank"></a>
                     </div>
                     <div className="photo-avatar">
                         <img src={Images.vasiliysoshnikov} className="our-team-photo" alt="bridge" />
