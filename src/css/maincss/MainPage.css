@@ -9034,6 +9034,7 @@ foot-li > a {
 }
 
 .head-policy {
+    margin-top: 100px;
     text-align: right;
 }
 
@@ -9043,4 +9044,8 @@ foot-li > a {
 
 .policy > ul > li, .policy > ul > li > ul > li {
     list-style-type: none;
+}
+.policy .text-extending{
+    padding-right: 0;
+    padding-left: 0;
 }
