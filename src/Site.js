@@ -11,6 +11,7 @@ import {
     Route,
     Link, NavLink
 } from "react-router-dom";
+import TermsAndConditionsPage from "./TermsAndConditionsPage";
 
 export default function App() {
     return (
@@ -27,6 +28,9 @@ export default function App() {
                 </Route>
                 <Route path="/about">
                     <About/>
+                </Route>
+                <Route path="/privacy-policy">
+                    <Terms/>
                 </Route>
                 <Route path="/">
                     <Home/>
@@ -54,4 +58,7 @@ function Sectors() {
 
 function About() {
     return <AboutPage/>;
+}
+function Terms() {
+    return <TermsAndConditionsPage/>;
 }
