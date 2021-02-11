@@ -9128,3 +9128,7 @@ foot-li > a {
     margin: 16px 0 0 24px;
     line-height: 24px;
 }
+
+.vis section {
+    background-color: transparent;
+}
