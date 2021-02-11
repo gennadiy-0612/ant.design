@@ -6970,6 +6970,9 @@ foot-li > a {
 }
 
 @media (max-width: 1070px) {
+    .page5 .policy{
+        margin: 0 60px;
+    }
     .main-page .First_Screen .window1-descript::after {
         content: '';
     }
@@ -8504,7 +8507,6 @@ foot-li > a {
 
     .foot-ul:last-child .foot-li:last-child {
         position: absolute;
-        right: 40px;
         bottom: 60px;
     }
 
@@ -9029,23 +9031,99 @@ foot-li > a {
 }
 
 .policy {
-    max-width: 1920px;
-    margin: 0 60px;
+    max-width: 966px;
+    margin: auto;
 }
 
-.head-policy {
-    margin-top: 100px;
+.policy .head-policy .text-extending,
+.policy .head-policy .text-extending.strong {
+    margin: 0;
+    line-height: 28px;
+}
+
+.policy h1.head3.P4-S3 {
+    font-size: 60px;
+    line-height: 110px;
+    text-align: center;
+    margin: 0 0 36px;
+}
+
+.policy ul {
+    margin: 0;
+    padding: 0;
+}
+
+.policy .bullet {
+    margin-left: 80px;
+}
+
+.policy .bullet .dots-item {
+    margin: 16px 0;
+}
+
+.policy .head3.P4-S3 {
+    font-size: 16px;
+    line-height: 27px;
+    margin: 24px 0 16px;
+    padding: 0;
+    letter-spacing: 0;
+}
+
+.policy .head-policy {
     text-align: right;
 }
 
-.head-policy-h2 {
+.policy .main-header-second-h2.head2 {
+    line-height: 27px;
+    margin: 30px 0;
+    color: #232D53;
+    letter-spacing: 0;
+    text-indent: 56px;
+}
+
+.policy .head-policy-h2 {
     text-align: center;
 }
 
 .policy > ul > li, .policy > ul > li > ul > li {
     list-style-type: none;
 }
-.policy .text-extending{
-    padding-right: 0;
-    padding-left: 0;
+
+.policy .text-extending {
+    padding: 0;
+    margin: 16px 0;
+}
+
+.policy .text-extending.strong {
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.policy .text-extending,
+.policy .text-extending.strong {
+    font-size: 14px;
+    color: #232D53;
+    padding: 0;
+    margin: 0 0 16px 0;
+}
+
+.policy .bullet .text-extending {
+    margin: 0;
+    padding: 0;
+    line-height: 16px;
+}
+
+.twofixed .policy .dots-item::before {
+    background-color: #232D53;
+    top: 8px;
+}
+
+.policy .h3 {
+    line-height: 4px;
+    margin: 0 0 16px;
+}
+
+.policy .h3 ~ .text-extending {
+    margin: 16px 0 0 24px;
+    line-height: 24px;
 }
