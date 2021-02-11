@@ -6970,9 +6970,10 @@ foot-li > a {
 }
 
 @media (max-width: 1070px) {
-    .page5 .policy{
+    .page5 .policy {
         margin: 0 60px;
     }
+
     .main-page .First_Screen .window1-descript::after {
         content: '';
     }
@@ -9118,7 +9119,7 @@ foot-li > a {
     top: 8px;
 }
 
-.policy .head-policy ~.h3.text-extending {
+.policy .head-policy ~ .h3.text-extending {
     line-height: 24px;
     margin-left: 0;
 }
