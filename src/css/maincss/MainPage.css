@@ -9036,6 +9036,7 @@ foot-li > a {
     max-width: 966px;
     margin: 100px auto;
     position: relative;
+    z-index: -1;
 }
 
 .policy::after {
