@@ -9120,7 +9120,7 @@ foot-li > a {
 
 .policy .head-policy ~.h3.text-extending {
     line-height: 24px;
-    margin-left: -4px;
+    margin-left: 0;
 }
 
 .policy .h3 ~ .text-extending {
