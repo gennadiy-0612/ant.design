@@ -9116,7 +9116,7 @@ foot-li > a {
 
 .twofixed .policy .dots-item::before {
     background-color: #232D53;
-    top: 8px;
+    top: 4px;
 }
 
 .policy .head-policy ~ .h3.text-extending {
