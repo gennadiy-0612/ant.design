@@ -9118,9 +9118,9 @@ foot-li > a {
     top: 8px;
 }
 
-.policy .h3 {
+.policy .head-policy ~.h3.text-extending {
     line-height: 4px;
-    margin: 0 0 16px;
+    margin-left: -16px;
 }
 
 .policy .h3 ~ .text-extending {
