@@ -6931,7 +6931,6 @@ foot-li > a {
     max-width: 700px;
 }
 
-.policy::after,
 .main-page .First_Screen .window1-descript::after,
 .text-big.text-S2-P4.P4.S2.P5-our-team.P5::after {
     content: '';
@@ -9035,13 +9034,6 @@ foot-li > a {
 .policy {
     max-width: 966px;
     margin: 100px auto;
-    position: relative;
-    z-index: -1;
-}
-
-.policy::after {
-    bottom: -60px;
-    top: auto;
 }
 
 .policy .head-policy .text-extending,
