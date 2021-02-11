@@ -9034,13 +9034,15 @@ foot-li > a {
 
 .policy {
     max-width: 966px;
-    margin: auto;
+    margin: 100px auto;
     position: relative;
 }
-.policy::after{
+
+.policy::after {
     bottom: -60px;
     top: auto;
 }
+
 .policy .head-policy .text-extending,
 .policy .head-policy .text-extending.strong {
     margin: 0;
