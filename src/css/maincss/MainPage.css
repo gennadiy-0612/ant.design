@@ -6931,6 +6931,7 @@ foot-li > a {
     max-width: 700px;
 }
 
+.policy::after,
 .main-page .First_Screen .window1-descript::after,
 .text-big.text-S2-P4.P4.S2.P5-our-team.P5::after {
     content: '';
@@ -6971,7 +6972,7 @@ foot-li > a {
 
 @media (max-width: 1070px) {
     .page5 .policy {
-        margin: 0 60px;
+        margin: 60px;
     }
 
     .main-page .First_Screen .window1-descript::after {
@@ -9034,8 +9035,12 @@ foot-li > a {
 .policy {
     max-width: 966px;
     margin: auto;
+    position: relative;
 }
-
+.policy::after{
+    bottom: -60px;
+    top: auto;
+}
 .policy .head-policy .text-extending,
 .policy .head-policy .text-extending.strong {
     margin: 0;
@@ -9046,7 +9051,7 @@ foot-li > a {
     font-size: 60px;
     line-height: 110px;
     text-align: center;
-    margin: 100px 0 36px;
+    margin: 36px 0;
 }
 
 .policy ul {
