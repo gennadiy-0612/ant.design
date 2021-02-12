@@ -15,7 +15,7 @@ function MainPage(props) {
 				<div className="Screen2 P1-S2">
 					<div className="window1 Screen2 X12000 X1600">
 						<h1 className="window1-h X12000">The Infrastructure Deals Network</h1>
-						<p className="window1-descript">A unique deal origination platform for private equity investments in infrastructure-related sectors</p>
+						<p className="window1-descript">A deal origination platform for private equity investments in infrastructure-related sectors</p>
 						<div className="window1--button-group P1-S2 S2 X1600">
 							<div className="window1--description S1">
 								<p className="window1--description--button">Senior Advisors</p>

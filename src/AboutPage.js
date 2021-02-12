@@ -38,7 +38,7 @@ function AboutPage(props) {
                             <h2 className="main-header-second-h2 Screen5--h2 head2 center P1-S6 P5-S6">Who we are</h2>
                             <div className="Screen5--description--content S6c P5-S6">
                                 <p className="Screen5--p P1-S6 P5-S6">We are professional networkers</p>
-                                <p className="Screen5--p P1-S6 P5-S6">We have deep knowledge of Private Equity and infrastructure Investments</p>
+                                <p className="Screen5--p P1-S6 P5-S6">We have deep knowledge of private equity and infrastructure Investments</p>
                                 <p className="Screen5--p P1-S6 P5-S6">Our purpose is to create win-win situations:</p>
                                 <strong className="wishes">Always</strong>
                             </div>
@@ -72,7 +72,7 @@ function AboutPage(props) {
                         <a className="linkedinlogo" href="https://www.linkedin.com/in/vasiliy-soshnikov-76722783/" target="_blank"></a>
                     </div>
                 </div>
-                <p className="text-big text-S2-P4 P4 S2 center foot-head P5-our-team P5">IDN is backed by dozens of prominent <span className="main-post-link P2 S2-P2 text-big text-S2-P4 P4 S2 center P5-our-team"> Senior Executives</span> across Europe</p>
+                <p className="text-big text-S2-P4 P4 S2 center foot-head P5-our-team P5">IDN is backed by dozens of prominent <span className="main-post-link P2 S2-P2 text-big text-S2-P4 P4 S2 center P5-our-team"> senior executives</span> across Europe</p>
             </div>
 
             <div className="Screen8">

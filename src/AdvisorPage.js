@@ -41,8 +41,8 @@ function AdvisorPage(props) {
                     <div className="two-columns">
                         <p className="two-column--p"><span className="main-post-link P2 third-screen">To join our platform</span> they
                             have to demonstrate an extensive personal network of contacts with decision makers mixed
-                            with in-depth industry knowledge. Most of them have a combination</p>
-                        <p className="two-column--p">of both, making them ideally positioned to originate unique <span
+                            with in-depth industry knowledge.</p>
+                        <p className="two-column--p">Most of them have a combination of both, making them ideally positioned to originate unique <span
                             className="main-post-link P2 third-screen">investment opportunities</span> for our
                             investors, advise them through the due diligence process, and join their portfolio companies
                             as NED</p>
@@ -199,7 +199,8 @@ function AdvisorPage(props) {
                             <div className="info-graph">
                                 <span className="sector five supp normal main-p center S7 P2-S7-remade">SUPPORT</span>
                                 <ul className="dot-list">
-                                    <li className="dots-item">IDN’s&#160;Partner</li>
+                                    <li className="dots-item">IDN’s team is always available to support you step by step</li>
+                                    <li className="dots-item">Share best practices in deal origination with our community of Senior Advisors</li>
                                 </ul>
                             </div>
                             <div className="info-graph">

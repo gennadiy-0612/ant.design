@@ -141,8 +141,8 @@ function InvestorsPage(props) {
                             <div className="info-graph">
                                 <span className="sector COMMUNICATION normal main-p center S7 P2-S7-remade exchange-P3">BILATERAL</span>
                                 <ul className="dot-list">
-                                    <li className="dots-item">IDN offers access to bilateral investment opportunities</li>
-                                    <li className="dots-item">Our Senior Advisors facilitate the closing of bilateral deals</li>
+                                    <li className="dots-item">IDN’s platform guarantees bilateral discussions between the Senior Advisors and investors</li>
+                                    <li className="dots-item">Senior Advisors favor bilateral discussions between investors and potential targets</li>
                                 </ul>
                             </div>
                             <div className="info-graph">
@@ -153,7 +153,7 @@ function InvestorsPage(props) {
                                 </ul>
                             </div>
                             <div className="info-graph">
-                                <span className="sector five supp normal main-p center S7 P2-S7-remade winwin-P3">WIN-WIN</span>
+                                <span className="sector five supp normal main-p center S7 P2-S7-remade winwin-P3">No downside</span>
                                 <ul className="dot-list">
                                     <li className="dots-item">IDN’s success-base model is win-win</li>
                                     <li className="dots-item">We are fully transparent and don’t charge any upfront fee to Investors</li>
