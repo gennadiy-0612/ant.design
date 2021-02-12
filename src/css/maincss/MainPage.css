@@ -7951,6 +7951,7 @@ foot-li > a {
 
     .twofixed .two-columns {
         margin: 48px 0;
+        display: block;
     }
 
     .twofixed .main-p.cover.P2.P2-S4,
@@ -7973,6 +7974,7 @@ foot-li > a {
     .twofixed .two-column--p {
         margin: 24px auto 0;
         text-align: center;
+        display: inline;
     }
 
     .two-columns .two-column--p:first-child,
@@ -7980,23 +7982,22 @@ foot-li > a {
         position: relative;
     }
 
-    .two-columns .two-column--p:first-child::after,
     .idea .cover::after {
         content: '';
         position: absolute;
         display: block;
-        width: 100%;
+        width: 70%;
         height: 2px;
         background-color: #ff6b0f;
         bottom: -12px;
         left: 0;
         right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .page2 .main-post-link.P2.third-screen.third-line:before,
-    .page3 .main-post-link.P2.third-screen.third-line:before,
-    .page2 .two-column--p .main-post-link.P2.third-screen:before,
-    .page3 .two-column--p .main-post-link.P2.third-screen:before {
+    .page3 .main-post-link.P2.third-screen.third-line:before {
         content: none;
     }
 

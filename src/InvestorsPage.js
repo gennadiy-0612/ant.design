@@ -46,7 +46,7 @@ function InvestorsPage(props) {
                         className="main-post-link P2 third-screen third-line"> assets in Europe and beyond</span></p>
                     <div className="two-columns">
                         <p className="two-column--p">Through IDN, investors <span
-                            className="main-post-link P2 third-screen">originate and close</span> investment opportunities ranging from a minimum of 10 million Euro up to a billion Euro.</p>
+                            className="main-post-link P2 third-screen">originate and close</span> investment opportunities ranging from a minimum of 10 million Euro up to a billion Euro.&#160;</p>
                         <p className="two-column--p">IDN’s sweet spot is small cap and <span className="main-post-link P2 third-screen">mid-market</span> but large cap transactions are also originated by our trusted Senior Advisors</p>
                     </div>
                 </div>
