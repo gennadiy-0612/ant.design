@@ -3160,17 +3160,16 @@ body {
 }
 
 .twofixed .two-columns {
-    margin: auto;
+    column-count: 2;
     max-width: 1317px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin: auto;
+    column-gap: 198px;
 }
 
 .twofixed .two-column--p {
     font: normal normal 400 26px/56px 'Poppins', sans-serif;
     margin: 0;
-    flex: 0 0 42%;
+    display: inline;
 }
 
 .twofixed .main-post-link.P2.third-screen {
@@ -3884,7 +3883,6 @@ body {
 
     .twofixed .two-column--p {
         max-width: 400px;
-        flex-basis: 48%;
     }
 
     .twofixed .Screen4.P2.P2-S4.back-color {
@@ -7925,7 +7923,7 @@ foot-li > a {
     }
 
     .twofixed .two-columns {
-        flex-direction: column;
+        column-count: 1;
     }
 
     .wishes,
@@ -7951,7 +7949,6 @@ foot-li > a {
 
     .twofixed .two-columns {
         margin: 48px 0;
-        display: block;
     }
 
     .twofixed .main-p.cover.P2.P2-S4,
@@ -7972,12 +7969,10 @@ foot-li > a {
     }
 
     .twofixed .two-column--p {
-        margin: 24px auto 0;
-        text-align: center;
         display: inline;
+        text-align: center;
     }
 
-    .two-columns .two-column--p:first-child,
     .idea .cover {
         position: relative;
     }
