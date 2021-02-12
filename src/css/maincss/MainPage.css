@@ -6971,7 +6971,13 @@ foot-li > a {
 
 @media (max-width: 1070px) {
     .page5 .policy {
-        margin: 60px;
+        margin: 16px;
+    }
+
+    .page5 .policy h1.head3.P4-S3 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 70px;
     }
 
     .main-page .First_Screen .window1-descript::after {
