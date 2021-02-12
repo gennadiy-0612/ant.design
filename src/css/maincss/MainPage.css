@@ -3163,7 +3163,7 @@ body {
     column-count: 2;
     max-width: 1317px;
     margin: auto;
-    column-gap: 169px;
+    column-gap: 90px;
 }
 
 .twofixed .two-column--p {
@@ -3501,7 +3501,7 @@ body {
     .twofixed .two-columns {
         max-width: 1060px;
         margin: auto;
-        grid-column-gap: 148px;
+        grid-column-gap: 65px;
     }
 
     .twofixed .main-post-link.P2.third-screen {
@@ -7975,6 +7975,7 @@ foot-li > a {
         margin: 0 0 24px;
     }
 
+    .twofixed.page2 .two-column--p,
     .twofixed .two-column--p {
         text-align: center;
         display: block;
