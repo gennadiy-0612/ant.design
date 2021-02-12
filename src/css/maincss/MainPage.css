@@ -9117,12 +9117,10 @@ foot-li > a {
 .policy .bullet .text-extending {
     margin: 0;
     padding: 0;
-    line-height: 16px;
 }
 
 .twofixed .policy .dots-item::before {
     background-color: #232D53;
-    top: 4px;
 }
 
 .policy .head-policy ~ .h3.text-extending {
