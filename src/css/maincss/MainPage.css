@@ -3163,12 +3163,15 @@ body {
     column-count: 2;
     max-width: 1317px;
     margin: auto;
-    column-gap: 198px;
+    column-gap: 169px;
 }
 
 .twofixed .two-column--p {
     font: normal normal 400 26px/56px 'Poppins', sans-serif;
     margin: 0;
+}
+
+.twofixed.page2 .two-column--p {
     display: inline;
 }
 
@@ -3878,7 +3881,7 @@ body {
 
     .twofixed .two-columns {
         max-width: 877px;
-        grid-column-gap: 0;
+        grid-column-gap: 60px;
     }
 
     .twofixed .two-column--p {
@@ -7969,7 +7972,7 @@ foot-li > a {
     }
 
     .twofixed .two-column--p {
-        display: inline;
+        margin: 0 0 24px;
         text-align: center;
     }
 
