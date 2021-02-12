@@ -7977,6 +7977,7 @@ foot-li > a {
 
     .twofixed .two-column--p {
         text-align: center;
+        display: block;
     }
 
     .idea .cover {
