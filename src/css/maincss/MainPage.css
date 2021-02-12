@@ -7971,8 +7971,11 @@ foot-li > a {
         height: 2px;
     }
 
-    .twofixed .two-column--p {
+    .twofixed .two-column--p:first-child {
         margin: 0 0 24px;
+    }
+
+    .twofixed .two-column--p {
         text-align: center;
     }
 
