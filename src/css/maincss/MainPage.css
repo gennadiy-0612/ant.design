@@ -3163,7 +3163,7 @@ body {
     column-count: 2;
     max-width: 1317px;
     margin: auto;
-    column-gap: 90px;
+    column-gap: 100px;
 }
 
 .twofixed .two-column--p {
@@ -3506,7 +3506,6 @@ body {
 
     .twofixed .main-post-link.P2.third-screen {
         font: normal normal 400 18px/42px 'Poppins', sans-serif;
-
     }
 
     .twofixed .main-post-link.P2.third-screen.third-line {
