@@ -1,0 +1,56 @@
+.Terms {
+    margin: 0 16px;
+}
+
+.Terms li {
+    list-style-type: none;
+    margin: 15px 0;
+}
+
+.Terms .terms--head1, .Terms li, .Terms h2, .Terms h3, .Terms h4, .Terms p, .Terms strong {
+    color: #232D53;
+}
+
+.Terms .terms--head1 {
+    font: normal normal 700 11px/22px 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.Terms h2, .Terms h3, .Terms h4 {
+    margin: 30px 0;
+    font: normal normal 700 14px/28px 'Poppins', sans-serif;
+}
+
+.Terms h2 {
+    font-size: 15px;
+}
+
+.Terms h4 {
+    font-size: 13px;
+}
+
+.Terms li, .Terms p, .Terms strong {
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.Terms table, .Terms td {
+    border: 1px solid #232D53;
+}
+
+.Terms td:first-child {
+    width: 25%;
+}
+
+.Terms td {
+    padding: 10px;
+}
+
+.Terms table {
+    border-spacing: 0;
+}
+
+.center-align {
+    text-align: center;
+}

@@ -5,12 +5,14 @@ import InvestorsPage from './InvestorsPage';
 import SectorsPage from './SectorsPage';
 import AboutPage from './AboutPage';
 import PrivacyPolicyPage from './PrivacyPolicyPage';
+import TermsAndConditionsPage from "./TermsAndConditionsPage";
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link, NavLink
 } from "react-router-dom";
+import Terms from "./Terms";
 
 export default function App() {
     return (
@@ -30,6 +32,9 @@ export default function App() {
                 </Route>
                 <Route path="/privacy-policy">
                     <Privacy/>
+                </Route>
+                <Route path="/terms-conditions">
+                    <Termscond/>
                 </Route>
                 <Route path="/">
                     <Home/>
@@ -60,4 +65,7 @@ function About() {
 }
 function Privacy() {
     return <PrivacyPolicyPage/>;
+}
+function Termscond() {
+    return <TermsAndConditionsPage/>;
 }
