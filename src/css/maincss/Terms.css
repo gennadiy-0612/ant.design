@@ -1,5 +1,7 @@
 .Terms {
-    margin: 0 16px;
+    margin: 0 auto;
+    padding: 0 16px;
+    max-width: 966px;
 }
 
 .Terms li {
@@ -7,14 +9,14 @@
     margin: 15px 0;
 }
 
-.Terms .terms--head1, .Terms li, .Terms h2, .Terms h3, .Terms h4, .Terms p, .Terms strong {
+.Terms .terms--head1, .Terms li, .Terms h2, .Terms h3, .Terms h4, .Terms p, .Terms strong, .Terms th, .Terms td {
     color: #232D53;
 }
 
 .Terms .terms--head1 {
     font: normal normal 700 11px/22px 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 90px;
 }
 
 .Terms h2, .Terms h3, .Terms h4 {
@@ -32,20 +34,22 @@
     margin: 10px 0;
 }
 
-.Terms table, .Terms td {
+.Terms table, .Terms th, .Terms td, .Terms table {
     border: 1px solid #232D53;
 }
 
-.Terms .first--table td:first-child {
+.Terms .first--table th {
     width: 25%;
-
+    text-align: left;
+    padding: 10px;
+    vertical-align: baseline;
 }
 
 .Terms .first--table td {
     vertical-align: baseline;
 }
 
-.Terms td {
+.Terms td, .Terms th {
     padding: 10px;
 }
 
@@ -53,7 +57,7 @@
     border-spacing: 0;
 }
 
-.center-align {
+.Terms .center-align {
     text-align: center;
 }
 
@@ -66,24 +70,61 @@
     text-align: center;
 }
 
+.Terms .third--table td {
+    width: 50%;
+    text-align: center;
+}
+
 .Terms .third-table td {
     width: 50%;
     text-align: center;
 }
 
-.head2--indent,
-.number--indent, .letter--indent {
+.Terms .letters--indent,
+.Terms .head2--indent,
+.Terms .number--indent,
+.Terms .letter--indent {
     padding: 0 20px 0 0;
     position: absolute;
     left: -30px;
 }
-.head2--indent{
-    left: 0;
+
+.Terms table ul {
+    padding-left: 60px;
 }
-h2, ul {
+
+.Terms .head2--indent {
+    left: -30px;
+}
+
+.Terms h2 {
+    margin: 0 0 0 30px;
+}
+
+.Terms ul, .relative {
     padding: 0 0 0 30px;
 }
 
-h2, li {
+.Terms p .letters--indent {
+    left: 0;
+}
+
+.Terms h2, .Terms h3, .Terms h4, .Terms li, .relative {
     position: relative;
+}
+
+@media (max-width: 900px) {
+    .Terms .first--table th {
+        width: auto;
+        text-align: center;
+    }
+
+    .Terms .first--table td:first-child {
+        width: auto;
+    }
+
+    .Terms .first--table tr {
+        display: flex;
+        flex-direction: column;
+    }
 }
