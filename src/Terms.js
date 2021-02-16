@@ -7,47 +7,47 @@ function TermsPage(props) {
             <h1 className="terms--head1">Terms &amp;&nbsp;Conditions</h1>
             <h2>1. What do You need to know about The Infrastructure Deals Network Ltd and these Terms?</h2>
             <ul>
-                <li>1.1 We are The Infrastructure Deals Network Ltd, a limited company registered in England and
+                <li><span className="number--indent">1.1</span> We are The Infrastructure Deals Network Ltd, a limited company registered in England and
                     Wales with Kemp House, 160 City Road, London, United Kingdom, EC1V 2NX and registered number
                     12894864 (referred to as “we”, “us”, <strong>“Infrastructure Deals
                         Network”</strong> and <strong>“IDN”</strong>)).
                 </li>
-                <li>1.2 IDN provides the Platform and the Services.</li>
-                <li>1.3 Capitalised terms used herein are set out in Schedule 1 hereto.</li>
+                <li><span className="number--indent">1.2</span> IDN provides the Platform and the Services.</li>
+                <li><span className="number--indent">1.3</span> Capitalised terms used herein are set out in Schedule 1 hereto.</li>
             </ul>
             <h2>2. Agreement to these Terms</h2>
             <ul>
-                <li>2.1 The Advisor is advised to review these Terms carefully and make sure that it understands
+                <li><span className="number--indent">2.1</span> The Advisor is advised to review these Terms carefully and make sure that it understands
                     them before using the Platform or Services. If the Advisor does not agree to these Terms, it
                     must cease use of the Platform and Services immediately.
                 </li>
-                <li>2.2 The Advisor is deemed to have unequivocally and irrevocably agreed to become legally bound to
+                <li><span className="number--indent">2.2</span> The Advisor is deemed to have unequivocally and irrevocably agreed to become legally bound to
                     each and every provision of these Terms:
                 </li>
                 <li>
                     <ul>
-                        <li>i. by using the Platform on www.idn.ltdand/or the Services
+                        <li><span className="letter--indent">i.</span> by using the Platform on www.idn.ltdand/or the Services
                             online or offline; and/or
                         </li>
-                        <li>ii. by clicking on the Platform to tick the unchecked tick box required in order to create
+                        <li><span className="letter--indent">ii.</span> by clicking on the Platform to tick the unchecked tick box required in order to create
                             an
                             account.
                         </li>
                     </ul>
                 </li>
-                <li>2.3 The Advisor acknowledges and agrees that any personal data provided by or about it will be
+                <li><span className="number--indent">2.3</span> The Advisor acknowledges and agrees that any personal data provided by or about it will be
                     processed by IDN in accordance with:
                 </li>
                 <li>
                     <ul>
-                        <li>i. the Privacy Policy; and</li>
-                        <li>ii. paragraph 11 of these Terms.</li>
+                        <li><span className="letter--indent">i.</span> the Privacy Policy; and</li>
+                        <li><span className="letter--indent">ii.</span> paragraph 11 of these Terms.</li>
                     </ul>
                 </li>
             </ul>
             <h2>3. How are these Terms amended?</h2>
             <ul>
-                <li>3.1 IDN may modify these Terms by giving the Advisor at least three (3) days’ prior
+                <li><span className="number--indent">3.1</span> IDN may modify these Terms by giving the Advisor at least three (3) days’ prior
                     written notice. IDN will notify the Advisor of any changes to these Terms by emailing the
                     Advisor (to the email address
                     provided by the Advisor to IDN on www.idn.ltd, in the Advisor’s
@@ -55,7 +55,7 @@ function TermsPage(props) {
                     email address is always associated with its Platform
                     account.
                 </li>
-                <li>3.2 Any changes to these Terms will take effect at the expiry of three (3) days from the
+                <li><span className="number--indent">3.2</span> Any changes to these Terms will take effect at the expiry of three (3) days from the
                     date of
                     notifying any changes to these Terms and being emailed by IDN to the email address provided
                     by the Advisor to IDN
@@ -69,38 +69,38 @@ function TermsPage(props) {
             </ul>
             <h2>4. Whose responsibility is it to update the Advisor’s information?</h2>
             <ul>
-                <li>4.1 By using the Platform, the Advisor warrants that all registration information
+                <li><span className="number--indent">4.1</span> By using the Platform, the Advisor warrants that all registration information
                     provided by the Advisor is true, accurate, complete and not misleading, and the Advisor undertakes
                     and agrees to keep such
                     information up-to-date and current.
                 </li>
-                <li>4.2 IDN accepts no liability for any loss or damage suffered by an Advisor by reason of any
+                <li><span className="number--indent">4.2</span> IDN accepts no liability for any loss or damage suffered by an Advisor by reason of any
                     registration information being incorrect.
                 </li>
             </ul>
             <h2>5. How does an Advisor use the Platform and Services?</h2>
             <ul>
-                <li>5.1 IDN provides the Platform and Services to the Advisor on and subject to these
+                <li><span className="number--indent">5.1</span> IDN provides the Platform and Services to the Advisor on and subject to these
                     Terms.
                 </li>
             </ul>
             <h3>Opportunity sharing:</h3>
             <ul>
-                <li>5.2 The Advisor exercises its sole and absolute discretion in using the Platform and Services.
+                <li><span className="number--indent">5.2</span> The Advisor exercises its sole and absolute discretion in using the Platform and Services.
                     The Advisor may (but shall have no obligation to) share details of an Opportunity via the Platform.
                 </li>
-                <li>5.3 By sharing an Opportunity, the Advisor represents and warrants to IDN that the Opportunity
+                <li><span className="number--indent">5.3</span> By sharing an Opportunity, the Advisor represents and warrants to IDN that the Opportunity
                     meets the Requirements. The Advisor will be required to confirm via a form provided once details of
                     an
                     Opportunity have been input that the Requirements are met.
                 </li>
-                <li>5.4 The Advisor represents and warrants that:</li>
+                <li><span className="number--indent">5.4</span> The Advisor represents and warrants that:</li>
                 <li>
                     <ul>
-                        <li>i. all information provided by the Advisor in the form detailed in paragraph 5.3 is true,
+                        <li><span className="letter--indent">i.</span> all information provided by the Advisor in the form detailed in paragraph 5.3 is true,
                             accurate, complete and not misleading;
                         </li>
-                        <li>ii. no price sensitive information will be provided by the Advisor relating to any Target
+                        <li><span className="letter--indent">ii.</span> no price sensitive information will be provided by the Advisor relating to any Target
                             listed
                             on any stock market according to rules issued by any applicable regulatory authority
                             (including, without limitation, any relevant securities exchange) that is not proven to be
@@ -108,10 +108,10 @@ function TermsPage(props) {
                             classified as
                             public information;
                         </li>
-                        <li>iii. where the Advisor has indicated that a Requirement is satisfied, that indication is
+                        <li><span className="letter--indent">iii</span>. where the Advisor has indicated that a Requirement is satisfied, that indication is
                             correct;
                         </li>
-                        <li>iv. the Advisor is not prevented by any contractual or regulatory obligation or any
+                        <li><span className="letter--indent">iv</span>. the Advisor is not prevented by any contractual or regulatory obligation or any
                             applicable
                             laws from publishing the Opportunity;
                         </li>
@@ -134,7 +134,7 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
-                <li>5.5 Once the Advisor has submitted the form referenced in paragraph 5.3, the Opportunity is
+                <li><span className="number--indent">5.5</span> Once the Advisor has submitted the form referenced in paragraph 5.3, the Opportunity is
                     reviewed by IDN. IDN may contact the Advisor to discuss the Opportunity. IDN in its sole and
                     absolute discretion may elect to accept or reject for publication the Opportunity. The Advisor may
                     not appeal any rejection and
@@ -142,23 +142,23 @@ function TermsPage(props) {
                     circumstance shall IDN be liable to the Advisor for the consequences of IDN electing not to
                     accept an Opportunity for publication on IDN.
                 </li>
-                <li>5.6 On acceptance of the Opportunity for publication, the Platform shares the Opportunity to
+                <li><span className="number--indent">5.6</span> On acceptance of the Opportunity for publication, the Platform shares the Opportunity to
                     Firms based on their pre-selected criteria (including without limitation relating to deal size and
                     sector). Firms
                     interested in an Opportunity communicated to them may register their interest with the Advisor via
                     the
                     Platform.
                 </li>
-                <li>5.7 The Advisor may only remove an Opportunity from the Platform:</li>
+                <li><span className="number--indent">5.7</span> The Advisor may only remove an Opportunity from the Platform:</li>
                 <li>
                     <ul>
-                        <li>i. where it has not selected a Firm for an Opportunity in accordance with paragraph 5.8;
+                        <li><span className="letter--indent">i.</span> where it has not selected a Firm for an Opportunity in accordance with paragraph 5.8;
                             or
                         </li>
-                        <li>ii. where it has served a Pre-Introduction Termination Notice in accordance with paragraph
+                        <li><span className="letter--indent">ii.</span> where it has served a Pre-Introduction Termination Notice in accordance with paragraph
                             5.11; or
                         </li>
-                        <li>iii. where the Firm and the Target terminated discussions, in accordance with paragraph
+                        <li><span className="letter--indent">iii</span>. where the Firm and the Target terminated discussions, in accordance with paragraph
                             5.14.
                         </li>
                     </ul>
@@ -166,23 +166,23 @@ function TermsPage(props) {
             </ul>
             <h3>Opportunity matching:</h3>
             <ul>
-                <li>5.8 The Advisor may in its sole and absolute discretion elect to select one Firm that has
+                <li><span className="number--indent">5.8</span> The Advisor may in its sole and absolute discretion elect to select one Firm that has
                     expressed an interest in the Opportunity to engage with further in respect of the Opportunity.
                     Upon selection, the Advisor is required to disclose the name of the Target to the selected Firm at
                     which time the NDA in the
                     form of Annex 1 shall automatically come into effect and be binding on the Firm and the Advisor
                     in respect of the Opportunity
                 </li>
-                <li>5.9 The selected Firm might in its sole and absolute discretion request the Advisor to make an
+                <li><span className="number--indent">5.9</span> The selected Firm might in its sole and absolute discretion request the Advisor to make an
                     introduction of the Firm to the Target. The Advisor is not obliged to accept, and shall not make any
                     introduction unless requested by the Firm. An Introduction may be made in any of the following ways:
                 </li>
                 <li>
                     <ul>
-                        <li>i. at a meeting, either via phone, video, or in person, between the Firm and the Target;
+                        <li><span className="letter--indent">i.</span> at a meeting, either via phone, video, or in person, between the Firm and the Target;
                             or
                         </li>
-                        <li>ii. the Target, or the Advisor on behalf of the Target, providing Documentation (via
+                        <li><span className="letter--indent">ii.</span> the Target, or the Advisor on behalf of the Target, providing Documentation (via
                             email,
                             the Platform’s messaging functionality or such other medium the Advisor reasonably determines) to the
                             Firm.
@@ -191,7 +191,7 @@ function TermsPage(props) {
                 </li>
             </ul>
             <ul>
-                <li>5.10 All information disclosed to a Firm by the Advisor (including without limitation the
+                <li><span className="number--indent">5.1</span>0 All information disclosed to a Firm by the Advisor (including without limitation the
                     Documentation and the name of the Target) shall be subject to the NDA in the form of Annex 1 in
                     respect of all Confidential Information from the moment at which the name of the Target is
                     disclosed to the Advisor in accordance with paragraph 5.8 above.
@@ -199,7 +199,7 @@ function TermsPage(props) {
             </ul>
             <h3>Termination of engagement with a Firm</h3>
             <ul>
-                <li>5.11 In the event that the Advisor has started to engage with a Firm, but an Introduction has not
+                <li><span className="number--indent">5.1</span>1 In the event that the Advisor has started to engage with a Firm, but an Introduction has not
                     yet taken place, the Advisor may at any time terminate discussions with immediate effect by
                     providing written notice to IDN via the Platform (a <strong>“Pre-Introduction Termination
                         Notice”</strong>). IDN
@@ -207,7 +207,7 @@ function TermsPage(props) {
                     occurred. The Firm shall remain subject to the provisions of the NDA in accordance with Annex 1
                     notwithstanding termination of any discussions.
                 </li>
-                <li>5.12 In the event that the Advisor has already made an Introduction, the Advisor shall not
+                <li><span className="number--indent">5.1</span>2 In the event that the Advisor has already made an Introduction, the Advisor shall not
                     terminate discussions between the Firm and the Target and is subject to the obligations pursuant
                     to the NDA in the form of Annex 1. However, either the Firm or the Target may terminate
                     discussions and such termination shall also apply to the Advisor in respect of the Opportunity.
@@ -224,21 +224,21 @@ function TermsPage(props) {
                     form
                     of Annex 1.
                 </li>
-                <li>5.13 At any time after the expiry of fourteen (14) days after the date of an Introduction, so
+                <li><span className="number--indent">5.1</span>3 At any time after the expiry of fourteen (14) days after the date of an Introduction, so
                     long as a Termination Notice has not been issued, the Advisor may (but is not required to) issue
                     a notice to the Firm (the <strong>“Long Stop Notice”</strong>) giving the Firm fourteen (14) days
                     to:
                 </li>
                 <li>
                     <ul>
-                        <li>i. accept the Long Stop Notice which shall extend discussions between the Firm and Target;
+                        <li><span className="letter--indent">i.</span> accept the Long Stop Notice which shall extend discussions between the Firm and Target;
                             or
                         </li>
-                        <li>ii. submit a Non-Binding Offer (in which case the Firm and the Target may continue to work
+                        <li><span className="letter--indent">ii.</span> submit a Non-Binding Offer (in which case the Firm and the Target may continue to work
                             towards a
                             Transaction); or
                         </li>
-                        <li>iii. terminate the engagement with the Advisor (which shall also terminate the discussions
+                        <li><span className="letter--indent">iii</span>. terminate the engagement with the Advisor (which shall also terminate the discussions
                             between the Firm and the Target in respect of the Opportunity) in which case it shall send a
                             Termination Notice to IDN. In the event that the Firm does not respond to a Long Stop Notice
                             within fourteen (14) days of receipt, the Firm will be deemed to have issued a Termination
@@ -247,13 +247,13 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
-                <li>5.14 The Firm may terminate discussions with the Target and the Advisor at any point by Notifying
+                <li><span className="number--indent">5.1</span>4 The Firm may terminate discussions with the Target and the Advisor at any point by Notifying
                     IDN. In such circumstances the Firm shall remain bound by the NDA in the form of Annex 1.
                 </li>
             </ul>
             <h2>6. Fees</h2>
             <ul>
-                <li>6.1 Once a Firm has successfully Closed a Transaction arising from an Introduction, the
+                <li><span className="number--indent">6.1</span> Once a Firm has successfully Closed a Transaction arising from an Introduction, the
                     Advisor who made the Introduction shall be entitled to a Success Fee calculated in accordance with
                     Part A of Schedule 2 by
                     reference to the Enterprise Value of the Target as stated in the Non-Binding Offer in proportion to
@@ -262,7 +262,7 @@ function TermsPage(props) {
                     Transaction
                     is Closed [or (if different) as recorded in, or derived from, the Transaction documentation].
                 </li>
-                <li>6.2 In the event of any dispute as to the correct Enterprise Value, shall be finally resolved by
+                <li><span className="number--indent">6.2</span> In the event of any dispute as to the correct Enterprise Value, shall be finally resolved by
                     arbitration under the LCIA Rules, which rules are deemed to be incorporated by reference into this
                     clause. The number
                     of arbitrators shall be one. The seat, or legal place, of arbitration shall be London, United
@@ -271,7 +271,7 @@ function TermsPage(props) {
                     contract
                     shall be the substantive law of England and Wales.
                 </li>
-                <li>6.3 The Firm is obligated to Notify IDN (who shall Notify the Advisor) within seven (7) days of
+                <li><span className="number--indent">6.3</span> The Firm is obligated to Notify IDN (who shall Notify the Advisor) within seven (7) days of
                     Completion. Within fourteen (14) days of receiving a notification of Completion, IDN shall issue and
                     send to the Firm
                     an invoice in the amount of the Success Fee, plus any applicable VAT or other sales tax or duty
@@ -280,14 +280,14 @@ function TermsPage(props) {
                     within thirty (30) days of the date of receipt, to IDN’s nominated bank account from time to
                     time.
                 </li>
-                <li>6.4 The Advisor shall provide an invoice for the Success Fee to IDN. Conditional on receipt of an
+                <li><span className="number--indent">6.4</span> The Advisor shall provide an invoice for the Success Fee to IDN. Conditional on receipt of an
                     invoice, IDN shall use all reasonable endeavours to pay the Advisor the Success Fee, minus any
                     deductions required
                     under these Terms, within a reasonable timeframe and in any event by no later than thirty (30) days
                     from
                     the date on which it was received.
                 </li>
-                <li>6.5 It is the Advisor’s responsibility to provide IDN with valid, up-to-date and complete bank
+                <li><span className="number--indent">6.5</span> It is the Advisor’s responsibility to provide IDN with valid, up-to-date and complete bank
                     account details and any other relevant valid, up-to-date and complete contact and billing details.
                     IDN accepts no
                     responsibility for any delayed or lost Success Fee in the event that the Advisor has provided IDN
@@ -297,7 +297,7 @@ function TermsPage(props) {
             </ul>
             <h4>General</h4>
             <ul>
-                <li>6.6 All sums payable in accordance with these Terms shall be read as being exclusive of VAT and
+                <li><span className="number--indent">6.6</span> All sums payable in accordance with these Terms shall be read as being exclusive of VAT and
                     equivalent sales taxes. The Firm shall pay to IDN in addition to such sums any VAT or equivalent
                     sales
                     taxes to the extent chargeable in accordance with applicable laws. In the event that any Transaction
@@ -308,7 +308,7 @@ function TermsPage(props) {
                     the day of Closing shall be used to determine the Pounds Sterling equivalent for the purposes of
                     calculating any fee due in accordance with Schedule 2.
                 </li>
-                <li>6.7 The Advisor acknowledges and agrees that it is the Advisor’s responsibility to ensure that
+                <li><span className="number--indent">6.7</span> The Advisor acknowledges and agrees that it is the Advisor’s responsibility to ensure that
                     any bank account or other payment details provided to IDN are correct. IDN disclaims all liability
                     for the
                     Advisor’s failure to receive any payment from IDN by reason of incorrect bank account or other
@@ -318,12 +318,12 @@ function TermsPage(props) {
             </ul>
             <h2>7. Advisor Consultancy Work</h2>
             <ul>
-                <li>7.1 A Firm may (in its sole and absolute discretion), seek to engage an Advisor for paid Consulting
+                <li><span className="number--indent">7.1</span> A Firm may (in its sole and absolute discretion), seek to engage an Advisor for paid Consulting
                     Work. In the event that a Firm wishes to engage an Advisor for Consultancy Work, it must submit a
                     Consultancy
                     Offer via the Platform to the Advisor.
                 </li>
-                <li>7.2 On receipt of a Consultancy Offer, the Advisor can either choose to accept, or reject the
+                <li><span className="number--indent">7.2</span> On receipt of a Consultancy Offer, the Advisor can either choose to accept, or reject the
                     Consultancy Offer in its sole and absolute discretion. In the event that the Advisor accepts a Consultancy
                     Offer, the
                     Firm and the Advisor shall automatically be deemed to have entered into a Consultancy Agreement. The
@@ -331,17 +331,17 @@ function TermsPage(props) {
                     the
                     Advisor.
                 </li>
-                <li>7.3 The Advisor undertakes to use the Consultancy Agreement for any Consultancy Work it completes
+                <li><span className="number--indent">7.3</span> The Advisor undertakes to use the Consultancy Agreement for any Consultancy Work it completes
                     for a Firm introduced to it via the Platform. The Advisor agrees that it cannot contract separately
                     with a
                     Firm for Consultancy Work outside of the Platform for any reason.
                 </li>
-                <li>7.4 The Advisor acknowledges and agrees that any Consultancy Fees earned for Consultancy Work
+                <li><span className="number--indent">7.4</span> The Advisor acknowledges and agrees that any Consultancy Fees earned for Consultancy Work
                     in respect of an Opportunity Introduced by that Advisor will be offset against the Success Fee
                     payable on
                     Closing of such Transaction in accordance with paragraph 6.1 (if applicable).
                 </li>
-                <li>7.5 In the event that an Opportunity becomes subjected to a Competitive Process, any
+                <li><span className="number--indent">7.5</span> In the event that an Opportunity becomes subjected to a Competitive Process, any
                     Consultancy Agreement then in force related to that Opportunity shall automatically terminate upon receiving a
                     Notice
                     from the Firm with immediate effect. Any separate Consultancy Work unrelated to any Opportunity
@@ -349,19 +349,19 @@ function TermsPage(props) {
                     by the Advisor shall remain in full force and effect. It will be at the Firm’s sole and absolute
                     discretion whether it terminates or re-engages with the Advisor.
                 </li>
-                <li>7.6 The Firm can re-engage the Advisor either:</li>
+                <li><span className="number--indent">7.6</span> The Firm can re-engage the Advisor either:</li>
                 <li>
                     <ul>
-                        <li>i. via another Consultancy Agreement, in which case any Consultancy Fees that had accrued
+                        <li><span className="letter--indent">i.</span> via another Consultancy Agreement, in which case any Consultancy Fees that had accrued
                             prior
                             to termination of the original Consultancy Agreement will be payable; or
                         </li>
-                        <li>ii. on any other transaction or dealing unrelated to any Opportunity within the
+                        <li><span className="letter--indent">ii.</span> on any other transaction or dealing unrelated to any Opportunity within the
                             Platform.
                         </li>
                     </ul>
                 </li>
-                <li>7.7 On the fourteenth (14) day of each calendar month during the term of any Consultancy Agreement,
+                <li><span className="number--indent">7.7</span> On the fourteenth (14) day of each calendar month during the term of any Consultancy Agreement,
                     the
                 </li>
                 <li>Advisor shall Notify IDN of the amount of its Consultancy Fee due from the Firm and the number of
@@ -371,12 +371,12 @@ function TermsPage(props) {
                     Firm
                     shall be required to review and (if agreed) accept.
                 </li>
-                <li>7.8 IDN shall submit an invoice to the Firm by no later than the end of each calendar month for
+                <li><span className="number--indent">7.8</span> IDN shall submit an invoice to the Firm by no later than the end of each calendar month for
                     any approved Consultant Fees. The Firm shall have fourteen (14) days to pay the Consultancy Fees in
                     full to
                     IDN.
                 </li>
-                <li>7.9 On receipt of Consultancy Fees from a Firm pursuant to a Consultancy Agreement, IDN will
+                <li><span className="number--indent">7.9</span> On receipt of Consultancy Fees from a Firm pursuant to a Consultancy Agreement, IDN will
                     subtract an amount equal to 20% plus any VAT from such Consultancy Fees and shall retain this as
                     its commission (the
                     <strong>“IDN Commission”</strong>). IDN shall provide the Advisor with an invoice for the IDN
@@ -384,35 +384,35 @@ function TermsPage(props) {
                     shall remit
                     the balance of the Consultancy Fees to the Advisor within fourteen (14) days of receipt.
                 </li>
-                <li>7.10 For the avoidance of doubt, IDN shall have no obligation to pay any Consultancy Fees to the
+                <li><span className="number--indent">7.1</span>0 For the avoidance of doubt, IDN shall have no obligation to pay any Consultancy Fees to the
                     Advisor until those Consultancy Fees have been received by IDN and the IDN Commission has been
                     deducted by IDN.
                 </li>
             </ul>
             <h2>8. Origination Mandate work</h2>
             <ul>
-                <li>8.1 A Firm may, via the Platform, make a request (a <strong>“Request”</strong>) to engage an Advisor
+                <li><span className="number--indent">8.1</span> A Firm may, via the Platform, make a request (a <strong>“Request”</strong>) to engage an Advisor
                     to
                     look for investment opportunities for Targets matching the Mandate Requirements.
                 </li>
-                <li>8.2 Requests are assigned at the discretion of the Firm. An Advisor may in its sole and absolute
+                <li><span className="number--indent">8.2</span> Requests are assigned at the discretion of the Firm. An Advisor may in its sole and absolute
                     discretion elect to reject or accept a Request. IDN facilitates Requests by providing a portal
                     within the
                     Platform for Firms to submit Requests. The Advisor and the Firm are required to sign an
                     Origination Mandate
                     Agreement.
                 </li>
-                <li>8.3 The Origination Mandate Agreement shall remain in force for a minimum term of three (3)
+                <li><span className="number--indent">8.3</span> The Origination Mandate Agreement shall remain in force for a minimum term of three (3)
                     months, which term can be extended at the Firm’s discretion.
                 </li>
-                <li>8.4 In a Request, the Firm shall provide the following information:</li>
+                <li><span className="number--indent">8.4</span> In a Request, the Firm shall provide the following information:</li>
                 <li>
                     <ul>
-                        <li>i. the Mandate Requirements; and</li>
-                        <li>ii. details of any companies that the Advisor is not permitted to contact.</li>
+                        <li><span className="letter--indent">i.</span> the Mandate Requirements; and</li>
+                        <li><span className="letter--indent">ii.</span> details of any companies that the Advisor is not permitted to contact.</li>
                     </ul>
                 </li>
-                <li>8.5 In the event that the Advisor submits a specific Opportunity to the Firm in accordance with
+                <li><span className="number--indent">8.5</span> In the event that the Advisor submits a specific Opportunity to the Firm in accordance with
                     the Origination Mandate Agreement, the Firm and the Advisor shall enter into or be deemed to have
                     entered
                     into an NDA in the form of Annex 1 in respect of such Opportunity. The Firm will have up to two (2)
@@ -423,20 +423,20 @@ function TermsPage(props) {
                     will be entitled to share the Opportunity with third parties via the Platform. The Firm shall remain
                     bound by the NDA in the form of Annex 1.
                 </li>
-                <li>8.6 In the event that the Firm requests an Introduction from the Advisor, and the Advisor makes
+                <li><span className="number--indent">8.6</span> In the event that the Firm requests an Introduction from the Advisor, and the Advisor makes
                     an Introduction, IDN shall send an invoice to the Firm for the Origination Mandate Introduction Fee
                     at the
                     end of the calendar month in which the Introduction occurred. Payment of the Origination Mandate
                     Introduction Fee shall be in the same manner as set out in paragraphs 6.6 and 6.7.
                 </li>
-                <li>8.7 In the event the Firm Closes a Transaction as a result of an Opportunity Introduced by the
+                <li><span className="number--indent">8.7</span> In the event the Firm Closes a Transaction as a result of an Opportunity Introduced by the
                     Advisor pursuant to an Origination Mandate Agreement, the Advisor shall be paid a Success Fee under
                     the same
                     terms as set out in paragraph 6. The Advisor agrees that any Origination Mandate Introduction Fee
                     received will be offset against the final Success Fee payable to the Advisor and calculated in
                     accordance with Part A of Schedule 2.
                 </li>
-                <li>8.8 The Advisor cannot terminate the Original Mandate Agreement prior to the expiry of the period
+                <li><span className="number--indent">8.8</span> The Advisor cannot terminate the Original Mandate Agreement prior to the expiry of the period
                     set out in paragraph 8.3. The rules on termination of any engagement with the Firm in respect of any
                     Opportunity
                     identified by the Advisor shall be the same as detailed above, save that the Advisor shall have no
@@ -447,10 +447,10 @@ function TermsPage(props) {
             </ul>
             <h2>9. What are the Advisor’s obligations?</h2>
             <ul>
-                <li>9.1 The Advisor shall:</li>
+                <li><span className="number--indent">9.1</span> The Advisor shall:</li>
                 <li>
                     <ul>
-                        <li>i. provide IDN with:</li>
+                        <li><span className="letter--indent">i.</span> provide IDN with:</li>
                         <li>
                             <ul>
                                 <li>(i) all necessary co-operation in relation to these Terms; and</li>
@@ -465,16 +465,16 @@ function TermsPage(props) {
                         </li>
                     </ul>
                     <ul>
-                        <li>ii. without affecting its other obligations under these Terms, comply with all applicable
+                        <li><span className="letter--indent">ii.</span> without affecting its other obligations under these Terms, comply with all applicable
                             laws
                             and regulations with respect to its activities under these Terms;
                         </li>
-                        <li>iii. obtain and shall maintain all necessary licences, consents, and permissions necessary
+                        <li><span className="letter--indent">iii</span>. obtain and shall maintain all necessary licences, consents, and permissions necessary
                             for
                             IDN, its contractors and agents to perform their obligations under these Terms, including
                             without limitation the Services;
                         </li>
-                        <li>iv. ensure that its network and systems comply with the relevant specifications provided by
+                        <li><span className="letter--indent">iv</span>. ensure that its network and systems comply with the relevant specifications provided by
                             IDN
                             from time to time; and
                         </li>
@@ -491,14 +491,14 @@ function TermsPage(props) {
             </ul>
 
             <ul>
-                <li>9.2 The Advisor must not at any point during the Advisor’s use of the Platform and Services do
+                <li><span className="number--indent">9.2</span> The Advisor must not at any point during the Advisor’s use of the Platform and Services do
                     anything which may circumvent IDN or otherwise breach the terms of the NDA in the form of Annex 1
                     hereto in any
                     way, including but not limited to:
                 </li>
                 <li>
                     <ul>
-                        <li>i. offering Opportunities registered with IDN to Firms outside of the Platform. All
+                        <li><span className="letter--indent">i.</span> offering Opportunities registered with IDN to Firms outside of the Platform. All
                             Opportunities, once registered with the Platform and until removed in accordance with these
                             Terms, must be shared only with Firms on the Platform. Once an Opportunity has been
                             withdrawn
@@ -506,15 +506,15 @@ function TermsPage(props) {
                             share
                             the Opportunity outside of the Platform as it sees fit;
                         </li>
-                        <li>ii. making a separate agreement (of any kind) directly or indirectly with any Firm which is
+                        <li><span className="letter--indent">ii.</span> making a separate agreement (of any kind) directly or indirectly with any Firm which is
                             intended to, or could have the effect of, disintermediating IDN from the Opportunity or any
                             resulting Transaction and/or to avoid payment of some or all of any fee payable to IDN in
                             accordance with these Terms;
                         </li>
-                        <li>iii. sharing any Opportunity directly with a Firm with whom the Advisor has engaged via the
+                        <li><span className="letter--indent">iii</span>. sharing any Opportunity directly with a Firm with whom the Advisor has engaged via the
                             Platform;
                         </li>
-                        <li>iv. outside of the Platform, be engaged by any Firm with whom the Advisor has engaged via
+                        <li><span className="letter--indent">iv</span>. outside of the Platform, be engaged by any Firm with whom the Advisor has engaged via
                             the
                             Platform under any engagement substantially similar in nature to that of an Origination
                             Mandate
@@ -529,23 +529,23 @@ function TermsPage(props) {
                 </li>
             </ul>
             <ul>
-                <li>9.3 For the avoidance of doubt, nothing in this paragraph 9.2 precludes any direct “off
+                <li><span className="number--indent">9.3</span> For the avoidance of doubt, nothing in this paragraph 9.2 precludes any direct “off
                     Platform” communication between the Advisor and a Firm so long as the requirements of this paragraph
                     9.3
                     are complied with.
                 </li>
-                <li>9.4 The Advisor shall not distribute or transmit any material during the course of its use of the
+                <li><span className="number--indent">9.4</span> The Advisor shall not distribute or transmit any material during the course of its use of the
                     Services that:
                 </li>
                 <li>
                     <ul>
-                        <li>i. is unlawful, harmful, threatening, defamatory, obscene, infringing, harassing or racially
+                        <li><span className="letter--indent">i.</span> is unlawful, harmful, threatening, defamatory, obscene, infringing, harassing or racially
                             or
                             ethnically offensive;
                         </li>
-                        <li>ii. facilitates illegal activity;</li>
-                        <li>iii. depicts sexually explicit images;</li>
-                        <li>iv. promotes unlawful violence;</li>
+                        <li><span className="letter--indent">ii.</span> facilitates illegal activity;</li>
+                        <li><span className="letter--indent">iii</span>. depicts sexually explicit images;</li>
+                        <li><span className="letter--indent">iv</span>. promotes unlawful violence;</li>
                         <li>v. is discriminatory based on race, gender, colour, religious belief, sexual orientation,
                             disability; or
                         </li>
@@ -556,10 +556,10 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
-                <li>9.5 The Advisor shall not:</li>
+                <li><span className="number--indent">9.5</span> The Advisor shall not:</li>
                 <li>
                     <ul>
-                        <li>i. except as may be allowed by any applicable law which is incapable of exclusion by
+                        <li><span className="letter--indent">i.</span> except as may be allowed by any applicable law which is incapable of exclusion by
                             agreement
                             between the parties and except to the extent expressly permitted under these Terms:
                         </li>
@@ -578,12 +578,12 @@ function TermsPage(props) {
                                 </li>
                             </ul>
                         </li>
-                        <li>ii. access all or any part of the Services in order to build a product or service which
+                        <li><span className="letter--indent">ii.</span> access all or any part of the Services in order to build a product or service which
                             competes
                             with the Services; or
                         </li>
-                        <li>iii. use the Services to provide services to third parties; or</li>
-                        <li>iv. license, sell, rent, lease, transfer, assign, distribute, display, disclose, or
+                        <li><span className="letter--indent">iii</span>. use the Services to provide services to third parties; or</li>
+                        <li><span className="letter--indent">iv</span>. license, sell, rent, lease, transfer, assign, distribute, display, disclose, or
                             otherwise
                             commercially exploit, or otherwise make the Services available to any third party; or
                         </li>
@@ -600,7 +600,7 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
-                <li>9.6 The Advisor shall use all reasonable endeavours to prevent any unauthorised access to, or use
+                <li><span className="number--indent">9.6</span> The Advisor shall use all reasonable endeavours to prevent any unauthorised access to, or use
                     of, the Services and, in the event of any such unauthorised access or use, promptly Notify IDN.
                 </li>
             </ul>
@@ -612,18 +612,18 @@ function TermsPage(props) {
                 </li>
                 <li>
                     <ul>
-                        <li>i. the right to refuse or withdraw the Advisor’s access to the Platform and/or terminate the
+                        <li><span className="letter--indent">i.</span> the right to refuse or withdraw the Advisor’s access to the Platform and/or terminate the
                             Advisor’s account without notice and without liability if, in IDN’s sole and absolute
                             discretion, the Advisor violates, attempts to violate or breaches any of these Terms or any
                             applicable law or regulation, or if any act or omission of the Advisor brings, or is likely
                             to
                             bring, the Platform into disrepute;
                         </li>
-                        <li>ii. the right to amend or update the Platform, fees, billing methods or these Terms from
+                        <li><span className="letter--indent">ii.</span> the right to amend or update the Platform, fees, billing methods or these Terms from
                             time to
                             time;
                         </li>
-                        <li>iii. the right without notice, to remove content, materials or the Advisor’s account for any
+                        <li><span className="letter--indent">iii</span>. the right without notice, to remove content, materials or the Advisor’s account for any
                             reason whatsoever at IDN’s sole and absolute discretion, including without limitation
                             content
                             and materials which are unlawful, offensive, threatening, libellous, defamatory, obscene or
@@ -631,7 +631,7 @@ function TermsPage(props) {
                             content or
                             materials; and
                         </li>
-                        <li>iv. the right to access the Advisor’s account in order to respond to its requests for
+                        <li><span className="letter--indent">iv</span>. the right to access the Advisor’s account in order to respond to its requests for
                             technical
                             support so long as IDN maintains reasonably appropriate administrative physical and
                             technical
@@ -644,7 +644,7 @@ function TermsPage(props) {
                 <li>10.2 IDN:</li>
                 <li>
                     <ul>
-                        <li>i. does not warrant that:</li>
+                        <li><span className="letter--indent">i.</span> does not warrant that:</li>
                         <li>
                             <ul>
                                 <li>(i) the Services and/or the information obtained by the Advisor through the Services
@@ -684,7 +684,7 @@ function TermsPage(props) {
                                 </li>
                             </ul>
                         </li>
-                        <li>ii. is not responsible for any delays, delivery failures, or any other loss or damage
+                        <li><span className="letter--indent">ii.</span> is not responsible for any delays, delivery failures, or any other loss or damage
                             resulting
                             from the transfer of data over communications networks and facilities, including the
                             internet,
@@ -737,19 +737,19 @@ function TermsPage(props) {
                 <li>11.4 Both the Advisor and IDN acknowledge that:</li>
                 <li>
                     <ul>
-                        <li>i. if IDN processes any personal data on the Advisor's behalf when performing its
+                        <li><span className="letter--indent">i.</span> if IDN processes any personal data on the Advisor's behalf when performing its
                             obligations
                             under these Terms, the Advisor is the controller and IDN is the processor for the purposes
                             of
                             the Data Protection Legislation.
                         </li>
-                        <li>ii. IDN and the Advisor shall set out the scope, nature and purpose of processing by IDN,
+                        <li><span className="letter--indent">ii.</span> IDN and the Advisor shall set out the scope, nature and purpose of processing by IDN,
                             the
                             duration of the processing and the types of personal data and categories of data subject
                             upon
                             the Advisor’s use of the Platform; and
                         </li>
-                        <li>iii. personal data may be transferred or stored by IDN outside of the UK, EEA or the country
+                        <li><span className="letter--indent">iii</span>. personal data may be transferred or stored by IDN outside of the UK, EEA or the country
                             where the Advisor is located, in order to carry out the Services and IDN’s other obligations
                             under these Terms.
                         </li>
@@ -767,7 +767,7 @@ function TermsPage(props) {
                 </li>
                 <li>
                     <ul>
-                        <li>i. process that personal data only on the documented written instructions of the Advisor
+                        <li><span className="letter--indent">i.</span> process that personal data only on the documented written instructions of the Advisor
                             unless
                             IDN is required by the laws of any member of the European Union or by the laws of the
                             European
@@ -782,7 +782,7 @@ function TermsPage(props) {
                             the
                             Advisor;
                         </li>
-                        <li>ii. not transfer any personal data outside of the European Economic Area and the United
+                        <li><span className="letter--indent">ii.</span> not transfer any personal data outside of the European Economic Area and the United
                             Kingdom
                             unless the following conditions are fulfilled:
                         </li>
@@ -804,12 +804,12 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
-                <li>iii. assist the Advisor, at the Advisor's cost, in responding to any request from a data subject
+                <li><span className="letter--indent">iii</span>. assist the Advisor, at the Advisor's cost, in responding to any request from a data subject
                     and in ensuring compliance with its obligations under the Data Protection Legislation with
                     respect to security, breach Notifications, impact assessments and consultations with supervisory
                     authorities or regulators;
                 </li>
-                <li>iv. Notify the Advisor without undue delay on becoming aware of a personal data breach;</li>
+                <li><span className="letter--indent">iv</span>. Notify the Advisor without undue delay on becoming aware of a personal data breach;</li>
                 <li>v. at the written direction of the Advisor, delete or return personal data and copies thereof to
                     the Advisor on termination of the agreement unless required by Applicable Law to store the
                     personal data (and for these purposes the term &quot;delete&quot; shall mean to put such data
@@ -848,14 +848,14 @@ function TermsPage(props) {
                 </li>
                 <li>
                     <ul>
-                        <li>i. is or becomes publicly known other than through any act or omission of the receiving
+                        <li><span className="letter--indent">i.</span> is or becomes publicly known other than through any act or omission of the receiving
                             party;
                         </li>
-                        <li>ii. was in the other party's lawful possession before the disclosure;</li>
-                        <li>iii. is lawfully disclosed to the receiving party by a third party without restriction on
+                        <li><span className="letter--indent">ii.</span> was in the other party's lawful possession before the disclosure;</li>
+                        <li><span className="letter--indent">iii</span>. is lawfully disclosed to the receiving party by a third party without restriction on
                             disclosure; or
                         </li>
-                        <li>iv. is independently developed by the receiving party, which independent development can be
+                        <li><span className="letter--indent">iv</span>. is independently developed by the receiving party, which independent development can be
                             shown
                             by written evidence.
                         </li>
@@ -914,21 +914,21 @@ function TermsPage(props) {
                 </li>
                 <li>
                     <ul>
-                        <li>i. the Advisor commits a material breach of any other term of these Terms which breach is
+                        <li><span className="letter--indent">i.</span> the Advisor commits a material breach of any other term of these Terms which breach is
                             irremediable or (if such breach is remediable) fails to remedy that breach within a period
                             of 14
                             days after being Notified in writing to do so; or
                         </li>
-                        <li>ii. any insolvency event occurs in respect of the Advisor.</li>
+                        <li><span className="letter--indent">ii.</span> any insolvency event occurs in respect of the Advisor.</li>
                     </ul>
                 </li>
                 <li>13.3 On termination of these Terms for any reason:</li>
                 <li>
                     <ul>
-                        <li>i. all licences granted under these Terms shall immediately terminate and the Advisor shall
+                        <li><span className="letter--indent">i.</span> all licences granted under these Terms shall immediately terminate and the Advisor shall
                             immediately cease all use of the Platform and the Services;
                         </li>
-                        <li>ii. IDN may destroy or otherwise dispose of any of the Advisor Data in its possession in
+                        <li><span className="letter--indent">ii.</span> IDN may destroy or otherwise dispose of any of the Advisor Data in its possession in
                             accordance with paragraph 11.6v, unless IDN receives, no later than ten (10) days after the
                             effective date of the termination of these Terms, a written request for the delivery to the
                             Advisor of the then most recent back-up of the Advisor Data. IDN shall use reasonable
@@ -941,7 +941,7 @@ function TermsPage(props) {
                             The Advisor shall pay all reasonable expenses incurred by IDN in returning or disposing of
                             Advisor Data; and
                         </li>
-                        <li>iii. any rights, remedies, obligations or liabilities of the parties that have accrued up to
+                        <li><span className="letter--indent">iii</span>. any rights, remedies, obligations or liabilities of the parties that have accrued up to
                             the
                             date of termination, including without limitation any Fees and the right to claim damages in
                             respect of any breach of these Terms which existed at or before the date of termination
@@ -972,13 +972,13 @@ function TermsPage(props) {
                     <li>14.3 Except as expressly and specifically provided in these Terms:</li>
                     <li>
                         <ul>
-                            <li>i. the Advisor assumes sole responsibility for any information uploaded to the Platform
+                            <li><span className="letter--indent">i.</span> the Advisor assumes sole responsibility for any information uploaded to the Platform
                                 by the
                                 Advisor, any results obtained from the use of the Services by the Advisor, and any
                                 conclusions
                                 drawn from such use;
                             </li>
-                            <li>ii. IDN shall have no liability for any damage caused by errors or omissions in any
+                            <li><span className="letter--indent">ii.</span> IDN shall have no liability for any damage caused by errors or omissions in any
                                 information
                                 provided to IDN by the Advisor, any exercise of discretion by IDN, any actions taken by
                                 IDN at
@@ -986,7 +986,7 @@ function TermsPage(props) {
                                 the
                                 Advisor’s activities or information uploaded to the Platform by the Advisor;
                             </li>
-                            <li>iii. By accepting any Opportunity for dissemination via the Platform, IDN does not, and
+                            <li><span className="letter--indent">iii</span>. By accepting any Opportunity for dissemination via the Platform, IDN does not, and
                                 shall not
                                 be taken to have (i) given any representation or warranty as to the compliance of the
                                 Opportunity with the Requirements, or the compliance of the Advisor with its
@@ -997,7 +997,7 @@ function TermsPage(props) {
                                 that may
                                 be made, or may have been made, by the Advisor;
                             </li>
-                            <li>iv. all warranties, representations, conditions and all other terms of any kind
+                            <li><span className="letter--indent">iv</span>. all warranties, representations, conditions and all other terms of any kind
                                 whatsoever
                                 implied by statute or common law are, to the fullest extent permitted by applicable law,
                                 excluded from these Terms;
@@ -1014,16 +1014,16 @@ function TermsPage(props) {
             <li>14.4 Nothing in these Terms excludes the liability of IDN:</li>
             <li>
                 <ul>
-                    <li>i. for death or personal injury caused by IDN’s gross negligence;</li>
-                    <li>ii. for fraud or fraudulent misrepresentation; or</li>
-                    <li>iii. for any other loss or damage incapable of exclusion by applicable law.</li>
+                    <li><span className="letter--indent">i.</span> for death or personal injury caused by IDN’s gross negligence;</li>
+                    <li><span className="letter--indent">ii.</span> for fraud or fraudulent misrepresentation; or</li>
+                    <li><span className="letter--indent">iii</span>. for any other loss or damage incapable of exclusion by applicable law.</li>
                 </ul>
             </li>
             <ul>
                 <li>14.5 Subject to paragraph 14.3 and paragraph 14.4:</li>
                 <li>
                     <ul>
-                        <li>i. IDN shall not be liable whether in tort (including for negligence or breach of statutory
+                        <li><span className="letter--indent">i.</span> IDN shall not be liable whether in tort (including for negligence or breach of statutory
                             duty), contract, misrepresentation, restitution or otherwise for any loss of profits, loss
                             of
                             business, depletion of goodwill and/or similar losses or loss or corruption of data or
@@ -1031,7 +1031,7 @@ function TermsPage(props) {
                             costs,
                             damages, charges or expenses however arising under these Terms; and
                         </li>
-                        <li>ii. IDN’s total aggregate liability to the Advisor in contract, tort (including negligence
+                        <li><span className="letter--indent">ii.</span> IDN’s total aggregate liability to the Advisor in contract, tort (including negligence
                             or
                             breach of statutory duty), misrepresentation, restitution or otherwise, arising in
                             connection with the performance
@@ -1159,11 +1159,11 @@ function TermsPage(props) {
                 </li>
                 <li>
                     <ul>
-                        <li>i. if delivered by hand, at the time proof is obtained that the notice was left at the
+                        <li><span className="letter--indent">i.</span> if delivered by hand, at the time proof is obtained that the notice was left at the
                             address
                             or given to the addressee; or
                         </li>
-                        <li>ii. in the case of pre-paid first-class UK post or the other next working day delivery
+                        <li><span className="letter--indent">ii.</span> in the case of pre-paid first-class UK post or the other next working day delivery
                             service,
                             at 9:00 am on the second day after posting or at the time recorded by the delivery service.
                         </li>
@@ -1178,7 +1178,7 @@ function TermsPage(props) {
             </ul>
             <h4>SCHEDULE 1: DEFINITIONS</h4>
             <p>The following capitalised terms shall have the meanings given in this table.</p>
-            <table>
+            <table className="first--table">
                 <tr>
                     <td>
                         <strong>Advice</strong></td>
@@ -1475,19 +1475,19 @@ function TermsPage(props) {
                         <p>includes any of the following (or the grant of any right or option which, on exercise, would
                             be likely to result in any of the following):</p>
                         <ul>
-                            <li>i. any sale or other disposal of all or a part of the total equity</li>
+                            <li><span className="letter--indent">i.</span> any sale or other disposal of all or a part of the total equity</li>
                         </ul>
                         <p>share capital, voting rights, indebtedness or other financial instruments in the Target or
                             any entity which is an Affiliate thereof (the Target together with such Affiliates, the
                             “Group”);</p>
                         <ul>
-                            <li>ii. a capital raise by the Target which may be consummated by way of a possible issuance
+                            <li><span className="letter--indent">ii.</span> a capital raise by the Target which may be consummated by way of a possible issuance
                                 of equity or equity-linked securities by the Target (or other
                                 member of the Group) and/or the sale of shares by existing shareholders of the Target
                                 (or
                                 other member of the Group);
                             </li>
-                            <li>iii. a merger or acquisition involving the Target or other entity holding or controlling
+                            <li><span className="letter--indent">iii</span>. a merger or acquisition involving the Target or other entity holding or controlling
                                 all or a part of the Group’s assets, whether by tender offer, scheme
                                 of arrangement or otherwise; any transaction involving, directly or indirectly, the
                                 disposal or distribution of all or a
@@ -1512,7 +1512,7 @@ function TermsPage(props) {
             <h3 className="center-align">SCHEDULE 2: FEES</h3>
             <h3>PART A: SUCCESS FEE</h3>
             <p>The Success Fee shall be calculated on a cumulative tiered basis as shown in the table below:</p>
-            <table>
+            <table className="second--table">
                 <tr>
                     <td>
                         <strong>Enterprise Value of Target in proportion to the share of the Fully Diluted Share Capital
@@ -1557,7 +1557,7 @@ function TermsPage(props) {
             <p>The Origination Mandate Introduction Fee shall be a lump sum amount calculated by reference to the
                 highest Enterprise Value set out in the Mandate Requirements specified by the Client in the Request. The
                 Origination Mandate Introduction Fee shall be as follows:</p>
-            <table>
+            <table className="third--table">
                 <tr>
                     <td>
                         <strong>Enterprise Value of Target in proportion to the share of the Fully Diluted Share Capital
@@ -1599,7 +1599,7 @@ function TermsPage(props) {
                 the Advisor selects the Firm for an Opportunity. Each of the Firm and Advisor (each a “party”) agrees as
                 follows:</p>
             <ul>
-                <li>1. This agreement governs the terms and conditions under which:</li>
+                <li><span className="number--indent">1.</span> This agreement governs the terms and conditions under which:</li>
                 <li>
                     <ul>
                         <li>(i) an Advisor may disclose Confidential Information to a Firm in connection with an
@@ -1611,13 +1611,13 @@ function TermsPage(props) {
                         <li>(iii) in each case how Confidential Information is treated.</li>
                     </ul>
                 </li>
-                <li>2. Capitalised terms not otherwise defined herein shall have the meaning given in Schedule 1 to
+                <li><span className="number--indent">2.</span> Capitalised terms not otherwise defined herein shall have the meaning given in Schedule 1 to
                     the Terms.
                 </li>
             </ul>
             <p>This agreement is intended to supplement and not replace any provisions of the Terms.</p>
             <ul>
-                <li>3. Except in accordance with paragraph 4 below, or otherwise with the written consent of the
+                <li><span className="number--indent">3.</span> Except in accordance with paragraph 4 below, or otherwise with the written consent of the
                     other party, neither the Firm nor the Advisor shall disclose Confidential Information to any person
                     other than its
                     Representatives and shall limit dissemination of Confidential Information to such Representatives
@@ -1627,7 +1627,7 @@ function TermsPage(props) {
                     the Firm and the Advisor shall be responsible for any breach of this agreement by its own
                     Representatives.
                 </li>
-                <li>4. Each of the Firm and the Advisor may disclose Confidential Information only if, after
+                <li><span className="number--indent">4.</span> Each of the Firm and the Advisor may disclose Confidential Information only if, after
                     consultation with counsel, it reasonably believes such disclosure must be made in order to comply
                     with applicable law,
                     regulation or legal or judicial process. If the Firm or the Advisor, or any of its Representatives,
@@ -1646,7 +1646,7 @@ function TermsPage(props) {
                     confidentiality of the Confidential Information (including obtaining reasonable assurance that
                     confidential treatment will be accorded the Confidential Information).
                 </li>
-                <li>5. With effect from the issue or deemed issue of a Pre Introduction Termination Notice or a
+                <li><span className="number--indent">5.</span> With effect from the issue or deemed issue of a Pre Introduction Termination Notice or a
                     Termination
                 </li>
             </ul>
@@ -1657,7 +1657,7 @@ function TermsPage(props) {
                 the Advisor may disclose the name of the Target and any other Documentation provided by the Advisor to
                 the Firm or to any other Firm or person in accordance with the Terms.</p>
             <ul>
-                <li>6. Each of the Firm and the Advisor undertakes that they shall not do (or allow to be done
+                <li><span className="number--indent">6.</span> Each of the Firm and the Advisor undertakes that they shall not do (or allow to be done
                     including by their Representatives) anything which may circumvent IDN or each other including
                     without limitation:
                 </li>
@@ -1684,7 +1684,7 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
-                <li>7. Each of the Firm and the Advisor agrees that money damages may not be a sufficient remedy for
+                <li><span className="number--indent">7.</span> Each of the Firm and the Advisor agrees that money damages may not be a sufficient remedy for
                     any breach of this agreement by the Firm or the Advisor or their Representatives and that in
                     addition to all
                     other available legal or equitable remedies, the other party and/or IDN shall be entitled to seek
@@ -1697,10 +1697,10 @@ function TermsPage(props) {
                     agreement, IDN shall be permitted to invoice, and the breaching party shall be permitted to pay, the
                     maximum amount of the Success Fee that would have been due to IDN had the Opportunity Closed.
                 </li>
-                <li>8. IDN may enforce any provision of this agreement as if a party to it and may in its sole and
+                <li><span className="number--indent">8.</span> IDN may enforce any provision of this agreement as if a party to it and may in its sole and
                     absolute discretion exercise the rights of either party to seek relief for any breach hereof.
                 </li>
-                <li>9. This agreement shall remain in full force and effect and shall continue to bind the Firm and
+                <li><span className="number--indent">9.</span> This agreement shall remain in full force and effect and shall continue to bind the Firm and
                     the Advisor for a period of twenty-four (24) months from the date on which it comes into force save
                     that:
                 </li>

@@ -22,25 +22,27 @@
     font: normal normal 700 14px/28px 'Poppins', sans-serif;
 }
 
-.Terms h2 {
+.Terms h2, .Terms h4 {
     font-size: 15px;
 }
 
-.Terms h4 {
-    font-size: 13px;
-}
-
 .Terms li, .Terms p, .Terms strong {
-    font-size: 11px;
-    line-height: 18px;
+    font-size: 13px;
+    line-height: 21px;
+    margin: 10px 0;
 }
 
 .Terms table, .Terms td {
     border: 1px solid #232D53;
 }
 
-.Terms td:first-child {
+.Terms .first--table td:first-child {
     width: 25%;
+
+}
+
+.Terms .first--table td {
+    vertical-align: baseline;
 }
 
 .Terms td {
@@ -53,4 +55,32 @@
 
 .center-align {
     text-align: center;
+}
+
+.Terms table tr:first-child {
+    vertical-align: baseline;
+}
+
+.Terms .second--table td {
+    width: 33%;
+    text-align: center;
+}
+
+.Terms .third-table td {
+    width: 50%;
+    text-align: center;
+}
+
+.number--indent, .letter--indent {
+    padding: 0 20px 0 0;
+    position: absolute;
+    left: -30px;
+}
+
+ul {
+    padding: 0 0 0 30px;
+}
+
+li {
+    position: relative;
 }
