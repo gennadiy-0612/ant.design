@@ -1165,11 +1165,11 @@ function TermsPage(props) {
                             implied by statute or common law are, to the fullest extent permitted by applicable law,
                             excluded from these Terms;
                         </li>
-                        <li>v. IDN shall have no responsibility or liability for the behaviour or conduct of any
+                        <li><span className="letter--indent">v.</span> IDN shall have no responsibility or liability for the behaviour or conduct of any
                             person using
                             the Platform; and
                         </li>
-                        <li>vi. the Services are provided to the Advisor on an &quot;as is&quot; basis.</li>
+                        <li><span className="letter--indent">vi.</span> the Services are provided to the Advisor on an &quot;as is&quot; basis.</li>
                     </ul>
                 </li>
                 <li><span className="number--indent">14.4</span> Nothing in these Terms excludes the liability of IDN:
