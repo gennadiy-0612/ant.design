@@ -5,7 +5,7 @@ function TermsPage(props) {
     return (
         <div className="Terms">
             <h1 className="terms--head1">Terms &amp;&nbsp;Conditions</h1>
-            <h2>1. What do You need to know about The Infrastructure Deals Network Ltd and these Terms?</h2>
+            <h2><span className="head2--indent">1.</span> What do You need to know about The Infrastructure Deals Network Ltd and these Terms?</h2>
             <ul>
                 <li><span className="number--indent">1.1</span> We are The Infrastructure Deals Network Ltd, a limited company registered in England and
                     Wales with Kemp House, 160 City Road, London, United Kingdom, EC1V 2NX and registered number
@@ -15,7 +15,7 @@ function TermsPage(props) {
                 <li><span className="number--indent">1.2</span> IDN provides the Platform and the Services.</li>
                 <li><span className="number--indent">1.3</span> Capitalised terms used herein are set out in Schedule 1 hereto.</li>
             </ul>
-            <h2>2. Agreement to these Terms</h2>
+            <h2><span className="head2--indent">2.</span> Agreement to these Terms</h2>
             <ul>
                 <li><span className="number--indent">2.1</span> The Advisor is advised to review these Terms carefully and make sure that it understands
                     them before using the Platform or Services. If the Advisor does not agree to these Terms, it
@@ -45,7 +45,7 @@ function TermsPage(props) {
                     </ul>
                 </li>
             </ul>
-            <h2>3. How are these Terms amended?</h2>
+            <h2><span className="head2--indent">3.</span> How are these Terms amended?</h2>
             <ul>
                 <li><span className="number--indent">3.1</span> IDN may modify these Terms by giving the Advisor at least three (3) days’ prior
                     written notice. IDN will notify the Advisor of any changes to these Terms by emailing the
@@ -67,7 +67,7 @@ function TermsPage(props) {
                     Advisor’s spam box or for any other reason.
                 </li>
             </ul>
-            <h2>4. Whose responsibility is it to update the Advisor’s information?</h2>
+            <h2><span className="head2--indent">4.</span> Whose responsibility is it to update the Advisor’s information?</h2>
             <ul>
                 <li><span className="number--indent">4.1</span> By using the Platform, the Advisor warrants that all registration information
                     provided by the Advisor is true, accurate, complete and not misleading, and the Advisor undertakes
@@ -78,7 +78,7 @@ function TermsPage(props) {
                     registration information being incorrect.
                 </li>
             </ul>
-            <h2>5. How does an Advisor use the Platform and Services?</h2>
+            <h2><span className="head2--indent">5.</span> How does an Advisor use the Platform and Services?</h2>
             <ul>
                 <li><span className="number--indent">5.1</span> IDN provides the Platform and Services to the Advisor on and subject to these
                     Terms.
@@ -251,7 +251,7 @@ function TermsPage(props) {
                     IDN. In such circumstances the Firm shall remain bound by the NDA in the form of Annex 1.
                 </li>
             </ul>
-            <h2>6. Fees</h2>
+            <h2><span className="head2--indent">6.</span> Fees</h2>
             <ul>
                 <li><span className="number--indent">6.1</span> Once a Firm has successfully Closed a Transaction arising from an Introduction, the
                     Advisor who made the Introduction shall be entitled to a Success Fee calculated in accordance with
@@ -316,7 +316,7 @@ function TermsPage(props) {
                     details being associated with the Advisor’s Platform account.
                 </li>
             </ul>
-            <h2>7. Advisor Consultancy Work</h2>
+            <h2><span className="head2--indent">7.</span> Advisor Consultancy Work</h2>
             <ul>
                 <li><span className="number--indent">7.1</span> A Firm may (in its sole and absolute discretion), seek to engage an Advisor for paid Consulting
                     Work. In the event that a Firm wishes to engage an Advisor for Consultancy Work, it must submit a
@@ -389,7 +389,7 @@ function TermsPage(props) {
                     deducted by IDN.
                 </li>
             </ul>
-            <h2>8. Origination Mandate work</h2>
+            <h2><span className="head2--indent">8.</span> Origination Mandate work</h2>
             <ul>
                 <li><span className="number--indent">8.1</span> A Firm may, via the Platform, make a request (a <strong>“Request”</strong>) to engage an Advisor
                     to
@@ -445,7 +445,7 @@ function TermsPage(props) {
                     Agreement.
                 </li>
             </ul>
-            <h2>9. What are the Advisor’s obligations?</h2>
+            <h2><span className="head2--indent">9.</span> What are the Advisor’s obligations?</h2>
             <ul>
                 <li><span className="number--indent">9.1</span> The Advisor shall:</li>
                 <li>
