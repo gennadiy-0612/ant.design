@@ -228,7 +228,7 @@ function TermsPage(props) {
                 </li>
             </ul>
             <ul>
-                <li><span className="number--indent">5.1</span>0 All information disclosed to a Firm by the Advisor
+                <li><span className="number--indent">5.10</span> All information disclosed to a Firm by the Advisor
                     (including without limitation the
                     Documentation and the name of the Target) shall be subject to the NDA in the form of Annex 1 in
                     respect of all Confidential Information from the moment at which the name of the Target is
@@ -237,7 +237,7 @@ function TermsPage(props) {
             </ul>
             <h3>Termination of engagement with a Firm</h3>
             <ul>
-                <li><span className="number--indent">5.1</span>1 In the event that the Advisor has started to engage
+                <li><span className="number--indent">5.11</span> In the event that the Advisor has started to engage
                     with a Firm, but an Introduction has not
                     yet taken place, the Advisor may at any time terminate discussions with immediate effect by
                     providing written notice to IDN via the Platform (a <strong>“Pre-Introduction Termination
@@ -246,7 +246,7 @@ function TermsPage(props) {
                     occurred. The Firm shall remain subject to the provisions of the NDA in accordance with Annex 1
                     notwithstanding termination of any discussions.
                 </li>
-                <li><span className="number--indent">5.1</span>2 In the event that the Advisor has already made an
+                <li><span className="number--indent">5.12</span> In the event that the Advisor has already made an
                     Introduction, the Advisor shall not
                     terminate discussions between the Firm and the Target and is subject to the obligations pursuant
                     to the NDA in the form of Annex 1. However, either the Firm or the Target may terminate
@@ -264,7 +264,7 @@ function TermsPage(props) {
                     form
                     of Annex 1.
                 </li>
-                <li><span className="number--indent">5.1</span>3 At any time after the expiry of fourteen (14) days
+                <li><span className="number--indent">5.13</span> At any time after the expiry of fourteen (14) days
                     after the date of an Introduction, so
                     long as a Termination Notice has not been issued, the Advisor may (but is not required to) issue
                     a notice to the Firm (the <strong>“Long Stop Notice”</strong>) giving the Firm fourteen (14) days
@@ -291,7 +291,7 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
-                <li><span className="number--indent">5.1</span>4 The Firm may terminate discussions with the Target and
+                <li><span className="number--indent">5.14</span> The Firm may terminate discussions with the Target and
                     the Advisor at any point by Notifying
                     IDN. In such circumstances the Firm shall remain bound by the NDA in the form of Annex 1.
                 </li>
@@ -1367,7 +1367,7 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
-                <li><span className="number--indent">18.1</span>Nothing in these Terms is intended to or shall operate
+                <li><span className="number--indent">18.10</span>Nothing in these Terms is intended to or shall operate
                     to create a partnership between IDN
                     and the Advisor, or authorise either of them to act as agent for the other, and neither IDN nor
                     the Advisor shall have the authority to act in the name or on behalf of or otherwise to bind the
@@ -1473,7 +1473,7 @@ function TermsPage(props) {
                 <tr>
                     <th>Enterprise Value</th>
                     <td>
-                        <p>(i) the total amount of cash
+                        <p className="relative"><span className="letters--indent">(i)</span> the total amount of cash
                             and the
                             fair market value (on the date of Closing of the
                             Transaction) of all other property paid or payable and consideration receivable (including
