@@ -22,7 +22,7 @@ function MainFooter(props) {
                     <li className="foot-li opacity6"><Link className="footA" to="/about">About Us</Link></li>
                     <li className="foot-li opacity6"><Link className="footA" to="/privacy-policy">Privacy policies</Link></li>
                     <li className="foot-li opacity6"><Link className="footA" to="/terms-and-conditions">Terms & Conditions</Link></li>
-                    <li className="foot-li opacity6"><Link className="footA" to="/cookies-policy">Cookie Policy</Link></li>
+                    <li className="foot-li opacity6"><Link className="footA" to="/cookies-policy">Cookies Policy</Link></li>
                 </ul>
                 <ul className="foot-ul">
                     <li className="foot-li foot-li-head">Contact</li>
