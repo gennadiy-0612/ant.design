@@ -6,6 +6,7 @@ import SectorsPage from './SectorsPage';
 import AboutPage from './AboutPage';
 import PrivacyPolicyPage from './PrivacyPolicyPage';
 import TermsAndConditionsPage from "./TermsAndConditionsPage";
+import CookiesPolicyPage from "./CookiesPolicyPage"
 import {
     BrowserRouter as Router,
     Switch,
@@ -35,6 +36,9 @@ export default function App() {
                 </Route>
                 <Route path="/terms-and-conditions">
                     <Termscond/>
+                </Route>
+                <Route path="/cookies-policy">
+                    <Cookies/>
                 </Route>
                 <Route path="/">
                     <Home/>
@@ -68,4 +72,7 @@ function Privacy() {
 }
 function Termscond() {
     return <TermsAndConditionsPage/>;
+}
+function Cookies() {
+    return <CookiesPolicyPage/>;
 }

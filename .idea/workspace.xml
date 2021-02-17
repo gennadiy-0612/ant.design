@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="burger-work">
+      <change afterPath="$PROJECT_DIR$/src/CookiesPolicyPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AboutPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AboutPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AdvisorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdvisorPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InvestorsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/InvestorsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrivacyPolicyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrivacyPolicyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TermsAndConditionsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TermsAndConditionsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Site.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Site.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/origin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -82,8 +80,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src" />
+      <recent name="E:\wamp64\www\ant.design\src\Images" />
       <recent name="E:\wamp64\www\ant.design\src\Images\page2" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\jpg" />
       <recent name="E:\wamp64\www\ant.design\src\Images\img\svg" />
@@ -349,21 +347,9 @@
       <workItem from="1613476487589" duration="15370000" />
       <workItem from="1613493556829" duration="14736000" />
       <workItem from="1613540150286" duration="4836000" />
-      <workItem from="1613548942565" duration="2014000" />
-    </task>
-    <task id="LOCAL-00460" summary="burger-work">
-      <created>1612959080934</created>
-      <option name="number" value="00460" />
-      <option name="presentableId" value="LOCAL-00460" />
-      <option name="project" value="LOCAL" />
-      <updated>1612959080934</updated>
-    </task>
-    <task id="LOCAL-00461" summary="burger-work">
-      <created>1612969934319</created>
-      <option name="number" value="00461" />
-      <option name="presentableId" value="LOCAL-00461" />
-      <option name="project" value="LOCAL" />
-      <updated>1612969934335</updated>
+      <workItem from="1613548942565" duration="2327000" />
+      <workItem from="1613554466742" duration="991000" />
+      <workItem from="1613558897468" duration="3082000" />
     </task>
     <task id="LOCAL-00462" summary="burger-work">
       <created>1612973425358</created>
@@ -694,7 +680,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613550468920</updated>
     </task>
-    <option name="localTasksCounter" value="509" />
+    <task id="LOCAL-00509" summary="burger-work">
+      <created>1613551213814</created>
+      <option name="number" value="00509" />
+      <option name="presentableId" value="LOCAL-00509" />
+      <option name="project" value="LOCAL" />
+      <updated>1613551213814</updated>
+    </task>
+    <task id="LOCAL-00510" summary="burger-work">
+      <created>1613560827304</created>
+      <option name="number" value="00510" />
+      <option name="presentableId" value="LOCAL-00510" />
+      <option name="project" value="LOCAL" />
+      <updated>1613560827304</updated>
+    </task>
+    <option name="localTasksCounter" value="511" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
