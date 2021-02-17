@@ -689,7 +689,7 @@ function TermsPage(props) {
                             than as
                             explicitly contemplated herein; or
                         </li>
-                        <li>v<span className="number--indent">i.</span> introduce or permit the introduction of, any worms, Trojan horses, viruses and other
+                        <li><span className="number--indent">vi.</span> introduce or permit the introduction of, any worms, Trojan horses, viruses and other
                             similar
                             things or devices (each a <strong>“Virus”</strong> and together
                             the <strong>“Viruses”</strong>) into IDN’s network and
