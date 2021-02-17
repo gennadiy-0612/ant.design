@@ -1,10 +1,9 @@
-.terms--page {
-    padding: 100px 16px;
-}
-
 .Terms {
+    padding: 0 30px;
     margin: 0 auto;
     max-width: 966px;
+    z-index: -1;
+    position: relative;
 }
 
 .Terms li {
