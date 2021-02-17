@@ -2,7 +2,7 @@
     padding: 0 30px;
     margin: 0 auto;
     max-width: 966px;
-    z-index: -1;
+    z-index: 0;
     position: relative;
 }
 
