@@ -558,9 +558,8 @@ function TermsPage(props) {
                         <li><span className="letter--indent">iv.</span> ensure that its network and systems comply with
                             the relevant specifications provided by
                             IDN
-                            from time to time; and
-                        </li>
-                        <li>v. be, to the extent permitted by law and except as otherwise expressly provided in this
+                            from time to time; and</li>
+                        <span className="letter--indent">v.</span> be, to the extent permitted by law and except as otherwise expressly provided in this
                             agreement, solely responsible for procuring, maintaining and securing its network
                             connections
                             and telecommunications links from its systems to IDN’s data centres, and all problems,
