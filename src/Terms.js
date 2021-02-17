@@ -12,7 +12,7 @@ function TermsPage(props) {
                     company registered in England and
                     Wales with Kemp House, 160 City Road, London, United Kingdom, EC1V 2NX and registered number
                     12894864 (referred to as “we”, “us”, <strong>“Infrastructure Deals
-                        Network”</strong> and <strong>“IDN”</strong>)).
+                        Network”</strong> and <strong>“IDN”</strong>).
                 </li>
                 <li><span className="number--indent">1.2</span> IDN provides the Platform and the Services.</li>
                 <li><span className="number--indent">1.3</span> Capitalised terms used herein are set out in Schedule 1
@@ -1165,11 +1165,14 @@ function TermsPage(props) {
                             implied by statute or common law are, to the fullest extent permitted by applicable law,
                             excluded from these Terms;
                         </li>
-                        <li><span className="letter--indent">v.</span> IDN shall have no responsibility or liability for the behaviour or conduct of any
+                        <li><span className="letter--indent">v.</span> IDN shall have no responsibility or liability for
+                            the behaviour or conduct of any
                             person using
                             the Platform; and
                         </li>
-                        <li><span className="letter--indent">vi.</span> the Services are provided to the Advisor on an &quot;as is&quot; basis.</li>
+                        <li><span className="letter--indent">vi.</span> the Services are provided to the Advisor on
+                            an &quot;as is&quot; basis.
+                        </li>
                     </ul>
                 </li>
                 <li><span className="number--indent">14.4</span> Nothing in these Terms excludes the liability of IDN:
@@ -1374,6 +1377,7 @@ function TermsPage(props) {
             <h4>SCHEDULE 1: DEFINITIONS</h4>
             <p>The following capitalised terms shall have the meanings given in this table.</p>
             <table className="first--table">
+                <tbody>
                 <tr>
                     <th>Advice</th>
                     <td>
@@ -1659,6 +1663,7 @@ function TermsPage(props) {
                     <td>
                         <p>and any worms, Trojan horses, viruses and other similar things or devices.</p></td>
                 </tr>
+                </tbody>
             </table>
             <p>In these Terms:</p>
             <p className="relative"><span className="letters--indent">(i)</span> any reference to any gender includes
@@ -1672,6 +1677,7 @@ function TermsPage(props) {
             <h3>PART A: SUCCESS FEE</h3>
             <p>The Success Fee shall be calculated on a cumulative tiered basis as shown in the table below:</p>
             <table className="second--table">
+                <tbody>
                 <tr>
                     <th>
                         Enterprise Value of Target in proportion to the share of the Fully Diluted Share Capital
@@ -1700,6 +1706,7 @@ function TermsPage(props) {
                     <td>0.08%</td>
                     <td>£1.6-2mil</td>
                 </tr>
+                </tbody>
             </table>
             <p>For the avoidance of doubt, the Success Fees in the above table are cumulative and apply to the amount of
                 Enterprise Value falling within the relevant tier.</p>
@@ -1711,6 +1718,7 @@ function TermsPage(props) {
                 highest Enterprise Value set out in the Mandate Requirements specified by the Client in the Request. The
                 Origination Mandate Introduction Fee shall be as follows:</p>
             <table className="third--table">
+                <tbody>
                 <tr>
                     <th>Enterprise Value of Target in proportion to the share of the Fully Diluted Share Capital
                         of
@@ -1736,6 +1744,7 @@ function TermsPage(props) {
                     <td>
                         <p>£[24,000]</p></td>
                 </tr>
+                </tbody>
             </table>
             <p>The Origination Mandate Introduction Fee will be invoiced to the Firm by IDN at the end of the calendar
                 month in which the Introduction occurred.</p>

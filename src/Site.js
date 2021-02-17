@@ -33,7 +33,7 @@ export default function App() {
                 <Route path="/privacy-policy">
                     <Privacy/>
                 </Route>
-                <Route path="/terms-conditions">
+                <Route path="/terms-and-conditions">
                     <Termscond/>
                 </Route>
                 <Route path="/">
