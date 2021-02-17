@@ -637,10 +637,10 @@ function TermsPage(props) {
                         <li><span className="letter--indent">ii.</span> facilitates illegal activity;</li>
                         <li><span className="letter--indent">iii.</span> depicts sexually explicit images;</li>
                         <li><span className="letter--indent">iv.</span> promotes unlawful violence;</li>
-                        <li>v. is discriminatory based on race, gender, colour, religious belief, sexual orientation,
+                        <li><span className="number--indent">v.</span> is discriminatory based on race, gender, colour, religious belief, sexual orientation,
                             disability; or
                         </li>
-                        <li>vi. is otherwise illegal or causes damage or injury to any person or property, and IDN
+                        <li><span className="number--indent">vi.</span> is otherwise illegal or causes damage or injury to any person or property, and IDN
                             reserves the
                             right, without liability or prejudice to its other rights to the Advisor, to disable
                             the Advisor's access to any material that breaches the provisions of this paragraph.
