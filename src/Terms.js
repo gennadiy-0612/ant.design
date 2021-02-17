@@ -448,7 +448,7 @@ function TermsPage(props) {
                     shall remit
                     the balance of the Consultancy Fees to the Advisor within fourteen (14) days of receipt.
                 </li>
-                <li><span className="number--indent">7.1</span>0 For the avoidance of doubt, IDN shall have no
+                <li><span className="number--indent">7.10</span> For the avoidance of doubt, IDN shall have no
                     obligation to pay any Consultancy Fees to the
                     Advisor until those Consultancy Fees have been received by IDN and the IDN Commission has been
                     deducted by IDN.
