@@ -1,5 +1,5 @@
 .Terms {
-    padding: 0 30px;
+    padding: 60px 30px 0;
     margin: 0 auto;
     max-width: 966px;
     z-index: 0;
@@ -18,7 +18,7 @@
 .Terms .terms--head1 {
     font: normal normal 700 11px/22px 'Poppins', sans-serif;
     text-align: center;
-    margin: 60px 0 30px;
+    margin-bottom: 30px;
 }
 
 .Terms h2, .Terms h3, .Terms h4 {
