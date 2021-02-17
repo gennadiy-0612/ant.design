@@ -939,12 +939,12 @@ function TermsPage(props) {
                 <li><span className="letter--indent">iv.</span> Notify the Advisor without undue delay on becoming aware
                     of a personal data breach;
                 </li>
-                <li>v. at the written direction of the Advisor, delete or return personal data and copies thereof to
+                <li><span className="letter--indent">v.</span> at the written direction of the Advisor, delete or return personal data and copies thereof to
                     the Advisor on termination of the agreement unless required by Applicable Law to store the
                     personal data (and for these purposes the term &quot;delete&quot; shall mean to put such data
                     beyond use); and
                 </li>
-                <li>vi. maintain complete and accurate records and information to demonstrate its compliance with
+                <li><span className="letter--indent">vi.</span> maintain complete and accurate records and information to demonstrate its compliance with
                     this paragraph 11 and immediately inform the Advisor if, in the opinion of IDN, an instruction
                     infringes the Data Protection Legislation.
                 </li>
@@ -1367,7 +1367,7 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
-                <li><span className="number--indent">18.1</span>0 Nothing in these Terms is intended to or shall operate
+                <li><span className="number--indent">18.1</span>Nothing in these Terms is intended to or shall operate
                     to create a partnership between IDN
                     and the Advisor, or authorise either of them to act as agent for the other, and neither IDN nor
                     the Advisor shall have the authority to act in the name or on behalf of or otherwise to bind the
