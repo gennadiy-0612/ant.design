@@ -612,7 +612,7 @@ function TermsPage(props) {
                             each
                             case via the Platform; and
                         </li>
-                        <li>v. acting, or inducing any other person to act, otherwise than in good faith to IDN.</li>
+                        <li><span className="number--indent">v.</span> acting, or inducing any other person to act, otherwise than in good faith to IDN.</li>
                     </ul>
                 </li>
             </ul>
@@ -685,11 +685,11 @@ function TermsPage(props) {
                             otherwise
                             commercially exploit, or otherwise make the Services available to any third party; or
                         </li>
-                        <li>v. attempt to obtain, or assist third parties in obtaining, access to the Services, other
+                        <li><span className="number--indent">v.</span> attempt to obtain, or assist third parties in obtaining, access to the Services, other
                             than as
                             explicitly contemplated herein; or
                         </li>
-                        <li>vi. introduce or permit the introduction of, any worms, Trojan horses, viruses and other
+                        <li>v<span className="number--indent">i.</span> introduce or permit the introduction of, any worms, Trojan horses, viruses and other
                             similar
                             things or devices (each a <strong>“Virus”</strong> and together
                             the <strong>“Viruses”</strong>) into IDN’s network and
