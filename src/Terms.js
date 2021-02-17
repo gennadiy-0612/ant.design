@@ -1473,7 +1473,7 @@ function TermsPage(props) {
                 <tr>
                     <th>Enterprise Value</th>
                     <td>
-                        <p className="relative">(i) the total amount of cash
+                        <p>(i) the total amount of cash
                             and the
                             fair market value (on the date of Closing of the
                             Transaction) of all other property paid or payable and consideration receivable (including
