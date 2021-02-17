@@ -7,7 +7,7 @@ import MainFooter from './MainFooter.js'
 function PrivacyPolicyPage(props) {
 
     return (
-        <div className="page5 twofixed">
+        <div className="page5 twofixed privacy">
             <MainHeader/>
             <div className="policy">
                 <div className="head-policy">

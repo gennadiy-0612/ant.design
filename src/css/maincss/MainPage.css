@@ -9041,6 +9041,12 @@ foot-li > a {
     .less1023 {
         display: block;
     }
+
+    .terms .Header,
+    .privacy .Header {
+        z-index: 1;
+        position: relative;
+    }
 }
 
 @media (min-width: 600px) and  (max-width: 1070px) and (orientation: portrait ) {
