@@ -32,7 +32,7 @@ function TermsPage(props) {
                 </li>
                 <li>
                     <ul>
-                        <li><span className="letter--indent">i.</span> by using the Platform on www.idn.ltd and / or the
+                        <li><span className="letter--indent">i.</span> by using the Platform on www.idn.ltd and/or the
                             Services
                             online or offline; and/or
                         </li>
