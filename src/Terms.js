@@ -612,7 +612,9 @@ function TermsPage(props) {
                             each
                             case via the Platform; and
                         </li>
-                        <li><span className="number--indent">v.</span> acting, or inducing any other person to act, otherwise than in good faith to IDN.</li>
+                        <li><span className="number--indent">v.</span> acting, or inducing any other person to act,
+                            otherwise than in good faith to IDN.
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -637,10 +639,12 @@ function TermsPage(props) {
                         <li><span className="letter--indent">ii.</span> facilitates illegal activity;</li>
                         <li><span className="letter--indent">iii.</span> depicts sexually explicit images;</li>
                         <li><span className="letter--indent">iv.</span> promotes unlawful violence;</li>
-                        <li><span className="number--indent">v.</span> is discriminatory based on race, gender, colour, religious belief, sexual orientation,
+                        <li><span className="number--indent">v.</span> is discriminatory based on race, gender, colour,
+                            religious belief, sexual orientation,
                             disability; or
                         </li>
-                        <li><span className="number--indent">vi.</span> is otherwise illegal or causes damage or injury to any person or property, and IDN
+                        <li><span className="number--indent">vi.</span> is otherwise illegal or causes damage or injury
+                            to any person or property, and IDN
                             reserves the
                             right, without liability or prejudice to its other rights to the Advisor, to disable
                             the Advisor's access to any material that breaches the provisions of this paragraph.
@@ -685,11 +689,13 @@ function TermsPage(props) {
                             otherwise
                             commercially exploit, or otherwise make the Services available to any third party; or
                         </li>
-                        <li><span className="number--indent">v.</span> attempt to obtain, or assist third parties in obtaining, access to the Services, other
+                        <li><span className="number--indent">v.</span> attempt to obtain, or assist third parties in
+                            obtaining, access to the Services, other
                             than as
                             explicitly contemplated herein; or
                         </li>
-                        <li><span className="number--indent">vi.</span> introduce or permit the introduction of, any worms, Trojan horses, viruses and other
+                        <li><span className="number--indent">vi.</span> introduce or permit the introduction of, any
+                            worms, Trojan horses, viruses and other
                             similar
                             things or devices (each a <strong>“Virus”</strong> and together
                             the <strong>“Viruses”</strong>) into IDN’s network and
@@ -939,12 +945,14 @@ function TermsPage(props) {
                 <li><span className="letter--indent">iv.</span> Notify the Advisor without undue delay on becoming aware
                     of a personal data breach;
                 </li>
-                <li><span className="letter--indent">v.</span> at the written direction of the Advisor, delete or return personal data and copies thereof to
+                <li><span className="letter--indent">v.</span> at the written direction of the Advisor, delete or return
+                    personal data and copies thereof to
                     the Advisor on termination of the agreement unless required by Applicable Law to store the
                     personal data (and for these purposes the term &quot;delete&quot; shall mean to put such data
                     beyond use); and
                 </li>
-                <li><span className="letter--indent">vi.</span> maintain complete and accurate records and information to demonstrate its compliance with
+                <li><span className="letter--indent">vi.</span> maintain complete and accurate records and information
+                    to demonstrate its compliance with
                     this paragraph 11 and immediately inform the Advisor if, in the opinion of IDN, an instruction
                     infringes the Data Protection Legislation.
                 </li>
@@ -1913,9 +1921,11 @@ function TermsPage(props) {
                         </li>
                     </ul>
                 </li>
+                <li><span className="head2--indent">10.</span> The provisions of paragraph 18 of the Terms shall apply
+                    to
+                    this agreement.
+                </li>
             </ul>
-            <h2><span className="head2--indent">10.</span> The provisions of paragraph 18 of the Terms shall apply to
-                this agreement.</h2>
         </div>
     )
 }
