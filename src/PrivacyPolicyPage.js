@@ -52,7 +52,7 @@ function PrivacyPolicyPage(props) {
                     for your Personal Data.
                     We are not obliged by the GDPR to appoint a data protection officer and have not voluntarily
                     appointed one at this time. Therefore, any inquiries about your data should either be sent to us on
-                    email at info@infradeals.net or sent in a letter to Kemp
+                    email at info@idn.ltd or sent in a letter to Kemp
                     House, 160 City Road, London, EC1V 2NX, United Kingdom.</p>
                 <p className="text-extending">You have the right to make a complaint at any time to the Information
                     Commissioner’s Office (ICO),
@@ -235,7 +235,7 @@ function PrivacyPolicyPage(props) {
                     are entitled to ask us for a notice identifying the categories of personal customer information
                     which we share with our affiliates and/or third parties for marketing purposes, and providing
                     contact information for such affiliates and/or third parties. If you are a California resident and
-                    would like a copy of this notice, please submit a written request to info@infradeals.net.</em></p>
+                    would like a copy of this notice, please submit a written request to info@idn.ltd.</em></p>
                 <p className="text-extending h3">4.2  How Does The Infrastructure Deals Network Ltd Protect
                     Customers'
                     Personal Data?</p>

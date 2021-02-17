@@ -172,7 +172,7 @@ function InvestorsPage(props) {
 
             <div className="Screen8">
                 <h2 className="Screen7--h2 S8">Do you want to learn more?</h2>
-                <a href="mailto:info@infradeals.net" className="login buttonIDN S8 big white center back-slider white decide">Get in Touch</a>
+                <a href="mailto:info@idn.ltd" className="login buttonIDN S8 big white center back-slider white decide">Get in Touch</a>
             </div>
 
             <MainFooter />

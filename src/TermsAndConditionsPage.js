@@ -8,7 +8,7 @@ import Terms from "./Terms";
 function TermsAndConditionsPage(props) {
 
     return (
-        <div className="page5 twofixed terms--page">
+        <div className="page5 twofixed">
             <MainHeader/>
             <Terms/>
             <MainFooter/>
