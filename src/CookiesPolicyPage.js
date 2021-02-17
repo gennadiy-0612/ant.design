@@ -11,7 +11,7 @@ function CookiesPolicyPage(props) {
         <div className="page5 twofixed">
             <MainHeader/>
             <div className="cookie">
-                <div className="col-md-12">
+                <div>
                     <h1>Cookie Policy for IDN</h1>
                     <p>This is the Cookie Policy for IDN, accessible from https://www.idn.ltd/</p>
                     <p><strong>What Are Cookies</strong></p>

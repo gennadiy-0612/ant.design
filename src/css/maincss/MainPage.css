@@ -6982,6 +6982,7 @@ foot-li > a {
 }
 
 @media (max-width: 1070px) {
+    .page5 .cookie,
     .page5 .policy {
         margin: 16px;
     }
@@ -9115,6 +9116,7 @@ foot-li > a {
     box-sizing: border-box;
 }
 
+.cookie,
 .policy {
     max-width: 966px;
     margin: 100px auto;
@@ -9158,12 +9160,21 @@ foot-li > a {
     text-align: right;
 }
 
+.cookie h1,
 .policy .main-header-second-h2.head2 {
     line-height: 27px;
     margin: 30px 0;
     color: #232D53;
     letter-spacing: 0;
     text-indent: 56px;
+}
+.cookie h1 {
+    text-align: center;
+    line-height: 60px;
+    text-indent: 0;
+}
+.cookie h1 {
+    text-align: center;
 }
 
 .policy .head-policy-h2 {
@@ -9184,6 +9195,7 @@ foot-li > a {
     line-height: 27px;
 }
 
+.cookie p, .cookie li, .cookie a,
 .policy .text-extending,
 .policy .text-extending.strong {
     font-size: 14px;
@@ -9214,3 +9226,17 @@ foot-li > a {
 .vis section {
     background-color: transparent;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
