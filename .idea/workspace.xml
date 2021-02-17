@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="burger-work">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CookiesPolicyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CookiesPolicyPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my-work" beforeDir="false" afterPath="$PROJECT_DIR$/src/my-work" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/origin" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,14 +346,7 @@
       <workItem from="1613540150286" duration="4836000" />
       <workItem from="1613548942565" duration="2327000" />
       <workItem from="1613554466742" duration="991000" />
-      <workItem from="1613558897468" duration="7576000" />
-    </task>
-    <task id="LOCAL-00466" summary="burger-work">
-      <created>1613027125805</created>
-      <option name="number" value="00466" />
-      <option name="presentableId" value="LOCAL-00466" />
-      <option name="project" value="LOCAL" />
-      <updated>1613027125805</updated>
+      <workItem from="1613558897468" duration="8273000" />
     </task>
     <task id="LOCAL-00467" summary="burger-work">
       <created>1613027469344</created>
@@ -695,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613563996812</updated>
     </task>
-    <option name="localTasksCounter" value="515" />
+    <task id="LOCAL-00515" summary="burger-work">
+      <created>1613567136630</created>
+      <option name="number" value="00515" />
+      <option name="presentableId" value="LOCAL-00515" />
+      <option name="project" value="LOCAL" />
+      <updated>1613567136630</updated>
+    </task>
+    <option name="localTasksCounter" value="516" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
