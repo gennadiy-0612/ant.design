@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="burger-work">
-      <change beforePath="$PROJECT_DIR$/src/Terms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Terms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -345,14 +346,8 @@
       <workItem from="1613540150286" duration="4836000" />
       <workItem from="1613548942565" duration="2327000" />
       <workItem from="1613554466742" duration="991000" />
-      <workItem from="1613558897468" duration="9413000" />
-    </task>
-    <task id="LOCAL-00470" summary="burger-work">
-      <created>1613027842010</created>
-      <option name="number" value="00470" />
-      <option name="presentableId" value="LOCAL-00470" />
-      <option name="project" value="LOCAL" />
-      <updated>1613027842010</updated>
+      <workItem from="1613558897468" duration="10636000" />
+      <workItem from="1613631995222" duration="2001000" />
     </task>
     <task id="LOCAL-00471" summary="burger-work">
       <created>1613028526715</created>
@@ -690,7 +685,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613568739158</updated>
     </task>
-    <option name="localTasksCounter" value="519" />
+    <task id="LOCAL-00519" summary="burger-work">
+      <created>1613569060558</created>
+      <option name="number" value="00519" />
+      <option name="presentableId" value="LOCAL-00519" />
+      <option name="project" value="LOCAL" />
+      <updated>1613569060558</updated>
+    </task>
+    <option name="localTasksCounter" value="520" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
