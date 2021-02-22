@@ -4,13 +4,8 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="burger-work">
-      <change afterPath="$PROJECT_DIR$/src/17-February.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/7-January.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrivacyPolicyPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrivacyPolicyPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my-work" beforeDir="false" afterPath="$PROJECT_DIR$/src/my-work" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/origin" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +60,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/7-January.txt" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/origin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -77,7 +72,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.CSS" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/7-January.txt" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/origin" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -354,14 +349,7 @@
       <workItem from="1613558897468" duration="10636000" />
       <workItem from="1613631995222" duration="3404000" />
       <workItem from="1613671884944" duration="1049000" />
-      <workItem from="1613992024953" duration="11372000" />
-    </task>
-    <task id="LOCAL-00473" summary="burger-work">
-      <created>1613031130638</created>
-      <option name="number" value="00473" />
-      <option name="presentableId" value="LOCAL-00473" />
-      <option name="project" value="LOCAL" />
-      <updated>1613031130638</updated>
+      <workItem from="1613992024953" duration="12970000" />
     </task>
     <task id="LOCAL-00474" summary="burger-work">
       <created>1613032752840</created>
@@ -699,7 +687,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613994340597</updated>
     </task>
-    <option name="localTasksCounter" value="522" />
+    <task id="LOCAL-00522" summary="burger-work">
+      <created>1614004011332</created>
+      <option name="number" value="00522" />
+      <option name="presentableId" value="LOCAL-00522" />
+      <option name="project" value="LOCAL" />
+      <updated>1614004011332</updated>
+    </task>
+    <option name="localTasksCounter" value="523" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
