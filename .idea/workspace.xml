@@ -4,9 +4,11 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="burger-work">
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my-work" beforeDir="false" afterPath="$PROJECT_DIR$/src/my-work" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/origin" beforeDir="false" afterPath="$PROJECT_DIR$/src/origin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,14 +349,9 @@
       <workItem from="1613548942565" duration="2327000" />
       <workItem from="1613554466742" duration="991000" />
       <workItem from="1613558897468" duration="10636000" />
-      <workItem from="1613631995222" duration="2001000" />
-    </task>
-    <task id="LOCAL-00471" summary="burger-work">
-      <created>1613028526715</created>
-      <option name="number" value="00471" />
-      <option name="presentableId" value="LOCAL-00471" />
-      <option name="project" value="LOCAL" />
-      <updated>1613028526715</updated>
+      <workItem from="1613631995222" duration="3404000" />
+      <workItem from="1613671884944" duration="1049000" />
+      <workItem from="1613992024953" duration="2117000" />
     </task>
     <task id="LOCAL-00472" summary="burger-work">
       <created>1613028593007</created>
@@ -692,7 +689,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613569060558</updated>
     </task>
-    <option name="localTasksCounter" value="520" />
+    <task id="LOCAL-00520" summary="burger-work">
+      <created>1613635089521</created>
+      <option name="number" value="00520" />
+      <option name="presentableId" value="LOCAL-00520" />
+      <option name="project" value="LOCAL" />
+      <updated>1613635089521</updated>
+    </task>
+    <option name="localTasksCounter" value="521" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

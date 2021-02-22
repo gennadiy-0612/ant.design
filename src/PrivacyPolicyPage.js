@@ -15,7 +15,7 @@ function PrivacyPolicyPage(props) {
                     <p className="text-extending strong">The Infrastructure Deals Network Ltd</p>
                     <p className="text-extending">Company Number 12894864</p>
                     <p className="text-extending">Kemp House, 160 City Road, London, EC1V 2NX, United Kingdom</p>
-                    <p className="text-extending">7 January 2021</p></div>
+                    <p className="text-extending">17 February 2021</p></div>
                 <h2 className="main-header-second-h2 head2 head-policy-h2">Website Privacy Policy</h2>
                 <h2 className="head3 P4-S3">1  INTRODUCTION</h2>
                 <p className="text-extending h3">1.1  Important information and who we are</p>
@@ -299,7 +299,7 @@ function PrivacyPolicyPage(props) {
                 <h2 className="head3 P4-S3">9  NOTIFICATION OF CHANGES AND ACCEPTANCE OF POLICY</h2>
                 <p className="text-extending">We keep our Privacy Policy under review and will place any updates on this
                     webpage. This version is
-                    dated 7 January 2021. By using The Infrastructure Deals Network Ltd, you consent to the collection
+                    dated 17 February 2021. By using The Infrastructure Deals Network Ltd, you consent to the collection
                     and use of data by us as set out in this Privacy Policy. Continued access or use of The
                     Infrastructure Deals Network Ltd will constitute your express acceptance of any modifications to
                     this Privacy Policy.</p>
