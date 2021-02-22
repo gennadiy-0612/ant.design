@@ -1,7 +1,7 @@
 The Infrastructure Deals Network Ltd
 Company Number 12894864
 Kemp House, 160 City Road, London, EC1V 2NX, United Kingdom
-17 February 2021
+7 January 2021
 Website Privacy Policy
 1 INTRODUCTION
 1.1 Important information and who we are
@@ -25,7 +25,7 @@ processed at any time by us.
 The Infrastructure Deals Network Ltd is your Data Controller and responsible for your Personal
 Data. We are not obliged by the GDPR to appoint a data protection officer and have not
 voluntarily appointed one at this time. Therefore, any inquiries about your data should either
-be sent to us on email at info@idn.ltd or sent in a letter to Kemp House, 160 City Road,
+be sent to us on email at info@infradeals.net or sent in a letter to Kemp House, 160 City Road,
 London, EC1V 2NX, United Kingdom.
 You have the right to make a complaint at any time to the Information Commissioner’s Office
 (ICO), the UK supervisory authority for data protection issues (www.ico.org.uk). We would,
@@ -63,6 +63,7 @@ Breach;
 2.1 Types of Data / Privacy Policy Scope
 “Personal Data” means any information about an individual from which that person can be
 identified. It does not include data where the identity has been removed (anonymous data).
+3
 We may collect, use, store and transfer different kinds of Personal Data about you which we
 have grouped together below. Not all of the following types of data will necessarily be
 collected from you but this is the full scope of data that we collect and when we collect it from
@@ -103,6 +104,7 @@ such as fraudulent activity or other illegal actions.
 “Legitimate Interest”: We might need to collect certain information from you to be able
 to meet our legitimate interests - this covers aspects that can be reasonably expected as
 part of running our business, that will not have a material impact on your rights,
+4
 freedom or interests. Examples could be your address, so that we know where to
 deliver something to, or your name, so that we have a record of who to contact moving
 forwards.
@@ -115,12 +117,7 @@ table below.
 Examples provided in the table below are indicative in nature and the purposes for which we
 use your data may be broader than described but we will never process your data without a
 legal basis for doing so and it is for a related purpose. For further inquiries please contact us.
-3.2 Marketing and Content Updates
-You will receive marketing and new content communications from us unless you specifically
-request that you would not like to receive these communications. From time to time we may
-make suggestions and recommendations to you about goods or services that may be of
-interest to you.
-3.3 Change of Purpose
+3.2 Change of Purpose
 We will only use your Personal Data for the purposes for which we collected it, unless we
 reasonably consider that we need to use it for another reason and that reason is compatible
 with the original purpose. If you wish to get an explanation as to how the processing for the
@@ -149,7 +146,8 @@ California Privacy Rights: Under California Civil Code sections 1798.83-1798.84,
 residents are entitled to ask us for a notice identifying the categories of personal customer
 information which we share with our affiliates and/or third parties for marketing purposes,
 and providing contact information for such affiliates and/or third parties. If you are a California
-resident and would like a copy of this notice, please submit a written request to info@idn.ltd.
+resident and would like a copy of this notice, please submit a written request to
+info@infradeals.net.
 4.2 How Does The Infrastructure Deals Network Ltd Protect Customers' Personal Data?
 We are concerned with keeping your data secure and protecting it from inappropriate
 disclosure. Any Personal Data collected by us is only accessible by a limited number of
@@ -163,13 +161,7 @@ private communications unlawfully. While we strive to protect your Personal Data
 ensure or warrant the security of any Personal Data you transmit to us. Any such transmission
 is done at your own risk. If you believe that your interaction with us is no longer secure, please
 contact us.
-4.3 Opting Out Of Marketing Promotions
-You can ask us to stop sending you marketing messages at any time by You can stop sending
-your marketing messages at any time by emailing info@idn.ltd.
-Where you opt out of receiving these marketing messages, we will continue to retain other
-Personal Data provided to us as a result of interactions with us not related to your marketing
-preferences.
-4.4 How to Request your Data and the Process for Obtaining it
+4.3 How to Request your Data and the Process for Obtaining it
 You will not have to pay a fee to access your Personal Data (or to exercise any of the other
 rights). However, if your request is clearly unfounded, we could refuse to comply with your
 request.
@@ -207,7 +199,7 @@ EU and so, by using The Infrastructure Deals Network Ltd, you are permitting and
 transfer of information, including Personal Data, outside of the US.
 9 NOTIFICATION OF CHANGES AND ACCEPTANCE OF POLICY
 We keep our Privacy Policy under review and will place any updates on this webpage. This version is
-dated 17 February 2021. By using The Infrastructure Deals Network Ltd, you consent to the collection
+dated 7 January 2021. By using The Infrastructure Deals Network Ltd, you consent to the collection
 and use of data by us as set out in this Privacy Policy. Continued access or use of The Infrastructure
 Deals Network Ltd will constitute your express acceptance of any modifications to this Privacy Policy.
 10 INTERPRETATION
@@ -216,7 +208,6 @@ are not intended to in any way limit the term which they serve to illustrate. An
 out in this policy may be used solely for the purpose for which they are stated to be provided, and
 any unrelated correspondence will be ignored. Unless otherwise required by law, we reserve the
 right to not respond to emails, even if they relate to a legitimate subject matter for which we have
-SeedLegals - Website Privacy Policy - PYCP-1-2020-02-19T01:00Z 7
 provided an email address. As a matter of common sense, you are more likely to get a reply if your
 request or question is polite, reasonable and there is no relatively obvious other way to deal with or
 answer your concern or question (e.g. FAQs, other areas of our website etc.).
@@ -227,3 +218,6 @@ any official public announcement on our website, or is inconsistent with or amou
 any The Infrastructure Deals Network Ltd rights, the email content will be read down to grant
 precedence to the latter. The only exception to this is genuine correspondence expressed to be from
 the The Infrastructure Deals Network Ltd legal department.
+11 TERMS OF USE
+Please also see our Terms of Use (www.tobedefined.com) which set out the terms, disclaimers, and
+limitations of liability governing your use of The Infrastructure Deals Network Ltd.

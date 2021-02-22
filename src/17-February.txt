@@ -63,6 +63,7 @@ Breach;
 2.1 Types of Data / Privacy Policy Scope
 “Personal Data” means any information about an individual from which that person can be
 identified. It does not include data where the identity has been removed (anonymous data).
+3
 We may collect, use, store and transfer different kinds of Personal Data about you which we
 have grouped together below. Not all of the following types of data will necessarily be
 collected from you but this is the full scope of data that we collect and when we collect it from
@@ -103,6 +104,7 @@ such as fraudulent activity or other illegal actions.
 “Legitimate Interest”: We might need to collect certain information from you to be able
 to meet our legitimate interests - this covers aspects that can be reasonably expected as
 part of running our business, that will not have a material impact on your rights,
+4
 freedom or interests. Examples could be your address, so that we know where to
 deliver something to, or your name, so that we have a record of who to contact moving
 forwards.
@@ -216,7 +218,6 @@ are not intended to in any way limit the term which they serve to illustrate. An
 out in this policy may be used solely for the purpose for which they are stated to be provided, and
 any unrelated correspondence will be ignored. Unless otherwise required by law, we reserve the
 right to not respond to emails, even if they relate to a legitimate subject matter for which we have
-SeedLegals - Website Privacy Policy - PYCP-1-2020-02-19T01:00Z 7
 provided an email address. As a matter of common sense, you are more likely to get a reply if your
 request or question is polite, reasonable and there is no relatively obvious other way to deal with or
 answer your concern or question (e.g. FAQs, other areas of our website etc.).
