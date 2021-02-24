@@ -9169,11 +9169,13 @@ foot-li > a {
     letter-spacing: 0;
     text-indent: 56px;
 }
+
 .cookie h1 {
     text-align: center;
     line-height: 60px;
     text-indent: 0;
 }
+
 .cookie h1 {
     text-align: center;
 }
@@ -9222,6 +9224,10 @@ foot-li > a {
 .policy .h3 ~ .text-extending {
     margin: 16px 0 0 24px;
     line-height: 24px;
+}
+
+.policy strong {
+    font-weight: 700;
 }
 
 .vis section {
