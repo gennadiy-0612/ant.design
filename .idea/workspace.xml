@@ -4,10 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="burger-work">
+    <list default="true" id="45ebb887-e743-4396-bc4b-ee96576ca52c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/maincss/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/maincss/MainPage.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/my-work" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Work/qLHgk0rwSMKHhbcc8p0g_Package Selector Tool (version 4) 17 02 21.xlsx" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -351,14 +351,14 @@
       <workItem from="1613631995222" duration="3404000" />
       <workItem from="1613671884944" duration="1049000" />
       <workItem from="1613992024953" duration="14631000" />
-      <workItem from="1614146030756" duration="1943000" />
-    </task>
-    <task id="LOCAL-00475" summary="burger-work">
-      <created>1613037775693</created>
-      <option name="number" value="00475" />
-      <option name="presentableId" value="LOCAL-00475" />
-      <option name="project" value="LOCAL" />
-      <updated>1613037775693</updated>
+      <workItem from="1614146030756" duration="2135000" />
+      <workItem from="1614151701274" duration="29000" />
+      <workItem from="1614155840846" duration="1202000" />
+      <workItem from="1614694282479" duration="191000" />
+      <workItem from="1614783338310" duration="56000" />
+      <workItem from="1614839039444" duration="168000" />
+      <workItem from="1614883165571" duration="366000" />
+      <workItem from="1614885407499" duration="630000" />
     </task>
     <task id="LOCAL-00476" summary="burger-work">
       <created>1613037967345</created>
@@ -696,7 +696,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614005667509</updated>
     </task>
-    <option name="localTasksCounter" value="524" />
+    <task id="LOCAL-00524" summary="burger-work">
+      <created>1614151569802</created>
+      <option name="number" value="00524" />
+      <option name="presentableId" value="LOCAL-00524" />
+      <option name="project" value="LOCAL" />
+      <updated>1614151569814</updated>
+    </task>
+    <option name="localTasksCounter" value="525" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
